@@ -4447,12 +4447,3 @@
                            dimens.xml
                            strings.xml
                            styles.xml
-
-
-
- 
-
-
-
-
-

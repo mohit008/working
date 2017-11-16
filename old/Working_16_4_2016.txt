@@ -4680,8 +4680,3 @@
                     
                     \---values
                             strings.xml
-
-
-
-
-

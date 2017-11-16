@@ -3894,5 +3894,3 @@
                     
                     +---values-w820dp
                             dimens.xml
-
-
