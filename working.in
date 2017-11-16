@@ -306,22 +306,22 @@
 6-11-2015
  -Neoteric Bluetooth
   -drawable added
-  	   -- res
-	      `-- crunch
-	          -- drawable-hdpi
-	             -- edit_blue.png
-	          -- drawable-mdpi
-	             -- edit_blue.png
-	          -- drawable-xhdpi
-	             -- edit_blue.png
-	          `-- drawable-xxhdpi
-	              -- edit_blue.png
-	-- edit_blue-web.png
+       -- res
+        `-- crunch
+            -- drawable-hdpi
+               -- edit_blue.png
+            -- drawable-mdpi
+               -- edit_blue.png
+            -- drawable-xhdpi
+               -- edit_blue.png
+            `-- drawable-xxhdpi
+                -- edit_blue.png
+  -- edit_blue-web.png
   -layout updated
   - res
     -- layout
       -- control_screen.xml
-	`-- schedule_detail_item.xml
+  `-- schedule_detail_item.xml
   -src updated
    `-- src
      `-- com
@@ -341,7 +341,7 @@
 
 +--------------------------------------------------------------+
                                                                
-   	9 - 13 Diwali Holidays !!!!!!!!!!!!!!!!!!!             
+    9 - 13 Diwali Holidays !!!!!!!!!!!!!!!!!!!             
                                                               
 +--------------------------------------------------------------+      
 
@@ -866,30 +866,30 @@
 
    -drawable added
      +---
-	+---res
-	   +---drawable
-	          drop_down.png
-	          nv_appointment.png
-	          nv_contact.png
-	          nv_emplist.png
-	          nv_help.png
-	          nv_logout.png
-	          nv_mngoffer.png
-	          nv_profile.png
-	          nv_service.png
+  +---res
+     +---drawable
+            drop_down.png
+            nv_appointment.png
+            nv_contact.png
+            nv_emplist.png
+            nv_help.png
+            nv_logout.png
+            nv_mngoffer.png
+            nv_profile.png
+            nv_service.png
 
    -layout updated
      +---res
-	   +---layout
-	          child_appointment_list1.xml
-	          fragment_login.xml
-	          fragment_navigation_drawer.xml
-	          fragment_sing_up.xml
+     +---layout
+            child_appointment_list1.xml
+            fragment_login.xml
+            fragment_navigation_drawer.xml
+            fragment_sing_up.xml
 
    -styles updated
       +---res
-	   +---values
-	         +---styles.xml
+     +---values
+           +---styles.xml
 
    -src updated
      +---src
@@ -924,10 +924,10 @@
  -Dinchek Vondor Application :  E:\Android\Dhinchek
     
    -layout updated
-	+---res
-	   +---layout
-	          fragment_sing_up.xml
-	          fragment_vendor_services.xml
+  +---res
+     +---layout
+            fragment_sing_up.xml
+            fragment_vendor_services.xml
    
      
 
@@ -996,7 +996,7 @@
  -Dinchek Vondor Application :  E:\Android\Dhinchek
     
    -layout updated
-	+---res
+  +---res
          +---layout
                 child_appointment_list1.xml
                 fragment_appointments.xml
@@ -1005,27 +1005,27 @@
 
    -drawable added
         +---res
-	   +---drawable
-	          logo_tag.9.png
+     +---drawable
+            logo_tag.9.png
 
    -drawable updated
         +---res
-	   +---drawable
-	          nv_appointment.png
-	          nv_contact.png
-	          nv_dashboard.png
-	          nv_emplist.png
-	          nv_faq.png
-	          nv_logout.png
-	          nv_mngoffer.png
-	          nv_profile.png
-	          nv_service.png
-	          img_upload.png
+     +---drawable
+            nv_appointment.png
+            nv_contact.png
+            nv_dashboard.png
+            nv_emplist.png
+            nv_faq.png
+            nv_logout.png
+            nv_mngoffer.png
+            nv_profile.png
+            nv_service.png
+            img_upload.png
    
     -dimens update
       +---res
-	 +---values
-	        dimens.xml
+   +---values
+          dimens.xml
 
     -src updated
       +---src
@@ -1055,12 +1055,12 @@
  -Dinchek Vondor Application  :  E:\Android\Dhinchek
     
    -layout updated
-	+---res
+  +---res
           +---layout
                splash.xml
 
    -layout added
-	+---res
+  +---res
           +---layout
                login.xml
                signup.xml
@@ -1093,7 +1093,7 @@
             dimens.xml
             strings.xml
 
-	   
+     
     -src updated
       +---src
         +---com
@@ -1136,7 +1136,7 @@
 20-1-2016
  -Stackoverflow
  -Worked on Call intent android
- -Dinchek Vondor Application :  E:\Android\Dhinchek	    
+ -Dinchek Vondor Application :  E:\Android\Dhinchek     
     -src updated
       +---src
         +---com
@@ -1151,12 +1151,12 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
     
    -layout updated
-	+---res
+  +---res
           +---layout
             action_bar_nv.xml
 
    -layout added
-	+---res
+  +---res
           +---layout
             dashboard.xml
 
@@ -1172,7 +1172,7 @@
             color.xml
 
 
-	   
+     
     -src updated
       +---src
         +---com
@@ -1194,7 +1194,7 @@
  -Smart Home Application
     
    -layout updated
-	+---res
+  +---res
           +---layout
             ---layout
              control_screen.xml
@@ -1210,7 +1210,7 @@
             color.xml
 
 
-	   
+     
     -src updated
       +---src
         +---com
@@ -1236,7 +1236,7 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
     
    -layout updated
-	+---res
+  +---res
           +---layout
              action_bar_main.xml
              dashboard.xml
@@ -1263,8 +1263,8 @@
         +---res
           +---values
             color.xml
-	    strings.xml
-	   
+      strings.xml
+     
     -src updated
       +---src
          +---com
@@ -1329,7 +1329,7 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
     
    -layout updated
-	+---res
+  +---res
           +---layout
              action_bar_nv.xml
              drawer.xml
@@ -1424,7 +1424,7 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
     
    -layout updated
-	+---res
+  +---res
           +---layout 
              action_bar_main.xml
              action_bar_nv.xml
@@ -1451,7 +1451,7 @@
  -Stackoverflow 
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout 
             child_appointment_list.xml
             fragment_appointments.xml
@@ -1460,7 +1460,7 @@
 
 
    -layout added
-	+---res
+  +---res
           +---layout 
             dialog_view2.xml
             list.xml
@@ -1502,13 +1502,13 @@
 
   -Dinchek User Application :  E:\Android\Dhinchek_Consumer   
    -layout updated
-	+---res
+  +---res
           +---layout 
              action_bar_main.xml
              drawer.xml
 
    -layout added
-	+---res
+  +---res
           +---layout 
              service_cat.xml
 
@@ -1556,7 +1556,7 @@
  -Install windows 10
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout 
             fragment_appointments.xml
 
@@ -1594,7 +1594,7 @@
  -Java practive problem
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout 
              drawer.xml
     
@@ -1629,7 +1629,7 @@
  -Java practive problem
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout 
                custom_appbar.xml
     
@@ -1647,7 +1647,7 @@
  -Stackoverflow 
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
    -layout updated
-	+---res
+  +---res
           +---layout 
              action_bar_main.xml
              dashboard_drawer.xml
@@ -1694,7 +1694,7 @@
  -Stackoverflow 
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout 
                custom_appbar.xml
     
@@ -1739,7 +1739,7 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
  -Dinchek Vendor Application :  E:\Android\Dhinchek
    -layout updated
-	+---res
+  +---res
           +---layout
             child_layout_gray.xml
             dialog_view2.xml
@@ -1747,7 +1747,7 @@
             fragment_add_service.xml
 
   -layout added
-	+---res
+  +---res
           +---layout
             dialog_view2_item.xml
 
@@ -1770,7 +1770,7 @@
  -Stackoverflow 
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
   -layout updated
-	+---res
+  +---res
           +---layout
                 about.xml
                 action_bar_main.xml
@@ -1781,7 +1781,7 @@
 
   
   -layout added
-	+---res
+  +---res
                 list_item.xml
 
   -values updated
@@ -1815,7 +1815,7 @@
 
  -Dinchek Vendor Application :  E:\Android\Dhinchek
   -layout updated
-	+---res
+  +---res
           +---layout
                 custom_appbar.xml
                 fragment_appointments.xml
@@ -1823,7 +1823,7 @@
                 fragment_vendor_profile.xml
 
   -drawable added
-	+---res
+  +---res
            +---drawable
                  inactive_icon.png
 
@@ -1841,7 +1841,7 @@
  -Stackoverflow 
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
   -layout updated
-	+---res
+  +---res
           +---layout
                 tailor_service_cat.xml
                 sub_list_item.xml
@@ -1850,7 +1850,7 @@
 
   
   -drawable added
-	+---drawable
+  +---drawable
                list_open.png
                list_open.png
 
@@ -1898,7 +1898,7 @@
  -Stackoverflow 
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
   -layout updated
-	+---res
+  +---res
           +---layout
                 drawer_item.xml
                 expandable_list.xml
@@ -1907,7 +1907,7 @@
 
 
   -layout added
-	+---res
+  +---res
           +---layout
                 date_time.xml
                 search_filter.xml                   
@@ -1949,7 +1949,7 @@
  -Stackoverflow 
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
   -layout updated
-	+---res
+  +---res
           +---layout
                  date_time.xml
                  drawer_item.xml
@@ -1960,7 +1960,7 @@
 
 
   -layout added
-	+---res
+  +---res
           +---layout
                 search_salon_item.xml
 
@@ -2040,7 +2040,7 @@
  -Dinchek User Application :  E:\Android\Dhinchek_Consumer
 
   -layout added
-	+---res
+  +---res
           +---layout
                  filter_saloon.xml
                  sort_dialog.xml
@@ -2094,13 +2094,13 @@
            sort.png
 
   -layout added
-	+---res
+  +---res
           +---layout
                  filter_sub_item.xml
                  
 
   -layout updated
-	+---res
+  +---res
           +---layout
                  date_time.xml
                  filter_saloon.xml                
@@ -2144,7 +2144,7 @@
                  
 
   -layout updated
-	+---res
+  +---res
           +---layout
                 search_salon_item.xml
 
@@ -2164,7 +2164,7 @@
             \---user
                 +---bean
                        SearchSalonBean.java 
-	        +---fragment
+          +---fragment
                        ParlourServiceCetagory.java
                        Search_Salon.java                         
 
@@ -2196,13 +2196,13 @@
             yellow_phone.png
 
   -layout added
-	+---res
+  +---res
           +---layout
                   my_account.xml
                  
 
   -layout updated
-	+---res
+  +---res
           +---layout
                action_bar_nv.xml
                dashboard_drawer.xml              
@@ -2341,19 +2341,19 @@
   -layout updated
       +---res
         +---layout
-		date_time.xml
-		sub_service_item.xml
-		filter_sub_item.xml
-		login.xml
-		child_fragment_vendor_profile_reviews.xml
-		fragment_vendor_profile.xml
-		fragment_booking_summary.xml
-		child_fragment_vendor_profile_service.xml
-		child_fragment_booking_summary_services.xml
-		child_fragment_vendor_profile_sub_offers].xml
-		child_fragment_vendor_profile_sub_services.xml
-		fragment_all_review.xml
-		sub_child_booking_summary_service.xml
+    date_time.xml
+    sub_service_item.xml
+    filter_sub_item.xml
+    login.xml
+    child_fragment_vendor_profile_reviews.xml
+    fragment_vendor_profile.xml
+    fragment_booking_summary.xml
+    child_fragment_vendor_profile_service.xml
+    child_fragment_booking_summary_services.xml
+    child_fragment_vendor_profile_sub_offers].xml
+    child_fragment_vendor_profile_sub_services.xml
+    fragment_all_review.xml
+    sub_child_booking_summary_service.xml
 
                
   -values updated
@@ -2397,30 +2397,30 @@
   -layout updated
       +---res
         +---layout
-       		about.xml
-       		action_bar_main.xml
-       		dashboard.xml
-       		date_time.xml
-       		fragment_booking_summary.xml       		
-       		my_account.xml   
+          about.xml
+          action_bar_main.xml
+          dashboard.xml
+          date_time.xml
+          fragment_booking_summary.xml          
+          my_account.xml   
  
   -layout added
       +---res
         +---layout
-      		appointment.xml
-       		appointment_dialog_view.xml
-       		appointment_dialog_view_item.xml
-       		appointment_item.xml
-       		getoffer.xml
-       		getoffer_item.xml
-       		getoffer_sub_item.xml  
+          appointment.xml
+          appointment_dialog_view.xml
+          appointment_dialog_view_item.xml
+          appointment_item.xml
+          getoffer.xml
+          getoffer_item.xml
+          getoffer_sub_item.xml  
 
                
   -values updated
         +---res
           +---values
                 strings.xml   
-		color.xml                   
+    color.xml                   
 
  -src updated
    \---src
@@ -2459,54 +2459,54 @@
 
   -drawable added
       +---drawable
-		blue_user.png
-		blue_tailour.png
-		blue_salon.png
-		yellow_map.png
-		yellow_gender.png
-		yellow_logout.png
-		yellow_setting.png
-		yellow_calender_time.png
-		yellow_profile.png
-		yellow_info.png
+    blue_user.png
+    blue_tailour.png
+    blue_salon.png
+    yellow_map.png
+    yellow_gender.png
+    yellow_logout.png
+    yellow_setting.png
+    yellow_calender_time.png
+    yellow_profile.png
+    yellow_info.png
                  
 
   -layout updated
       +---res
         +---layout
-       		about.xml
-       		action_bar_main.xml
-       		dashboard.xml
-       		date_time.xml
-       		fragment_booking_summary.xml       		
-       		my_account.xml   
+          about.xml
+          action_bar_main.xml
+          dashboard.xml
+          date_time.xml
+          fragment_booking_summary.xml          
+          my_account.xml   
  
   -layout added
       +---res
         +---layout
-		faq_item.xml
-		appointment_rate_dialog_view.xml
-		faq_sub_item.xml
+    faq_item.xml
+    appointment_rate_dialog_view.xml
+    faq_sub_item.xml
 
   -layout updated
       +---res
         +---layout
-		search_salon_item.xml
-		appointment.xml
-		about.xml
-		appointment_service_dialog_view.xml
-		appointment_sub_item.xml
-		signup.xml
-		login.xml
-		editprofile.xml
-		fragment_vendor_profile.xml
-		list.xml
-      	               
+    search_salon_item.xml
+    appointment.xml
+    about.xml
+    appointment_service_dialog_view.xml
+    appointment_sub_item.xml
+    signup.xml
+    login.xml
+    editprofile.xml
+    fragment_vendor_profile.xml
+    list.xml
+                       
   -values updated
         +---res
           +---values
                 strings.xml   
-		                 
+                     
 
  -src updated
    \---src
@@ -2576,57 +2576,57 @@
 
   -drawable added
       +---drawable
-		new_logo.png
-		yellow_minus.png
-		yellow_plus.png
+    new_logo.png
+    yellow_minus.png
+    yellow_plus.png
                  
 
   -layout updated
       +---res
         +---layout
-       		about.xml
-       		action_bar_main.xml
-       		dashboard.xml
-       		date_time.xml
-       		fragment_booking_summary.xml       		
-       		my_account.xml   
+          about.xml
+          action_bar_main.xml
+          dashboard.xml
+          date_time.xml
+          fragment_booking_summary.xml          
+          my_account.xml   
  
   -layout added
       +---res
         +---layout
-		forget.xml
-		search_salon_item.xml
-		date_time.xml
-		login.xml
-		search_salon.xml
-		tankyou.xml
-		child_fragment_vendor_profile_service.xml
-		filter_sub_item.xml
-		filter_item1.xml
-		sub_service_item.xml
-		action_bar_main.xml
-		service_item.xml
-		getoffer_item.xml
+    forget.xml
+    search_salon_item.xml
+    date_time.xml
+    login.xml
+    search_salon.xml
+    tankyou.xml
+    child_fragment_vendor_profile_service.xml
+    filter_sub_item.xml
+    filter_item1.xml
+    sub_service_item.xml
+    action_bar_main.xml
+    service_item.xml
+    getoffer_item.xml
 
   -layout updated
       +---res
         +---layout
-		search_salon_item.xml
-		appointment.xml
-		about.xml
-		appointment_service_dialog_view.xml
-		appointment_sub_item.xml
-		signup.xml
-		login.xml
-		editprofile.xml
-		fragment_vendor_profile.xml
-		list.xml
-      	               
+    search_salon_item.xml
+    appointment.xml
+    about.xml
+    appointment_service_dialog_view.xml
+    appointment_sub_item.xml
+    signup.xml
+    login.xml
+    editprofile.xml
+    fragment_vendor_profile.xml
+    list.xml
+                       
   -values updated
         +---res
           +---values
                 strings.xml   
-		                 
+                     
 
  -src updated/added
    \---src
@@ -2680,21 +2680,21 @@
 
   -drawable added
       +---drawable
-		blue_upload.png
+    blue_upload.png
 
 
   -layout updated
       +---res
         +---layout
-		filter_saloon.xml
-		appointment_sub_item.xml
-		my_account.xml
-		forget.xml
-		signup.xml
-		action_bar_main.xml
-		login.xml
-		search_salon_item.xml
-      	               
+    filter_saloon.xml
+    appointment_sub_item.xml
+    my_account.xml
+    forget.xml
+    signup.xml
+    action_bar_main.xml
+    login.xml
+    search_salon_item.xml
+                       
 
 
  -src updated
@@ -2743,11 +2743,11 @@
  -layout updated
       +---res
         +---layout
-		 forget.xml
-		 my_account.xml
-		 search_salon.xml
-		 signup.xml
-		 upload_image_preview.xml
+     forget.xml
+     my_account.xml
+     search_salon.xml
+     signup.xml
+     upload_image_preview.xml
 
 
  -src updated
@@ -2794,9 +2794,9 @@
  -layout updated
       +---res
         +---layout
-	        appointment_sub_item.xml
-	        child_fragment_vendor_profile_service.xml
-	        fragment_booking_summary.xml
+          appointment_sub_item.xml
+          child_fragment_vendor_profile_service.xml
+          fragment_booking_summary.xml
 
 
  -src updated
@@ -9691,7 +9691,7 @@ Corrected receipt image upload in app at tracker expence
                     \---watch - updated
                             Monitor.java
                             Watcher.java
-	
+  
 11-10-2016
  -IFoundOrganic
    \---app
@@ -13973,21 +13973,486 @@ Job Search
     \---app
         \---src
             \---main
-                |   AndroidManifest.xml
-                |
+                   AndroidManifest.xml
+                
                 \---java
                     \---com
                         \---sample
                             \---bluetooth
                                 +---communication
-                                |       BluetoothChatService.java
-                                |       Home_Adapter.java
-                                |       MainActivity.java
-                                |
+                                       BluetoothChatService.java
+                                       Home_Adapter.java
+                                       MainActivity.java
+                                
                                 +---configuration
-                                |       Device_Config.java
-                                |       PairListBean.java
-                                |       UnPairedListActivity.java
-                                |
+                                       Device_Config.java
+                                       PairListBean.java
+                                       UnPairedListActivity.java
+                                
                                 \---controls
                                         ControlScreen.java
+
+
+
+
+
+
+
+------------------------------------
+
+
+
+01-11-2017
+   ├───GCM_Example - Added
+   │   └───app
+   │       └───src
+   │           └───main
+   │               │   AndroidManifest.xml
+   │               │
+   │               ├───java
+   │               │   └───com
+   │               │       └───gcm
+   │               │           └───sample
+   │               │                   MainActivity.java
+   │               │                   MyFirebaseInstanceIDService.java
+   │               │                   MyFirebaseMessagingService.java
+   │               │
+   │               └───res
+   │                   ├───drawable
+   │                   │       ic_launcher_background.xml
+   │                   │
+   │                   ├───layout
+   │                   │       activity_main.xml
+   │                   │
+   │                   ├───mipmap-hdpi
+   │                   │       ic_launcher.png
+   │                   │       ic_launcher_round.png
+   │                   │
+   │                   └───values
+   │                           colors.xml
+   │                           strings.xml
+   │                           styles.xml
+   │
+   └───Launcher_Sample - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───launcher
+                   │                   CustomAdapter.java
+                   │                   Item.java
+                   │                   ListAct.java
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher_background.xml
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │       item.xml
+                       │       list_item.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+
+02-11-2017
+   └───SampleAuth - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───sampleauth
+                   │                   Login.java
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher_background.xml
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+
+03-11-2017
+   ├───Pratice  - Added
+   │   └───app
+   │       └───src
+   │           └───main
+   │               │   AndroidManifest.xml
+   │               │
+   │               ├───java
+   │               │   └───com
+   │               │       └───example
+   │               │           └───pratice
+   │               │                   Main.java
+   │               │                   MainActivity.java
+   │               │
+   │               └───res
+   │                   ├───drawable
+   │                   │       ic_launcher_background.xml
+   │                   │
+   │                   ├───layout
+   │                   │       activity_main.xml
+   │                   │       index.xml
+   │                   │       main.xml
+   │                   │
+   │                   ├───mipmap-hdpi
+   │                   │       ic_launcher.png
+   │                   │       ic_launcher_round.png
+   │                   │
+   │                   └───values
+   │                           colors.xml
+   │                           strings.xml
+   │                           styles.xml
+   │
+   └───RecycleView_Example-master  - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───recycleview
+                   │           ├───Adapter
+                   │           │       MyAdapter.java
+                   │           │
+                   │           ├───bean
+                   │           │       Bean.java
+                   │           │
+                   │           └───main
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher.png
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │       content_main.xml
+                       │       item.xml
+                       │       item2.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │
+                       ├───values
+                       │       colors.xml
+                       │       dimens.xml
+                       │       strings.xml
+                       │       styles.xml
+                       │
+                       └───values-v21
+                               styles.xml
+
+06-11-2017
+   ├───OpenGallery_Camera - Added
+   │   └───app
+   │       └───src
+   │           └───main
+   │               │   AndroidManifest.xml
+   │               │
+   │               ├───java
+   │               │   └───com
+   │               │       └───example
+   │               │           └───opengallery_camera
+   │               │                   Bean.java
+   │               │                   MainActivity.java
+   │               │                   MyAdapter.java
+   │               │
+   │               └───res
+   │                   ├───drawable
+   │                   │       ic_launcher_background.xml
+   │                   │
+   │                   ├───layout
+   │                   │       activity_main.xml
+   │                   │       item2.xml
+   │                   │
+   │                   ├───mipmap-hdpi
+   │                   │       ic_launcher.png
+   │                   │       ic_launcher_round.png
+   │                   │
+   │                   └───values
+   │                           colors.xml
+   │                           strings.xml
+   │                           styles.xml
+   │
+   └───Shaking  - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───shaking
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher_background.xml
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+
+07-11-2017
+    └───Urban_Sample - Added
+        └───app
+            └───src
+                └───main
+                    │   AndroidManifest.xml
+                    │
+                    ├───assets
+                    │       airshipconfig.properties
+                    │
+                    ├───java
+                    │   └───com
+                    │       └───example
+                    │           └───urban_sample
+                    │                   MainActivity.java
+                    │                   Sample.java
+                    │
+                    └───res
+                        ├───drawable
+                        │       ic_launcher_background.xml
+                        │
+                        ├───layout
+                        │       activity_main.xml
+                        │
+                        ├───mipmap-hdpi
+                        │       ic_launcher.png
+                        │       ic_launcher_round.png
+                        │
+                        └───values
+                                colors.xml
+                                strings.xml
+                                styles.xml
+08-11-2017
+   └───AWS_Sample - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───aws_sample
+                   │                   Application.java
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher_background.xml
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       ├───raw
+                       │       awsconfiguration.json
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+
+09-11-2017
+    └───TreeViewSample - Added
+        └───app
+            └───src
+                └───main
+                    │   AndroidManifest.xml
+                    │
+                    ├───assets
+                    │       a.json
+                    │
+                    ├───java
+                    │   └───com
+                    │       └───example
+                    │           └───treeviewsample
+                    │                   Bean.java
+                    │                   IconItem.java
+                    │                   MainActivity.java
+                    │                   MyHolder.java
+                    │
+                    └───res
+                        ├───drawable
+                        │       ic_launcher_background.xml
+                        │
+                        ├───layout
+                        │       activity_main.xml
+                        │       node_layout.xml
+                        │
+                        ├───mipmap-hdpi
+                        │       ic_launcher.png
+                        │       ic_launcher_round.png
+                        │
+                        └───values
+                                colors.xml
+                                strings.xml
+                                styles.xml
+
+10-11-2017
+   └───WebViewSample - Added
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───assets
+                   │       index.html
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───webviewsample
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       ic_launcher_background.xml
+                       │
+                       ├───layout
+                       │       activity_main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+
+13-11-2017
+   └───ToiBot - Updated
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───toibot
+                   │       └───times
+                   │           ├───customview
+                   │           │       IconItem.java
+                   │           │       MainActivity_Tree.java
+                   │           │       MyHolder.java
+                   │           │
+                   │           └───listeners
+                   │                   SpinnerListener.java
+                   │
+                   └───res
+                       ├───drawable
+                       │       search_icon.png
+                       │       spinner_dropdown.xml
+                       │       transparent.xml
+                       │
+                       └───values
+                               strings.xml
+
+14-11-2017
+   └───ToiBot - Update
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   └───res
+                       ├───drawable
+                       │       clear_icon.png
+                       │       custom_checkbox.xml
+                       │       red_check.png
+                       │
+                       └───layout
+                               alert_dialog_listview_search.xml
+
+15-11-2017
+   ├───DynamicView - Added
+   │   └───DynamicView
+   │       └───app
+   │           └───src
+   │               └───main
+   │                   │   AndroidManifest.xml
+   │                   │
+   │                   ├───java
+   │                   │   └───com
+   │                   │       └───dynamicview
+   │                   │               LayoutWithInfalter.java
+   │                   │               MainActivity.java
+   │                   │
+   │                   └───res
+   │                       ├───layout
+   │                       │       activity_main.xml
+   │                       │
+   │                       ├───mipmap-hdpi
+   │                       │       ic_launcher.png
+   │                       │
+   │                       └───values
+   │                               colors.xml
+   │                               dimens.xml
+   │                               strings.xml
+   │                               styles.xml
+   │
+   └───ToiBot - Update
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───toibot
+                   │       └───times
+                   │           ├───adapter
+                   │           │       LocationTextAdapter.java
+                   │           │
+                   │           ├───customview
+                   │           │       MultiSpinnerSearch.java
+                   │           │
+                   │           └───fragments
+                   │                   MatrimonialFragment.java
+                   │
+                   └───res
+                       ├───layout
+                       │       item_listview_multiple.xml
+                       │
+                       └───values
+                               styles.xml
+
