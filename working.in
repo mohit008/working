@@ -14467,4 +14467,40 @@ Job Search
                             └───activity
                                     SelectPublication.java
 
+17-11-2017
+├───AWS_Sample
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       ├───amazonaws - Added
+               │       │   └───mobile
+               │       │       ├───api
+               │       │       │   └───id2wsd1j1b27
+               │       │       │       │   LoginMobileHubClient.java
+               │       │       │       │
+               │       │       │       └───model
+               │       │       │               CloudLogicAPI.java
+               │       │       │               CloudLogicAPIConfiguration.java
+               │       │       │               CloudLogicAPIFactory.java
+               │       │       │               RequestSchema.java
+               │       │       │               ResponseSchema.java
+               │       │       │
+               │       │       └───util
+               │       │               StringFormatUtils.java
+               │       │
+               │       └───example - Updated
+               │           └───aws_sample
+               │                   CloudLogicInvokerFragment.java
+               │                   CloudLogicMethodChooserFragment.java
+               │                   CloudLogicPathChooserFragment.java
+               │                   MainActivity.java
+               │
+               └───res
+                   └───values - updated
+                           colors.xml
+                           strings.xml
 
