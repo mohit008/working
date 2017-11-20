@@ -13992,13 +13992,103 @@ Job Search
                                 \---controls
                                         ControlScreen.java
 
+02-08-2017 - 03-08-2017
+   └───MapExample
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───map
+                   │           └───geo
+                   │                   GetLocationActivity.java
+                   │
+                   └───res
+                       ├───layout
+                       │       main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
 
+04-08-2017 - 07-08-2017
+       rakhi holiday.txt
 
+08-08-2017 - 13-08-2017
+       worksho wrap up.txt
 
+01-09-2017 - 07-09-2017
+       worked on server detail on bangalore client.txt
 
+08-09-2017
+   └───tenex
+       └───admin - updated
+               connect.php
+               login.php
+               register.php
+               table.php
 
+09-09-2017
+   ├───tenex
+   │   ├───admin - added
+   │   │       setpin.php
+   │   │
+   │   └───admin - updated
+   │           connect.php
+   │           login.php
+   │           register.php
+   │           table.php
+   │
+   └───TenXApp
+       └───app
+           └───src
+               └───main
+                   ├───java
+                   │   └───com
+                   │       └───app
+                   │           └───tenx
+                   │               ├───global - updated
+                   │               │       Global.java
+                   │               │
+                   │               ├───main - updated
+                   │               │       DashBoard.java
+                   │               │       Login.java
+                   │               │       Logout.java
+                   │               │       OTP.java
+                   │               │       Register.java
+                   │               │       SetPin.java
+                   │               │
+                   │               ├───network - updated
+                   │               │       NetworkURL.java
+                   │               │
+                   │               └───utility - updated
+                   │                       SharedPrefUtility.java
+                   │
+                   └───res
+                       ├───layout  - added - updated
+                       │       dashboard.xml
+                       │       drawer_item.xml
+                       │       login.xml
+                       │       otp.xml
+                       │       register.xml
+                       │       set_pin.xml
+                       │       splash.xml
+                       │       toolbar.xml
+                       │
+                       ├───mipmap - added
+                       │       drawer.png
+                       │
+                       └───values - updated
+                               strings.xml
 
-------------------------------------
+09-09-2017 - 29-10-2017
+        handle shop contruction.txt
 
 
 
