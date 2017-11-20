@@ -14558,7 +14558,7 @@ Job Search
                                     SelectPublication.java
 
 17-11-2017
-├───AWS_Sample
+ AWS_Sample
    └───app
        └───src
            └───main
@@ -14594,3 +14594,36 @@ Job Search
                            colors.xml
                            strings.xml
 
+20-11-2017
+ My - Added
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───my
+               │                   Constants.java
+               │                   MonitorBoot.java
+               │                   MyService.java
+               │                   RoatateReceive.java
+               │                   SampleClass.java
+               │
+               └───res
+                   ├───drawable
+                   │       ic_launcher_background.xml
+                   │
+                   ├───layout
+                   │       activity_main.xml
+                   │       main.xml
+                   │
+                   ├───mipmap-hdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           colors.xml
+                           strings.xml
+                           styles.xml
