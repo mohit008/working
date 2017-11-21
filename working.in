@@ -14627,3 +14627,81 @@ Job Search
                            colors.xml
                            strings.xml
                            styles.xml
+
+
+21-11-2017
+ Multiple_ProgressBar - Added
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───multiple_progressbar
+               │                   MainActivity.java
+               │
+               └───res
+                   ├───drawable
+                   │       ic_launcher_background.xml
+                   │       progress1.xml
+                   │       progress2.xml
+                   │
+                   ├───layout
+                   │       activity_main.xml
+                   │
+                   ├───mipmap
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           attrs.xml
+                           colors.xml
+                           dimen.xml
+                           strings.xml
+                           styles.xml
+
+ Pratice - Updated
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───pratice
+               │                   Main.java
+               │                   MainActivity.java
+               │
+               └───res
+                   ├───drawable
+                   │       pro2.xml
+                   │       prog.xml
+                   │
+                   ├───layout
+                   │       activity_main.xml
+                   │       index.xml
+                   │       main.xml
+                   │
+                   └───values
+                           attrs.xml
+                           colors.xml
+                           dimen.xml
+                           strings.xml
+                           styles.xml
+ ToiBot - Updated
+    └───app
+       └───src
+           └───main
+               └───java
+                   └───toibot
+                       └───times
+                           ├───adapter
+                           │       PreviewInnerListAdapter.java
+                           │       PreviewRecyclerViewListAdapter.java
+                           │
+                           └───fragments
+                                   PreviewSelectTemplet.java
+                                   PublicationFragment.java
