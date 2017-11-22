@@ -14705,3 +14705,28 @@ Job Search
                            └───fragments
                                    PreviewSelectTemplet.java
                                    PublicationFragment.java
+
+22-11-2017
+ Launcher_Sample
+    └───app
+        └───src
+            └───main
+                │   AndroidManifest.xml
+                │
+                ├───java
+                │   └───com
+                │       └───example
+                │           └───launcher - updated
+                │                   CustomAdapter.java
+                │                   MainActivity.java
+                │
+                └───res
+                    ├───layout - added
+                    │       activity_main.xml
+                    │       grid_item.xml
+                    │       list_item.xml
+                    │
+                    └───values - updated
+                            strings.xml
+
+
