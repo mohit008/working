@@ -14729,4 +14729,223 @@ Job Search
                     └───values - updated
                             strings.xml
 
+23-11-2017
+ -Progress bar
+     Sam -Added 
+       └───app
+           └───src
+               └───main
+                   │   AndroidManifest.xml
+                   │
+                   ├───java
+                   │   └───com
+                   │       └───example
+                   │           └───sam
+                   │                   MainActivity.java
+                   │
+                   └───res
+                       ├───drawable
+                       ├───layout
+                       │       activity_main.xml
+                       │
+                       ├───mipmap-hdpi
+                       │       ic_launcher.png
+                       │       ic_launcher_round.png
+                       │
+                       └───values
+                               colors.xml
+                               strings.xml
+                               styles.xml
+24-11-2017
+ Launcher_Sample - Updated
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───launcher
+               │                   CustomAdapter.java
+               │                   Item.java
+               │                   MainActivity.java
+               │
+               └───res
+                   ├───drawable
+                   │       ic_launcher_background.xml
+                   │
+                   ├───drawable-v24
+                   │       ic_launcher_foreground.xml
+                   │
+                   ├───layout
+                   │       activity_main.xml
+                   │       grid_item.xml
+                   │       list_item.xml
+                   │
+                   ├───mipmap-anydpi-v26
+                   │       ic_launcher.xml
+                   │       ic_launcher_round.xml
+                   │
+                   ├───mipmap-hdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-mdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           colors.xml
+                           strings.xml
+                           styles.xml
+ Sam - Update
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───sam
+               │                   MainActivity.java
+               │                   Semi.java
+               │
+               └───res
+                   ├───drawable
+                   │       circle.xml
+                   │       progress1.xml
+                   │       progress2.xml
+                   │       ring.xml
+                   │       semicircle.xml
+                   │
+                   ├───drawable-v24
+                   ├───layout
+                   │       activity_main.xml
+                   │       main.xml
+                   │
+                   ├───mipmap-anydpi-v26
+                   ├───mipmap-hdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-mdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           colors.xml
+                           strings.xml
+                           styles.xml
+
+ Sami - Added (Progress Bar)
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │   circle-web.png
+               │   ic_launcher-web.png
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───sami
+               │                   Cus.java
+               │                   MainActivity.java
+               │                   Semi.java
+               │
+               └───res
+                   ├───drawable
+                   │       circles.png
+                   │       ic_launcher_background.xml
+                   │       ring.xml
+                   │
+                   ├───layout
+                   │       activity_main.xml
+                   │
+                   ├───mipmap-hdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           colors.xml
+                           strings.xml
+                           styles.xml
+
+ WallPaper - Added
+   └───app
+       └───src
+           └───main
+               │   AndroidManifest.xml
+               │
+               ├───java
+               │   └───com
+               │       └───example
+               │           └───wallpaper
+               │                   MainActivity.java
+               │
+               └───res
+                   ├───drawable
+                   │       circle.xml
+                   │       ic_launcher_background.xml
+                   │
+                   ├───drawable-v24
+                   │       ic_launcher_foreground.xml
+                   │
+                   ├───layout
+                   │       main.xml
+                   │
+                   ├───mipmap-anydpi-v26
+                   │       ic_launcher.xml
+                   │       ic_launcher_round.xml
+                   │
+                   ├───mipmap-hdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-mdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   ├───mipmap-xxxhdpi
+                   │       ic_launcher.png
+                   │       ic_launcher_round.png
+                   │
+                   └───values
+                           colors.xml
+                           strings.xml
+                           styles.xml
 
