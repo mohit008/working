@@ -15315,5 +15315,23 @@ Job Search
         ├── runConfigurations.xml
         └── workspace.xml
 
+28-11-2017 
+  launcher3-master
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── android
+                            └── launcher3
+                                ├── allapps - added
+                                │   └── AllAppsListAdapter.java
+                                └── allapps - updated
+                                    ├── AllAppsContainerView.java
+                                    ├── AllAppsFastScrollHelper.java
+                                    ├── AllAppsRecyclerView.java
+                                    └── AlphabeticalAppsList.java
+
+
 
 
