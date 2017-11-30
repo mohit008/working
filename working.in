@@ -15334,5 +15334,26 @@ Job Search
 
 
 29-11-2017
- _Worked on emulator config in unbuntu...nothing more 
+ -Worked on emulator config in unbuntu...nothing more 
+
+30-11-2017
+ -Worked on emulator setting 
+ -launcher3-master
+        └── app
+            └── src
+                └── main
+                    ├── java - updated
+                    │   └── com
+                    │       └── android
+                    │           └── launcher3
+                    │               ├── allapps
+                    │               │   ├── AllAppsContainerView.java
+                    │               │   ├── AllAppsGridAdapter.java
+                    │               │   └── AllAppsListAdapter.java
+                    │               └── BubbleTextView.java
+                    └── res - updated
+                        └── layout
+                            └── all_apps.xml
+
+
 
