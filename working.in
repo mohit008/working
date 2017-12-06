@@ -15419,5 +15419,29 @@ Job Search
                             ├── ic_launcher.png
                             └── ic_launcher_round.png
 
+6-12-2017 
+ ─ BabyLoc - Added
+    └── app
+        └── src
+            └── main
+                ├── AndroidManifest.xml
+                ├── app_icon-web.png
+                ├── java
+                │   └── baby
+                │       └── watching
+                │           └── loc
+                │               ├── ConstantsLocking.java
+                │               ├── Locker.java
+                │               ├── LockReceiver.java
+                │               ├── MyLockingService.java
+                │               └── RoatateReceive.java
+                └── res
+                    ├── drawable
+                    │   ├── progress.xml
+                    │   └── square.xml
+                    ├── layout
+                    │   └── locker.xml
+                    └── mipmap-hdpi
+                        └── app_icon.png
 
 
