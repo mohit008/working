@@ -15443,5 +15443,289 @@ Job Search
                     │   └── locker.xml
                     └── mipmap-hdpi
                         └── app_icon.png
-
+7-12-2017
+ ─ android_sparefit - Added
+    └── app
+        └── src
+            └── main
+                ├── AndroidManifest.xml
+                ├── assets
+                │   ├── fonts
+                │   │   ├── Roboto-Light_1.ttf
+                │   │   ├── Roboto-Medium_1.ttf
+                │   │   └── Roboto-Regular_1.ttf
+                │   └── log.txt
+                ├── java
+                │   └── com
+                │       └── sparefit
+                │           ├── activity
+                │           │   ├── AddContactActivity.java
+                │           │   ├── ChangePasswordActivity.java
+                │           │   ├── CouponPreviewActivity.java
+                │           │   ├── CSTListingActivity.java
+                │           │   ├── ECouponItemDetailActivity.java
+                │           │   ├── FacebookLoginActivity.java
+                │           │   ├── FilterActivity.java
+                │           │   ├── ForgotPasswordActivity.java
+                │           │   ├── HomeActivity.java
+                │           │   ├── LoginActivity.java
+                │           │   ├── MasterCSTListingActivity.java
+                │           │   ├── MCSTListingActivity.java
+                │           │   ├── MobileVerificationActivity.java
+                │           │   ├── OTPActivity.java
+                │           │   ├── ReceiptActivity.java
+                │           │   ├── RegistrationActivity.java
+                │           │   ├── ScanActivity.java
+                │           │   ├── ServiceOfferedCategoryActivity.java
+                │           │   └── SplashActivity.java
+                │           ├── adapter
+                │           │   ├── AppMenuAdapter.java
+                │           │   ├── CompanyHorizontalAdapter.java
+                │           │   ├── CSTDetailPagerAdapter.java
+                │           │   ├── CSTListingAdapter.java
+                │           │   ├── CSTListingByMcstAdapter.java
+                │           │   ├── ECouponDetailItemAdapter.java
+                │           │   ├── LastScanResultsAdapter.java
+                │           │   ├── MCSTDetailPagerAdapter.java
+                │           │   ├── MCSTListingAdapter.java
+                │           │   ├── PagerAdapter.java
+                │           │   ├── RecyclerViewDataAdapter.java
+                │           │   ├── RetailerSearchAdapter.java
+                │           │   ├── RetailerSearchNoResultAdapter.java
+                │           │   ├── SelectMultipleCompanyAdapter.java
+                │           │   ├── ServicesCategoryAdapter.java
+                │           │   └── ServicesOfferedAdapter.java
+                │           ├── basecontrol
+                │           │   ├── BaseActivity.java
+                │           │   └── BaseFragment.java
+                │           ├── custom_gallery
+                │           │   ├── CustomGalleryActivity.java
+                │           │   ├── CustomGallery.java
+                │           │   └── GalleryAdapter.java
+                │           ├── customview
+                │           │   ├── CustomAlertView.java
+                │           │   ├── CustomEditText.java
+                │           │   ├── CustomOTPAlertView.java
+                │           │   ├── CustomTextView.java
+                │           │   ├── CustomThanksAlertView.java
+                │           │   ├── CustomViewPager.java
+                │           │   ├── KeyPairBoolData.java
+                │           │   ├── MultiSelectionSpinner.java
+                │           │   ├── MultiSpinnerSearch.java
+                │           │   └── SpinnerListener.java
+                │           ├── fragments
+                │           │   ├── AdditionalProfileFragment.java
+                │           │   ├── AddressProfileFragment.java
+                │           │   ├── AdminProfileFragment.java
+                │           │   ├── BenifitiaryFragment.java
+                │           │   ├── MechanicContactDetailFragment.java
+                │           │   ├── MechanicHomeFragment.java
+                │           │   ├── RetailerHomeFragment.java
+                │           │   ├── RetailerSearchHomeFragment.java
+                │           │   ├── SelfFragment.java
+                │           │   ├── ServiceOfferedFragment.java
+                │           │   ├── UploadPanAdharFragment.java
+                │           │   └── WorkShopProfileFragment.java
+                │           ├── listeners
+                │           │   ├── CustomAlertListener.java
+                │           │   ├── IMethodCaller.java
+                │           │   ├── ResetView.java
+                │           │   └── ServiceSelectListener.java
+                │           ├── model
+                │           │   ├── AddContactResponseModel.java
+                │           │   ├── ApplyCstDetail.java
+                │           │   ├── ApplyFilterDataResponseModel.java
+                │           │   ├── BalancedPointsModel.java
+                │           │   ├── BusinessPicModel.java
+                │           │   ├── ChangePasswordResponseModel.java
+                │           │   ├── CompanyName.java
+                │           │   ├── CSTDetailByMCSTModel.java
+                │           │   ├── CstDetail.java
+                │           │   ├── CSTDetailResponseModel.java
+                │           │   ├── EcouponDetail.java
+                │           │   ├── ECouponDetailModel.java
+                │           │   ├── ECouponResponseModel.java
+                │           │   ├── ECouponScanDetail.java
+                │           │   ├── ESignatureResponseModel.java
+                │           │   ├── FilterDataResponseModel.java
+                │           │   ├── FinishScanResponseModel.java
+                │           │   ├── ForgotPasswordResponseModel.java
+                │           │   ├── ForgotPasswordStep2ResponseModel.java
+                │           │   ├── HorizontalRecyclerItem.java
+                │           │   ├── LoginResponseModel.java
+                │           │   ├── MasterCSTResponseModel.java
+                │           │   ├── McstDetail.java
+                │           │   ├── MCSTDetailResponseModel.java
+                │           │   ├── MCSTResponseModel.java
+                │           │   ├── NoSearchResultFoundModel.java
+                │           │   ├── RedeemedResponseModel.java
+                │           │   ├── RequestModel
+                │           │   │   └── registration
+                │           │   │       ├── CategoryId.java
+                │           │   │       ├── RegistrationStep1RequestModel.java
+                │           │   │       ├── RegistrationStep2RequestModel.java
+                │           │   │       ├── RegistrationStep3RequestModel.java
+                │           │   │       ├── RegistrationStep4RequestModel.java
+                │           │   │       ├── ServiceId.java
+                │           │   │       └── ServiceIdJSONResponseModel.java
+                │           │   ├── ResponseModel
+                │           │   │   ├── AdditionalProfileResponseModel.java
+                │           │   │   ├── BusinessPic.java
+                │           │   │   ├── config
+                │           │   │   │   ├── AnalyticData.java
+                │           │   │   │   ├── AppMenu.java
+                │           │   │   │   ├── City.java
+                │           │   │   │   ├── ConfigResponseModel.java
+                │           │   │   │   ├── Role.java
+                │           │   │   │   ├── Services.java
+                │           │   │   │   ├── State.java
+                │           │   │   │   └── TypesOfWorkshop.java
+                │           │   │   ├── registration
+                │           │   │   │   ├── CityResponseModel.java
+                │           │   │   │   ├── ServiceResponseModel.java
+                │           │   │   │   └── StateResponseModel.java
+                │           │   │   ├── ServiceUploadResponseModel.java
+                │           │   │   └── TestModel.java
+                │           │   ├── RetailerSearchResponseModel.java
+                │           │   ├── ScanResultsModel.java
+                │           │   ├── SearchUserDetail.java
+                │           │   ├── TotalCstDetailResponseModel.java
+                │           │   ├── UploadPanAdharResponseModel.java
+                │           │   ├── UserDetail.java
+                │           │   ├── UserIdentityDetail.java
+                │           │   └── User.java
+                │           ├── network
+                │           │   ├── NetworkCheck.java
+                │           │   ├── NetworkClient.java
+                │           │   └── NetworkInterface.java
+                │           ├── utils
+                │           │   ├── AppConstants.java
+                │           │   ├── AppLocationService.java
+                │           │   ├── CompressImage.java
+                │           │   ├── FileUtils.java
+                │           │   ├── GPSTracker.java
+                │           │   ├── LocationAddress.java
+                │           │   ├── PreferencesKey.java
+                │           │   ├── RequestId.java
+                │           │   ├── SaveSharedPref.java
+                │           │   ├── SpareFitApplication.java
+                │           │   └── Utils.java
+                │           └── zxing
+                │               ├── BeepManager.java
+                │               ├── camera
+                │               │   ├── AutoFocusCallback.java
+                │               │   ├── CameraConfigurationManager.java
+                │               │   ├── CameraManager.java
+                │               │   ├── FlashlightManager.java
+                │               │   ├── PlanarYUVLuminanceSource.java
+                │               │   └── PreviewCallback.java
+                │               ├── CaptureActivityHandler.java
+                │               ├── config
+                │               │   └── ZXingLibConfig.java
+                │               ├── DecodeFormatManager.java
+                │               ├── DecodeHandler.java
+                │               ├── DecodeThread.java
+                │               ├── FinishListener.java
+                │               ├── InactivityTimer.java
+                │               ├── integrator
+                │               │   ├── IntentIntegrator.java
+                │               │   └── IntentResult.java
+                │               ├── Intents.java
+                │               ├── ViewfinderResultPointCallback.java
+                │               └── ViewfinderView.java
+                └── res
+                    ├── drawable
+                    │   ├── bg_btnscan.xml
+                    │   ├── bg_detail_recyclerview.xml
+                    │   ├── bg_listitem_oval.xml
+                    │   ├── bg_rectangle.xml
+                    │   ├── bg_spinner.xml
+                    │   ├── circle_gray.xml
+                    │   ├── circle_white.xml
+                    │   ├── company_name_filter_shape.xml
+                    │   ├── coupon_code_bg.xml
+                    │   ├── divider_line.xml
+                    │   ├── filter_border_bg.xml
+                    │   ├── green_bg_round_corner.xml
+                    │   ├── launcher.png
+                    │   ├── on_focus_checkbox.xml
+                    │   ├── points_icon.png
+                    │   ├── radiobtn_textcolor_selector.xml
+                    │   ├── register_radiobtn_selecter.xml
+                    │   ├── register_selected_rd_btn.xml
+                    │   ├── register_unselected_rd_btn.xml
+                    │   ├── ruppe_icon.png
+                    │   ├── scan_btn_aadhar.xml
+                    │   ├── selector_ripple.xml
+                    │   ├── services_checkbox_selecter.xml
+                    │   ├── side_nav_bar.xml
+                    │   └── working_hours_shape.xml
+                    ├── layout
+                    │   ├── activity_add_contact.xml
+                    │   ├── activity_change_password.xml
+                    │   ├── activity_cstlisting2.xml
+                    │   ├── activity_cstlisting.xml
+                    │   ├── activity_drawer_layout.xml
+                    │   ├── activity_ecoupon_item_detail.xml
+                    │   ├── activity_facebook_login.xml
+                    │   ├── activity_filter.xml
+                    │   ├── activity_forgot_password.xml
+                    │   ├── activity_home.xml
+                    │   ├── activity_login.xml
+                    │   ├── activity_master_cstlisting.xml
+                    │   ├── activity_mobile_verification.xml
+                    │   ├── activity_otp.xml
+                    │   ├── activity_receipt.xml
+                    │   ├── activity_registration.xml
+                    │   ├── activity_scan.xml
+                    │   ├── activity_service_offered_category_item.xml
+                    │   ├── activity_service_offered_category.xml
+                    │   ├── activity_splash.xml
+                    │   ├── adapter_horizontal_item_view.xml
+                    │   ├── adapter_item_coupon_detail.xml
+                    │   ├── adapter_item_cst_detail.xml
+                    │   ├── adapter_item_mcst_detail.xml
+                    │   ├── adapter_no_search_result_item.xml
+                    │   ├── adapter_search_result_item.xml
+                    │   ├── alert_dialog_listview_search.xml
+                    │   ├── app_bar_home.xml
+                    │   ├── app_menu_item_adapter.xml
+                    │   ├── benifitaryfragment.xml
+                    │   ├── content_home.xml
+                    │   ├── coupon_receipt_preview.xml
+                    │   ├── custom_actionbar.xml
+                    │   ├── custom_otp_alertdialog.xml
+                    │   ├── fragment_additional_profile.xml
+                    │   ├── fragment_address_profile.xml
+                    │   ├── fragment_admin_profile.xml
+                    │   ├── fragment_button_layout.xml
+                    │   ├── fragment_mechenic_home.xml
+                    │   ├── fragment_retailer_contact_detail.xml
+                    │   ├── fragment_retailer_home.xml
+                    │   ├── fragment_retailer_search_home.xml
+                    │   ├── fragment_service_offered.xml
+                    │   ├── fragment_upload_pan_adhar.xml
+                    │   ├── fragment_working_days_layout.xml
+                    │   ├── fragment_work_shop_profile.xml
+                    │   ├── gallery_item.xml
+                    │   ├── gallery.xml
+                    │   ├── item_listview_multiple.xml
+                    │   ├── item_listview_single.xml
+                    │   ├── item_mcstpager_filter.xml
+                    │   ├── item_pager_filter.xml
+                    │   ├── layout_scan_item.xml
+                    │   ├── list_row.xml
+                    │   ├── multi_popup_item.xml
+                    │   ├── nav_header_home.xml
+                    │   ├── scan_3_item.xml
+                    │   ├── selffragment.xml
+                    │   ├── services_offered_item.xml
+                    │   └── textview_for_spinner.xml
+                    ├── menu
+                    │   └── activity_home_drawer.xml
+                    └── mipmap-hdpi
+                        ├── down_arrow.png
+                        ├── ic_launcher.png
+                        ├── icon_statuscancel.png
+                        └── icon_statusok.png
 
