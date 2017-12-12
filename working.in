@@ -15758,4 +15758,39 @@ Job Search
                                 └── MyLockingService.java
 
 
+12-12-2-17
+ ─ BabyLoc
+    └── app
+        └── src
+            └── main
+                ├── assets - added
+                │   └── fonts
+                │       ├── bellefair_regular.ttf
+                │       ├── gildadisplay_regular.ttf
+                │       ├── josefinslab_thin.ttf
+                │       ├── juliussansone_regular.ttf
+                │       ├── opensans_regular.ttf
+                │       ├── quicksand_light.ttf
+                │       ├── quicksand_regular.ttf
+                │       ├── rasa_light.ttf
+                │       └── scopeone_regular.ttf
+                ├── java
+                │   └── baby
+                │       └── watching
+                │           └── loc - updated
+                │               ├── Anim.java
+                │               ├── ConstantsLocking.java
+                │               └── Locker.java
+                └── res
+                    ├── drawable - added
+                    │   ├── dark.xml
+                    │   └── light.xml
+                    ├── layout - updated
+                    │   ├── locker.xml
+                    │   └── main.xml
+                    └── values - updated
+                        └── colors.xml
+
+
+
 
