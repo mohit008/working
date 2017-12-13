@@ -15758,7 +15758,7 @@ Job Search
                                 └── MyLockingService.java
 
 
-12-12-2-17
+12-12-2017
  ─ BabyLoc
     └── app
         └── src
@@ -15792,5 +15792,6 @@ Job Search
                         └── colors.xml
 
 
-
+13-12-2017
+ - Bug solving in SpareFit
 
