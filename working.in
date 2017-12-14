@@ -15795,3 +15795,27 @@ Job Search
 13-12-2017
  - Bug solving in SpareFit
 
+14-12-2017
+ ─ BabyLoc
+    └── app
+        └── src
+            └── main
+                ├── AndroidManifest.xml
+                ├── java - updated
+                │   └── baby
+                │       └── watching
+                │           └── loc
+                │               ├── Anim.java
+                │               ├── ConstantsLocking.java
+                │               ├── Locker.java
+                │               ├── LockReceiver.java
+                │               ├── MyLockingService.java
+                │               └── RoatateReceive.java
+                └── res - updated
+                    ├── drawable
+                    │   └── light.xml
+                    └── values
+                        └── colors.xml
+ -Submit Sparefit Bug 
+
+
