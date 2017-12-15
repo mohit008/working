@@ -15818,4 +15818,44 @@ Job Search
                         └── colors.xml
  -Submit Sparefit Bug 
 
+15-12-2017
+ - BabyLoc
+   └── app
+       └── src
+           └── main
+               ├── java
+               │   └── baby
+               │       └── watching
+               │           └── loc - updated
+               │               ├── Anim.java
+               │               ├── ConstantsLocking.java
+               │               └── Locker.java
+               └── res
+                   └── layout - updated
+                       └── locker.xml
+ - My
+    └── app
+        └── src
+            └── main
+                ├── java
+                │   └── com
+                │       └── example
+                │           └── my - updated
+                │               ├── Sam.java
+                │               └── SampleClass.java
+                └── res
+                    ├── anim - added
+                    │   └── move.xml
+                    ├── drawable - added
+                    │   ├── patch1.xml
+                    │   ├── patch2.xml
+                    │   ├── patch3.xml
+                    │   └── progress2.xml
+                    ├── layout - added
+                    │   └── main.xml
+                    └── values - updated
+                        ├── colors.xml
+                        └── styles.xml
+
+
 
