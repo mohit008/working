@@ -15888,3 +15888,40 @@ Job Search
                    ├───drawable - added
                    ├───layout - added
                    └───values - updated
+
+20-12-2017
+─BabyLoc
+   └───app
+       └───src
+           └───main
+               └───java
+                   └───baby
+                       └───watching
+                           └───loc - updated
+─GetNotifiation - Added
+   └───app
+       └───src
+           └───main
+               ├───java
+               │   └───com
+               │       └───get
+               │           └───notify
+               └───res
+                   ├───drawable
+                   ├───drawable-v24
+                   ├───layout
+                   ├───mipmap-anydpi-v26
+                   ├───mipmap-hdpi
+                   ├───mipmap-mdpi
+                   ├───mipmap-xhdpi
+                   ├───mipmap-xxhdpi
+                   ├───mipmap-xxxhdpi
+                   └───values
+─My
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───example
+                            └───my - updated
