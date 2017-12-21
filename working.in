@@ -15925,3 +15925,32 @@ Job Search
                     └───com
                         └───example
                             └───my - updated
+
+21-12-2017
+ -Sparefit Bug Fix
+ - dialog value to Machenic/Retail
+ - Create Support Page
+ - add Ratail tag to dialog
+ ─android_sparefit
+   └───app
+       └───src
+           └───main
+               ├───java
+               │   └───com
+               │       └───sparefit
+               │           ├───activity - updated
+               │           ├───adapter - updated
+               │           ├───basecontrol - updated
+               │           └───fragments - updated
+               └───res
+                   ├───drawable - added
+                   └───layout - added
+ ─BabyLoc
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───baby
+                        └───watching
+                            ├───loc - added
+                            └───save - added
