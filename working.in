@@ -14952,368 +14952,333 @@ Job Search
 27-11-2017
  launcher3-master - Added (Setup)
     ├── app
-    │   └── src
-    │       └── main
-    │           ├── AndroidManifest.xml
-    │           ├── java
-    │           │   └── com
-    │           │       └── android
-    │           │           └── launcher3
-    │           │               ├── accessibility
-    │           │               │   ├── AccessibileDragListenerAdapter.java
-    │           │               │   ├── DragAndDropAccessibilityDelegate.java
-    │           │               │   ├── DragViewStateAnnouncer.java
-    │           │               │   ├── FolderAccessibilityHelper.java
-    │           │               │   ├── LauncherAccessibilityDelegate.java
-    │           │               │   ├── OverviewAccessibilityDelegate.java
-    │           │               │   ├── OverviewScreenAccessibilityDelegate.java
-    │           │               │   ├── ShortcutMenuAccessibilityDelegate.java
-    │           │               │   └── WorkspaceAccessibilityHelper.java
-    │           │               ├── Alarm.java
-    │           │               ├── allapps
-    │           │               │   ├── AllAppsBackgroundDrawable.java
-    │           │               │   ├── AllAppsCaretController.java
-    │           │               │   ├── AllAppsContainerView.java
-    │           │               │   ├── AllAppsFastScrollHelper.java
-    │           │               │   ├── AllAppsGridAdapter.java
-    │           │               │   ├── AllAppsRecyclerViewContainerView.java
-    │           │               │   ├── AllAppsRecyclerView.java
-    │           │               │   ├── AllAppsSearchBarController.java
-    │           │               │   ├── AllAppsTransitionController.java
-    │           │               │   ├── AlphabeticalAppsList.java
-    │           │               │   ├── DefaultAppSearchAlgorithm.java
-    │           │               │   ├── DefaultAppSearchController.java
-    │           │               │   ├── HeaderElevationController.java
-    │           │               │   ├── PredictiveAppsProvider.java
-    │           │               │   └── VerticalPullDetector.java
-    │           │               ├── AllAppsList.java
-    │           │               ├── AnotherWindowDropTarget.java
-    │           │               ├── AppFilter.java
-    │           │               ├── AppInfo.java
-    │           │               ├── AppWidgetResizeFrame.java
-    │           │               ├── AppWidgetsRestoredReceiver.java
-    │           │               ├── AutoInstallsLayout.java
-    │           │               ├── backup
-    │           │               │   └── BackupProtos.java
-    │           │               ├── BaseContainerView.java
-    │           │               ├── BaseRecyclerViewFastScrollBar.java
-    │           │               ├── BaseRecyclerViewFastScrollPopup.java
-    │           │               ├── BaseRecyclerView.java
-    │           │               ├── BubbleTextView.java
-    │           │               ├── ButtonDropTarget.java
-    │           │               ├── CellLayout.java
-    │           │               ├── CheckLongPressHelper.java
-    │           │               ├── ClickShadowView.java
-    │           │               ├── CommonAppTypeParser.java
-    │           │               ├── compat
-    │           │               │   ├── AlphabeticIndexCompat.java
-    │           │               │   ├── AppWidgetManagerCompat.java
-    │           │               │   ├── AppWidgetManagerCompatV16.java
-    │           │               │   ├── AppWidgetManagerCompatVL.java
-    │           │               │   ├── DeferredLauncherActivityInfo.java
-    │           │               │   ├── LauncherActivityInfoCompat.java
-    │           │               │   ├── LauncherActivityInfoCompatV16.java
-    │           │               │   ├── LauncherActivityInfoCompatVL.java
-    │           │               │   ├── LauncherAppsCompat.java
-    │           │               │   ├── LauncherAppsCompatV16.java
-    │           │               │   ├── LauncherAppsCompatVL.java
-    │           │               │   ├── PackageInstallerCompat.java
-    │           │               │   ├── PackageInstallerCompatV16.java
-    │           │               │   ├── PackageInstallerCompatVL.java
-    │           │               │   ├── UserHandleCompat.java
-    │           │               │   ├── UserManagerCompat.java
-    │           │               │   ├── UserManagerCompatV16.java
-    │           │               │   ├── UserManagerCompatV17.java
-    │           │               │   ├── UserManagerCompatVL.java
-    │           │               │   ├── UserManagerCompatVM.java
-    │           │               │   ├── UserManagerCompatVN.java
-    │           │               │   └── UserManagerCompatVNMr1.java
-    │           │               ├── config
-    │           │               │   ├── FeatureFlags.java
-    │           │               │   └── ProviderConfig.java
-    │           │               ├── CustomAppWidget.java
-    │           │               ├── DefaultLayoutParser.java
-    │           │               ├── DeferredHandler.java
-    │           │               ├── DeleteDropTarget.java
-    │           │               ├── DeviceProfile.java
-    │           │               ├── dragndrop
-    │           │               │   ├── AnotherWindowDragSource.java
-    │           │               │   ├── DragController.java
-    │           │               │   ├── DragDriver.java
-    │           │               │   ├── DragLayer.java
-    │           │               │   ├── DragOptions.java
-    │           │               │   ├── DragScroller.java
-    │           │               │   ├── DragView.java
-    │           │               │   ├── ExternalDragPreviewProvider.java
-    │           │               │   └── SpringLoadedDragController.java
-    │           │               ├── DragSource.java
-    │           │               ├── DropTargetBar.java
-    │           │               ├── DropTarget.java
-    │           │               ├── dynamicui
-    │           │               │   ├── ColorExtractionService.java
-    │           │               │   ├── ExtractedColors.java
-    │           │               │   └── ExtractionUtils.java
-    │           │               ├── ExtendedEditText.java
-    │           │               ├── FastBitmapDrawable.java
-    │           │               ├── FirstFrameAnimatorHelper.java
-    │           │               ├── FocusHelper.java
-    │           │               ├── folder
-    │           │               │   ├── ClippedFolderIconLayoutRule.java
-    │           │               │   ├── FolderIcon.java
-    │           │               │   ├── Folder.java
-    │           │               │   ├── FolderPagedView.java
-    │           │               │   └── StackFolderIconLayoutRule.java
-    │           │               ├── FolderEditText.java
-    │           │               ├── FolderInfo.java
-    │           │               ├── graphics
-    │           │               │   ├── DragPreviewProvider.java
-    │           │               │   ├── ShadowGenerator.java
-    │           │               │   ├── TintedDrawableSpan.java
-    │           │               │   └── TriangleShape.java
-    │           │               ├── HolographicOutlineHelper.java
-    │           │               ├── Hotseat.java
-    │           │               ├── IconCache.java
-    │           │               ├── IconProvider.java
-    │           │               ├── InfoDropTarget.java
-    │           │               ├── InsettableFrameLayout.java
-    │           │               ├── Insettable.java
-    │           │               ├── InstallShortcutReceiver.java
-    │           │               ├── InterruptibleInOutAnimator.java
-    │           │               ├── InvariantDeviceProfile.java
-    │           │               ├── ItemInfo.java
-    │           │               ├── keyboard
-    │           │               │   ├── FocusedItemDecorator.java
-    │           │               │   ├── FocusIndicatorHelper.java
-    │           │               │   └── ViewGroupFocusHelper.java
-    │           │               ├── LauncherAnimUtils.java
-    │           │               ├── LauncherAppState.java
-    │           │               ├── LauncherAppWidgetHost.java
-    │           │               ├── LauncherAppWidgetHostView.java
-    │           │               ├── LauncherAppWidgetInfo.java
-    │           │               ├── LauncherAppWidgetProviderInfo.java
-    │           │               ├── LauncherBackupAgent.java
-    │           │               ├── LauncherCallbacks.java
-    │           │               ├── LauncherClings.java
-    │           │               ├── LauncherExterns.java
-    │           │               ├── LauncherFiles.java
-    │           │               ├── Launcher.java
-    │           │               ├── LauncherModel.java
-    │           │               ├── LauncherProviderChangeListener.java
-    │           │               ├── LauncherProvider.java
-    │           │               ├── LauncherRootView.java
-    │           │               ├── LauncherScroller.java
-    │           │               ├── LauncherSettings.java
-    │           │               ├── LauncherStateTransitionAnimation.java
-    │           │               ├── LauncherTransitionable.java
-    │           │               ├── LauncherViewPropertyAnimator.java
-    │           │               ├── LogAccelerateInterpolator.java
-    │           │               ├── LogDecelerateInterpolator.java
-    │           │               ├── logging
-    │           │               │   ├── FileLog.java
-    │           │               │   ├── LoggerUtils.java
-    │           │               │   └── UserEventDispatcher.java
-    │           │               ├── MainThreadExecutor.java
-    │           │               ├── model
-    │           │               │   ├── AbstractUserComparator.java
-    │           │               │   ├── AppNameComparator.java
-    │           │               │   ├── GridSizeMigrationTask.java
-    │           │               │   ├── PackageItemInfo.java
-    │           │               │   ├── WidgetItem.java
-    │           │               │   └── WidgetsModel.java
-    │           │               ├── OnAlarmListener.java
-    │           │               ├── PagedView.java
-    │           │               ├── pageindicators
-    │           │               │   ├── CaretDrawable.java
-    │           │               │   ├── PageIndicatorCaretLandscape.java
-    │           │               │   ├── PageIndicatorDots.java
-    │           │               │   ├── PageIndicator.java
-    │           │               │   └── PageIndicatorLineCaret.java
-    │           │               ├── Partner.java
-    │           │               ├── PendingAddItemInfo.java
-    │           │               ├── PendingAppWidgetHostView.java
-    │           │               ├── PinchAnimationManager.java
-    │           │               ├── PinchThresholdManager.java
-    │           │               ├── PinchToOverviewListener.java
-    │           │               ├── PreloadIconDrawable.java
-    │           │               ├── provider
-    │           │               │   ├── ImportDataTask.java
-    │           │               │   ├── LauncherDbUtils.java
-    │           │               │   ├── LossyScreenMigrationTask.java
-    │           │               │   └── RestoreDbTask.java
-    │           │               ├── QsbBlockerView.java
-    │           │               ├── QsbContainerView.java
-    │           │               ├── SettingsActivity.java
-    │           │               ├── ShortcutAndWidgetContainer.java
-    │           │               ├── ShortcutInfo.java
-    │           │               ├── shortcuts
-    │           │               │   ├── DeepShortcutManager.java
-    │           │               │   ├── DeepShortcutsContainer.java
-    │           │               │   ├── DeepShortcutTextView.java
-    │           │               │   ├── DeepShortcutView.java
-    │           │               │   ├── ShortcutCache.java
-    │           │               │   ├── ShortcutDragPreviewProvider.java
-    │           │               │   ├── ShortcutFilter.java
-    │           │               │   ├── ShortcutInfoCompat.java
-    │           │               │   └── ShortcutKey.java
-    │           │               ├── SimpleOnStylusPressListener.java
-    │           │               ├── StylusEventHelper.java
-    │           │               ├── testing
-    │           │               │   ├── DummyWidget.java
-    │           │               │   ├── LauncherExtension.java
-    │           │               │   ├── MemoryDumpActivity.java
-    │           │               │   ├── MemoryTracker.java
-    │           │               │   ├── ToggleWeightWatcher.java
-    │           │               │   └── WeightWatcher.java
-    │           │               ├── UninstallDropTarget.java
-    │           │               ├── userevent
-    │           │               │   └── nano
-    │           │               │       └── LauncherLogProto.java
-    │           │               ├── util
-    │           │               │   ├── ActivityResultInfo.java
-    │           │               │   ├── CachedPackageTracker.java
-    │           │               │   ├── CellAndSpan.java
-    │           │               │   ├── CircleRevealOutlineProvider.java
-    │           │               │   ├── ComponentKey.java
-    │           │               │   ├── ConfigMonitor.java
-    │           │               │   ├── CursorIconInfo.java
-    │           │               │   ├── FlagOp.java
-    │           │               │   ├── FlingAnimation.java
-    │           │               │   ├── FocusLogic.java
-    │           │               │   ├── GridOccupancy.java
-    │           │               │   ├── IconNormalizer.java
-    │           │               │   ├── ItemInfoMatcher.java
-    │           │               │   ├── LauncherEdgeEffect.java
-    │           │               │   ├── LongArrayMap.java
-    │           │               │   ├── ManagedProfileHeuristic.java
-    │           │               │   ├── MultiHashMap.java
-    │           │               │   ├── MultiStateAlphaController.java
-    │           │               │   ├── NoLocaleSqliteContext.java
-    │           │               │   ├── PackageManagerHelper.java
-    │           │               │   ├── ParcelableSparseArray.java
-    │           │               │   ├── PendingRequestArgs.java
-    │           │               │   ├── PillRevealOutlineProvider.java
-    │           │               │   ├── PillWidthRevealOutlineProvider.java
-    │           │               │   ├── Preconditions.java
-    │           │               │   ├── RevealOutlineAnimation.java
-    │           │               │   ├── SQLiteCacheHelper.java
-    │           │               │   ├── StringFilter.java
-    │           │               │   ├── TestingUtils.java
-    │           │               │   ├── Thunk.java
-    │           │               │   ├── TouchController.java
-    │           │               │   ├── TransformingTouchDelegate.java
-    │           │               │   ├── VerticalFlingDetector.java
-    │           │               │   ├── ViewOnDrawExecutor.java
-    │           │               │   └── WallpaperOffsetInterpolator.java
-    │           │               ├── Utilities.java
-    │           │               ├── widget
-    │           │               │   ├── PendingAddShortcutInfo.java
-    │           │               │   ├── PendingAddWidgetInfo.java
-    │           │               │   ├── PendingItemPreviewProvider.java
-    │           │               │   ├── WidgetCell.java
-    │           │               │   ├── WidgetHostViewLoader.java
-    │           │               │   ├── WidgetImageView.java
-    │           │               │   ├── WidgetsContainerView.java
-    │           │               │   ├── WidgetsListAdapter.java
-    │           │               │   ├── WidgetsRecyclerView.java
-    │           │               │   └── WidgetsRowViewHolder.java
-    │           │               ├── WidgetPreviewLoader.java
-    │           │               ├── Workspace.java
-    │           │               └── WorkspaceStateTransitionAnimation.java
-    │           └── res
-    │               ├── drawable
-    │               │   ├── all_apps_button_icon.xml
-    │               │   ├── all_apps_divider.xml
-    │               │   ├── all_apps_search_divider.xml
-    │               │   ├── all_apps_search_hint.xml
-    │               │   ├── bg_celllayout.xml
-    │               │   ├── bg_pill_focused.xml
-    │               │   ├── bg_screenpanel.xml
-    │               │   ├── bg_white_pill.xml
-    │               │   ├── container_fastscroll_popup_bg.xml
-    │               │   ├── deep_shortcuts_drag_handle.xml
-    │               │   ├── ic_all_apps_bg_icon_1.xml
-    │               │   ├── ic_all_apps_bg_icon_2.xml
-    │               │   ├── ic_all_apps_bg_icon_3.xml
-    │               │   ├── ic_all_apps_bg_icon_4.xml
-    │               │   ├── ic_allapps_search.xml
-    │               │   ├── ic_setting.xml
-    │               │   ├── ic_wallpaper.xml
-    │               │   ├── ic_widget.xml
-    │               │   ├── quantum_panel_dark.xml
-    │               │   ├── quantum_panel_shape_dark.xml
-    │               │   ├── quantum_panel_shape.xml
-    │               │   ├── quantum_panel.xml
-    │               │   ├── widget_internal_focus_bg.xml
-    │               │   └── widgets_row_divider.xml
-    │               ├── layout
-    │               │   ├── all_apps_button.xml
-    │               │   ├── all_apps_divider.xml
-    │               │   ├── all_apps_empty_search.xml
-    │               │   ├── all_apps_icon.xml
-    │               │   ├── all_apps_search_divider.xml
-    │               │   ├── all_apps_search_market.xml
-    │               │   ├── all_apps.xml
-    │               │   ├── app_icon.xml
-    │               │   ├── appwidget_error.xml
-    │               │   ├── appwidget_not_ready.xml
-    │               │   ├── deep_shortcuts_container.xml
-    │               │   ├── deep_shortcut.xml
-    │               │   ├── drop_target_bar_horz.xml
-    │               │   ├── drop_target_bar_vert.xml
-    │               │   ├── folder_application.xml
-    │               │   ├── folder_icon.xml
-    │               │   ├── hotseat.xml
-    │               │   ├── launcher_overlay.xml
-    │               │   ├── overview_panel.xml
-    │               │   ├── page_indicator.xml
-    │               │   ├── qsb_blocker_view.xml
-    │               │   ├── qsb_container.xml
-    │               │   ├── qsb_default_view.xml
-    │               │   ├── user_folder_icon_normalized.xml
-    │               │   ├── user_folder.xml
-    │               │   ├── widget_cell.xml
-    │               │   ├── widgets_list_row_view.xml
-    │               │   ├── widgets_view.xml
-    │               │   ├── workspace_screen.xml
-    │               │   ├── zzz_dummy_widget.xml
-    │               │   └── zzz_weight_watcher.xml
-    │               └── mipmap-hdpi
-    │                   └── ic_launcher_home.png
-    ├── .gitignore
-    ├── .gradle
-    │   └── 2.14.1
-    │       ├── taskArtifacts
-    │       │   ├── cache.properties
-    │       │   ├── cache.properties.lock
-    │       │   ├── fileHashes.bin
-    │       │   ├── fileSnapshots.bin
-    │       │   ├── fileSnapshotsToTreeSnapshotsIndex.bin
-    │       │   └── taskArtifacts.bin
-    │       └── tasks
-    │           └── _app_compileDebugJavaWithJavac
-    │               ├── localClassSetAnalysis
-    │               │   ├── localClassSetAnalysis.bin
-    │               │   └── localClassSetAnalysis.lock
-    │               └── localJarClasspathSnapshot
-    │                   ├── localJarClasspathSnapshot.bin
-    │                   └── localJarClasspathSnapshot.lock
-    └── .idea
-        ├── gradle.xml
-        ├── libraries
-        │   ├── com_android_support_palette_v7_25_0_1.xml
-        │   ├── com_android_support_recyclerview_v7_25_0_1.xml
-        │   ├── com_android_support_support_annotations_25_0_1_jar.xml
-        │   ├── com_android_support_support_compat_25_0_1.xml
-        │   ├── com_android_support_support_core_ui_25_0_1.xml
-        │   ├── com_android_support_support_core_utils_25_0_1.xml
-        │   ├── com_android_support_support_fragment_25_0_1.xml
-        │   ├── com_android_support_support_media_compat_25_0_1.xml
-        │   ├── com_android_support_support_v4_25_0_1.xml
-        │   └── __local_jars____home_mohitsoni_Mohit_Workspace_launcher3_master_app_lib_protobuf_java_2_3_0_jar_unspecified_jar.xml
-        ├── misc.xml
-        ├── modules.xml
-        ├── runConfigurations.xml
-        └── workspace.xml
+       └── src
+           └── main
+               ├── AndroidManifest.xml
+               ├── java
+               │   └── com
+               │       └── android
+               │           └── launcher3
+               │               ├── accessibility
+               │               │   ├── AccessibileDragListenerAdapter.java
+               │               │   ├── DragAndDropAccessibilityDelegate.java
+               │               │   ├── DragViewStateAnnouncer.java
+               │               │   ├── FolderAccessibilityHelper.java
+               │               │   ├── LauncherAccessibilityDelegate.java
+               │               │   ├── OverviewAccessibilityDelegate.java
+               │               │   ├── OverviewScreenAccessibilityDelegate.java
+               │               │   ├── ShortcutMenuAccessibilityDelegate.java
+               │               │   └── WorkspaceAccessibilityHelper.java
+               │               ├── Alarm.java
+               │               ├── allapps
+               │               │   ├── AllAppsBackgroundDrawable.java
+               │               │   ├── AllAppsCaretController.java
+               │               │   ├── AllAppsContainerView.java
+               │               │   ├── AllAppsFastScrollHelper.java
+               │               │   ├── AllAppsGridAdapter.java
+               │               │   ├── AllAppsRecyclerViewContainerView.java
+               │               │   ├── AllAppsRecyclerView.java
+               │               │   ├── AllAppsSearchBarController.java
+               │               │   ├── AllAppsTransitionController.java
+               │               │   ├── AlphabeticalAppsList.java
+               │               │   ├── DefaultAppSearchAlgorithm.java
+               │               │   ├── DefaultAppSearchController.java
+               │               │   ├── HeaderElevationController.java
+               │               │   ├── PredictiveAppsProvider.java
+               │               │   └── VerticalPullDetector.java
+               │               ├── AllAppsList.java
+               │               ├── AnotherWindowDropTarget.java
+               │               ├── AppFilter.java
+               │               ├── AppInfo.java
+               │               ├── AppWidgetResizeFrame.java
+               │               ├── AppWidgetsRestoredReceiver.java
+               │               ├── AutoInstallsLayout.java
+               │               ├── backup
+               │               │   └── BackupProtos.java
+               │               ├── BaseContainerView.java
+               │               ├── BaseRecyclerViewFastScrollBar.java
+               │               ├── BaseRecyclerViewFastScrollPopup.java
+               │               ├── BaseRecyclerView.java
+               │               ├── BubbleTextView.java
+               │               ├── ButtonDropTarget.java
+               │               ├── CellLayout.java
+               │               ├── CheckLongPressHelper.java
+               │               ├── ClickShadowView.java
+               │               ├── CommonAppTypeParser.java
+               │               ├── compat
+               │               │   ├── AlphabeticIndexCompat.java
+               │               │   ├── AppWidgetManagerCompat.java
+               │               │   ├── AppWidgetManagerCompatV16.java
+               │               │   ├── AppWidgetManagerCompatVL.java
+               │               │   ├── DeferredLauncherActivityInfo.java
+               │               │   ├── LauncherActivityInfoCompat.java
+               │               │   ├── LauncherActivityInfoCompatV16.java
+               │               │   ├── LauncherActivityInfoCompatVL.java
+               │               │   ├── LauncherAppsCompat.java
+               │               │   ├── LauncherAppsCompatV16.java
+               │               │   ├── LauncherAppsCompatVL.java
+               │               │   ├── PackageInstallerCompat.java
+               │               │   ├── PackageInstallerCompatV16.java
+               │               │   ├── PackageInstallerCompatVL.java
+               │               │   ├── UserHandleCompat.java
+               │               │   ├── UserManagerCompat.java
+               │               │   ├── UserManagerCompatV16.java
+               │               │   ├── UserManagerCompatV17.java
+               │               │   ├── UserManagerCompatVL.java
+               │               │   ├── UserManagerCompatVM.java
+               │               │   ├── UserManagerCompatVN.java
+               │               │   └── UserManagerCompatVNMr1.java
+               │               ├── config
+               │               │   ├── FeatureFlags.java
+               │               │   └── ProviderConfig.java
+               │               ├── CustomAppWidget.java
+               │               ├── DefaultLayoutParser.java
+               │               ├── DeferredHandler.java
+               │               ├── DeleteDropTarget.java
+               │               ├── DeviceProfile.java
+               │               ├── dragndrop
+               │               │   ├── AnotherWindowDragSource.java
+               │               │   ├── DragController.java
+               │               │   ├── DragDriver.java
+               │               │   ├── DragLayer.java
+               │               │   ├── DragOptions.java
+               │               │   ├── DragScroller.java
+               │               │   ├── DragView.java
+               │               │   ├── ExternalDragPreviewProvider.java
+               │               │   └── SpringLoadedDragController.java
+               │               ├── DragSource.java
+               │               ├── DropTargetBar.java
+               │               ├── DropTarget.java
+               │               ├── dynamicui
+               │               │   ├── ColorExtractionService.java
+               │               │   ├── ExtractedColors.java
+               │               │   └── ExtractionUtils.java
+               │               ├── ExtendedEditText.java
+               │               ├── FastBitmapDrawable.java
+               │               ├── FirstFrameAnimatorHelper.java
+               │               ├── FocusHelper.java
+               │               ├── folder
+               │               │   ├── ClippedFolderIconLayoutRule.java
+               │               │   ├── FolderIcon.java
+               │               │   ├── Folder.java
+               │               │   ├── FolderPagedView.java
+               │               │   └── StackFolderIconLayoutRule.java
+               │               ├── FolderEditText.java
+               │               ├── FolderInfo.java
+               │               ├── graphics
+               │               │   ├── DragPreviewProvider.java
+               │               │   ├── ShadowGenerator.java
+               │               │   ├── TintedDrawableSpan.java
+               │               │   └── TriangleShape.java
+               │               ├── HolographicOutlineHelper.java
+               │               ├── Hotseat.java
+               │               ├── IconCache.java
+               │               ├── IconProvider.java
+               │               ├── InfoDropTarget.java
+               │               ├── InsettableFrameLayout.java
+               │               ├── Insettable.java
+               │               ├── InstallShortcutReceiver.java
+               │               ├── InterruptibleInOutAnimator.java
+               │               ├── InvariantDeviceProfile.java
+               │               ├── ItemInfo.java
+               │               ├── keyboard
+               │               │   ├── FocusedItemDecorator.java
+               │               │   ├── FocusIndicatorHelper.java
+               │               │   └── ViewGroupFocusHelper.java
+               │               ├── LauncherAnimUtils.java
+               │               ├── LauncherAppState.java
+               │               ├── LauncherAppWidgetHost.java
+               │               ├── LauncherAppWidgetHostView.java
+               │               ├── LauncherAppWidgetInfo.java
+               │               ├── LauncherAppWidgetProviderInfo.java
+               │               ├── LauncherBackupAgent.java
+               │               ├── LauncherCallbacks.java
+               │               ├── LauncherClings.java
+               │               ├── LauncherExterns.java
+               │               ├── LauncherFiles.java
+               │               ├── Launcher.java
+               │               ├── LauncherModel.java
+               │               ├── LauncherProviderChangeListener.java
+               │               ├── LauncherProvider.java
+               │               ├── LauncherRootView.java
+               │               ├── LauncherScroller.java
+               │               ├── LauncherSettings.java
+               │               ├── LauncherStateTransitionAnimation.java
+               │               ├── LauncherTransitionable.java
+               │               ├── LauncherViewPropertyAnimator.java
+               │               ├── LogAccelerateInterpolator.java
+               │               ├── LogDecelerateInterpolator.java
+               │               ├── logging
+               │               │   ├── FileLog.java
+               │               │   ├── LoggerUtils.java
+               │               │   └── UserEventDispatcher.java
+               │               ├── MainThreadExecutor.java
+               │               ├── model
+               │               │   ├── AbstractUserComparator.java
+               │               │   ├── AppNameComparator.java
+               │               │   ├── GridSizeMigrationTask.java
+               │               │   ├── PackageItemInfo.java
+               │               │   ├── WidgetItem.java
+               │               │   └── WidgetsModel.java
+               │               ├── OnAlarmListener.java
+               │               ├── PagedView.java
+               │               ├── pageindicators
+               │               │   ├── CaretDrawable.java
+               │               │   ├── PageIndicatorCaretLandscape.java
+               │               │   ├── PageIndicatorDots.java
+               │               │   ├── PageIndicator.java
+               │               │   └── PageIndicatorLineCaret.java
+               │               ├── Partner.java
+               │               ├── PendingAddItemInfo.java
+               │               ├── PendingAppWidgetHostView.java
+               │               ├── PinchAnimationManager.java
+               │               ├── PinchThresholdManager.java
+               │               ├── PinchToOverviewListener.java
+               │               ├── PreloadIconDrawable.java
+               │               ├── provider
+               │               │   ├── ImportDataTask.java
+               │               │   ├── LauncherDbUtils.java
+               │               │   ├── LossyScreenMigrationTask.java
+               │               │   └── RestoreDbTask.java
+               │               ├── QsbBlockerView.java
+               │               ├── QsbContainerView.java
+               │               ├── SettingsActivity.java
+               │               ├── ShortcutAndWidgetContainer.java
+               │               ├── ShortcutInfo.java
+               │               ├── shortcuts
+               │               │   ├── DeepShortcutManager.java
+               │               │   ├── DeepShortcutsContainer.java
+               │               │   ├── DeepShortcutTextView.java
+               │               │   ├── DeepShortcutView.java
+               │               │   ├── ShortcutCache.java
+               │               │   ├── ShortcutDragPreviewProvider.java
+               │               │   ├── ShortcutFilter.java
+               │               │   ├── ShortcutInfoCompat.java
+               │               │   └── ShortcutKey.java
+               │               ├── SimpleOnStylusPressListener.java
+               │               ├── StylusEventHelper.java
+               │               ├── testing
+               │               │   ├── DummyWidget.java
+               │               │   ├── LauncherExtension.java
+               │               │   ├── MemoryDumpActivity.java
+               │               │   ├── MemoryTracker.java
+               │               │   ├── ToggleWeightWatcher.java
+               │               │   └── WeightWatcher.java
+               │               ├── UninstallDropTarget.java
+               │               ├── userevent
+               │               │   └── nano
+               │               │       └── LauncherLogProto.java
+               │               ├── util
+               │               │   ├── ActivityResultInfo.java
+               │               │   ├── CachedPackageTracker.java
+               │               │   ├── CellAndSpan.java
+               │               │   ├── CircleRevealOutlineProvider.java
+               │               │   ├── ComponentKey.java
+               │               │   ├── ConfigMonitor.java
+               │               │   ├── CursorIconInfo.java
+               │               │   ├── FlagOp.java
+               │               │   ├── FlingAnimation.java
+               │               │   ├── FocusLogic.java
+               │               │   ├── GridOccupancy.java
+               │               │   ├── IconNormalizer.java
+               │               │   ├── ItemInfoMatcher.java
+               │               │   ├── LauncherEdgeEffect.java
+               │               │   ├── LongArrayMap.java
+               │               │   ├── ManagedProfileHeuristic.java
+               │               │   ├── MultiHashMap.java
+               │               │   ├── MultiStateAlphaController.java
+               │               │   ├── NoLocaleSqliteContext.java
+               │               │   ├── PackageManagerHelper.java
+               │               │   ├── ParcelableSparseArray.java
+               │               │   ├── PendingRequestArgs.java
+               │               │   ├── PillRevealOutlineProvider.java
+               │               │   ├── PillWidthRevealOutlineProvider.java
+               │               │   ├── Preconditions.java
+               │               │   ├── RevealOutlineAnimation.java
+               │               │   ├── SQLiteCacheHelper.java
+               │               │   ├── StringFilter.java
+               │               │   ├── TestingUtils.java
+               │               │   ├── Thunk.java
+               │               │   ├── TouchController.java
+               │               │   ├── TransformingTouchDelegate.java
+               │               │   ├── VerticalFlingDetector.java
+               │               │   ├── ViewOnDrawExecutor.java
+               │               │   └── WallpaperOffsetInterpolator.java
+               │               ├── Utilities.java
+               │               ├── widget
+               │               │   ├── PendingAddShortcutInfo.java
+               │               │   ├── PendingAddWidgetInfo.java
+               │               │   ├── PendingItemPreviewProvider.java
+               │               │   ├── WidgetCell.java
+               │               │   ├── WidgetHostViewLoader.java
+               │               │   ├── WidgetImageView.java
+               │               │   ├── WidgetsContainerView.java
+               │               │   ├── WidgetsListAdapter.java
+               │               │   ├── WidgetsRecyclerView.java
+               │               │   └── WidgetsRowViewHolder.java
+               │               ├── WidgetPreviewLoader.java
+               │               ├── Workspace.java
+               │               └── WorkspaceStateTransitionAnimation.java
+               └── res
+                   ├── drawable
+                   │   ├── all_apps_button_icon.xml
+                   │   ├── all_apps_divider.xml
+                   │   ├── all_apps_search_divider.xml
+                   │   ├── all_apps_search_hint.xml
+                   │   ├── bg_celllayout.xml
+                   │   ├── bg_pill_focused.xml
+                   │   ├── bg_screenpanel.xml
+                   │   ├── bg_white_pill.xml
+                   │   ├── container_fastscroll_popup_bg.xml
+                   │   ├── deep_shortcuts_drag_handle.xml
+                   │   ├── ic_all_apps_bg_icon_1.xml
+                   │   ├── ic_all_apps_bg_icon_2.xml
+                   │   ├── ic_all_apps_bg_icon_3.xml
+                   │   ├── ic_all_apps_bg_icon_4.xml
+                   │   ├── ic_allapps_search.xml
+                   │   ├── ic_setting.xml
+                   │   ├── ic_wallpaper.xml
+                   │   ├── ic_widget.xml
+                   │   ├── quantum_panel_dark.xml
+                   │   ├── quantum_panel_shape_dark.xml
+                   │   ├── quantum_panel_shape.xml
+                   │   ├── quantum_panel.xml
+                   │   ├── widget_internal_focus_bg.xml
+                   │   └── widgets_row_divider.xml
+                   ├── layout
+                   │   ├── all_apps_button.xml
+                   │   ├── all_apps_divider.xml
+                   │   ├── all_apps_empty_search.xml
+                   │   ├── all_apps_icon.xml
+                   │   ├── all_apps_search_divider.xml
+                   │   ├── all_apps_search_market.xml
+                   │   ├── all_apps.xml
+                   │   ├── app_icon.xml
+                   │   ├── appwidget_error.xml
+                   │   ├── appwidget_not_ready.xml
+                   │   ├── deep_shortcuts_container.xml
+                   │   ├── deep_shortcut.xml
+                   │   ├── drop_target_bar_horz.xml
+                   │   ├── drop_target_bar_vert.xml
+                   │   ├── folder_application.xml
+                   │   ├── folder_icon.xml
+                   │   ├── hotseat.xml
+                   │   ├── launcher_overlay.xml
+                   │   ├── overview_panel.xml
+                   │   ├── page_indicator.xml
+                   │   ├── qsb_blocker_view.xml
+                   │   ├── qsb_container.xml
+                   │   ├── qsb_default_view.xml
+                   │   ├── user_folder_icon_normalized.xml
+                   │   ├── user_folder.xml
+                   │   ├── widget_cell.xml
+                   │   ├── widgets_list_row_view.xml
+                   │   ├── widgets_view.xml
+                   │   ├── workspace_screen.xml
+                   │   ├── zzz_dummy_widget.xml
+                   │   └── zzz_weight_watcher.xml
+                   └── mipmap-hdpi
+                       └── ic_launcher_home.png
 
 28-11-2017 
   launcher3-master
@@ -15372,7 +15337,7 @@ Job Search
                       └── SetPin.java
 
 5-11-2017
-    ─ Lock_Screen
+ ─ Lock_Screen
        └── app
            ├── .gitignore
            └── src
@@ -15394,7 +15359,7 @@ Job Search
                        └── mipmap-hdpi
                            ├── ic_launcher.png
                            └── ic_launcher_round.png
-    ─ My_Screener - Added
+ ─ My_Screener - Added
         └── app
             ├── .gitignore
             └── src
@@ -15858,7 +15823,7 @@ Job Search
                         └── styles.xml
 
 18-12-2017
-   ─BabyLoc
+  ─ BabyLoc
       └───app
           └───src
              └───main
@@ -15866,10 +15831,10 @@ Job Search
                       └───baby
                           └───watching
                               └───loc - Updated
-   ──My
-       └───app
-           └───src
-               └───main
+  ─ My
+    └───app
+         └───src
+              └───main
                    └───java
                        └───com
                            └───example
@@ -15890,7 +15855,7 @@ Job Search
                    └───values - updated
 
 20-12-2017
-─BabyLoc
+ ─ BabyLoc
    └───app
        └───src
            └───main
@@ -15898,7 +15863,7 @@ Job Search
                    └───baby
                        └───watching
                            └───loc - updated
-─GetNotifiation - Added
+ ─ GetNotifiation - Added
    └───app
        └───src
            └───main
@@ -15917,7 +15882,7 @@ Job Search
                    ├───mipmap-xxhdpi
                    ├───mipmap-xxxhdpi
                    └───values
-─My
+ ─My
     └───app
         └───src
             └───main
@@ -15954,3 +15919,17 @@ Job Search
                         └───watching
                             ├───loc - added
                             └───save - added
+
+22-12-2017
+ - BabyLoc
+  - Worked on Parceble 
+  - Worked on broadcast
+ ─ BabyLoc
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───baby
+                        └───watching
+                            ├───loc - Updated
+                            └───model - Added
