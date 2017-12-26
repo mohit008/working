@@ -15895,7 +15895,7 @@ Job Search
  -Sparefit Bug Fix
  - dialog value to Machenic/Retail
  - Create Support Page
- - add Ratail tag to dialog
+ - add Retail tag to dialog
  ─android_sparefit
    └───app
        └───src
@@ -15924,7 +15924,7 @@ Job Search
  - BabyLoc
   - Worked on Parceble 
   - Worked on broadcast
- ─ BabyLoc
+ - BabyLoc
     └───app
         └───src
             └───main
@@ -15933,3 +15933,22 @@ Job Search
                         └───watching
                             ├───loc - Updated
                             └───model - Added
+
+26-12-2017
+ -Sparefit Bug Fix
+ - Added distributor option
+ - Added distributor api 
+   - login
+   - search
+ --android_sparefit
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───sparefit
+                            ├───activity - updated
+                            ├───adapter - updated
+                            ├───fragments - updated
+                            ├───network - updated
+                            ├───utils - updated
