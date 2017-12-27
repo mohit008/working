@@ -15952,3 +15952,46 @@ Job Search
                             ├───fragments - updated
                             ├───network - updated
                             ├───utils - updated
+
+27-12-2017
+ -Sparefit Bug Fix
+ - Fix search api option
+ - Worked on scan page 
+ ─android_sparefit
+   └───app
+       └───src
+           └───main
+               └───java
+                   └───com
+                       └───sparefit - updated
+                           ├───activity
+                           ├───basecontrol
+                           ├───fragments
+                           ├───network
+                           └───utils
+ ─BabyLoc
+   └───app
+       └───src
+           └───main
+               ├───java
+               │   └───baby
+               │       └───watching
+               │           ├───loc
+               │           ├───save
+               │           └───view
+               └───res
+                   ├───anim - added
+                   ├───layout - added
+                   └───values - updated
+ ─Practice - Added
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───practice
+                └───res
+                    ├───anim
+                    ├───drawable
+                    ├───layout
+                    └───values
