@@ -16017,3 +16017,20 @@ Job Search
              │           └───loc - updated
              └───res
                  └───layout - updated
+29-12-2017
+ -Worked on animation and recycle view
+ ─BabyLoc
+   └───app
+     └───src
+         └───main
+             ├───java
+             │   └───baby
+             │       └───watching
+             │           ├───adapter - updated
+             │           ├───loc - updated
+             │           ├───model - updated
+             │           └───view - updated
+             └───res
+                 ├───anim - added
+                 ├───layout - updated
+                 └───values - updated
