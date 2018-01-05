@@ -16038,13 +16038,38 @@ Job Search
 
 ---------- End of 2017 ----------
 
-02-01-2017
+02-01-2018
  - on-board at Network 18
  - imported Money Control Code
 
-03-01-2017
+03-01-2018
  - Nothing any work...except metting
 
-04-01-2017
+04-01-2018
  - Worked in testing of tablet view on MC app
  - Imported version contorl of MC app
+
+05-01-2018
+ - Worked in testing of tablet view on MC app
+ ─BabyLoc
+  └───app
+      └───src
+          └───main
+              ├───java
+              │   └───baby
+              │       └───watching
+              │           ├───adapter - updated
+              │           ├───loc - updated
+              │           ├───model - updated
+              │           └───view - updated
+              └───res
+                  ├───drawable - added
+                  ├───layout - updated
+                  └───values - updated
+ ─sparefit
+  └───app
+      └───src
+          └───main
+              └───java
+                  └───com
+                      └───sparefit - updated
