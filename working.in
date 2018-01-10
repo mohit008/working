@@ -16076,3 +16076,38 @@ Job Search
 
 08-01-2018
  - Worked on submittng finding report in MControl App
+
+09-01-2018
+ - Worked on submittng finding report in MControl App
+ ─ MyApplication - Added
+     └───app
+         └───src
+             └───main
+                 ├───java
+                 │   └───application
+                 │       └───com
+                 │           └───myapplication
+                 └───res
+                     ├───drawable
+                     └───layout
+─ sparefit
+     └───app
+         └───src
+             └───main
+                 ├───java - updated
+                 │   └───com
+                 │       └───sparefit
+                 └───res
+                    └───layout - updated
+
+10-01-2018
+ - Worked on submittng finding report in MControl App
+ - sparefit
+     └───app
+         └───src
+             └───main
+                 ├───java - updated
+                 │   └───com
+                 │       └───sparefit
+                 └───res
+                    └───layout - updated
