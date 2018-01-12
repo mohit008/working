@@ -16079,7 +16079,7 @@ Job Search
 
 09-01-2018
  - Worked on submittng finding report in MControl App
- ─ MyApplication - Added
+ - MyApplication - Added
      └───app
          └───src
              └───main
@@ -16090,7 +16090,7 @@ Job Search
                  └───res
                      ├───drawable
                      └───layout
-─ sparefit
+ - sparefit
      └───app
          └───src
              └───main
@@ -16112,12 +16112,20 @@ Job Search
                  └───res
                     └───layout - 
 
-11-02-2017
- ─sparefit
+11-01-2017
+ - sparefit
     └───app
        └───src
            └───main
                └───java - updated
                    └───com
                        └───sparefit
-
+12-02-2017
+  - sparefit
+    └───app
+       └───src
+           └───main
+               └───java - updated
+                   └───com
+                       └───sparefit
+                              └───MyService
