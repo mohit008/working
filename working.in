@@ -16075,7 +16075,7 @@ Job Search
                       └───sparefit - updated
 
 08-01-2018
- - Worked on submittng finding report in MControl App
+ - Worked on submitting finding report in MControl App
 
 09-01-2018
  - Worked on submittng finding report in MControl App
@@ -16389,3 +16389,562 @@ Job Search
                                 up_orange.xml
                                 user_icon_grey.xml
                                 user_icon_orange.xml
+29-01-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        \---res
+                            +---layout-sw720dp -added
+                            |       enter_email_fragment.xml
+                            |       fragment_login.xml
+                            |       live_tv_detail_layout.xml
+                            |       live_tv_layout.xml
+                            |       login_reg_terms.xml
+                            |       massage_post_layout.xml
+                            |       messages_login.xml
+                            |       register_fragement.xml
+                            |       slide_menu.xml
+                            |       stock_detail.xml
+                            |
+                            \---values-sw720dp - updated
+                                    dimens.xml
+
+30-01-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        \---res
+                            +---layout - updated
+                            |       currency_watchlist_detail_layout.xml
+                            |       header_app.xml
+                            |       user_portfolio_detail.xml
+                            |       user_portfolio_item.xml
+                            |       watchlist_detail_layout.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       alert_port_layout.xml
+                            |       currency_watchlist_detail_layout.xml
+                            |       future_watch_list_layout.xml
+                            |       header_app.xml
+                            |       menugroup_item.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       mutual_fund_watchlist_detail_layout.xml
+                            |       stock_watchlist_detail_layout.xml
+                            |       user_portfolio_detail.xml
+                            |       user_portfolio_item.xml
+                            |       watchlist_detail_layout.xml
+                            |       watchlist_item_layout.xml
+                            |
+                            +---mipmap-hdpi - added
+                            |       drawer_orange.png
+                            |       search_grey.png
+                            |       user_grey.png
+                            |       user_orange.png
+                            |
+                            +---values - updated
+                            |       dimens.xml
+                            |
+                            \---values-sw720dp - updated
+                                    dimens.xml
+
+31-01-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        \---res
+                            +---layout - updated
+                            |       fragment_login.xml
+                            |       header_app.xml
+                            |       live_tv_detail_layout.xml
+                            |       live_tv_inner_item.xml
+                            |       live_tv_layout.xml
+                            |       market_mover_fragment_layout.xml
+                            |       news_adapter.xml
+                            |       news_detail_fragment.xml
+                            |       news_inner_item.xml
+                            |       tool_tips.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       forgot_password_layout.xml
+                            |       fragment_login.xml
+                            |       f_and_o_action_child_fragment.xml
+                            |       header_app.xml
+                            |       live_tv_detail_layout.xml
+                            |       live_tv_inner_item.xml
+                            |       live_tv_layout.xml
+                            |       market_mover_fragment_layout.xml
+                            |       news_adapter.xml
+                            |       news_detail_fragment.xml
+                            |       news_inner_item.xml
+                            |       register_fragement.xml
+                            |       stock_future_content_group_item.xml
+                            |
+                            \---values - updated
+                                    dimens.xml
+01-02-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        +---java
+                        |   \---com
+                        |       \---moneycontrol
+                        |           \---handheld
+                        |               \---fragments - updated
+                        |                       LiveTVDetailFragment.java
+                        |                       LiveTVShowDetailFragment.java
+                        |                       StockDetailFragment.java
+                        |                       VideoOnDemandDetailFragment.java
+                        |
+                        \---res
+                            +---layout - update
+                            |       add_bullion.xml
+                            |       add_mutual_fund.xml
+                            |       add_ulip.xml
+                            |       broker_research.xml
+                            |       broker_research_search.xml
+                            |       edit_stocks_popup.xml
+                            |       fragment_update_profile.xml
+                            |       header_action_bar.xml
+                            |       header_app.xml
+                            |       live_tv_detail_layout.xml
+                            |       stock_detail.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       add_bullion.xml
+                            |       add_mutual_fund.xml
+                            |       add_ulip.xml
+                            |       broker_research.xml
+                            |       broker_research_search.xml
+                            |       calendar_view.xml
+                            |       edit_stocks_popup.xml
+                            |       fragment_update_profile.xml
+                            |       header_action_bar.xml
+                            |       header_app.xml
+                            |       live_tv_detail_layout.xml
+                            |
+                            +---mipmap-hdpi -added
+                            |       app_ad_grey.png
+                            |       calender_orange.png
+                            |
+                            \---values-sw720dp - update
+                                    dimens.xml
+02-02-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        +---java
+                        |   \---com
+                        |       \---moneycontrol
+                        |           \---handheld
+                        |               |   BaseActivity.java
+                        |               |
+                        |               +---adapter - updated
+                        |               |       OptionsExpandableListAdapter.java
+                        |               |
+                        |               +---constant - updated
+                        |               |       AppConstants.java
+                        |               |
+                        |               +---fragments - updated
+                        |               |       CommodityDetailFragment.java
+                        |               |       CommodityOverviewFragment.java
+                        |               |       CorporateActionFragment.java
+                        |               |       CurrencyDetailFragment.java
+                        |               |       CurrencyFuturesFragment.java
+                        |               |       CurrencyOptionsFragment.java
+                        |               |       IndicesListingFragment.java
+                        |               |       LiveTVDetailFragment.java
+                        |               |       LiveTVShowDetailFragment.java
+                        |               |       MutualFundDetailFragment.java
+                        |               |       MyAlertFragment.java
+                        |               |       NewsDetailFragment.java
+                        |               |       NewStockOptionsFragment.java
+                        |               |       StockDetailFragment.java
+                        |               |       StockFuturesFragment.java
+                        |               |       StockOptionsFragment.java
+                        |               |       VideoOnDemandDetailFragment.java
+                        |               |       VideoOnDemandFragment.java
+                        |               |
+                        |               +---login - updated
+                        |               |       ForgotPasswardFragment.java
+                        |               |       LoginFragment.java
+                        |               |       RegisterFragment.java
+                        |               |
+                        |               +---massages - updated
+                        |               |   \---fragments
+                        |               |           EditProfileFragment.java
+                        |               |           MyMessageProfileFragment.java
+                        |               |
+                        |               +---myportfolio - updated
+                        |               |   \---fragments
+                        |               |           MyPortfolioFragment.java
+                        |               |
+                        |               +---personal - updated
+                        |               |   \---finance
+                        |               |       \---fragments
+                        |               |               PersonalFinanceFragmentNew.java
+                        |               |
+                        |               \---util - updated
+                        |                       AnalyticsTrack.java
+                        |                       CheckConnectivity.java
+                        |                       CircleImageView.java
+                        |                       ClickSpan.java
+                        |                       CommonAdLoader.java
+                        |                       ConfigOperations.java
+                        |                       Constantlibs.java
+                        |                       DownloadPdfUtility.java
+                        |                       ExpandableHeightListView.java
+                        |                       FileNameUtils.java
+                        |                       FlowLayout.java
+                        |                       FNOfeildComparator.java
+                        |                       FragmentNetworkUtils.java
+                        |                       GraphViewFinger.java
+                        |                       ImageDownloader.java
+                        |                       IndicesListingComparator.java
+                        |                       LazyLoadingImageWithProgressBar.java
+                        |                       ListenActivities.java
+                        |                       MyCacheManager.java
+                        |                       MyPortfolioComparator.java
+                        |                       OnSwipeTouchListener.java
+                        |                       Patterns.java
+                        |                       PerformanceComparetor.java
+                        |                       PerformanceTrackerComparator.java
+                        |                       RecommandationsLauncher.java
+                        |                       SaveSharedPref.java
+                        |                       ShareUtil.java
+                        |                       StockPeerComparator.java
+                        |                       SubscriptionComparetor.java
+                        |                       TaskCompleteListiners.java
+                        |                       ThreadPreconditions.java
+                        |                       TimeAgo.java
+                        |                       TopCommodityComparetor.java
+                        |                       TopCurrencyComparetor.java
+                        |                       UninstallIntentReceiver.java
+                        |                       UrlUtils.java
+                        |                       Utility.java
+                        |                       Validator.java
+                        |                       VisibleFragment.java
+                        |                       WatchlistCommodityComparator.java
+                        |                       WatchListComparator.java
+                        |
+                        \---res
+                            +---drawable - updated
+                            |       drawable_watchlist_checkbox.xml
+                            |       expandible_list_selector.xml
+                            |
+                            +---layout - updated
+                            |       activity_indices_detail.xml
+                            |       add_mutual_fund_sip.xml
+                            |       add_stocks.xml
+                            |       commodity_detail_layout.xml
+                            |       common_list_item.xml
+                            |       currency_detail_layout.xml
+                            |       forgot_password_layout.xml
+                            |       fragment_login.xml
+                            |       fragment_personal_finance_fragment_new.xml
+                            |       layout_edit_profile_fragment.xml
+                            |       layout_lastvisted_child_fragment.xml
+                            |       layout_mymessage_profile.xml
+                            |       layout_mypage_fragment.xml
+                            |       live_tv_detail_layout.xml
+                            |       manage_alert_base_layout.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       my_alert.xml
+                            |       my_alerts_rows.xml
+                            |       new_options_header_content_layout.xml
+                            |       options_header_content_layout.xml
+                            |       options_style_settlement.xml
+                            |       set_alert.xml
+                            |       stock_detail.xml
+                            |       stock_future_content_group.xml
+                            |       user_portfolio_layout.xml
+                            |       watchlist_layout.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       activity_indices_detail.xml
+                            |       add_bullion.xml
+                            |       add_mutual_fund.xml
+                            |       add_mutual_fund_sip.xml
+                            |       add_stocks.xml
+                            |       add_ulip.xml
+                            |       alert_port_layout.xml
+                            |       balancesheet_tab_button_layout.xml
+                            |       broker_research.xml
+                            |       broker_research_buy_sell_row.xml
+                            |       broker_research_buy_sell_row_item.xml
+                            |       broker_research_commonchild.xml
+                            |       broker_research_list_row.xml
+                            |       broker_research_overview.xml
+                            |       broker_research_search.xml
+                            |       broker_research_search_header.xml
+                            |       broker_research_search_list_row.xml
+                            |       calendar_view.xml
+                            |       common_list_fragement.xml
+                            |       common_list_item.xml
+                            |       common_search_layout.xml
+                            |       currency_watchlist_detail_layout.xml
+                            |       custom_dialog_layout.xml
+                            |       custom_sort_dialog_layout.xml
+                            |       dropdown_currency_converter.xml
+                            |       edit_stocks_popup.xml
+                            |       enter_email_fragment.xml
+                            |       explore_massage_layout.xml
+                            |       fii_dii_child_fragment.xml
+                            |       fii_dii_child_fragment_inflator.xml
+                            |       fii_dii_month_activity.xml
+                            |       fii_dii_note.xml
+                            |       fii_dii_root_layout.xml
+                            |       fno_commonlist_layout.xml
+                            |       footer_portfolio.xml
+                            |       forgot_password_layout.xml
+                            |       fragment_login.xml
+                            |       fragment_update_profile.xml
+                            |       future_watch_list_layout.xml
+                            |       f_and_o_action_child_fragment.xml
+                            |       header_action_bar.xml
+                            |       header_app.xml
+                            |       home_fragement.xml
+                            |       home_header_layout.xml
+                            |       home_tupple.xml
+                            |       indices_industries_fragment.xml
+                            |       indices_stock_fragment.xml
+                            |       indice_listing_overview.xml
+                            |       industry_header_layout.xml
+                            |       informatin_stock_layout.xml
+                            |       ipo_snapshot_fragment.xml
+                            |       item_spinner.xml
+                            |       latest_massage_layout.xml
+                            |       layout_currency_converter_fragment.xml
+                            |       layout_lastvisted_child_fragment.xml
+                            |       layout_mypage_fragment.xml
+                            |       listedipo_fragment.xml
+                            |       listed_performance_row.xml
+                            |       listed_subscription_row.xml
+                            |       live_tv_detail_layout.xml
+                            |       live_tv_inner_item.xml
+                            |       live_tv_layout.xml
+                            |       login_reg_terms.xml
+                            |       management_infomation.xml
+                            |       manage_alert_base_layout.xml
+                            |       market_mover_child_fragment_layout.xml
+                            |       market_mover_fragment_layout.xml
+                            |       massage_post_layout.xml
+                            |       menugroup_item.xml
+                            |       messages_login.xml
+                            |       message_layout_insock.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       mutual_fund_watchlist_detail_layout.xml
+                            |       my_alert.xml
+                            |       my_alert_innerdata.xml
+                            |       my_portfolio_home_item.xml
+                            |       news_adapter.xml
+                            |       news_detail_fragment.xml
+                            |       news_inner_item.xml
+                            |       new_options_header_content_layout.xml
+                            |       options_header_content_layout.xml
+                            |       options_style_settlement.xml
+                            |       outbrain_classic_recommendation_header_view.xml
+                            |       overview_detail_layout.xml
+                            |       peer_comparision_fragment.xml
+                            |       register_fragement.xml
+                            |       row_message_lastvisited.xml
+                            |       search_message_item_layout.xml
+                            |       setting_layout.xml
+                            |       setting_row_layout.xml
+                            |       set_alert.xml
+                            |       shareholding_chart.xml
+                            |       show_singleaddress_row.xml
+                            |       slide_menu.xml
+                            |       snapshot_graphdetail_inflator.xml
+                            |       snapshot_upcoming_issues_inflator.xml
+                            |       stock_detail.xml
+                            |       stock_future_content_group.xml
+                            |       stock_future_content_group_item.xml
+                            |       stock_future_layout.xml
+                            |       stock_share_holding_layout.xml
+                            |       stock_watchlist_detail_layout.xml
+                            |       submenu_item.xml
+                            |       ticker.xml
+                            |       ticker_item.xml
+                            |       tikcer_setting_layout.xml
+                            |       tool_tips.xml
+                            |       tool_tips_single_watchlist.xml
+                            |       top_commodities_footer_view.xml
+                            |       user_options.xml
+                            |       user_portfolio_detail.xml
+                            |       user_portfolio_item.xml
+                            |       user_portfolio_layout.xml
+                            |       watchlist_detail_layout.xml
+                            |       watchlist_item_layout.xml
+                            |       watchlist_layout.xml
+                            |
+                            +---mipmap-hdpi - added
+                            |       arrow_right_orange.png
+                            |       collapse_circle_orange.png
+                            |       collapse_orange.png
+                            |       expand_cirle_orange.png
+                            |       expand_orange.png
+                            |       eye_hide_orange.png
+                            |       eye_show_orange.png
+                            |       minus_round_orange.png
+                            |       plus_icon_grey.png
+                            |       plus_round_orange.png
+                            |       setting_grey.png
+                            |       trade_now_orange.png
+                            |
+                            +---values - updated
+                            |       dimens.xml
+                            |
+                            \---values-sw720dp - updated
+                                    dimens.xml
+05-02-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        \---res
+                            +---layout - updated
+                            |       common_list_item.xml
+                            |       user_options.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       common_list_item.xml
+                            |       fragment_login.xml
+                            |       header_action_bar.xml
+                            |       live_tv_detail_layout.xml
+                            |       massage_post_layout.xml
+                            |       mf_portfolio_heading.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       mutual_fund_detail_overview_layout.xml
+                            |       mutulfund_info_layout.xml
+                            |       user_options.xml
+                            |
+                            +---mipmap-hdpi - added
+                            |       drop_down_message_orange.png
+                            |
+                            \---values-sw720dp - updated
+                                    dimens.xml
+06-02-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        +---java
+                        |   \---com
+                        |       \---moneycontrol
+                        |           \---handheld
+                        |               \---fragments - updated
+                        |                       MutualFundDetailFragment.java
+                        |
+                        \---res
+                            +---layout - updated
+                            |       commodity_detail_layout.xml
+                            |       currency_detail_layout.xml
+                            |       currency_mover_row.xml
+                            |       fii_dii_child_fragment_inflator.xml
+                            |       last_common_list_layout.xml
+                            |       layout_mymessage_profile.xml
+                            |       mfunds_heading_layout.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       snapshot_graphdetail_inflator.xml
+                            |       stock_detail.xml
+                            |       tikcer_setting_layout.xml
+                            |       user_portfolio_item.xml
+                            |       watchlist_item_layout.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       a.xml
+                            |       commodity_detail_layout.xml
+                            |       common_list_item.xml
+                            |       currency_detail_layout.xml
+                            |       fragment_personal_finance_fragment_new.xml
+                            |       indice_listing_overview.xml
+                            |       ipo_fragment_root.xml
+                            |       item_crorepati_personal_finance.xml
+                            |       item_emi_calculator.xml
+                            |       item_gratuity_calculator.xml
+                            |       item_magic_compounding.xml
+                            |       layout_lastvisted_child_fragment.xml
+                            |       layout_mymessage_profile.xml
+                            |       layout_mymessage_replies_fragment.xml
+                            |       layout_mypage_fragment.xml
+                            |       mfunds_heading_layout.xml
+                            |       mutual_fund_detail_layout.xml
+                            |       mutulfund_mainchildfrgament.xml
+                            |       mutul_fund_innerchild_layout.xml
+                            |       overview_detail_layout.xml
+                            |       performance_tracker_layout.xml
+                            |       snapshot_graphdetail_inflator.xml
+                            |       stock_detail.xml
+                            |       tikcer_setting_layout.xml
+                            |       tool_tips.xml
+                            |       user_portfolio_item.xml
+                            |       watchlist_item_layout.xml
+                            |
+                            \---values-sw720dp - updated
+                                    dimens.xml
+07-02-2018
+ -MC
+    \---mcPRO2018
+        \---mcPRO2018
+            \---moneyControl_main
+                \---src
+                    \---main
+                        +---java
+                        |   \---com
+                        |       \---moneycontrol
+                        |           \---handheld
+                        |               \---constant - updated
+                        |                       AppConstants.java
+                        |
+                        \---res
+                            +---drawable - added
+                            |       add_to_portfolio.png
+                            |       add_to_watchlist.png
+                            |       set_alert.png
+                            |       share_news.png
+                            |
+                            +---layout - updated
+                            |       activity_indices_detail.xml
+                            |       fragment_personal_finance_fragment_new.xml
+                            |       header_app.xml
+                            |       latest_massage_layout.xml
+                            |       manage_alert_base_layout.xml
+                            |       massage_post_layout.xml
+                            |       slide_menu.xml
+                            |       stock_share_holding_layout.xml
+                            |       tool_tips.xml
+                            |       user_portfolio_detail.xml
+                            |       user_portfolio_item.xml
+                            |
+                            +---layout-sw720dp - added
+                            |       fii_dii_child_fragment.xml
+                            |       fii_dii_month_activity.xml
+                            |       fii_dii_note.xml
+                            |       latest_massage_layout.xml
+                            |       layout_lastvisted_child_fragment.xml
+                            |       live_tv_inner_item.xml
+                            |       menugroup_item.xml
+                            |       snapshot_graphdetail_inflator.xml
+                            |       tool_tips.xml
+                            |
+                            \---values - updated
+                                    dimens.xml
