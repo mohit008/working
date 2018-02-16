@@ -16948,3 +16948,92 @@ Job Search
                             |
                             \---values - updated
                                     dimens.xml
+08-02-2018
+ - MC
+    └───mcPRO2018
+        └───mcPRO2018
+            └───moneyControl_main
+                └───src
+                    └───main
+                        ├───java
+                        │   └───com
+                        │       └───moneycontrol
+                        │           └───handheld
+                        │               └───fragments - updated
+                        └───res
+                            ├───layout - updated
+                            ├───layout-sw720dp - added
+                            └───mipmap - added
+09-02-2018
+ - MC
+    └───mcPRO2018
+        └───mcPRO2018
+            └───moneyControl_main
+                └───src
+                    └───main
+                        └───res
+                            ├───layout - update
+                            └───layout-sw720dp - updated
+12-02-2018
+ - BabyLoc
+   └───app
+       └───src
+           └───main
+               └───java
+                   └───baby
+                       └───watching
+                           └───loc - updated
+ - MC
+   └───mcPRO2018
+       └───mcPRO2018
+           └───moneyControl_main
+               └───src
+                   └───main
+                       └───res
+                           └───layout-sw720dp - updated
+ - sparefit
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───sparefit - updated
+13-02-2018
+ - MoneyControl
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───money - created
+14-02-2018
+ - MoneyControl
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───money - added
+                            └───Model
+15-02-2018
+ - MoneyControl
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───money - added
+                │           ├───cpu
+                │           └───model
+                └───res
+                    ├───layout - updated
+                    └───values - updated
+16-02-2018
+ - MoneyControl
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───money
+                            └───memory - added
