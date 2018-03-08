@@ -16949,91 +16949,353 @@ Job Search
                             \---values - updated
                                     dimens.xml
 08-02-2018
- - MC
-    └───mcPRO2018
-        └───mcPRO2018
-            └───moneyControl_main
-                └───src
-                    └───main
-                        ├───java
-                        │   └───com
-                        │       └───moneycontrol
-                        │           └───handheld
-                        │               └───fragments - updated
-                        └───res
-                            ├───layout - updated
-                            ├───layout-sw720dp - added
-                            └───mipmap - added
+    MC
+     \---mcPRO2018
+         \---mcPRO2018
+             \---moneyControl_main
+                 \---src
+                     \---main
+                         +---java
+                         |   \---com
+                         |       \---moneycontrol
+                         |           \---handheld
+                         |               \---fragments - updated
+                         |                       StockDetailOverviewFragment.java
+                         |
+                         \---res
+                             +---layout - updated
+                             |       tool_tips.xml
+                             |       tool_tips_single_watchlist.xml
+                             |
+                             +---layout-sw720dp - added
+                             |       commodity_overview_inner_content.xml
+                             |       overview_detail_layout.xml
+                             |       splash_screen.xml
+                             |       tool_tips.xml
+                             |       tool_tips_single_watchlist.xml
+                             |
+                             \---mipmap - added
+                                     n18_logo.png
+                                     splash_logo.png
 09-02-2018
- - MC
-    └───mcPRO2018
-        └───mcPRO2018
-            └───moneyControl_main
-                └───src
-                    └───main
-                        └───res
-                            ├───layout - update
-                            └───layout-sw720dp - updated
+    MC
+     \---mcPRO2018
+         \---moneyControl_main
+             \---src
+                 \---main
+                     \---res
+                         +---layout - update
+                         |       splash_screen.xml
+                         |
+                         \---layout-sw720dp - updated
+                                 splash_screen.xml
+
 12-02-2018
- - BabyLoc
-   └───app
-       └───src
-           └───main
-               └───java
-                   └───baby
-                       └───watching
-                           └───loc - updated
- - MC
-   └───mcPRO2018
-       └───mcPRO2018
-           └───moneyControl_main
-               └───src
-                   └───main
-                       └───res
-                           └───layout-sw720dp - updated
- - sparefit
-    └───app
-        └───src
-            └───main
-                └───java
-                    └───com
-                        └───sparefit - updated
+    BabyLoc
+        \---app
+            \---src
+                \---main
+                    \---java
+                        \---baby
+                            \---watching
+                                \---loc - updated
+                                        ConstantsLocking.java
+                                        Locker.java
+                                        LockingService.java
+    MC
+      \---mcPRO2018
+          \---mcPRO2018
+              \---moneyControl_main
+                  \---src
+                     \---main
+                          \---res
+                              \---layout-sw720dp - updated
+                                     my_portfolio_home_item.xml
+                                      overview_detail_layout.xml
+ 
+    sparefit
+       \---app
+           \---src
+               \---main
+                   \---java
+                       \---com
+                           \---sparefit - updated
+                                   Bean.java
+                                   Main.java
+                                   MyService.java
+                                   NotificationActivity.java
 13-02-2018
- - MoneyControl
-    └───app
-        └───src
-            └───main
-                └───java
-                    └───com
-                        └───money - created
+    MoneyControl
+        └───\---app
+                \---src
+                    \---main
+                        \---java
+                            \---com
+                                \---money - created
+                                        Money.java
 14-02-2018
- - MoneyControl
-    └───app
-        └───src
-            └───main
-                └───java
-                    └───com
-                        └───money - added
-                            └───Model
+    Worked on cpu json and gson.txt
+    BabyLoc
+        \---app
+            \---src
+                \---main
+                    \---java
+                        \---com
+                            \---money - added
+                                |   CPU.java
+                                |   MyService.java
+                                |
+                                \---Model - added
+                                        Bean.java
+                                        Content.java
+                                        Description.java
+                                        Head.java
+                                        Root.java
 15-02-2018
- - MoneyControl
-    └───app
-        └───src
-            └───main
-                ├───java
-                │   └───com
-                │       └───money - added
-                │           ├───cpu
-                │           └───model
-                └───res
-                    ├───layout - updated
-                    └───values - updated
+    Worked on cpu json and layout.txt
+    BabyLoc
+       \---app
+           \---src
+               \---main
+                   +---java
+                   |   \---com
+                   |       \---money - added
+                   |           +---cpu
+                   |           |       Const.java
+                   |           |       CPU.java
+                   |           |       CPUService.java
+                   |           |
+                   |           \---model
+                   |                   Bean.java
+                   |                   Content.java
+                   |                   Description.java
+                   |                   Head.java
+                   |                   Root.java
+                   |
+                   \---res
+                       +---layout - updated
+                       |       activity_main.xml
+                       |       cpu_layout.xml
+                       |       tilte_content.xml
+                       |
+                       \---values - updated
+                               colors.xml
+
 16-02-2018
- - MoneyControl
-    └───app
-        └───src
-            └───main
-                └───java
-                    └───com
-                        └───money
-                            └───memory - added
+    Worked on memory vmstat output.txt
+    BabyLoc
+      \---app
+          \---src
+              \---main
+                  \---java
+                      \---com
+                          \---money
+                              \---memory - added
+                                      Mem.java
+                                      MemService.java
+19-02-2018
+    Learnt about memory manage and size allocation in android and DUMPSYS command.txt
+    BabyLoc
+        \---app
+            \---src
+                \---main
+                    \---java
+                        \---com
+                            \---money - added
+                                    Execute.java
+                                    Main.java
+
+20-02-2018
+    Worked on execute command with root user.txt
+    BabyLoc
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---money - update
+                            |   Const.java
+                            |   Execute.java
+                            |
+                            \---memory
+                                    Mem.java
+                                    MemService.java
+
+21-02-2018
+    Worked on merging MC.txt
+
+22-02-2018
+    Worked on merging MC.txt
+
+23-02-2018
+    Worked on merging MC_Completed.txt
+
+26-02-2018
+    Commited build, Error resolve, Baby Loc work.txt
+
+27-02-2018
+    Commited build, Error resolve, Procrank json work.txt
+    Sysmtem_Sample
+          \---app
+              \---src
+                  \---main
+                      |   AndroidManifest.xml
+                      |
+                      +---java
+                      |   \---com
+                      |       \---sysmtem_sample
+                      |           |   Const.java
+                      |           |   Execute.java
+                      |           |   Main.java
+                      |           |
+                      |           +---cpu
+                      |           |   |   CPU.java
+                      |           |   |   CPUService.java
+                      |           |   |
+                      |           |   \---model
+                      |           |           Bean.java
+                      |           |           Content.java
+                      |           |           Description.java
+                      |           |           Head.java
+                      |           |           Root.java
+                      |           |
+                      |           +---memory
+                      |           |       Mem.java
+                      |           |       MemService.java
+                      |           |
+                      |           \---notification
+                      |                   NLService.java
+                      |                   NotificationActivity.java
+                      |
+                      \---res
+                          +---drawable
+                          |       ic_launcher_background.xml
+                          |       text_view_back.xml
+                          |
+                          +---layout
+                          |       activity_main.xml
+                          |       cpu_layout.xml
+                          |       memo_layout.xml
+                          |       noti_icon.xml
+                          |       tilte_content.xml
+                          |
+                          \---values
+                                  colors.xml
+                                  strings.xml
+                                  styles.xml
+
+28-02-2018
+    Worked on firebase analytics.txt
+    budget2018_latest
+         \---moneyControl_main
+             \---src
+                 \---main
+                     \---java
+                         \---com
+                             \---moneycontrol
+                                 \---handheld - updated
+                                         BaseActivity.java
+    FireBaseSam - added
+        \---app
+            \---src
+                \---main
+                    |   AndroidManifest.xml
+                    |
+                    \---java
+                        \---c
+                            \---firebasesam
+                                    First.java
+                                    MainActivity.java
+                                    Second.java
+                                    Third.java 
+
+01-03-2018
+    Completed battery and worked CPU code optimisation.txt
+    Sysmtem_Sample
+          \---app
+              \---src
+                  \---main
+                      \---java
+                          \---com
+                              \---sysmtem_sample - updated
+                                  |   AppMeta.java
+                                  |   Const.java
+                                  |
+                                  +---battery
+                                  |       Bat.java
+                                  |       BatService.java
+                                  |
+                                  +---cpu
+                                  |       CPU.java
+                                  |       CPUExe.java
+                                  |       CPUService.java
+                                  |
+                                  \---memory
+                                          Mem.java
+                                          MemService.java
+
+05-03-2018
+    Completed battery and worked CPU code optimisation.txt
+
+07-03-2018
+    Worked on CPU Layout Memory.txt
+    System_Samples
+          \---app
+              \---src
+                  \---main
+                      \---java
+                          \---com
+                              \---system_samples - updated
+                                  \---cpu
+                                          CPU.java
+                                          CPUService.java
+
+08-03-2018
+  Money
+    \---moneyControl_main
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---moneycontrol
+                |           \---handheld - updated
+                |               |   HomeActivity.java
+                |               |
+                |               +---alerts
+                |               |       AlertHubDetailFragment.java
+                |               |
+                |               \---constant
+                |                       AppConstants.java
+                |
+                \---res
+                    +---drawable - added
+                    |       reg_circle.png
+                    |       reg_circle_select.png
+                    |
+                    +---layout - updated
+                    |       fragment_alert_hub_detail.xml
+                    |       fragment_login.xml
+                    |       header_app.xml
+                    |       refresh_rate_layout.xml
+                    |       setting_row_layout.xml
+                    |       subscription_fragment.xml
+                    |
+                    +---layout-sw720dp - added
+                    |       forgot_password_layout.xml
+                    |       fragment_login.xml
+                    |       header_app.xml
+                    |       notification_setting_layout.xml
+                    |       refresh_rate_layout.xml
+                    |       setting_row_layout.xml
+                    |       subscription_fragment.xml
+                    |
+                    +---mipmap - added
+                    |       alert_white.png
+                    |
+                    +---values - updated
+                    |       dimens.xml
+                    |
+                    \---values-sw720dp
+                            dimens.xml
+
+
