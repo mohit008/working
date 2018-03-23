@@ -17251,8 +17251,8 @@ Job Search
                                           CPUService.java
 
 08-03-2018
-  Money
-    \---moneyControl_main
+    Money
+      \---moneyControl_main
         \---src
             \---main
                 +---java
@@ -17297,5 +17297,308 @@ Job Search
                     |
                     \---values-sw720dp
                             dimens.xml
+09-03-2018
+    Worked on Service command ( dumpsys procstats ).txt
+    Money
+      Worked on My News,Alert Screen,Manage Alert Screen.txt
+    
+      \---moneyControl_main
+        \---src
+            \---main
+                \---res
+                    +---layout - updated
+                    |       fragment_alert_hub_listing.xml
+                    |       fragment_intra_day_alert.xml
+                    |       fragment_price_alert.xml
+                    |       fragment_volume_alert.xml
+                    |       set_alert_listing_fragment.xml
+                    |
+                    \---layout-sw720dp - added
+                            alert_hub_item.xml
+                            alert_listing_item.xml
+                            fragment_alert_hub_listing.xml
+                            fragment_intra_day_alert.xml
+                            fragment_price_alert.xml
+                            fragment_volume_alert.xml
+                            manage_alert_base_layout.xml
+                            mange_alert_row_layout.xml
+                            set_alert_listing_fragment.xml
+                            tool_tips.xml
 
+12-03-2018
+    LocationTracking
+    \---app
+       \---src
+           \---main
+               |   AndroidManifest.xml
+               |   marker-web.png
+               |
+               +---java
+               |   \---com
+               |       \---locationtracking
+               |               AppConstant.java
+               |               LocationActivity.java
+               |               Tracking.java
+               |
+               \---res
+                   +---drawable
+                   +---layout
+                   |       location_know.xml
+                   |       tracking.xml
+                   |
+                   +---mipmap-hdpi
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       marker.png
+                   |
+                   +---mipmap-mdpi
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       marker.png
+                   |
+                   +---mipmap-xhdpi
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       marker.png
+                   |
+                   +---mipmap-xxhdpi
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       marker.png
+                   |
+                   +---mipmap-xxxhdpi
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       marker.png
+                   |
+                   \---values
+                           colors.xml
+                           strings.xml
+                           styles.xml
 
+    System_Samples
+      \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---system_samples
+                |           |   AppMeta.java
+                |           |   Const.java
+                |           |   Main.java
+                |           |   Message.java
+                |           |   MonitorTh.java
+                |           |
+                |           +---battery
+                |           |       BatteryMain.java
+                |           |       BatteryService.java
+                |           |
+                |           +---cpu
+                |           |   |   CPUMain.java
+                |           |   |   CPUService.java
+                |           |   |
+                |           |   \---model
+                |           |           Bean.java
+                |           |           Content.java
+                |           |           Description.java
+                |           |           Head.java
+                |           |           Root.java
+                |           |
+                |           +---location
+                |           |       LocationActivity.java
+                |           |       Tracking.java
+                |           |
+                |           +---memory
+                |           |       Mem.java
+                |           |       MemService.java
+                |           |
+                |           +---notification
+                |           |       NLService.java
+                |           |       NotificationActivity.java
+                |           |
+                |           \---services
+                |                   ServiceMain.java
+                |                   ServicingService.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_launcher_background.xml
+                    |       text_view_back.xml
+                    |
+                    +---drawable-hdpi
+                    |       down_white.png
+                    |       refresh.png
+                    |       up_white.png
+                    |
+                    +---drawable-mdpi
+                    |       down_white.png
+                    |       refresh.png
+                    |       up_white.png
+                    |
+                    +---drawable-v24
+                    |       ic_launcher_foreground.xml
+                    |
+                    +---drawable-xhdpi
+                    |       down_white.png
+                    |       refresh.png
+                    |       up_white.png
+                    |
+                    +---drawable-xxhdpi
+                    |       back_grey.png
+                    |       down_white.png
+                    |       refresh.png
+                    |       up_white.png
+                    |
+                    +---layout
+                    |       cpu_layout.xml
+                    |       location_know.xml
+                    |       memo_layout.xml
+                    |       notification_activity.xml
+                    |       noti_icon.xml
+                    |       service_main.xml
+                    |       tilte_content.xml
+                    |       tracking.xml
+                    |
+                    +---mipmap-anydpi-v26
+                    +---mipmap-hdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       marker.png
+                    |       more_circular.png
+                    |       red_more.png
+                    |
+                    +---mipmap-mdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       marker.png
+                    |       more_circular.png
+                    |       red_more.png
+                    |
+                    +---mipmap-xhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       marker.png
+                    |       more_circular.png
+                    |       red_more.png
+                    |
+                    +---mipmap-xxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       marker.png
+                    |       more_circular.png
+                    |       red_more.png
+                    |
+                    +---mipmap-xxxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       marker.png
+                    |       more_circular.png
+                    |       red_more.png
+                    |
+                    \---values
+                            colors.xml
+                            strings.xml
+                            styles.xml
+
+13-03-2018
+    Complied android source, Learnt about custom ROM.txt
+
+14-03-2018
+    Learnt about android source.txt
+
+15-03-2018
+    Worked on Layout.txt
+    Money
+      \---moneyControl_main
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---moneycontrol
+                |           \---handheld
+                |               \---fragments
+                |                       StockDetailFragment.java
+                |
+                \---res
+                    +---layout - updated
+                    |       currency_detail_layout.xml
+                    |       fii_dii_root_layout.xml
+                    |       live_tv_layout.xml
+                    |       market_mover_fragment_layout.xml
+                    |       set_alert.xml
+                    |       splash_screen.xml
+                    |       stock_detail.xml
+                    |       tool_tips.xml
+                    |       tool_tips_single_watchlist.xml
+                    |
+                    +---layout-sw720dp - updated
+                    |       currency_detail_layout.xml
+                    |       fragment_update_profile.xml
+                    |       overview_detail_layout.xml
+                    |       splash_screen.xml
+                    |       stock_detail.xml
+                    |       tool_tips_single_watchlist.xml
+                    |
+                    \---values - updated
+                            dimens.xml
+
+16-03-2018
+    Worked Custom ROm.txt
+
+19-03-2018
+    Worked Custom Rom creation.txt
+    IndianExpress - added
+      \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---express
+                |       \---indian
+                |           \---com
+                |               \---indianexpress
+                |                   |   BaseActivity.java
+                |                   |
+                |                   +---model
+                |                   |       Bean.java
+                |                   |       Message.java
+                |                   |
+                |                   \---pages
+                |                           Login.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_launcher_background.xml
+                    |       login_back.xml
+                    |       text_back.xml
+                    |
+                    +---layout
+                    |       login.xml
+                    |
+                    +---mipmap-hdpi
+                    |       email.png
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |       password.png
+                    |
+                    \---values
+                            colors.xml
+                            dimens.xml
+                            strings.xml
+                            styles.xml
+
+20-03-2018
+    Worked Custom Rom creation.txt
+
+21-03-2018
+    Worked Custom Rom creation.txt
+    Worked on Indian express layout .txt
+
+22-03-2018
+    Configured Ubuntu and Android.txt
+
+23-03-2018
+    MC Pro marging and build.txt
