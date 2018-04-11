@@ -17602,3 +17602,406 @@ Job Search
 
 23-03-2018
     MC Pro marging and build.txt
+
+26-30-2018
+    IndianExpress|
+      \---app
+       |   .gitignore
+       |
+       \---src
+           \---main
+               |   AndroidManifest.xml
+               |
+               +---java
+               |   \---express
+               |       \---indian
+               |           \---com
+               |               \---indianexpress
+               |                   |   BaseActivity.java
+               |                   |
+               |                   +---helper - aaded
+               |                   |       SelectDialog.java
+               |                   |
+               |                   +---pages - updated
+               |                   |       FeedBackPager.java
+               |                   |
+               |                   \---required - added
+               |                           Global.java
+               |                           NetworkAPI.java
+               |
+               \---res
+                   +---drawable - added
+                   |       expand_grey.png
+                   |       search_grey.png
+                   |
+                   +---layout - added
+                   |       app_toolbar.xml
+                   |       list_dialog.xml
+                   |       login.xml
+                   |       main_feedback.xml
+                   |       step1.xml
+                   |       step2.xml
+                   |       step3.xml
+                   |
+                   \---values - updated
+                           colors.xml
+                           dimens.xml
+                           styles.xml
+27-03-2018
+    IndianExpress
+      \---app
+       \---src
+           \---main
+               +---assets - added
+               |   \---font
+               |           Dosis-Bold.ttf
+               |           Dosis-ExtraBold.ttf
+               |           Dosis-ExtraLight.ttf
+               |           Dosis-Light.ttf
+               |           Dosis-Medium.ttf
+               |           Dosis-Regular.ttf
+               |           Dosis-SemiBold.ttf
+               |           Roboto-Black.ttf
+               |           Roboto-BlackItalic.ttf
+               |           Roboto-Bold.ttf
+               |           Roboto-BoldItalic.ttf
+               |           Roboto-Italic.ttf
+               |           Roboto-Light.ttf
+               |           Roboto-LightItalic.ttf
+               |           Roboto-Medium.ttf
+               |           Roboto-MediumItalic.ttf
+               |           Roboto-Regular.ttf
+               |           Roboto-Thin.ttf
+               |           Roboto-ThinItalic.ttf
+               |           RobotoCondensed-Bold.ttf
+               |           RobotoCondensed-BoldItalic.ttf
+               |           RobotoCondensed-Italic.ttf
+               |           RobotoCondensed-Light.ttf
+               |           RobotoCondensed-LightItalic.ttf
+               |           RobotoCondensed-Regular.ttf
+               |
+               +---java
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               |   BaseActivity.java
+               |               |   ClientFeedBack.java
+               |               |
+               |               +---helper - added
+               |               |       SelectDialog.java
+               |               |       SelectDialogInterface.java
+               |               |
+               |               +---model
+               |               |   \---client - added
+               |               |           Select.java
+               |               |           UserDatum.java
+               |               |
+               |               +---pages - updated
+               |               |       FeedBackPager.java
+               |               |       Login.java
+               |               |
+               |               \---util - added
+               |                       Global.java
+               |                       NetworkAPI.java
+               |                       SharedPrefUtility.java
+               |
+               \---res
+                   \---layout - updated
+                           login.xml
+                           step1.xml
+                           step2.xml
+                           step3.xml
+28-03-2018
+    IndianExpress
+       \---app
+       |   .gitignore
+       |
+       \---src
+           \---main
+               +---java
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               |   BaseActivity.java
+               |               |
+               |               +---model
+               |               |   \---user - updated
+               |               |           Bean.java
+               |               |           UserData.java
+               |               |
+               |               +---pages - updated
+               |               |       FeedBackPager.java
+               |               |       Login.java
+               |               |
+               |               \---util - updated
+               |                       Global.java
+               |                       NetworkAPI.java
+               |
+               \---res
+                   +---layout - updated
+                   |       list_name.xml
+                   |       login.xml
+                   |       main_feedback.xml
+                   |       step1.xml
+                   |       step2.xml
+                   |       step3.xml
+                   |
+                   \---mipmap - added
+                           close_grey.png
+29-03-2018
+    Android_Practice
+      \---app
+       \---src
+           \---main
+               \---java
+                   \---com
+                       \---android
+                           \---practice - added
+                               +---global
+                               |       Constants.java
+                               |
+                               +---list
+                               |       ListSuggest.java
+                               |
+                               \---util
+                                       Global.java
+                                       SharedPrefUtility.java
+
+    IndianExpress
+      \---app
+       \---src
+           \---main
+               +---java
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               |   BaseActivity.java
+               |               |   BaseApplication.java
+               |               |
+               |               +---helper  - updated
+               |               |       SelectDialog.java
+               |               |
+               |               +---model  - updated
+               |               |   +---client_contact
+               |               |   |       ContactMeeting.java
+               |               |   |       Meeting.java
+               |               |   |       PlanningMeeting.java
+               |               |   |
+               |               |   \---member
+               |               |           Member.java
+               |               |           MemberDatum.java
+               |               |
+               |               +---pages - updated
+               |               |       FeedBackPager.java
+               |               |       Login.java
+               |               |
+               |               \---util  - updated
+               |                       Global.java
+               |                       NetworkAPI.java
+               |                       SharedPrefUtility.java
+               |
+               \---res
+                   +---layout  - updated
+                   |       login.xml
+                   |       step1.xml
+                   |       step2.xml
+                   |       step3.xml
+                   |
+                   +---mipmap-xxxhdpi - added
+                   |       close_grey.png
+                   |       email.png
+                   |       ic_launcher.png
+                   |       ic_launcher_round.png
+                   |       logo.png
+                   |       logo_.png
+                   |       password.png
+                   |
+                   \---values - updated
+                           colors.xml
+30-03-2018
+   Worked on MCPRO issue and Indian Express layout
+
+
+02--04-2018
+   Worked on MCPRO issue
+03-04-2018
+    Indian_Express
+      \---app
+       |   .gitignore
+       |
+       \---src
+           \---main
+               +---java - updated
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               |   FeedBackEnum.java
+               |               |
+               |               +---adapter
+               |               |       DrawerAdapter.java
+               |               |
+               |               +---helper
+               |               |       SelectDialog.java
+               |               |       SelectInterface.java
+               |               |
+               |               +---model
+               |               |   +---client_contact
+               |               |   |       Meeting.java
+               |               |   |
+               |               |   +---member
+               |               |   |       Member.java
+               |               |   |
+               |               |   \---print
+               |               |           PrintClient.java
+               |               |           PrintDatum.java
+               |               |
+               |               +---pages
+               |               |       FeedBackPager.java
+               |               |       Login.java
+               |               |
+               |               \---util
+               |                       Global.java
+               |                       NetworkAPI.java
+               |                       SharedPrefUtility.java
+               |
+               \---res
+                   +---drawable - added
+                   |       arrow_right.png
+                   |       calender_grey.png
+                   |       edit_orange.png
+                   |       expand_down.png
+                   |       green_back.xml
+                   |
+                   +---layout - added,updated
+                   |       app_toolbar.xml
+                   |       data_item.xml
+                   |       drawer_item.xml
+                   |       login.xml
+                   |       main_feedback.xml
+                   |       nv_slider.xml
+                   |       step1.xml
+                   |       step2.xml
+                   |       step3.xml
+                   |
+                   \---values -updated
+                           colors.xml
+                           strings.xml
+                           styles.xml
+04-04-2018
+    Indian_Express
+      \---app
+       |   .gitignore
+       |
+       \---src
+           \---main
+               +---java
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               +---model
+               |               |   \---print
+               |               |       \---master - added
+               |               |               DealStatus.java
+               |               |               PrintData.java
+               |               |               PrintMaster.java
+               |               |
+               |               +---pages
+               |               |       FeedBackPager.java
+               |               |
+               |               \---util - updated
+               |                       Global.java
+               |                       NetworkAPI.java
+               |                       SharedPrefUtility.java
+               |
+               \---res
+                   +---layout - updated
+                   |       data_item.xml
+                   |       step2.xml
+                   |       step3.xml
+                   |
+                   \---mipmap - added
+                           plus_white.png
+05-04-2018
+   Worked on Client , Agency layout
+   Worked on live tv layout .txt
+
+06-04-2018
+    MyTicker - added
+      \---app
+       \---src
+           \---main
+               |   AndroidManifest.xml
+               |
+               +---java
+               |   \---com
+               |       \---ticker
+               |               GetClick.java
+               |               MainActivity.java
+               |               TickeAdapter.java
+               |
+               \---res
+                   +---layout
+                   |       activity_main.xml
+                   |       ticker_item.xml
+                   |
+                   \---values
+                           colors.xml
+                           strings.xml
+                           styles.xml
+
+    VideoDrag
+      \---app
+         \---src
+           \---main
+               |   AndroidManifest.xml
+               |
+               \---java
+                   \---com
+                       \---drag - added
+                               Adap.java
+                               GetClick.java
+                               SampleTicker.java
+09-04-2018
+    Indian_Express
+      \---app
+       \---src
+           \---main
+               +---java
+               |   \---com
+               |       \---indian
+               |           \---express
+               |               |   BaseActivity.java
+               |               |
+               |               +---helper - updated
+               |               |       SelectDialog.java
+               |               |
+               |               +---model  - updated
+               |               |   \---print
+               |               |       |   PrintClient.java
+               |               |       |   PrintDatum.java
+               |               |       |
+               |               |       \---master
+               |               |               DealStatus.java
+               |               |               PrintData.java
+               |               |               PrintMaster.java
+               |               |
+               |               +---pages  - updated
+               |               |       FeedBack.java
+               |               |       Login.java
+               |               |
+               |               \---util  - updated
+               |                       Global.java
+               |                       NetworkAPI.java
+               |                       SharedPrefUtility.java
+               |
+               \---res
+                   \---layout - updated
+                           data_item.xml
+                           list_dialog.xml
+                           nv_slider.xml
+                           step1.xml
+                           step2.xml
+                           step3.xml
+
+10-04-2018
+    Indian Express - Worked on layout and issue
