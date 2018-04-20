@@ -18005,3 +18005,258 @@ Job Search
 
 10-04-2018
     Indian Express - Worked on layout and issue
+
+11-04-2018
+    Indian_Express
+      \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---indian
+                |           \---express - updated
+                |               +---custom
+                |               |       CustomViewPager.java
+                |               |
+                |               +---pages
+                |               |       FeedBack.java
+                |               |       Login.java
+                |               |
+                |               \---util
+                |                       Global.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---layout - updated
+                    |       nv_slider.xml
+                    |       step2.xml
+                    |       step3.xml
+                    |
+                    \---values - updated
+                            strings.xml
+12-04-2018
+    Indian_Express
+      \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---indian
+                            \---express - updated
+                                |   BaseActivity.java
+                                |
+                                +---pages
+                                |       FeedBack.java
+                                |       LocationActivity.java
+                                |       Login.java
+                                |
+                                \---util
+                                        Global.java
+13-04-2018
+    Indian_Express
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---indian
+                |           \---express
+                |               |   BaseActivity.java
+                |               |
+                |               +---pages - updated
+                |               |       FeedBack.java
+                |               |       Login.java
+                |               |
+                |               \---util - updated
+                |                       NetworkAPI.java
+                |
+                \---res
+                    \---layout - updated
+                            login.xml
+                            step1.xml
+                            step2.xml
+                            step3.xml
+16-04-2018
+    MultiSelect - Added
+      \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---multi
+                |           \---select
+                |                   AppConstant.java
+                |                   Custom.java
+                |                   KeyValueBean.java
+                |                   ListSuggest.java
+                |                   SelectCheck.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_launcher_background.xml
+                    |
+                    +---layout
+                    |       list_item.xml
+                    |       list_layout.xml
+                    |
+                    \---values
+                            colors.xml
+                            strings.xml
+                            styles.xml
+17-04-2018
+    MultiSelect
+      \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---multi
+                            \---select - updated
+                                |   Generate.java
+                                |   IncompatibleTypeError.java
+                                |   KeyValue.java
+                                |   MultiCheckSearchList.java
+                                |   SelectCheck.java
+                                |
+                                \---sample
+                                        AppConstant.java
+                                        ListSuggest.java
+18-04-2018
+    Indian_Express
+      \---app
+        \---src
+          \---main
+            +---java
+            |   \---com
+            |       \---indian
+            |           \---express
+            |               +---helper - added
+            |               |       SelectDialog2.java
+            |               |       SelectListResult.java
+            |               |
+            |               \---pages - updated
+            |                       FeedBack.java
+            |
+            \---res
+                \---layout - added
+                        list_dialog2.xml
+    MultiSelect - added to github
+        app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---multi
+                |           \---select
+                |               \---sample
+                |                       AppConstant.java
+                |                       ListSuggest.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_launcher.png
+                    |
+                    +---layout
+                    |       list_layout.xml
+                    |       main.xml
+                    |
+                    +---raw
+                    |       video_demo.gif
+                    |                                       
+                    \---values
+                            strings.xml
+                            styles.xml
+        
+        mutliselect
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  +---java
+                  |   \---com
+                  |       \---mutli
+                  |           \---select_search
+                  |                   Gen.java
+                  |                   Generate.java
+                  |                   IncompatibleTypeError.java
+                  |                   KeyValue.java
+                  |                   MultiSelectSearchList.java
+                  |                   SelectCheck.java
+                  |
+                  \---res
+                      +---drawable
+                      \---layout
+                              list_item.xml
+19-04-2018
+    Indian_Express
+     \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---indian
+                |           \---express
+                |               |   BaseActivity.java
+                |               |
+                |               +---helper - updated
+                |               |       SelectDialog2.java
+                |               |
+                |               +---pages - updated
+                |               |       FeedBack.java
+                |               |       LocationActivity.java
+                |               |
+                |               \---util - updated
+                |                       Global.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    \---layout - updated
+                            login.xml
+                            step2.xml
+                            step3.xml
+20-04-2018
+    Indian_Express
+      \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---indian
+                |           \---express
+                |               +---adapter - updated
+                |               |       DrawerAdapter.java
+                |               |
+                |               +---helper - updated
+                |               |       SelectDialog.java
+                |               |       SelectDialog2.java
+                |               |       SelectInterface.java
+                |               |
+                |               +---pages - updated
+                |               |       FeedBack.java
+                |               |
+                |               \---util - updated
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable - added
+                    |       foreground.xml
+                    |
+                    +---layout - added
+                    |       login.xml
+                    |       nv_slider.xml
+                    |       step2.xml
+                    |
+                    +---mipmap - added
+                    |       app_icon.png
+                    |       app_icon_round.png
+                    |
+                    +---mipmap-anydpi-v26 - added
+                    |       app_icon.xml
+                    |       app_icon_round.xml
+                    |
+                    \---values - added
+                            ic_launcher_background.xml
