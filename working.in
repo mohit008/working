@@ -18433,3 +18433,756 @@ Job Search
                             |
                             \---util - added
                                     VideoStat.java
+07-05-2018
+    Worked on MicroMax Manifest issue.txt
+
+08-05-2018
+    VideoDrag
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---drag - added
+                            |   AddViewByService.java
+                            |   AlwaysOnTop.java
+                            |   BaseDragger.java
+                            |   OnTopService.java
+                            |   SwipeDragger.java
+                            |
+                            +---dev
+                            |       Activ.java
+                            |       FirstActivity.java
+                            |
+                            \---util
+                                    WindowStat.java
+
+09-05-2018
+    MyApplication
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---my
+                        \---com
+                            \---application -added
+                                    T1.java
+                                    T2.java
+    
+    OpenDeveloperOption - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |   icon-web.png
+                |
+                +---java
+                |   \---flaourapplication
+                |       \---com
+                |           \---opendeveloperoption
+                |                   MainActivity.java
+                |
+                \---res
+                    +---drawable
+                    \---mipmap-hdpi
+                            icon.png
+    
+    VideoDrag
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---drag - updated
+                            |   AlwaysOnTop.java
+                            |   OnTopService.java
+                            |   SwipeDragger.java
+                            |
+                            +---dev
+                            |       FirstActivity.java
+                            |
+                            \---util
+                                    Message.java
+
+10-05-2018
+    DraggerViewX - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---dragger
+                |           |   MainSwipper.java
+                |           |   SwipeActivity.java
+                |           |
+                |           +---groupx
+                |           |       AlwaysOnTopDragger.java
+                |           |       BaseDragger.java
+                |           |       SwipeDragger.java
+                |           |
+                |           +---service
+                |           |       AddViewByService.java
+                |           |       OnTopService.java
+                |           |
+                |           \---util
+                |                   WindowStat.java
+                |
+                \---res
+                    +---layout
+                    |       main_swipper.xml
+                    |       ontop_layout.xml
+                    |       swipe_main_layout.xml
+                    |
+                    +---raw
+                    |       sample.3gp
+                    |
+                    \---values
+                            colors.xml
+                            strings.xml
+                            styles.xml
+
+11-05-2018
+    AndroidRepo
+    \---app
+        \---src
+            \---main
+                +---assets - added
+                |   |   a.json
+                |   |   b.json
+                |   |
+                |   \---font
+                |           ibm_plexmono_thinItalic.ttf
+                |           robotocondensed_bold.ttf
+                |           robotocondensed_bold_italic.ttf
+                |           robotocondensed_italic.ttf
+                |           robotocondensed_light.ttf
+                |           robotocondensed_light_italic.ttf
+                |           robotocondensed_regular.ttf
+                |           roboto_black.ttf
+                |           roboto_blackItalic.ttf
+                |           roboto_bold_italic.ttf
+                |           roboto_italic.ttf
+                |           roboto_light.ttf
+                |           roboto_light_italic.ttf
+                |           roboto_medium.ttf
+                |           roboto_medium_italic.ttf
+                |           roboto_regular.ttf
+                |           roboto_thin.ttf
+                |           roboto_thin_italic.ttf
+                |           robot_bold.ttf
+                |
+                +---java
+                |   \---com
+                |       \---mohit
+                |           \---program
+                |               +---action_bar - added
+                |               |       ActionButtonSample.java
+                |               |       SearchActionBarSample.java
+                |               |
+                |               +---collection_view - updated
+                |               |       ListViewSample.java
+                |               |       ListWithSuggestion.java
+                |               |       TreeViewSample.java
+                |               |
+                |               +---download  - added
+                |               |       JsonFromLocal.java
+                |               |       JsonFromUrl.java
+                |               |       JsoupSample.java
+                |               |       StringFromHtmlSample.java
+                |               |       TextDownloadSample.java
+                |               |
+                |               +---figure  - added
+                |               |       AnimationSample.java
+                |               |       Geometry.java
+                |               |
+                |               +---fragment  - added
+                |               |       Fragment1.java
+                |               |       Fragment2.java
+                |               |       Fragment3.java
+                |               |       FragmentMainSample.java
+                |               |
+                |               +---motion_event  - added
+                |               |       DragNDrop.java
+                |               |
+                |               +---networking_method  - added
+                |               |       Internet_Connectivity.java
+                |               |
+                |               \---tab  - added
+                |                       TabHostSample.java
+                |                       Tab_1.java
+                |                       Tab_2.java
+                |
+                \---res
+                    +---drawable - added
+                    |       circle.xml
+                    |       hexagon.xml
+                    |       minus.xml
+                    |       plus.xml
+                    |       ring.xml
+                    |       semicircle.xml
+                    |       square.xml
+                    |       triangle.xml
+                    |
+                    +---layout - added
+                    |       figures.xml
+                    |       fragment_layout.xml
+                    |       tab_host_layout.xml
+                    |       text_download.xml
+                    |
+                    \---menu - added
+                            search_menu.xml
+                            simple_menu.xml
+
+14-05-2018
+    AndroidRepo
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---assets - added
+                |   |   index.html
+                |   |
+                |   \---databases
+                |           user.db.zip
+                |
+                +---java
+                |   \---com
+                |       \---mohit
+                |           \---program - added
+                |               +---action_bar
+                |               |       ActionButtonSample.java
+                |               |       CollapseToolBar.java
+                |               |       SearchActionBarSample.java
+                |               |
+                |               +---bluetooth
+                |               |       BluetoothMain.java
+                |               |       BluetoothVariable.java
+                |               |       PairAdapter.java
+                |               |       SearchAdapter.java
+                |               |       SearchList.java
+                |               |
+                |               +---brightness
+                |               |       BrightnessSample.java
+                |               |
+                |               +---broadcast
+                |               |   |   CustomBroadCast.java
+                |               |   |   MasterCustomBroadCast.java
+                |               |   |
+                |               |   \---dynamic
+                |               |           BootBroadCast.java
+                |               |           BroadService.java
+                |               |           DynamicBroadVariable.java
+                |               |           MasterDynamicBroad.java
+                |               |
+                |               +---call_progress
+                |               |       CallProgressMain.java
+                |               |       CallProgressReceiver.java
+                |               |       CallProgressVariable.java
+                |               |
+                |               +---click_to_count
+                |               |       ClickCount.java
+                |               |
+                |               +---database
+                |               |   +---external
+                |               |   |       DBConstant.java
+                |               |   |       DBManager.java
+                |               |   |       ExternalDataSample.java
+                |               |   |
+                |               |   \---internal
+                |               |           DataBaseMain.java
+                |               |           DataBaseOperation.java
+                |               |           execute_data.bat
+                |               |           SaveDataBase.input
+                |               |
+                |               +---dialog
+                |               |       DialogSample.java
+                |               |
+                |               +---facebook_login
+                |               |       FacebookLogout.java
+                |               |       MasterFaceBook.java
+                |               |
+                |               +---game
+                |               |       GameMain.java
+                |               |       GameView.java
+                |               |       Sprite.java
+                |               |       TempSprite.java
+                |               |
+                |               +---google_plus_login
+                |               |       GoogleLogout.java
+                |               |       MasterGooglePlus.java
+                |               |
+                |               +---gps
+                |               |       GPSSample.java
+                |               |
+                |               +---lockscreen
+                |               |       LockerReceiver.java
+                |               |       LockerService.java
+                |               |       MasterLock.java
+                |               |
+                |               +---map
+                |               |   +---google_map
+                |               |   |       GoogleMapSample.java
+                |               |   |
+                |               |   \---location_with_map
+                |               |           LocationActivity.java
+                |               |           LocationConstant.java
+                |               |           LocationGoogleClient.java
+                |               |           MapDetail.java
+                |               |           MarkerAndInfoWindow.java
+                |               |           MasterMapView.java
+                |               |           TrackingSample.java
+                |               |
+                |               +---motion_event
+                |               |       DragAround.java
+                |               |       MoveAround.java
+                |               |
+                |               +---notification
+                |               |       Alarmnotify.java
+                |               |       MasterNotification.java
+                |               |       NotificationService.java
+                |               |       NotificationVariable.java
+                |               |
+                |               +---progress_bar_sample
+                |               |       CustomProgressBar.java
+                |               |       ProgessTimer.java
+                |               |
+                |               +---set_intent
+                |               |       IntentSample.java
+                |               |
+                |               +---voice_to_text
+                |               |       VoiceToText.java
+                |               |
+                |               +---wallpaper
+                |               |       MasterWallpaper.java
+                |               |
+                |               \---webview
+                |                       WebViewSample.java
+                |
+                \---res
+                    +---anim
+                    |       blink.xml
+                    |       bounce.xml
+                    |       fade.xml
+                    |       move.xml
+                    |       rotate.xml
+                    |       sequential.xml
+                    |       slidedown.xml
+                    |       slideup.xml
+                    |       together.xml
+                    |       zoom.xml
+                    |
+                    +---drawable - added
+                    |       location.xml
+                    |       progress1.xml
+                    |       progress2.xml
+                    |
+                    +---layout - added
+                    |       bluetooth_device_item.xml
+                    |       bluetooth_main.xml
+                    |       click_count_layout.xml
+                    |       collapse_layout.xml
+                    |       custom_progress_layout.xml
+                    |       custom_view.xml
+                    |       database_layout.xml
+                    |       facebook_plus_login_layout.xml
+                    |       getlocation_activity_layout.xml
+                    |       google_logout_layout.xml
+                    |       google_map_sample_layout.xml
+                    |       google_plus_login_layout.xml
+                    |       mapview_layout.xml
+                    |       progress_timer_layout.xml
+                    |       tab_host_layout.xml
+                    |       text_download.xml
+                    |       voice_layout.xml
+                    |       wallpaper_layout.xml
+                    |
+                    +---raw - added
+                    |       clear.mp3
+                    |       count.mp3
+                    |
+                    \---values - updated
+                            colors.xml
+                            dimens.xml
+                            strings.xml
+                            styles.xml
+
+15-05-2018
+    JavaRepo
+    \---src
+        \---main - added
+            +---java
+            |   \---com
+            |       \---mohit
+            |           \---program
+            |               |   Master.java
+            |               |
+            |               +---audio
+            |               |       PlayMaster.java
+            |               |
+            |               +---encrypt
+            |               |       EncryptionMaster.java
+            |               |       PasswordMaster.java
+            |               |
+            |               +---hashmap
+            |               |       HashMapMaster.java
+            |               |
+            |               +---json
+            |               |       JsonMaster.java
+            |               |
+            |               +---math
+            |               |       Armstrong.java
+            |               |       Exchange_Without_Variable.java
+            |               |       FabonacciMaster.java
+            |               |       FactorialMaster.java
+            |               |       PrimeMaster.java
+            |               |
+            |               +---progress
+            |               |   |   SquareProgressMaster.java
+            |               |   |
+            |               |   \---image
+            |               |           boll.png
+            |               |
+            |               +---sorting
+            |               |       BubbleMaster.java
+            |               |       BucketSortMaster.java
+            |               |       GetRandomArray.java
+            |               |       InsertionSortMaster.java
+            |               |       SelectionSortMaster.java
+            |               |
+            |               +---topic
+            |               |   |   ConversionMaster.java
+            |               |   |   DeadLockMaster.java
+            |               |   |   MinMaxMaster.java
+            |               |   |   OverloadingMaster.java
+            |               |   |   ReverseString.java
+            |               |   |
+            |               |   +---collection
+            |               |   |   +---grid
+            |               |   |   |       GridLayoutInbuildSample.java
+            |               |   |   |       GridMaster.java
+            |               |   |   |
+            |               |   |   \---list
+            |               |   |           CustomListMaster.java
+            |               |   |
+            |               |   \---overriding
+            |               |           BaseClass.java
+            |               |           SuperClass.java
+            |               |
+            |               \---util
+            |                       Global.java
+            |
+            \---resources
+                    alarm.wav
+                    m1.png
+                    m2.png
+                    m3.png
+
+16-05-2018
+   StackOverFlow.txt
+
+    My_Ticker-master
+    \---My_Ticker-master
+        \---app
+            \---src
+                \---main
+                    \---java
+                        \---com
+                            \---ticker - added
+                                    Main.java
+                                    Ticker.java
+
+17-05-2018
+    AndroidRepo
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---mohit
+                            \---program - added
+                                +---sensor
+                                |       AccelerometerMaster.java
+                                |       ProximityMaster.java
+                                |
+                                +---signature
+                                |       CaptureSignature.java
+                                |       SignatureMaster.java
+                                |
+                                +---sms
+                                |       SMSMaster.java
+                                |       SMS_Receive.java
+                                |
+                                \---splash
+                                        SplashMaster.java
+
+18-05-2018
+    android - added
+    +---Android-Native_JNI-master1
+    |   \---app
+    |       \---src
+    |           \---main
+    |               |   AndroidManifest.xml
+    |               |
+    |               +---java
+    |               |   \---com
+    |               |       \---example
+    |               |           \---hollejni
+    |               |                   MainActivity.class
+    |               |                   MainActivity.java
+    |               |
+    |               +---jni
+    |               |   |   Android.mk
+    |               |   |   HelloJNI.c
+    |               |   |
+    |               |   \---include
+    |               |           hellojni.h
+    |               |
+    |               +---libs
+    |               |   +---arm64-v8a
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   +---armeabi-v7a
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   +---x86
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   \---x86_64
+    |               |           libHelloJNI.so
+    |               |
+    |               +---obj
+    |               |   \---local
+    |               |       +---arm64-v8a
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       +---armeabi-v7a
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       +---x86
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       \---x86_64
+    |               |           |   libHelloJNI.so
+    |               |           |
+    |               |           \---objs
+    |               |               \---HelloJNI
+    |               |                       HelloJNI.o
+    |               |                       HelloJNI.o.d
+    |               |
+    |               \---res
+    |                   +---drawable-hdpi
+    |                   |       ic_launcher.png
+    |                   |
+    |                   +---drawable-mdpi
+    |                   |       ic_launcher.png
+    |                   |
+    |                   +---drawable-xhdpi
+    |                   |       ic_launcher.png
+    |                   |
+    |                   +---drawable-xxhdpi
+    |                   |       ic_launcher.png
+    |                   |
+    |                   +---layout
+    |                   |       activity_main.xml
+    |                   |
+    |                   +---menu
+    |                   |       main.xml
+    |                   |
+    |                   +---values
+    |                   |       dimens.xml
+    |                   |       strings.xml
+    |                   |       styles.xml
+    |                   |
+    |                   +---values-v11
+    |                   |       styles.xml
+    |                   |
+    |                   +---values-v14
+    |                   |       styles.xml
+    |                   |
+    |                   \---values-w820dp
+    |                           dimens.xml
+    |
+    +---Natively
+    |   \---app
+    |       \---src
+    |           \---main
+    |               |   AndroidManifest.xml
+    |               |
+    |               +---java
+    |               |   \---com
+    |               |       \---natively
+    |               |               MainActivity.java
+    |               |
+    |               +---jni
+    |               |   |   Android.mk
+    |               |   |   Application.mk
+    |               |   |   HelloJNI.c
+    |               |   |
+    |               |   \---include
+    |               |           hellojni.h
+    |               |
+    |               +---libs
+    |               |   +---arm64-v8a
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   +---armeabi-v7a
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   +---x86
+    |               |   |       libHelloJNI.so
+    |               |   |
+    |               |   \---x86_64
+    |               |           libHelloJNI.so
+    |               |
+    |               +---obj
+    |               |   \---local
+    |               |       +---arm64-v8a
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       +---armeabi-v7a
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       +---x86
+    |               |       |   |   libHelloJNI.so
+    |               |       |   |
+    |               |       |   \---objs
+    |               |       |       \---HelloJNI
+    |               |       |               HelloJNI.o
+    |               |       |               HelloJNI.o.d
+    |               |       |
+    |               |       \---x86_64
+    |               |           |   libHelloJNI.so
+    |               |           |
+    |               |           \---objs
+    |               |               \---HelloJNI
+    |               |                       HelloJNI.o
+    |               |                       HelloJNI.o.d
+    |               |
+    |               \---res
+    |                   +---drawable
+    |                   |       ic_launcher_background.xml
+    |                   |
+    |                   +---drawable-v24
+    |                   |       ic_launcher_foreground.xml
+    |                   |
+    |                   +---layout
+    |                   |       activity_main.xml
+    |                   |
+    |                   +---mipmap-anydpi-v26
+    |                   |       ic_launcher.xml
+    |                   |       ic_launcher_round.xml
+    |                   |
+    |                   +---mipmap-hdpi
+    |                   |       ic_launcher.png
+    |                   |       ic_launcher_round.png
+    |                   |
+    |                   +---mipmap-mdpi
+    |                   |       ic_launcher.png
+    |                   |       ic_launcher_round.png
+    |                   |
+    |                   +---mipmap-xhdpi
+    |                   |       ic_launcher.png
+    |                   |       ic_launcher_round.png
+    |                   |
+    |                   +---mipmap-xxhdpi
+    |                   |       ic_launcher.png
+    |                   |       ic_launcher_round.png
+    |                   |
+    |                   +---mipmap-xxxhdpi
+    |                   |       ic_launcher.png
+    |                   |       ic_launcher_round.png
+    |                   |
+    |                   \---values
+    |                           colors.xml
+    |                           strings.xml
+    |                           styles.xml
+    |
+    \---NativePractice
+        \---app
+            \---src
+                \---main
+                    |   AndroidManifest.xml
+                    |
+                    +---java
+                    |   \---com
+                    |       \---example
+                    |               MainActivity.java
+                    |               MyNDK.java
+                    |
+                    +---jni
+                    |       Android.mk
+                    |       Application.mk
+                    |       hello-jni.cpp
+                    |
+                    \---res
+                        +---drawable
+                        |       ic_launcher_background.xml
+                        |
+                        +---drawable-v24
+                        |       ic_launcher_foreground.xml
+                        |
+                        +---layout
+                        |       activity_main.xml
+                        |
+                        +---mipmap-anydpi-v26
+                        |       ic_launcher.xml
+                        |       ic_launcher_round.xml
+                        |
+                        +---mipmap-hdpi
+                        |       ic_launcher.png
+                        |       ic_launcher_round.png
+                        |
+                        +---mipmap-mdpi
+                        |       ic_launcher.png
+                        |       ic_launcher_round.png
+                        |
+                        +---mipmap-xhdpi
+                        |       ic_launcher.png
+                        |       ic_launcher_round.png
+                        |
+                        +---mipmap-xxhdpi
+                        |       ic_launcher.png
+                        |       ic_launcher_round.png
+                        |
+                        +---mipmap-xxxhdpi
+                        |       ic_launcher.png
+                        |       ic_launcher_round.png
+                        |
+                        \---values
+                                colors.xml
+                                strings.xml
+                                styles.xml
+
+21-05-2018
+    Worked on MicroMax build.txt
+
+22-05-2018
+    Upload all android project to bit bucket and worked on adb push.txt
