@@ -19186,3 +19186,184 @@ Job Search
 
 22-05-2018
     Upload all android project to bit bucket and worked on adb push.txt
+24-05-2018
+   └── Work on android source build
+25-05-2018
+   └── Work on android source build
+28-05-2018
+   └── Work on android source build
+29-05-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   ├── AndroidManifest.xml
+                   └── java
+                       └── com
+                           └── experiment - updated
+                               ├── CaptureSignature.java
+                               ├── MainActivity.java
+                               └── Signatures.java
+30-05-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           └── experiment - updated
+                               ├── CaptureSignature.java
+                               ├── Global.java
+                               ├── MainActivity2.java
+                               ├── MainActivity.java
+                               ├── Signatures.java
+                               └── TouchImageView.java
+31-05-2018
+    └── SampleApp
+        └── app
+            └── src
+                └── main
+                    └── java
+                        └── com
+                            └── experiment - updated
+                                ├── MoveAround.java
+                                └── TouchImageView.java
+
+01-06-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           └── experiment - updated
+                               └── TouchImageView.java
+04-06-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           ├── experiment - added
+                           │   ├── Global.java
+                           │   ├── Rotate.java
+                           │   ├── Taping.java
+                           │   ├── TouchView.java
+                           │   └── Zoom.java
+                           └── main - updated
+                               ├── CaptureSignature.java
+                               ├── MoveAround.java
+                               └── Signatures.java
+05-06-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           ├── experiment - added
+                           │   ├── Global.java
+                           │   ├── Rotate.java
+                           │   ├── Taping.java
+                           │   ├── TouchView.java
+                           │   └── Zoom.java
+                           └── main - updated
+                               ├── CaptureSignature.java
+                               ├── MoveAround.java
+                               └── Signatures.java
+06-06-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           ├── experiment - added
+                           │   ├── Global.java
+                           │   ├── Rotate.java
+                           │   ├── Taping.java
+                           │   ├── TouchView.java
+                           │   └── Zoom.java
+                           └── main - updated
+                               ├── CaptureSignature.java
+                               ├── MoveAround.java
+                               └── Signatures.java
+07-06-2018
+   └── SampleApp
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           ├── experiment - added
+                           │   ├── Global.java
+                           │   ├── Rotate.java
+                           │   ├── Taping.java
+                           │   ├── TouchView.java
+                           │   └── Zoom.java
+                           └── main - updated
+                               ├── CaptureSignature.java
+                               ├── MoveAround.java
+                               └── Signatures.java
+11-06-2018
+   └── Pratice on TectGig
+12-06-2018
+   └── Pratice on TectGig
+13-06-2018
+   └── Pratice on TectGig
+14-06-2018
+   └── Pratice on TectGig
+15-06-2018
+   └── Pratice on TectGig
+18-06-2018
+   └── Pratice on TectGig
+20-06-2018
+   └── Chatu - Added
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           └── why
+                               └── chatu
+                                   ├── adapter
+                                   │   └── ChatAdapter.java
+                                   ├── bean
+                                   │   └── MessageBean.java
+                                   ├── chat
+                                   │   ├── Chat.java
+                                   │   ├── ChatSocket.java
+                                   │   └── ChatSync.java
+                                   ├── database
+                                   │   ├── DBConstant.java
+                                   │   └── DBManager.java
+                                   └── util
+                                       └── Global.java
+21-06-2018
+   └── Chatu - updated
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           └── why
+                               └── chatu
+                                   ├── adapter
+                                   │   └── ChatAdapter.java
+                                   ├── bean
+                                   │   └── MessageBean.java
+                                   ├── chat
+                                   │   ├── Chat.java
+                                   │   ├── ChatSocket.java
+                                   │   └── ChatSync.java
+                                   ├── database
+                                   │   ├── DBConstant.java
+                                   │   └── DBManager.java
+                                   └── util
+                                       └── Global.java
+22-06-2018
+   └── Chatu - updated
+27-06-2018
+   └── Stack Overflow
+
