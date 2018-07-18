@@ -19366,4 +19366,199 @@ Job Search
    └── Chatu - updated
 27-06-2018
    └── Stack Overflow
+28-06-2018
+  └── BackGroundDataControl - added
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── background
+                        └── data
+                            └── control
+                                ├── MainActivity.java
+                                └── SetAdapter.java
+29-06-2018
+  └── BackGroundDataControl - updated
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── background
+                        └── data
+                            └── control
+                                ├── MainActivity.java
+                                └── SetAdapter.java
+
+02-07-2018
+  └── BackGroundDataControl - updated
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── background
+                        └── data
+                            └── control
+                                ├── MainActivity.java
+                                └── SetAdapter.java
+03-07-2018
+  └── Worked on back ground data restrict
+04-07-2018
+  └── Worked on back ground data restrict
+05-07-2018
+  ├── baby
+   └── NotificationIndication - added
+       └── app
+           └── src
+               └── main
+                   └── java
+                       └── com
+                           └── notification
+                               └── indication
+                                   ├── AppConstants.java
+                                   ├── DisplayReceiver.java
+                                   ├── Home.java
+                                   ├── MonitorService.java
+                                  └── NotificationBean.java
+  └── Indian
+    └── indianexpress-android
+        └── app
+            └── src
+                └── main
+                    └── java
+                        └── com
+                            └── indian
+                                └── express - updated
+                                    ├── BaseActivity.java
+                                    └── pages
+                                        ├── Dia.java
+                                        ├── FeedBack.java
+                                        ├── LocationActivity.java
+                                        └── Login.java
+06-07-2018
+  ─ NotificationIndication
+   └── app
+       └── src
+           └── main
+               └── java
+                   └── com
+                       └── notification
+                           └── indication - updated
+                               └── Indicator.java
+  ── Terminal - updated
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── terminal
+                            └── MainActivity.java
+09-07-2018
+  └── NotificationIndication
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── notification
+                            └── indication - updated
+                                ├── AppConstants.java
+                                ├── DisplayReceiver.java
+                                ├── Home.java
+                                ├── Indicator.java
+                                ├── MonitorService.java
+                                └── NotificationBean.java
+10-07-2018
+  ─ Android - Added
+    └── app
+       └── src
+           └── main
+               └── java
+                   └── com
+                       └── mohit
+                           └── program
+                               └── map
+                                   └── location_with_map
+                                       └── LocationAPI.java
+  ── Indian
+    └── indianexpress-android - updated
+        └── app
+            └── src
+                └── main
+                    └── java
+                        └── com
+                            └── indian
+                                └── express
+                                    ├── BaseActivity.java
+                                    ├── pages
+                                    │   ├── Dia.java
+                                    │   ├── FeedBack.java
+                                    │   ├── GoogleLocationClient.java
+                                    │   └── LocationActivity.java
+                                    └── util
+                                        └── Global.java
+11-07-2018
+  ─ Atomi - added
+   └── app
+       └── src
+           └── main
+               └── java
+                   └── com
+                       └── atomi
+                           ├── CustomView.java
+                           └── MainActivity.java
+  ─ Proj - updated
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── project
+                            └── AnimationSample.java
+12-07-2018
+  └── NotificationIndication - updated
+    └── app
+        └── src
+            └── main
+                ├── AndroidManifest.xml
+                ├── app_icon-web.png
+                ├── assets
+                │   └── myriad_pro_regular.ttf
+                └── java
+                    └── com
+                        └── notification
+                            └── indication
+                                ├── AppConstants.java
+                                ├── DisplayOffReceiver.java
+                                ├── NotificationBean.java
+                                ├── NotificationHome.java
+                                ├── NotificationMonitorService.java
+                                └── require
+                                    └── Indicator.java
+13-07-2018
+  └── Worked on exo player
+16-07-2018
+  └── NotificationIndication - updated
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── notification
+                            └── indication
+                                ├── AppConstants.java
+                                ├── DisplayOffReceiver.java
+                                ├── NotificationBean.java
+                                ├── NotificationHome.java
+                                ├── NotificationMonitorService.java
+                                └── require
+                                    └── Indicator.java
+17-07-2018
+  └── Worked on techgig
+18-07-2018
+  └── ubuntu customisation
+
+
+
+
+
 
