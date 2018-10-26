@@ -12226,8 +12226,8 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             colors.xml
                             strings.xml
-4-03-2014
-+---Pawleashed
+4-03-2017
+ -Pawleashed
    \---app
        \---src
            \---main
@@ -12250,8 +12250,8 @@ Corrected receipt image upload in app at tracker expence
                            profile_edit.xml
                            type_list_textview.xml
 
-6-03-2014
-\---Pawleashed 
+6-03-2017
+ -Pawleashed 
     \---app
         \---src
             \---main
@@ -12302,7 +12302,7 @@ Corrected receipt image upload in app at tracker expence
                             colors.xml
                             strings.xml
 
-7-03-2014
+7-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12352,7 +12352,7 @@ Corrected receipt image upload in app at tracker expence
                             colors.xml
                             strings.xml
 
-8-03-2014
+8-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12407,7 +12407,7 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             colors.xml
                             strings.xml
-9-03-2014
+9-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12450,7 +12450,7 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             strings.xml
 
-14-03-2014
+14-03-2017
  -Example - Added
       pom.xml
    
@@ -12465,7 +12465,7 @@ Corrected receipt image upload in app at tracker expence
        \---com
                ExampleMain.java
 
-\---Pawleashed
+  -Pawleashed
     \---app
         \---src
             \---main
@@ -12496,7 +12496,7 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             strings.xml
 
-15-03-2014
+15-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12520,7 +12520,7 @@ Corrected receipt image upload in app at tracker expence
                             web_view.xml
 
 
-16-03-2014
+16-03-2017
  -Pawleashed
    \---app
        \---src
@@ -12551,7 +12551,7 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             strings.xml
 
-18-03-2014
+18-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12578,7 +12578,7 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             strings.xml
 
-20-03-2014
+20-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12618,7 +12618,7 @@ Corrected receipt image upload in app at tracker expence
                             choose_item.xml
                             tracking.xml
 
-21-03-2014
+21-03-2017
  -MapExample
    \---app
        \---src
@@ -12664,7 +12664,7 @@ Corrected receipt image upload in app at tracker expence
                             ex2.xml
 
 
-22-03-2014
+22-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12693,7 +12693,7 @@ Corrected receipt image upload in app at tracker expence
                     \---layout - updated
                             payment.xml
 
-23-03-2014
+23-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12713,9 +12713,9 @@ Corrected receipt image upload in app at tracker expence
                     \---values - updated
                             strings.xml
 
-24-03-2014 - 27-03-2014  - Pune 
+24-03-2017 - 27-03-2017  - Pune 
 
-28-03-2014
+28-03-2017
  -Pawleashed
     \---app
         \---src
@@ -12749,7 +12749,7 @@ Corrected receipt image upload in app at tracker expence
                             recieve_chat_item.xml
                             send_chat_item.xml
 
-29-03-2014
+29-03-2017
  -Example
    \---app
        \---src
@@ -12790,7 +12790,7 @@ Corrected receipt image upload in app at tracker expence
                             recieve_chat_item.xml
                             send_chat_item.xml
 
-30-03-2014
+30-03-2017
  -MyHibernate - Added
        .classpath
        .project
@@ -12985,7 +12985,7 @@ Corrected receipt image upload in app at tracker expence
         \---resources
                 hibernate.cfg.xml
 
-31-03-2014 
+31-03-2017 
  -HibernateTutorial - Added
     \---src
            hibernate.cfg.xml
@@ -13001,7 +13001,7 @@ Corrected receipt image upload in app at tracker expence
                         UserDetail.java
 
 
-1-04-2014
+1-04-2017
  -MapExample
    \---app
        \---src
@@ -13040,7 +13040,7 @@ Corrected receipt image upload in app at tracker expence
                     \---layout - added
                             marker_layout.xml 
 
-3-04-2014
+3-04-2017
  -Pawleashed
     \---app
         \---src
@@ -13069,9 +13069,9 @@ Corrected receipt image upload in app at tracker expence
                     \---layout
                             marker_layout.xml
 
-4-04-2014 - half day, system repair
+4-04-2017 - half day, system repair
 
-5-04-2014
+5-04-2017
  -Pawleashed
    \---app
        \---src
@@ -13104,7 +13104,7 @@ Corrected receipt image upload in app at tracker expence
                    \---values - updated
                            strings.xml
 
-6-04-2014
+6-04-2017
  -Pawleashed
    \---app
        \---src
@@ -13157,7 +13157,7 @@ Corrected receipt image upload in app at tracker expence
                            strings.xml
                            styles.xml
 
-7-04-2014
+7-04-2017
  -Pawleashed
   \---app
       \---src
@@ -13180,13 +13180,13 @@ Corrected receipt image upload in app at tracker expence
                                   Global.java
                                   SharedPrefUtility.java
 
-10-04-2014
+10-04-2017
  -Example
     \---src - updated
         \---com
                 ExampleMain.java
 
-11-04-2014
+11-04-2017
 --Pawleashed
   \---app
       \---src
@@ -13226,7 +13226,7 @@ Corrected receipt image upload in app at tracker expence
                           message_item.xml
                           schedule_setting.xml
 
-12-04-2014
+12-04-2017
  -Pawleashed 
   \---app
      \---src
@@ -13253,7 +13253,7 @@ Corrected receipt image upload in app at tracker expence
                  \---values - updated
                          strings.xml
 
-13-04-2014
+13-04-2017
  -Pawleashed
   \---app
      \---src
@@ -13290,7 +13290,7 @@ Corrected receipt image upload in app at tracker expence
                  \---layout - updated
                          schedule_setting.xml
 
-14-04-2014
+14-04-2017
  -Pawleashed
   \---app
       \---src
@@ -13343,13 +13343,13 @@ Corrected receipt image upload in app at tracker expence
                           colors.xml
                           strings.xml
 
-15-04-2014
+15-04-2017
 Last day at SNV Infotech
 
-1-05-2014 - 1-06-2017
+1-05-2017 - 1-06-2017
 Banglore
 
-2-06-2014 - 4-07-2017
+2-06-2017 - 4-07-2017
 Job Search
 
 5-07-2017
@@ -13738,7 +13738,7 @@ Job Search
                             strings.xml
 
 
-21-7-2014
+21-7-2017
  -Shopping
        \---app
            \---src
@@ -13756,7 +13756,7 @@ Job Search
                                login.xml
                                register.xml
 
-22-7-2014
+22-7-2017
  -Shopping
         \---app
             \---src
@@ -13775,7 +13775,7 @@ Job Search
                                 dashboeard.xml
 
 25-07-2017
--TenXApp
+  -TenXApp
        \---app
            \---src
                \---main
@@ -13925,10 +13925,10 @@ Job Search
                                scan.xml
 
 27-07-2017
-       Completed and distrubuted shopping project
+   Completed and distrubuted shopping project
 
 28-07-2017 - 29-07-2017
-       Holiday to Mandav
+   Holiday to Mandav
 
 31-07-2017
     \---Bluetooth - Added
@@ -14959,324 +14959,9 @@ Job Search
                │   └── com
                │       └── android
                │           └── launcher3
-               │               ├── accessibility
-               │               │   ├── AccessibileDragListenerAdapter.java
-               │               │   ├── DragAndDropAccessibilityDelegate.java
-               │               │   ├── DragViewStateAnnouncer.java
-               │               │   ├── FolderAccessibilityHelper.java
-               │               │   ├── LauncherAccessibilityDelegate.java
-               │               │   ├── OverviewAccessibilityDelegate.java
-               │               │   ├── OverviewScreenAccessibilityDelegate.java
-               │               │   ├── ShortcutMenuAccessibilityDelegate.java
-               │               │   └── WorkspaceAccessibilityHelper.java
-               │               ├── Alarm.java
-               │               ├── allapps
-               │               │   ├── AllAppsBackgroundDrawable.java
-               │               │   ├── AllAppsCaretController.java
-               │               │   ├── AllAppsContainerView.java
-               │               │   ├── AllAppsFastScrollHelper.java
-               │               │   ├── AllAppsGridAdapter.java
-               │               │   ├── AllAppsRecyclerViewContainerView.java
-               │               │   ├── AllAppsRecyclerView.java
-               │               │   ├── AllAppsSearchBarController.java
-               │               │   ├── AllAppsTransitionController.java
-               │               │   ├── AlphabeticalAppsList.java
-               │               │   ├── DefaultAppSearchAlgorithm.java
-               │               │   ├── DefaultAppSearchController.java
-               │               │   ├── HeaderElevationController.java
-               │               │   ├── PredictiveAppsProvider.java
-               │               │   └── VerticalPullDetector.java
-               │               ├── AllAppsList.java
-               │               ├── AnotherWindowDropTarget.java
-               │               ├── AppFilter.java
-               │               ├── AppInfo.java
-               │               ├── AppWidgetResizeFrame.java
-               │               ├── AppWidgetsRestoredReceiver.java
-               │               ├── AutoInstallsLayout.java
-               │               ├── backup
-               │               │   └── BackupProtos.java
-               │               ├── BaseContainerView.java
-               │               ├── BaseRecyclerViewFastScrollBar.java
-               │               ├── BaseRecyclerViewFastScrollPopup.java
-               │               ├── BaseRecyclerView.java
-               │               ├── BubbleTextView.java
-               │               ├── ButtonDropTarget.java
-               │               ├── CellLayout.java
-               │               ├── CheckLongPressHelper.java
-               │               ├── ClickShadowView.java
-               │               ├── CommonAppTypeParser.java
-               │               ├── compat
-               │               │   ├── AlphabeticIndexCompat.java
-               │               │   ├── AppWidgetManagerCompat.java
-               │               │   ├── AppWidgetManagerCompatV16.java
-               │               │   ├── AppWidgetManagerCompatVL.java
-               │               │   ├── DeferredLauncherActivityInfo.java
-               │               │   ├── LauncherActivityInfoCompat.java
-               │               │   ├── LauncherActivityInfoCompatV16.java
-               │               │   ├── LauncherActivityInfoCompatVL.java
-               │               │   ├── LauncherAppsCompat.java
-               │               │   ├── LauncherAppsCompatV16.java
-               │               │   ├── LauncherAppsCompatVL.java
-               │               │   ├── PackageInstallerCompat.java
-               │               │   ├── PackageInstallerCompatV16.java
-               │               │   ├── PackageInstallerCompatVL.java
-               │               │   ├── UserHandleCompat.java
-               │               │   ├── UserManagerCompat.java
-               │               │   ├── UserManagerCompatV16.java
-               │               │   ├── UserManagerCompatV17.java
-               │               │   ├── UserManagerCompatVL.java
-               │               │   ├── UserManagerCompatVM.java
-               │               │   ├── UserManagerCompatVN.java
-               │               │   └── UserManagerCompatVNMr1.java
-               │               ├── config
-               │               │   ├── FeatureFlags.java
-               │               │   └── ProviderConfig.java
-               │               ├── CustomAppWidget.java
-               │               ├── DefaultLayoutParser.java
-               │               ├── DeferredHandler.java
-               │               ├── DeleteDropTarget.java
-               │               ├── DeviceProfile.java
-               │               ├── dragndrop
-               │               │   ├── AnotherWindowDragSource.java
-               │               │   ├── DragController.java
-               │               │   ├── DragDriver.java
-               │               │   ├── DragLayer.java
-               │               │   ├── DragOptions.java
-               │               │   ├── DragScroller.java
-               │               │   ├── DragView.java
-               │               │   ├── ExternalDragPreviewProvider.java
-               │               │   └── SpringLoadedDragController.java
-               │               ├── DragSource.java
-               │               ├── DropTargetBar.java
-               │               ├── DropTarget.java
-               │               ├── dynamicui
-               │               │   ├── ColorExtractionService.java
-               │               │   ├── ExtractedColors.java
-               │               │   └── ExtractionUtils.java
-               │               ├── ExtendedEditText.java
-               │               ├── FastBitmapDrawable.java
-               │               ├── FirstFrameAnimatorHelper.java
-               │               ├── FocusHelper.java
-               │               ├── folder
-               │               │   ├── ClippedFolderIconLayoutRule.java
-               │               │   ├── FolderIcon.java
-               │               │   ├── Folder.java
-               │               │   ├── FolderPagedView.java
-               │               │   └── StackFolderIconLayoutRule.java
-               │               ├── FolderEditText.java
-               │               ├── FolderInfo.java
-               │               ├── graphics
-               │               │   ├── DragPreviewProvider.java
-               │               │   ├── ShadowGenerator.java
-               │               │   ├── TintedDrawableSpan.java
-               │               │   └── TriangleShape.java
-               │               ├── HolographicOutlineHelper.java
-               │               ├── Hotseat.java
-               │               ├── IconCache.java
-               │               ├── IconProvider.java
-               │               ├── InfoDropTarget.java
-               │               ├── InsettableFrameLayout.java
-               │               ├── Insettable.java
-               │               ├── InstallShortcutReceiver.java
-               │               ├── InterruptibleInOutAnimator.java
-               │               ├── InvariantDeviceProfile.java
-               │               ├── ItemInfo.java
-               │               ├── keyboard
-               │               │   ├── FocusedItemDecorator.java
-               │               │   ├── FocusIndicatorHelper.java
-               │               │   └── ViewGroupFocusHelper.java
-               │               ├── LauncherAnimUtils.java
-               │               ├── LauncherAppState.java
-               │               ├── LauncherAppWidgetHost.java
-               │               ├── LauncherAppWidgetHostView.java
-               │               ├── LauncherAppWidgetInfo.java
-               │               ├── LauncherAppWidgetProviderInfo.java
-               │               ├── LauncherBackupAgent.java
-               │               ├── LauncherCallbacks.java
-               │               ├── LauncherClings.java
-               │               ├── LauncherExterns.java
-               │               ├── LauncherFiles.java
-               │               ├── Launcher.java
-               │               ├── LauncherModel.java
-               │               ├── LauncherProviderChangeListener.java
-               │               ├── LauncherProvider.java
-               │               ├── LauncherRootView.java
-               │               ├── LauncherScroller.java
-               │               ├── LauncherSettings.java
-               │               ├── LauncherStateTransitionAnimation.java
-               │               ├── LauncherTransitionable.java
-               │               ├── LauncherViewPropertyAnimator.java
-               │               ├── LogAccelerateInterpolator.java
-               │               ├── LogDecelerateInterpolator.java
-               │               ├── logging
-               │               │   ├── FileLog.java
-               │               │   ├── LoggerUtils.java
-               │               │   └── UserEventDispatcher.java
-               │               ├── MainThreadExecutor.java
-               │               ├── model
-               │               │   ├── AbstractUserComparator.java
-               │               │   ├── AppNameComparator.java
-               │               │   ├── GridSizeMigrationTask.java
-               │               │   ├── PackageItemInfo.java
-               │               │   ├── WidgetItem.java
-               │               │   └── WidgetsModel.java
-               │               ├── OnAlarmListener.java
-               │               ├── PagedView.java
-               │               ├── pageindicators
-               │               │   ├── CaretDrawable.java
-               │               │   ├── PageIndicatorCaretLandscape.java
-               │               │   ├── PageIndicatorDots.java
-               │               │   ├── PageIndicator.java
-               │               │   └── PageIndicatorLineCaret.java
-               │               ├── Partner.java
-               │               ├── PendingAddItemInfo.java
-               │               ├── PendingAppWidgetHostView.java
-               │               ├── PinchAnimationManager.java
-               │               ├── PinchThresholdManager.java
-               │               ├── PinchToOverviewListener.java
-               │               ├── PreloadIconDrawable.java
-               │               ├── provider
-               │               │   ├── ImportDataTask.java
-               │               │   ├── LauncherDbUtils.java
-               │               │   ├── LossyScreenMigrationTask.java
-               │               │   └── RestoreDbTask.java
-               │               ├── QsbBlockerView.java
-               │               ├── QsbContainerView.java
-               │               ├── SettingsActivity.java
-               │               ├── ShortcutAndWidgetContainer.java
-               │               ├── ShortcutInfo.java
-               │               ├── shortcuts
-               │               │   ├── DeepShortcutManager.java
-               │               │   ├── DeepShortcutsContainer.java
-               │               │   ├── DeepShortcutTextView.java
-               │               │   ├── DeepShortcutView.java
-               │               │   ├── ShortcutCache.java
-               │               │   ├── ShortcutDragPreviewProvider.java
-               │               │   ├── ShortcutFilter.java
-               │               │   ├── ShortcutInfoCompat.java
-               │               │   └── ShortcutKey.java
-               │               ├── SimpleOnStylusPressListener.java
-               │               ├── StylusEventHelper.java
-               │               ├── testing
-               │               │   ├── DummyWidget.java
-               │               │   ├── LauncherExtension.java
-               │               │   ├── MemoryDumpActivity.java
-               │               │   ├── MemoryTracker.java
-               │               │   ├── ToggleWeightWatcher.java
-               │               │   └── WeightWatcher.java
-               │               ├── UninstallDropTarget.java
-               │               ├── userevent
-               │               │   └── nano
-               │               │       └── LauncherLogProto.java
-               │               ├── util
-               │               │   ├── ActivityResultInfo.java
-               │               │   ├── CachedPackageTracker.java
-               │               │   ├── CellAndSpan.java
-               │               │   ├── CircleRevealOutlineProvider.java
-               │               │   ├── ComponentKey.java
-               │               │   ├── ConfigMonitor.java
-               │               │   ├── CursorIconInfo.java
-               │               │   ├── FlagOp.java
-               │               │   ├── FlingAnimation.java
-               │               │   ├── FocusLogic.java
-               │               │   ├── GridOccupancy.java
-               │               │   ├── IconNormalizer.java
-               │               │   ├── ItemInfoMatcher.java
-               │               │   ├── LauncherEdgeEffect.java
-               │               │   ├── LongArrayMap.java
-               │               │   ├── ManagedProfileHeuristic.java
-               │               │   ├── MultiHashMap.java
-               │               │   ├── MultiStateAlphaController.java
-               │               │   ├── NoLocaleSqliteContext.java
-               │               │   ├── PackageManagerHelper.java
-               │               │   ├── ParcelableSparseArray.java
-               │               │   ├── PendingRequestArgs.java
-               │               │   ├── PillRevealOutlineProvider.java
-               │               │   ├── PillWidthRevealOutlineProvider.java
-               │               │   ├── Preconditions.java
-               │               │   ├── RevealOutlineAnimation.java
-               │               │   ├── SQLiteCacheHelper.java
-               │               │   ├── StringFilter.java
-               │               │   ├── TestingUtils.java
-               │               │   ├── Thunk.java
-               │               │   ├── TouchController.java
-               │               │   ├── TransformingTouchDelegate.java
-               │               │   ├── VerticalFlingDetector.java
-               │               │   ├── ViewOnDrawExecutor.java
-               │               │   └── WallpaperOffsetInterpolator.java
-               │               ├── Utilities.java
-               │               ├── widget
-               │               │   ├── PendingAddShortcutInfo.java
-               │               │   ├── PendingAddWidgetInfo.java
-               │               │   ├── PendingItemPreviewProvider.java
-               │               │   ├── WidgetCell.java
-               │               │   ├── WidgetHostViewLoader.java
-               │               │   ├── WidgetImageView.java
-               │               │   ├── WidgetsContainerView.java
-               │               │   ├── WidgetsListAdapter.java
-               │               │   ├── WidgetsRecyclerView.java
-               │               │   └── WidgetsRowViewHolder.java
-               │               ├── WidgetPreviewLoader.java
-               │               ├── Workspace.java
-               │               └── WorkspaceStateTransitionAnimation.java
                └── res
                    ├── drawable
-                   │   ├── all_apps_button_icon.xml
-                   │   ├── all_apps_divider.xml
-                   │   ├── all_apps_search_divider.xml
-                   │   ├── all_apps_search_hint.xml
-                   │   ├── bg_celllayout.xml
-                   │   ├── bg_pill_focused.xml
-                   │   ├── bg_screenpanel.xml
-                   │   ├── bg_white_pill.xml
-                   │   ├── container_fastscroll_popup_bg.xml
-                   │   ├── deep_shortcuts_drag_handle.xml
-                   │   ├── ic_all_apps_bg_icon_1.xml
-                   │   ├── ic_all_apps_bg_icon_2.xml
-                   │   ├── ic_all_apps_bg_icon_3.xml
-                   │   ├── ic_all_apps_bg_icon_4.xml
-                   │   ├── ic_allapps_search.xml
-                   │   ├── ic_setting.xml
-                   │   ├── ic_wallpaper.xml
-                   │   ├── ic_widget.xml
-                   │   ├── quantum_panel_dark.xml
-                   │   ├── quantum_panel_shape_dark.xml
-                   │   ├── quantum_panel_shape.xml
-                   │   ├── quantum_panel.xml
-                   │   ├── widget_internal_focus_bg.xml
-                   │   └── widgets_row_divider.xml
                    ├── layout
-                   │   ├── all_apps_button.xml
-                   │   ├── all_apps_divider.xml
-                   │   ├── all_apps_empty_search.xml
-                   │   ├── all_apps_icon.xml
-                   │   ├── all_apps_search_divider.xml
-                   │   ├── all_apps_search_market.xml
-                   │   ├── all_apps.xml
-                   │   ├── app_icon.xml
-                   │   ├── appwidget_error.xml
-                   │   ├── appwidget_not_ready.xml
-                   │   ├── deep_shortcuts_container.xml
-                   │   ├── deep_shortcut.xml
-                   │   ├── drop_target_bar_horz.xml
-                   │   ├── drop_target_bar_vert.xml
-                   │   ├── folder_application.xml
-                   │   ├── folder_icon.xml
-                   │   ├── hotseat.xml
-                   │   ├── launcher_overlay.xml
-                   │   ├── overview_panel.xml
-                   │   ├── page_indicator.xml
-                   │   ├── qsb_blocker_view.xml
-                   │   ├── qsb_container.xml
-                   │   ├── qsb_default_view.xml
-                   │   ├── user_folder_icon_normalized.xml
-                   │   ├── user_folder.xml
-                   │   ├── widget_cell.xml
-                   │   ├── widgets_list_row_view.xml
-                   │   ├── widgets_view.xml
-                   │   ├── workspace_screen.xml
-                   │   ├── zzz_dummy_widget.xml
-                   │   └── zzz_weight_watcher.xml
                    └── mipmap-hdpi
                        └── ic_launcher_home.png
 
@@ -15423,269 +15108,9 @@ Job Search
                 ├── java
                 │   └── com
                 │       └── sparefit
-                │           ├── activity
-                │           │   ├── AddContactActivity.java
-                │           │   ├── ChangePasswordActivity.java
-                │           │   ├── CouponPreviewActivity.java
-                │           │   ├── CSTListingActivity.java
-                │           │   ├── ECouponItemDetailActivity.java
-                │           │   ├── FacebookLoginActivity.java
-                │           │   ├── FilterActivity.java
-                │           │   ├── ForgotPasswordActivity.java
-                │           │   ├── HomeActivity.java
-                │           │   ├── LoginActivity.java
-                │           │   ├── MasterCSTListingActivity.java
-                │           │   ├── MCSTListingActivity.java
-                │           │   ├── MobileVerificationActivity.java
-                │           │   ├── OTPActivity.java
-                │           │   ├── ReceiptActivity.java
-                │           │   ├── RegistrationActivity.java
-                │           │   ├── ScanActivity.java
-                │           │   ├── ServiceOfferedCategoryActivity.java
-                │           │   └── SplashActivity.java
-                │           ├── adapter
-                │           │   ├── AppMenuAdapter.java
-                │           │   ├── CompanyHorizontalAdapter.java
-                │           │   ├── CSTDetailPagerAdapter.java
-                │           │   ├── CSTListingAdapter.java
-                │           │   ├── CSTListingByMcstAdapter.java
-                │           │   ├── ECouponDetailItemAdapter.java
-                │           │   ├── LastScanResultsAdapter.java
-                │           │   ├── MCSTDetailPagerAdapter.java
-                │           │   ├── MCSTListingAdapter.java
-                │           │   ├── PagerAdapter.java
-                │           │   ├── RecyclerViewDataAdapter.java
-                │           │   ├── RetailerSearchAdapter.java
-                │           │   ├── RetailerSearchNoResultAdapter.java
-                │           │   ├── SelectMultipleCompanyAdapter.java
-                │           │   ├── ServicesCategoryAdapter.java
-                │           │   └── ServicesOfferedAdapter.java
-                │           ├── basecontrol
-                │           │   ├── BaseActivity.java
-                │           │   └── BaseFragment.java
-                │           ├── custom_gallery
-                │           │   ├── CustomGalleryActivity.java
-                │           │   ├── CustomGallery.java
-                │           │   └── GalleryAdapter.java
-                │           ├── customview
-                │           │   ├── CustomAlertView.java
-                │           │   ├── CustomEditText.java
-                │           │   ├── CustomOTPAlertView.java
-                │           │   ├── CustomTextView.java
-                │           │   ├── CustomThanksAlertView.java
-                │           │   ├── CustomViewPager.java
-                │           │   ├── KeyPairBoolData.java
-                │           │   ├── MultiSelectionSpinner.java
-                │           │   ├── MultiSpinnerSearch.java
-                │           │   └── SpinnerListener.java
-                │           ├── fragments
-                │           │   ├── AdditionalProfileFragment.java
-                │           │   ├── AddressProfileFragment.java
-                │           │   ├── AdminProfileFragment.java
-                │           │   ├── BenifitiaryFragment.java
-                │           │   ├── MechanicContactDetailFragment.java
-                │           │   ├── MechanicHomeFragment.java
-                │           │   ├── RetailerHomeFragment.java
-                │           │   ├── RetailerSearchHomeFragment.java
-                │           │   ├── SelfFragment.java
-                │           │   ├── ServiceOfferedFragment.java
-                │           │   ├── UploadPanAdharFragment.java
-                │           │   └── WorkShopProfileFragment.java
-                │           ├── listeners
-                │           │   ├── CustomAlertListener.java
-                │           │   ├── IMethodCaller.java
-                │           │   ├── ResetView.java
-                │           │   └── ServiceSelectListener.java
-                │           ├── model
-                │           │   ├── AddContactResponseModel.java
-                │           │   ├── ApplyCstDetail.java
-                │           │   ├── ApplyFilterDataResponseModel.java
-                │           │   ├── BalancedPointsModel.java
-                │           │   ├── BusinessPicModel.java
-                │           │   ├── ChangePasswordResponseModel.java
-                │           │   ├── CompanyName.java
-                │           │   ├── CSTDetailByMCSTModel.java
-                │           │   ├── CstDetail.java
-                │           │   ├── CSTDetailResponseModel.java
-                │           │   ├── EcouponDetail.java
-                │           │   ├── ECouponDetailModel.java
-                │           │   ├── ECouponResponseModel.java
-                │           │   ├── ECouponScanDetail.java
-                │           │   ├── ESignatureResponseModel.java
-                │           │   ├── FilterDataResponseModel.java
-                │           │   ├── FinishScanResponseModel.java
-                │           │   ├── ForgotPasswordResponseModel.java
-                │           │   ├── ForgotPasswordStep2ResponseModel.java
-                │           │   ├── HorizontalRecyclerItem.java
-                │           │   ├── LoginResponseModel.java
-                │           │   ├── MasterCSTResponseModel.java
-                │           │   ├── McstDetail.java
-                │           │   ├── MCSTDetailResponseModel.java
-                │           │   ├── MCSTResponseModel.java
-                │           │   ├── NoSearchResultFoundModel.java
-                │           │   ├── RedeemedResponseModel.java
-                │           │   ├── RequestModel
-                │           │   │   └── registration
-                │           │   │       ├── CategoryId.java
-                │           │   │       ├── RegistrationStep1RequestModel.java
-                │           │   │       ├── RegistrationStep2RequestModel.java
-                │           │   │       ├── RegistrationStep3RequestModel.java
-                │           │   │       ├── RegistrationStep4RequestModel.java
-                │           │   │       ├── ServiceId.java
-                │           │   │       └── ServiceIdJSONResponseModel.java
-                │           │   ├── ResponseModel
-                │           │   │   ├── AdditionalProfileResponseModel.java
-                │           │   │   ├── BusinessPic.java
-                │           │   │   ├── config
-                │           │   │   │   ├── AnalyticData.java
-                │           │   │   │   ├── AppMenu.java
-                │           │   │   │   ├── City.java
-                │           │   │   │   ├── ConfigResponseModel.java
-                │           │   │   │   ├── Role.java
-                │           │   │   │   ├── Services.java
-                │           │   │   │   ├── State.java
-                │           │   │   │   └── TypesOfWorkshop.java
-                │           │   │   ├── registration
-                │           │   │   │   ├── CityResponseModel.java
-                │           │   │   │   ├── ServiceResponseModel.java
-                │           │   │   │   └── StateResponseModel.java
-                │           │   │   ├── ServiceUploadResponseModel.java
-                │           │   │   └── TestModel.java
-                │           │   ├── RetailerSearchResponseModel.java
-                │           │   ├── ScanResultsModel.java
-                │           │   ├── SearchUserDetail.java
-                │           │   ├── TotalCstDetailResponseModel.java
-                │           │   ├── UploadPanAdharResponseModel.java
-                │           │   ├── UserDetail.java
-                │           │   ├── UserIdentityDetail.java
-                │           │   └── User.java
-                │           ├── network
-                │           │   ├── NetworkCheck.java
-                │           │   ├── NetworkClient.java
-                │           │   └── NetworkInterface.java
-                │           ├── utils
-                │           │   ├── AppConstants.java
-                │           │   ├── AppLocationService.java
-                │           │   ├── CompressImage.java
-                │           │   ├── FileUtils.java
-                │           │   ├── GPSTracker.java
-                │           │   ├── LocationAddress.java
-                │           │   ├── PreferencesKey.java
-                │           │   ├── RequestId.java
-                │           │   ├── SaveSharedPref.java
-                │           │   ├── SpareFitApplication.java
-                │           │   └── Utils.java
-                │           └── zxing
-                │               ├── BeepManager.java
-                │               ├── camera
-                │               │   ├── AutoFocusCallback.java
-                │               │   ├── CameraConfigurationManager.java
-                │               │   ├── CameraManager.java
-                │               │   ├── FlashlightManager.java
-                │               │   ├── PlanarYUVLuminanceSource.java
-                │               │   └── PreviewCallback.java
-                │               ├── CaptureActivityHandler.java
-                │               ├── config
-                │               │   └── ZXingLibConfig.java
-                │               ├── DecodeFormatManager.java
-                │               ├── DecodeHandler.java
-                │               ├── DecodeThread.java
-                │               ├── FinishListener.java
-                │               ├── InactivityTimer.java
-                │               ├── integrator
-                │               │   ├── IntentIntegrator.java
-                │               │   └── IntentResult.java
-                │               ├── Intents.java
-                │               ├── ViewfinderResultPointCallback.java
-                │               └── ViewfinderView.java
                 └── res
                     ├── drawable
-                    │   ├── bg_btnscan.xml
-                    │   ├── bg_detail_recyclerview.xml
-                    │   ├── bg_listitem_oval.xml
-                    │   ├── bg_rectangle.xml
-                    │   ├── bg_spinner.xml
-                    │   ├── circle_gray.xml
-                    │   ├── circle_white.xml
-                    │   ├── company_name_filter_shape.xml
-                    │   ├── coupon_code_bg.xml
-                    │   ├── divider_line.xml
-                    │   ├── filter_border_bg.xml
-                    │   ├── green_bg_round_corner.xml
-                    │   ├── launcher.png
-                    │   ├── on_focus_checkbox.xml
-                    │   ├── points_icon.png
-                    │   ├── radiobtn_textcolor_selector.xml
-                    │   ├── register_radiobtn_selecter.xml
-                    │   ├── register_selected_rd_btn.xml
-                    │   ├── register_unselected_rd_btn.xml
-                    │   ├── ruppe_icon.png
-                    │   ├── scan_btn_aadhar.xml
-                    │   ├── selector_ripple.xml
-                    │   ├── services_checkbox_selecter.xml
-                    │   ├── side_nav_bar.xml
-                    │   └── working_hours_shape.xml
                     ├── layout
-                    │   ├── activity_add_contact.xml
-                    │   ├── activity_change_password.xml
-                    │   ├── activity_cstlisting2.xml
-                    │   ├── activity_cstlisting.xml
-                    │   ├── activity_drawer_layout.xml
-                    │   ├── activity_ecoupon_item_detail.xml
-                    │   ├── activity_facebook_login.xml
-                    │   ├── activity_filter.xml
-                    │   ├── activity_forgot_password.xml
-                    │   ├── activity_home.xml
-                    │   ├── activity_login.xml
-                    │   ├── activity_master_cstlisting.xml
-                    │   ├── activity_mobile_verification.xml
-                    │   ├── activity_otp.xml
-                    │   ├── activity_receipt.xml
-                    │   ├── activity_registration.xml
-                    │   ├── activity_scan.xml
-                    │   ├── activity_service_offered_category_item.xml
-                    │   ├── activity_service_offered_category.xml
-                    │   ├── activity_splash.xml
-                    │   ├── adapter_horizontal_item_view.xml
-                    │   ├── adapter_item_coupon_detail.xml
-                    │   ├── adapter_item_cst_detail.xml
-                    │   ├── adapter_item_mcst_detail.xml
-                    │   ├── adapter_no_search_result_item.xml
-                    │   ├── adapter_search_result_item.xml
-                    │   ├── alert_dialog_listview_search.xml
-                    │   ├── app_bar_home.xml
-                    │   ├── app_menu_item_adapter.xml
-                    │   ├── benifitaryfragment.xml
-                    │   ├── content_home.xml
-                    │   ├── coupon_receipt_preview.xml
-                    │   ├── custom_actionbar.xml
-                    │   ├── custom_otp_alertdialog.xml
-                    │   ├── fragment_additional_profile.xml
-                    │   ├── fragment_address_profile.xml
-                    │   ├── fragment_admin_profile.xml
-                    │   ├── fragment_button_layout.xml
-                    │   ├── fragment_mechenic_home.xml
-                    │   ├── fragment_retailer_contact_detail.xml
-                    │   ├── fragment_retailer_home.xml
-                    │   ├── fragment_retailer_search_home.xml
-                    │   ├── fragment_service_offered.xml
-                    │   ├── fragment_upload_pan_adhar.xml
-                    │   ├── fragment_working_days_layout.xml
-                    │   ├── fragment_work_shop_profile.xml
-                    │   ├── gallery_item.xml
-                    │   ├── gallery.xml
-                    │   ├── item_listview_multiple.xml
-                    │   ├── item_listview_single.xml
-                    │   ├── item_mcstpager_filter.xml
-                    │   ├── item_pager_filter.xml
-                    │   ├── layout_scan_item.xml
-                    │   ├── list_row.xml
-                    │   ├── multi_popup_item.xml
-                    │   ├── nav_header_home.xml
-                    │   ├── scan_3_item.xml
-                    │   ├── selffragment.xml
-                    │   ├── services_offered_item.xml
-                    │   └── textview_for_spinner.xml
                     ├── menu
                     │   └── activity_home_drawer.xml
                     └── mipmap-hdpi
@@ -16550,96 +15975,6 @@ Job Search
                         +---java
                         |   \---com
                         |       \---moneycontrol
-                        |           \---handheld
-                        |               |   BaseActivity.java
-                        |               |
-                        |               +---adapter - updated
-                        |               |       OptionsExpandableListAdapter.java
-                        |               |
-                        |               +---constant - updated
-                        |               |       AppConstants.java
-                        |               |
-                        |               +---fragments - updated
-                        |               |       CommodityDetailFragment.java
-                        |               |       CommodityOverviewFragment.java
-                        |               |       CorporateActionFragment.java
-                        |               |       CurrencyDetailFragment.java
-                        |               |       CurrencyFuturesFragment.java
-                        |               |       CurrencyOptionsFragment.java
-                        |               |       IndicesListingFragment.java
-                        |               |       LiveTVDetailFragment.java
-                        |               |       LiveTVShowDetailFragment.java
-                        |               |       MutualFundDetailFragment.java
-                        |               |       MyAlertFragment.java
-                        |               |       NewsDetailFragment.java
-                        |               |       NewStockOptionsFragment.java
-                        |               |       StockDetailFragment.java
-                        |               |       StockFuturesFragment.java
-                        |               |       StockOptionsFragment.java
-                        |               |       VideoOnDemandDetailFragment.java
-                        |               |       VideoOnDemandFragment.java
-                        |               |
-                        |               +---login - updated
-                        |               |       ForgotPasswardFragment.java
-                        |               |       LoginFragment.java
-                        |               |       RegisterFragment.java
-                        |               |
-                        |               +---massages - updated
-                        |               |   \---fragments
-                        |               |           EditProfileFragment.java
-                        |               |           MyMessageProfileFragment.java
-                        |               |
-                        |               +---myportfolio - updated
-                        |               |   \---fragments
-                        |               |           MyPortfolioFragment.java
-                        |               |
-                        |               +---personal - updated
-                        |               |   \---finance
-                        |               |       \---fragments
-                        |               |               PersonalFinanceFragmentNew.java
-                        |               |
-                        |               \---util - updated
-                        |                       AnalyticsTrack.java
-                        |                       CheckConnectivity.java
-                        |                       CircleImageView.java
-                        |                       ClickSpan.java
-                        |                       CommonAdLoader.java
-                        |                       ConfigOperations.java
-                        |                       Constantlibs.java
-                        |                       DownloadPdfUtility.java
-                        |                       ExpandableHeightListView.java
-                        |                       FileNameUtils.java
-                        |                       FlowLayout.java
-                        |                       FNOfeildComparator.java
-                        |                       FragmentNetworkUtils.java
-                        |                       GraphViewFinger.java
-                        |                       ImageDownloader.java
-                        |                       IndicesListingComparator.java
-                        |                       LazyLoadingImageWithProgressBar.java
-                        |                       ListenActivities.java
-                        |                       MyCacheManager.java
-                        |                       MyPortfolioComparator.java
-                        |                       OnSwipeTouchListener.java
-                        |                       Patterns.java
-                        |                       PerformanceComparetor.java
-                        |                       PerformanceTrackerComparator.java
-                        |                       RecommandationsLauncher.java
-                        |                       SaveSharedPref.java
-                        |                       ShareUtil.java
-                        |                       StockPeerComparator.java
-                        |                       SubscriptionComparetor.java
-                        |                       TaskCompleteListiners.java
-                        |                       ThreadPreconditions.java
-                        |                       TimeAgo.java
-                        |                       TopCommodityComparetor.java
-                        |                       TopCurrencyComparetor.java
-                        |                       UninstallIntentReceiver.java
-                        |                       UrlUtils.java
-                        |                       Utility.java
-                        |                       Validator.java
-                        |                       VisibleFragment.java
-                        |                       WatchlistCommodityComparator.java
-                        |                       WatchListComparator.java
                         |
                         \---res
                             +---drawable - updated
@@ -16647,164 +15982,10 @@ Job Search
                             |       expandible_list_selector.xml
                             |
                             +---layout - updated
-                            |       activity_indices_detail.xml
-                            |       add_mutual_fund_sip.xml
-                            |       add_stocks.xml
-                            |       commodity_detail_layout.xml
-                            |       common_list_item.xml
-                            |       currency_detail_layout.xml
-                            |       forgot_password_layout.xml
-                            |       fragment_login.xml
-                            |       fragment_personal_finance_fragment_new.xml
-                            |       layout_edit_profile_fragment.xml
-                            |       layout_lastvisted_child_fragment.xml
-                            |       layout_mymessage_profile.xml
-                            |       layout_mypage_fragment.xml
-                            |       live_tv_detail_layout.xml
-                            |       manage_alert_base_layout.xml
-                            |       mutual_fund_detail_layout.xml
-                            |       my_alert.xml
-                            |       my_alerts_rows.xml
-                            |       new_options_header_content_layout.xml
-                            |       options_header_content_layout.xml
-                            |       options_style_settlement.xml
-                            |       set_alert.xml
-                            |       stock_detail.xml
-                            |       stock_future_content_group.xml
-                            |       user_portfolio_layout.xml
-                            |       watchlist_layout.xml
                             |
                             +---layout-sw720dp - added
-                            |       activity_indices_detail.xml
-                            |       add_bullion.xml
-                            |       add_mutual_fund.xml
-                            |       add_mutual_fund_sip.xml
-                            |       add_stocks.xml
-                            |       add_ulip.xml
-                            |       alert_port_layout.xml
-                            |       balancesheet_tab_button_layout.xml
-                            |       broker_research.xml
-                            |       broker_research_buy_sell_row.xml
-                            |       broker_research_buy_sell_row_item.xml
-                            |       broker_research_commonchild.xml
-                            |       broker_research_list_row.xml
-                            |       broker_research_overview.xml
-                            |       broker_research_search.xml
-                            |       broker_research_search_header.xml
-                            |       broker_research_search_list_row.xml
-                            |       calendar_view.xml
-                            |       common_list_fragement.xml
-                            |       common_list_item.xml
-                            |       common_search_layout.xml
-                            |       currency_watchlist_detail_layout.xml
-                            |       custom_dialog_layout.xml
-                            |       custom_sort_dialog_layout.xml
-                            |       dropdown_currency_converter.xml
-                            |       edit_stocks_popup.xml
-                            |       enter_email_fragment.xml
-                            |       explore_massage_layout.xml
-                            |       fii_dii_child_fragment.xml
-                            |       fii_dii_child_fragment_inflator.xml
-                            |       fii_dii_month_activity.xml
-                            |       fii_dii_note.xml
-                            |       fii_dii_root_layout.xml
-                            |       fno_commonlist_layout.xml
-                            |       footer_portfolio.xml
-                            |       forgot_password_layout.xml
-                            |       fragment_login.xml
-                            |       fragment_update_profile.xml
-                            |       future_watch_list_layout.xml
-                            |       f_and_o_action_child_fragment.xml
-                            |       header_action_bar.xml
-                            |       header_app.xml
-                            |       home_fragement.xml
-                            |       home_header_layout.xml
-                            |       home_tupple.xml
-                            |       indices_industries_fragment.xml
-                            |       indices_stock_fragment.xml
-                            |       indice_listing_overview.xml
-                            |       industry_header_layout.xml
-                            |       informatin_stock_layout.xml
-                            |       ipo_snapshot_fragment.xml
-                            |       item_spinner.xml
-                            |       latest_massage_layout.xml
-                            |       layout_currency_converter_fragment.xml
-                            |       layout_lastvisted_child_fragment.xml
-                            |       layout_mypage_fragment.xml
-                            |       listedipo_fragment.xml
-                            |       listed_performance_row.xml
-                            |       listed_subscription_row.xml
-                            |       live_tv_detail_layout.xml
-                            |       live_tv_inner_item.xml
-                            |       live_tv_layout.xml
-                            |       login_reg_terms.xml
-                            |       management_infomation.xml
-                            |       manage_alert_base_layout.xml
-                            |       market_mover_child_fragment_layout.xml
-                            |       market_mover_fragment_layout.xml
-                            |       massage_post_layout.xml
-                            |       menugroup_item.xml
-                            |       messages_login.xml
-                            |       message_layout_insock.xml
-                            |       mutual_fund_detail_layout.xml
-                            |       mutual_fund_watchlist_detail_layout.xml
-                            |       my_alert.xml
-                            |       my_alert_innerdata.xml
-                            |       my_portfolio_home_item.xml
-                            |       news_adapter.xml
-                            |       news_detail_fragment.xml
-                            |       news_inner_item.xml
-                            |       new_options_header_content_layout.xml
-                            |       options_header_content_layout.xml
-                            |       options_style_settlement.xml
-                            |       outbrain_classic_recommendation_header_view.xml
-                            |       overview_detail_layout.xml
-                            |       peer_comparision_fragment.xml
-                            |       register_fragement.xml
-                            |       row_message_lastvisited.xml
-                            |       search_message_item_layout.xml
-                            |       setting_layout.xml
-                            |       setting_row_layout.xml
-                            |       set_alert.xml
-                            |       shareholding_chart.xml
-                            |       show_singleaddress_row.xml
-                            |       slide_menu.xml
-                            |       snapshot_graphdetail_inflator.xml
-                            |       snapshot_upcoming_issues_inflator.xml
-                            |       stock_detail.xml
-                            |       stock_future_content_group.xml
-                            |       stock_future_content_group_item.xml
-                            |       stock_future_layout.xml
-                            |       stock_share_holding_layout.xml
-                            |       stock_watchlist_detail_layout.xml
-                            |       submenu_item.xml
-                            |       ticker.xml
-                            |       ticker_item.xml
-                            |       tikcer_setting_layout.xml
-                            |       tool_tips.xml
-                            |       tool_tips_single_watchlist.xml
-                            |       top_commodities_footer_view.xml
-                            |       user_options.xml
-                            |       user_portfolio_detail.xml
-                            |       user_portfolio_item.xml
-                            |       user_portfolio_layout.xml
-                            |       watchlist_detail_layout.xml
-                            |       watchlist_item_layout.xml
-                            |       watchlist_layout.xml
                             |
                             +---mipmap-hdpi - added
-                            |       arrow_right_orange.png
-                            |       collapse_circle_orange.png
-                            |       collapse_orange.png
-                            |       expand_cirle_orange.png
-                            |       expand_orange.png
-                            |       eye_hide_orange.png
-                            |       eye_show_orange.png
-                            |       minus_round_orange.png
-                            |       plus_icon_grey.png
-                            |       plus_round_orange.png
-                            |       setting_grey.png
-                            |       trade_now_orange.png
                             |
                             +---values - updated
                             |       dimens.xml
@@ -19566,38 +18747,8 @@ Job Search
   └── No thing much
 25-07-2018
   └── Started on Micromax
-26-07-2018
-  └── Worked on Micromax
-27-07-2018
-  └── Worked on Micromax
-31-07-2018
-  └── Worked on Micromax
-01-08-2018
-  └── Worked on Micromax
-02-08-2018
-  └── Worked on Micromax
-03-08-2018
-  └── Worked on Micromax
-06-08-2018
-  └── Worked on Micromax
-07-08-2018
-  └── Worked on Micromax
-08-08-2018
-  └── Worked on Micromax
-09-08-2018
-  └── Worked on Micromax
-10-08-2018
-  └── Worked on Micromax
-13-08-2018
-  └── Worked on Micromax
-14-08-2018
-  └── Worked on Micromax
-16-08-2018
-  └── Worked on Micromax
-17-08-2018
-  └── Worked on Micromax
-20-08-2018
-  └── Worked on Micromax
+26-07-2018 - 20-08-2018
+  	└── Worked on Micromax
 21-08-2018
   └── Worked on Micromax scrolling issue
 22-08-2018
@@ -19607,66 +18758,27 @@ Job Search
 24-08-2018
   └── Worked on Micromax A-Z
 27-08-2018
-  └── Worked on Micromax _ drawer scroll and AZ 
+  └── Worked on Micromax drawer scroll and AZ 
 28-08-2018
   └── Worked on Zoom and mahakal app
-29-08-2018
-  └── Worked on Micromax Folder Icon
-30-08-2018
-  └── Worked on Micromax Folder Icon
-03-09-2018
-  └── Worked on Micromax Folder Icon
-31-08-2018
-  └── Worked on Micromax Folder Icon
-04-09-2018
-  └── Worked on Micromax Folder Icon
-05-09-2018
-  └── Worked on Micromax Bug Fix
-06-09-2018
-  └── Worked on Micromax Bug Fix
-07-09-2018
-  └── Worked on Micromax Bug Fix
-10-09-2018
-  └── Worked on Micromax Bug Fix
-11-09-2018
-  └── Worked on Micromax Bug Fix
-12-09-2018
-  └── Worked on Micromax Bug Fix
-13-09-2018
-  └── Micromax - Widget issue
-14-09-2018
-  └── Micromax - Widget issue
-17-09-2018
+29-08-2018 - 04-09-2018
+  	└── Worked on Micromax Folder Icon
+05-09-2018 - 12-09-2018
+  	└── Worked on Micromax Bug Fix
+13-09-2018 - 18-09-2018
   └── Micromax - Widget issue
 18-09-2018
   └── Micromax - Icon long click issue
-19-09-2018
-  └── Worked on MicroMax - app info displayed without clicking  icon
-20-09-2018
-  └── Worked on MicroMax - app info displayed without clicking  icon
-21-09-2018
-  └── Worked on Mahakal App
-24-09-2018
-  └── Worked on Mahakal App
-25-09-2018
-  └── Worked on Mahakal App
-26-09-2018
-  └── Worked on Mahakal App
-27-09-2018
-  └── Worked on Mahakal App
-28-09-2018
-  └── Worked on Mahakal App
-4-10-2018
-  └── Worked on Mahakal App
-5-10-2018
-  └── Worked on Mahakal App
+19-09-2018 - 20-09-2018
+  	└── Worked on MicroMax - app info displayed without clicking  icon
+21-09-2018 - 5-10-2018
+  	└── Worked on Mahakal App
 8-10-2018
   └── Nothing Much
 9-10-2018
   └── OS Upgrade
+12-10-2018 - 17-10-2018
+	└── Worked on sky dive video
 
-
-
-
-
-
+18-10-2018 - 26-10-2018
+	└── Read book
