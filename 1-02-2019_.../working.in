@@ -14,5 +14,74 @@
   └── Worked for Siya
 14-02-2019 - 18-02-2019
   - Worked on Jio TV R&D
-21-02-2019
-  - Worked on Jio TV webview
+21-01-2019
+  ├── JioTV
+   └── app
+       └── src
+           └── main
+               ├── AndroidManifest.xml
+               ├── assets
+               │   └── index.html
+               ├── java
+               │   └── com
+               │       └── example
+               │           └── m_tv
+               │               └── MainActivity.java
+               └── res
+                   └── layout
+                       └── activity_main.xml
+  └── Worked on JioTv
+22-01-2019(Sick)
+  └── Worked on JioTv
+23-01-2019
+  ├── JioTV
+   └── app
+       └── src
+           └── main
+               ├── AndroidManifest.xml
+               ├── assets
+               │   └── index.html
+               ├── java
+               │   └── com
+               │       └── example
+               │           └── m_tv
+               │               └── MainActivity.java
+               └── res
+                   └── layout
+                       └── activity_main.xml
+  └── Worked on JioTv
+24-01-2019
+  ├── JioTV
+   └── app
+       └── src
+           └── main
+               ├── AndroidManifest.xml
+               ├── assets
+               │   └── index.html
+               ├── java
+               │   └── com
+               │       └── example
+               │           └── m_tv
+               │               └── MainActivity.java
+               └── res
+                   └── layout
+                       └── activity_main.xml
+  └── Worked on Webview
+25-01-2019
+  ├── JioTV
+   └── app
+       └── src
+           └── main
+               ├── AndroidManifest.xml
+               ├── assets
+               │   └── index.html
+               ├── java
+               │   └── com
+               │       └── example
+               │           └── m_tv
+               │               └── MainActivity.java
+               └── res
+                   └── layout
+                       └── activity_main.xml
+  └── Worked on Webview
+
