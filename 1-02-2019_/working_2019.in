@@ -69,7 +69,7 @@
   └── Worked on Webview
 25-01-2019
   ├── JioTV
-   └── app
+  └── app
        └── src
            └── main
                ├── AndroidManifest.xml
@@ -84,4 +84,353 @@
                    └── layout
                        └── activity_main.xml
   └── Worked on Webview
+31_01_2019
+  \---Worked on Jio Native App
+      \---JioNative
+          \---app
+              \---src
+                  \---main
+                      +---java
+                      |   \---com
+                      |       \---rjil
+                      |           \---jionative
+                      |               \---activity
+                      |                       MainActivity.java
+                      |                       Movie.java
+                      |                       MovieList.java
+                      |
+                      \---res
+                          +---layout
+                          |       activity_main.xml
+                          |       recycle_view_sample.xml
+                          |
+                          \---values
+                                  colors.xml
+                                  strings.xml
+                                  styles.xml
+01_02_2019
+  \---JioNative
+      \---app
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---jionative
+                  |               \---activity
+                  |                       LauncherActivity.java
+                  |                       RecycleViewSample.java
+                  |
+                  \---res
+                      +---drawable
+                      |       background_selector.xml
+                      |       default_focus.9.png
+                      |
+                      +---layout
+                      |       item.xml
+                      |       recycle_view_sample.xml
+                      |
+                      \---values
+                              dimens.xml
 
+02_02_2019
+  \---Inherit Recycle View
+      +---Rec
+      |   \---app
+      |       \---src
+      |           \---main
+      |               |   AndroidManifest.xml
+      |               |
+      |               \---java
+      |                   \---com
+      |                       \---rjil
+      |                           \---rec
+      |                                   PrimaryRecyclerViewFragment.java
+      |
+      \---TvRecyclerView
+          \---app
+              \---src
+                  \---main
+                      |   AndroidManifest.xml
+                      |
+                      \---java
+                          \---com
+                              \---app
+                                  \---tvrecyclerview
+                                      |   ContantUtil.java
+                                      |   MainActivity.java
+                                      |   PrimaryAdapter.java
+                                      |   SecondaryAdapter.java
+                                      |
+                                      +---support
+                                      |       FocusBorderView.java
+                                      |       ModuleLayoutManager.java
+                                      |       TvRecyclerView.java
+                                      |
+                                      \---view
+                                              FocusRelativeLayout.java
+
+04_02_2019
+  \---Nenos
+      \---app
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  \---java
+                      \---com
+                          \---rjil
+                              \---nenos
+                                      MainActivity.java
+                                      Server.java
+
+05_02_2019
+  \---JioSTBLauncher
+      \---app
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  \---java
+                      \---com
+                          \---rjil
+                              \---jiostblauncher
+                                  +---activity
+                                  |       EventLogger.java
+                                  |       LauncherActivity.java
+                                  |       MyApplication.java
+                                  |
+                                  \---utils
+                                          AppConstants.java
+                                          Global.java
+
+06_02_2019
+  +---Exo
+  |   \---app
+  |       \---src
+  |           \---main
+  |               |   AndroidManifest.xml
+  |               |
+  |               \---java
+  |                   \---com
+  |                       \---exos
+  |                               EventLogger.java
+  |                               MainActivity.java
+  |                               MyApplication.java
+  |
+  \---JioSTBLauncher
+      \---app
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  +---assets
+                  |   |   index.html
+                  |   |
+                  |   +---css
+                  |   |       custom.css
+                  |   |
+                  |   +---img
+                  |   |       add-plus.svg
+                  |   |       background.gif
+                  |   |       Bellyshape.svg
+                  |   |
+                  |   \---js
+                  |           custom.js
+                  |
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---jiostblauncher
+                  |               +---activity
+                  |               |       EventLogger.java
+                  |               |       LauncherActivity.java
+                  |               |       MyApplication.java
+                  |               |
+                  |               \---utils
+                  |                       AppConstants.java
+                  |                       Global.java
+                  |
+                  \---res
+                      +---drawable
+                      |       app_icon_your_company.jpg
+                      |       ic_cloud_off_24dp.xml
+                      |       ic_jio_logo.xml
+                      |       ic_play.png
+                      |       ic_stopvideos.png
+                      |
+                      +---drawable-v24
+                      +---layout
+                      |       activity_main.xml
+                      |       custom_controls.xml
+                      |       live_tv_window.xml
+                      |
+                      +---mipmap-hdpi
+                      +---mipmap-mdpi
+                      +---mipmap-xhdpi
+                      +---mipmap-xxhdpi
+                      +---mipmap-xxxhdpi
+                      +---values
+                      |       colors.xml
+                      |       dimens.xml
+                      |       strings.xml
+                      |       styles.xml
+                      |
+                      \---xml
+                              network_security_config.xml
+
+07_02_2019
+  +---JioSTBLauncher
+  |   \---app
+  |       \---src
+  |           \---main
+  |               \---java
+  |                   \---com
+  |                       \---rjil
+  |                           \---jiostblauncher
+  |                               \---activity
+  |                                       LauncherActivity.java
+  |
+  \---Weby
+      \---app
+          \---src
+              \---main
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---weby
+                  |                   MainActivity.java
+                  |
+                  \---res
+                      \---layout
+                              activity_main.xml
+
+08_02_2019
+  +---JioSTBLauncher
+  |   \---app
+  |       \---src
+  |           \---main
+  |               \---java
+  |                   \---com
+  |                       \---rjil
+  |                           \---jiostblauncher
+  |                               \---activity
+  |                                       LauncherActivity.java
+  |
+  \---Weby
+      \---app
+          \---src
+              \---main
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---weby
+                  |                   MainActivity.java
+                  |
+                  \---res
+                      \---layout
+                              activity_main.xml
+
+11_02_2019
+  +---JioSTBLauncher
+  |   \---app
+  |       \---src
+  |           \---main
+  |               \---java
+  |                   \---com
+  |                       \---rjil
+  |                           \---jiostblauncher
+  |                               \---activity
+  |                                       LauncherActivity.java
+  |
+  \---Weby
+      \---app
+          \---src
+              \---main
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---weby
+                  |                   MainActivity.java
+                  |
+                  \---res
+                      \---layout
+                              activity_main.xml
+
+12_02_2019
+  +---JioSTBLauncher
+  |   \---app
+  |       \---src
+  |           \---main
+  |               \---java
+  |                   \---com
+  |                       \---rjil
+  |                           \---jiostblauncher
+  |                               \---activity
+  |                                       LauncherActivity.java
+  |
+  \---Weby
+      \---app
+          \---src
+              \---main
+                  +---java
+                  |   \---com
+                  |       \---rjil
+                  |           \---weby
+                  |                   MainActivity.java
+                  |
+                  \---res
+                      \---layout
+                              activity_main.xml
+
+13_02_2019
+  +---ListSample
+  |       App.js
+  |       app.json
+  |       babel.config.js
+  |       index.js
+  |       Listing.js
+  |       package-lock.json
+  |       package.json
+  |       Row.js
+  |       sectionListData.js
+  |
+  \---STB
+          App.js
+          babel.config.js
+          BaseSectionListActivity.js
+          FlatListing.js
+          index.js
+          InnerList.js
+          List.js
+          Listing.js
+          MyListItem.js
+          SectionListActivity.js
+          sectionListData.js
+
+14_02_2019 - 16_02_2019
+  \---STB
+          App.js
+          babel.config.js
+          BaseSectionListActivity.js
+          FlatListing.js
+          index.js
+          InnerList.js
+          List.js
+          Listing.js
+          MyListItem.js
+          SectionListActivity.js
+          sectionListData.js
+
+18_02_2019 - 21_02_2019
+  \---STB
+          App.js
+          BaseSectionListActivity.js
+          FlatListing.js
+          Listing.js
+          sectionListData.js
+
+22_02_2019
+  \---Interview
