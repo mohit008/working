@@ -84,7 +84,7 @@
                    └── layout
                        └── activity_main.xml
   └── Worked on Webview
-31_01_2019
+31-01-2019
   \---Worked on Jio Native App
       \---JioNative
           \---app
@@ -108,7 +108,7 @@
                                   colors.xml
                                   strings.xml
                                   styles.xml
-01_02_2019
+01-02-2019
   \---JioNative
       \---app
           \---src
@@ -135,7 +135,7 @@
                       \---values
                               dimens.xml
 
-02_02_2019
+02-02-2019
   \---Inherit Recycle View
       +---Rec
       |   \---app
@@ -172,7 +172,7 @@
                                       \---view
                                               FocusRelativeLayout.java
 
-04_02_2019
+04-02-2019
   \---Nenos
       \---app
           \---src
@@ -186,7 +186,7 @@
                                       MainActivity.java
                                       Server.java
 
-05_02_2019
+05-02-2019
   \---JioSTBLauncher
       \---app
           \---src
@@ -206,7 +206,7 @@
                                           AppConstants.java
                                           Global.java
 
-06_02_2019
+06-02-2019
   +---Exo
   |   \---app
   |       \---src
@@ -281,7 +281,7 @@
                       \---xml
                               network_security_config.xml
 
-07_02_2019
+07-02-2019
   +---JioSTBLauncher
   |   \---app
   |       \---src
@@ -307,7 +307,7 @@
                       \---layout
                               activity_main.xml
 
-08_02_2019
+08-02-2019
   +---JioSTBLauncher
   |   \---app
   |       \---src
@@ -333,7 +333,7 @@
                       \---layout
                               activity_main.xml
 
-11_02_2019
+11-02-2019
   +---JioSTBLauncher
   |   \---app
   |       \---src
@@ -359,7 +359,7 @@
                       \---layout
                               activity_main.xml
 
-12_02_2019
+12-02-2019
   +---JioSTBLauncher
   |   \---app
   |       \---src
@@ -385,7 +385,7 @@
                       \---layout
                               activity_main.xml
 
-13_02_2019
+13-02-2019
   +---ListSample
   |       App.js
   |       app.json
@@ -410,7 +410,7 @@
           SectionListActivity.js
           sectionListData.js
 
-14_02_2019 - 16_02_2019
+14-02-2019 - 16-02-2019
   \---STB
           App.js
           babel.config.js
@@ -424,7 +424,7 @@
           SectionListActivity.js
           sectionListData.js
 
-18_02_2019 - 21_02_2019
+18-02-2019 - 21-02-2019
   \---STB
           App.js
           BaseSectionListActivity.js
@@ -432,5 +432,194 @@
           Listing.js
           sectionListData.js
 
-22_02_2019
+22-02-2019
   \---Interview
+
+25-02-2019 - 01-03-2019
+  - Reliance STB Launcher - React Application phase I
+
+05-03-2019 - 06-03-2019
+  - Reliance STB Launcher - React Application phase I
+
+07-03-2019 - 08-03-2019
+  - Google palay instant app (try now button)
+
+11-03-2019
+  \---JioSTBLauncher
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---rjil
+                            \---jiostblauncher
+                                \---activity
+                                        LauncherActivity.java
+
+12-03-2019
+  +---BS_Android_Studio - Added
+  |   \---bS
+  |       \---src
+  |           \---main
+  |               |   AndroidManifest.xml
+  |               |
+  |               +---java
+  |               |   \---com
+  |               |       \---businessstandard
+  |               |           \---common
+  |               |               \---ui
+  |               |                       MenuActivity.java
+  |               |
+  |               \---res
+  |                   \---layout
+  |                           child_item.xml
+  |                           group_item.xml
+  |
+  \---Sample - Added
+      \---app
+          \---src
+              \---main
+                  |   AndroidManifest.xml
+                  |
+                  +---java
+                  |   \---com
+                  |       \---sample
+                  |           \---example
+                  |               |   MenuActivity.java
+                  |               |   MenuAdapter.java
+                  |               |
+                  |               \---pojo
+                  |                       ChildMenu.java
+                  |                       Example.java
+                  |                       Menu.java
+                  |                       Message.java
+                  |
+                  \---res
+                      \---layout
+                              child_item.xml
+                              group_item.xml
+                              menu_main.xml
+
+13-03-2019
+  \---Sample - Updated
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---sample
+                |           \---example
+                |               |   MenuActivity.java
+                |               |   MenuAdapter.java
+                |               |
+                |               \---pojo
+                |                       ChildMenu.java
+                |                       Example.java
+                |                       Menu.java
+                |                       Message.java
+                |
+                \---res
+                    \---layout
+                            child_item.xml
+                            group_item.xml
+                            menu_main.xml
+
+14-03-2019
+  \---Sample - Updated
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---sample
+                |           \---example
+                |               |   MenuActivity.java
+                |               |   MenuAdapter.java
+                |               |
+                |               \---pojo
+                |                       ChildMenu.java
+                |                       Example.java
+                |                       Menu.java
+                |                       Message.java
+                |
+                \---res
+                    \---layout
+                            child_item.xml
+                            group_item.xml
+                            menu_main.xml
+
+15-03-2019
+    +---CordovaSample - Added
+    |   \---app
+    |       \---src
+    |           \---main
+    |               |   AndroidManifest.xml
+    |               |
+    |               +---java
+    |               |   \---com
+    |               |       \---cordova
+    |               |           \---sam
+    |               |               +---activity
+    |               |               |       Home.java
+    |               |               |       LauncherActivity.java
+    |               |               |
+    |               |               \---utils
+    |               |                       AppConstants.java
+    |               |
+    |               \---res
+    |                   \---layout
+    |                           activity_main.xml
+    |                           home.xml
+    |
+    \---Sample
+        \---app
+            \---src
+                \---main
+                    |   AndroidManifest.xml
+                    |
+                    +---java
+                    |   \---com
+                    |       \---sample
+                    |           \---example
+                    |               |   MenuActivity.java
+                    |               |   MenuAdapter.java
+                    |               |
+                    |               \---pojo
+                    |                       ChildMenu.java
+                    |                       Example.java
+                    |                       Menu.java
+                    |                       Message.java
+                    |
+                    \---res
+                        \---layout
+                                child_item.xml
+                                group_item.xml
+                                menu_main.xml
+
+18-03-2019 - 20-03-2019
+  -Worked on BS code review
+
+22-03-2019
+  -Worked on BS update from git
+
+26-03-2019
+  -Nothing much
+
+27-03-2019 - 29-03-2019
+  -Rmote desktop work
+
+01-04-2019
+  -Nothing Much
+
+02-04-2019 - 04-04-2019
+  -TechGig
+
+05-04-2019
+  -Office party
+
+08-04-2019 - 12-04-2019
+  -youtube
