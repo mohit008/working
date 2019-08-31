@@ -601,31 +601,31 @@
                                 menu_main.xml
 
 18-03-2019 - 20-03-2019
-  -Worked on BS code review
+  └───Worked on BS code review
 
 22-03-2019
-  -Worked on BS update from git
+  └───Worked on BS update from git
 
 26-03-2019
-  -Nothing much
+  └───Nothing much
 
 27-03-2019 - 29-03-2019
-  -Rmote desktop work
+  └───Rmote desktop work
 
 01-04-2019
-  -Nothing Much
+  └───Nothing Much
 
 02-04-2019 - 04-04-2019
-  -TechGig
+  └───TechGig
 
 05-04-2019
-  -Office party
+  └───Office party
 
 08-04-2019 - 12-04-2019
-  -youtube
+  └───youtube
 
 15-04-2019 - 19-04-2019
-  -Book read
+  └───Book read
 
 22-04-2019 - 25-04-2019
   └───Nothing Much
@@ -643,10 +643,369 @@
   └───No much -  Last Days
 
 16-05-2019
-  - Last Day at Webdunia
+  └───Last Day at Webdunia
 
 17-05-2019 - 30-06-2019 
-  - At Home
+  └───At Home
   
 01-07-2019 - 17-07-2019
-  - Joined Shop and started own work
+  └───Joined Shop and started own work
+
+17-07-2019
+  └───Crclee
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───mo - updated
+18-07-2019
+  └───Crclee
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───mo - updated
+19-07-2019
+  └───Crclee
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───mo - updated
+20-07-2019
+  └───android-getUserMedia-test - Added
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───example
+                │           └───marcusbelcher
+                │               └───getusermediatest
+                └───res
+                    ├───drawable
+                    ├───drawable-v24
+                    ├───layout
+                    ├───menu
+                    ├───mipmap-anydpi-v26
+                    ├───mipmap-hdpi
+                    ├───mipmap-mdpi
+                    ├───mipmap-xhdpi
+                    ├───mipmap-xxhdpi
+                    ├───mipmap-xxxhdpi
+                    └───values
+22-07-2019
+  └───Internet issue
+23-07-2019
+  ├───Crclee
+  │   └───app
+  │       └───src
+  │           └───main
+  │               └───java
+  │                   └───com
+  │                       └───crclee
+  │                           └───mo - updated
+  └───Wamp Configured
+24-07-2019
+  └───First
+26-07-2019
+  ├───LawLiveAU - updated
+  ├───LawLiveNZ - updated
+  ├───LawLiveSG - updated
+  ├───LawLiveUK - updated
+  └───LawLiveZA - updated
+27-07-2019 - 29-07-2019
+  └───Nothing much
+30-07-2019
+  └───MyVLC - Added
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───example
+                │           └───myvlc
+                └───res
+                    ├───drawable
+                    ├───drawable-v24
+                    ├───layout
+                    ├───mipmap-anydpi-v26
+                    ├───mipmap-hdpi
+                    ├───mipmap-mdpi
+                    ├───mipmap-xhdpi
+                    ├───mipmap-xxhdpi
+                    ├───mipmap-xxxhdpi
+                    └───values
+31-07-2019
+  └───MyVLC - updated
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───example
+                │           └───myvlc
+                └───res
+                    ├───drawable
+                    ├───drawable-v24
+                    ├───layout
+                    ├───mipmap-anydpi-v26
+                    ├───mipmap-hdpi
+                    ├───mipmap-mdpi
+                    ├───mipmap-xhdpi
+                    ├───mipmap-xxhdpi
+                    ├───mipmap-xxxhdpi
+                    └───values
+
+01-08-2019 - 05-08-2019
+  └───Nothing much
+06-08-2019
+  └───Sample -Added
+    └───app
+        └───src
+            └───main
+                ├───assets
+                ├───java
+                │   └───com
+                │       └───samux
+                └───res
+07-08-2019 -08-08-2019
+  └───Loacking App bug
+09-08-2019
+  └───baby_loc
+    └───app
+        └───src
+            └───main
+                └───java - Added
+                    └───baby
+                        └───watching
+                            ├───broad
+                            └───model
+                                └───open_weather
+10-08-2019
+  └───Holiday
+    └───app
+        └───src
+            └───main
+                └───java - Added
+                    └───baby
+                        └───watching
+                            ├───broad
+                            └───model
+                                └───open_weather
+12-08-2019
+  ├───android_repo - Added
+  │   └───app
+  │       └───src
+  │           └───main
+  │               └───java
+  │                   └───com
+  │                       └───mohit
+  │                           └───program
+  │                               └───phone_state
+  └───baby_loc
+      └───app
+          └───src
+              └───main
+                  └───java
+                      └───baby
+                          └───watching
+                              ├───adapter
+                              ├───broad
+                              ├───loc
+                              ├───model
+                              │   └───open_weather
+                              ├───save
+                              ├───util
+                              ├───view
+                              └───weather
+13-08-2019 - 15-08-2019
+  └───Configuring new laptop
+16-08-2019 - 17-08-2019
+  └───Worked on notification bean
+18-08-2019
+  └───Worked on layout and addd error window
+    └───baby_loc - added and updaed
+        └───app
+            └───src
+                └───main
+                    ├───java
+                    │   └───baby
+                    │       └───watching
+                    │           ├───broad
+                    │           ├───loc
+                    │           └───weather
+                    └───res
+                        └───layout
+20-08-2019
+  └───Still working on notification not showing issue
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    └───java
+                        └───baby
+                            └───watching
+                                ├───broad -added
+                                └───loc - updated
+21-08-2019
+  └───working on notification not showing issue
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    └───java
+                        └───baby
+                            └───watching
+                                ├───broad - updated
+                                └───loc - updated
+22-08-2019
+  ├───Crclee_Native - Added
+  │   └───app
+  │       └───src
+  │           └───main
+  │               ├───java
+  │               │   └───com
+  │               │       └───crclee
+  │               │           └───core
+  │               │               └───adapter
+  │               └───res
+  │                   ├───drawable
+  │                   ├───drawable-v24
+  │                   ├───layout
+  │                   ├───mipmap-hdpi
+  │                   ├───mipmap-mdpi
+  │                   ├───mipmap-xhdpi
+  │                   ├───mipmap-xxhdpi
+  │                   ├───mipmap-xxxhdpi
+  │                   └───values
+  └───FragmentSample - Added
+      └───app
+          └───src
+              └───main
+                  ├───java
+                  │   └───com
+                  │       └───crclee
+                  │           └───fragmentsample
+                  └───res
+                      ├───drawable
+                      ├───drawable-v24
+                      ├───layout
+                      ├───mipmap-anydpi-v26
+                      ├───mipmap-hdpi
+                      ├───mipmap-mdpi
+                      ├───mipmap-xhdpi
+                      ├───mipmap-xxhdpi
+                      ├───mipmap-xxxhdpi
+                      └───values
+23-08-2019
+  ├───baby_loc
+  │   └───app
+  │       └───src
+  │           └───main
+  │               └───java
+  │                   └───baby
+  │                       └───watching
+  │                           ├───adapter - updated
+  │                           ├───broad - updated
+  │                           ├───util - updated
+  │                           └───weather - updated
+  └───baby_loc_behind -  added
+      └───app
+          └───src
+              └───main
+                  └───java
+                      └───com
+                          └───baby
+                              └───watching
+                                  └───behind
+24-08-2019
+  └───Worked at shop
+26-08-2019
+  └───baby_loc
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───baby
+                        └───watching
+                            ├───loc - updated
+                            └───model - updated
+27-08-2019
+  └───Worked on toggle manager
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    ├───java
+                    │   └───baby
+                    │       └───watching
+                    │           ├───adapter - added
+                    │           ├───loc - updated
+                    │           └───model - added
+                    └───res
+                        ├───drawable - added
+                        └───layout - added
+28-08-2019
+  └───Worked on toggle manager
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    └───java
+                        └───baby
+                            └───watching
+                                └───adapter - updated
+29-08-2019
+  └───Completed toogle task
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    ├───java
+                    │   └───baby
+                    │       └───watching
+                    │           ├───adapter - updated
+                    │           ├───broad - updated
+                    │           └───loc - updated
+                    └───res
+                        ├───drawable - added
+                        └───layout - added
+30-08-2019
+  └───baby_loc
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───baby
+                        └───watching
+                            ├───adapter - updated
+                            ├───broad - updated
+                            ├───interfacing  -added
+                            ├───loc - updated
+                            └───model - updated
+31-08-2019
+  └───Committed to git and updated size
+    └───baby_loc
+        └───app
+            └───src
+                └───main
+                    └───java
+                        └───baby
+                            └───watching
+                                ├───adapter
+                                ├───broad
+                                ├───interfacing
+                                ├───loc
+                                ├───model
+                                ├───old
+                                ├───save
+                                ├───util
+                                ├───view
+                                └───weather
