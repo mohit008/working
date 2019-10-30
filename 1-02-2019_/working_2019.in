@@ -1009,3 +1009,992 @@
                                 ├───util
                                 ├───view
                                 └───weather
+2-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───core
+                                └───adapter - updated
+                                        RecycleAdapter.java
+3-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               │   BaseActivity.java
+                │               │   BaseApplication.java
+                │               │   Home.java
+                │               │
+                │               ├───adapter - added
+                │               │       HomePagerAdapter.java
+                │               │
+                │               ├───custom_view - added
+                │               │       CustomViewPager.java
+                │               │
+                │               ├───helper - added
+                │               │       LandingPagerEnum.java
+                │               │       MainPagerEnum.java
+                │               │       SelectDialog.java
+                │               │       SelectInterface.java
+                │               │
+                │               └───model - added
+                │                       Category.java
+                │                       Meal.java
+                │                       RootBean.java
+                │                       Subcategory.java
+                │
+                └───res
+                    └───drawable - added
+                            circular_image_front_24dp.xml
+
+4-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               │   Home.java
+                │               │
+                │               ├───adapter - added
+                │               │       SubCategoryAdapter.java
+                │               │
+                │               ├───adapter - updated
+                │               │       CategoryAdapter.java
+                │               │       HomePagerAdapter.java
+                │               │
+                │               └───helper -added
+                │                       UpdateMainHash.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       add_circle_24dp.xml
+                    │       non_vegetarian_mark.xml
+                    │       rectangle_transparent.xml
+                    │       remove_24dp.xml
+                    │       vegetarian_mark.xml
+                    │
+                    └───layout - added
+                            category.xml
+                            category_list_item.xml
+                            sub_category.xml
+                            sub_category_list_item.xml
+
+5-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               ├───adapter - updated
+                │               │       CategoryAdapter.java
+                │               │       HomePagerAdapter.java
+                │               │       SubCategoryAdapter.java
+                │               │
+                │               ├───module - updated
+                │               │       Home.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       clear_pink_24dp.xml
+                    │       landing_indicator_on.xml
+                    │       remove_circle_pink_24dp.xml
+                    │
+                    └───layout - updated
+                            category_list_item.xml
+                            check_out_detail.xml
+                            check_out_list_item.xml
+                            landing.xml
+
+6-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               ├───adapter - added
+                │               │       BrowsePagerAdapter.java
+                │               │       HomePagerAdapter.java
+                │               │
+                │               ├───helper - added
+                │               │       HomePagerEnum.java
+                │               │
+                │               └───module - added
+                │                       Browse.java
+                │                       Home.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       account_24dp.xml
+                    │       google_normal.xml
+                    │       scanner_24dp.xml
+                    │
+                    └───layout - added
+                            browse.xml
+                            check_out_detail.xml
+                            check_out_list_item.xml
+                            home.xml
+                            home_scanner.xml
+                            login.xml
+                            person_account.xml
+                            toolbar.xml
+
+7-09-2019
+  └───Barcode - added
+    └───app
+        └───src
+            └───main
+                │   AndroidManifest.xml
+                │
+                └───java
+                    └───com
+                        └───example
+                            └───barcode
+                                    AES.java
+                                    Global.java
+                                    MainActivity.java
+                                    OpenCamera.java
+
+9-09-2019
+  └───Managed Shop
+10-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               ├───adapter - upadted
+                │               │       BrowsePagerAdapter.java
+                │               │       SubCategoryAdapter.java
+                │               │
+                │               └───util - added
+                │                       CircleImage.java
+                │                       CircleImageView.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       add_quantity.xml
+                    │       remove_quantity.xml
+                    │       transparent_circle.xml
+                    │
+                    ├───layout - added
+                    │       category_list_item.xml
+                    │       sub_category_list_item.xml
+                    │       toolbar.xml
+                    │
+                    └───values - added
+                            attrs.xml
+
+11-09-2019
+  └───Managed Shop
+12-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───crclee
+                │           └───core
+                │               ├───adapter - updated
+                │               │       HomePagerAdapter.java
+                │               │
+                │               └───module - added
+                │                   │   Login.java
+                │                   │
+                │                   └───google - added
+                │                           GoogleLogout.java
+                │                           MasterGooglePlus.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       ic_email_24dp.xml
+                    │       ic_password_24dp.xml
+                    │       ic_phone_24dp.xml
+                    │       text_back_rect.xml
+                    │
+                    └───layout - updated
+                            google_logout_layout.xml
+                            google_plus_login_layout.xml
+                            login.xml
+                            person_account.xml
+
+13-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───core
+                                ├───adapter - updated
+                                │       BrowsePagerAdapter.java
+                                │       HomePagerAdapter.java
+                                │       SubCategoryAdapter.java
+                                │
+                                └───module - updated
+                                        Home.java
+                                        Login.java
+
+14-09-2019 - 18-09-2019
+  └───Managed Shop
+19-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───core
+                                ├───adapter - updated
+                                │       BrowsePagerAdapter.java
+                                │
+                                ├───module - updated
+                                │       Home.java
+                                │
+                                └───util - updated
+                                        NetworkAPI.java
+                                        SharedPrefUtility.java
+
+20-09-2019
+  └───Crclee_Native
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───crclee
+                            └───core
+                                ├───adapter - updated
+                                │       BrowsePagerAdapter.java
+                                │
+                                ├───module - updated
+                                │       Home.java
+                                │
+                                └───util - updated
+                                        NetworkAPI.java
+                                        SharedPrefUtility.java
+
+21-09-2019
+  └───Managed Shop
+23-09-2019 - 30-09-2019
+  └───Managed Shop
+1-10-2019
+└───Start Fan11
+2-10-2019
+└───Fan11 - Added
+    └───app
+        └───src
+            └───main
+                │   AndroidManifest.xml
+                │   app_icon-web.png
+                │
+                ├───assets
+                │   └───font
+                │           robotocondensed_bold.ttf
+                │           robotocondensed_bold_italic.ttf
+                │           robotocondensed_italic.ttf
+                │           robotocondensed_light.ttf
+                │           robotocondensed_light_italic.ttf
+                │           robotocondensed_regular.ttf
+                │
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───adapter
+                │               ├───custom_view
+                │               │       CustomViewPager.java
+                │               │
+                │               ├───helper
+                │               │       LandingPagerEnum.java
+                │               │
+                │               ├───model
+                │               ├───module
+                │               │       BaseActivity.java
+                │               │       BaseApplication.java
+                │               │       LandingActivity.java
+                │               │       Login.java
+                │               │       MobileNumber.java
+                │               │       Register.java
+                │               │       Splash.java
+                │               │       Update.java
+                │               │
+                │               └───util
+                │                       AppConstants.java
+                │                       CircleImage.java
+                │                       CircleImageView.java
+                │                       NetworkAPI.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    ├───drawable
+                    │       dark_back.png
+                    │       icon_512.png
+                    │       ic_launcher_background.xml
+                    │       landing_indicator_off.xml
+                    │       landing_indicator_on.xml
+                    │       light_back.png
+                    │       rectangle_transparent.xml
+                    │       round_button_yellow.xml
+                    │       splash.png
+                    │       yellow_outline.xml
+                    │
+                    └───layout
+                            landing.xml
+                            login.xml
+                            mobile_number.xml
+                            register.xml
+                            splash.xml
+                            step1.xml
+                            step2.xml
+                            step3.xml
+                            update.xml
+3-10-2019 - 4-09-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               └───module - updated
+                │                       LandingActivity.java
+                │                       Login.java
+                │                       MobileNumber.java
+                │                       OTP.java
+                │                       Register.java
+                │                       Splash.java
+                │                       Update.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       ic_android_black_24dp.xml
+                    │       ic_calender.xml
+                    │       ic_lock.xml
+                    │       ic_mobile.xml
+                    │       ic_person.xml
+                    │
+                    ├───layout - updated
+                    │       landing.xml
+                    │       login.xml
+                    │       mobile_number.xml
+                    │       otp.xml
+                    │       register.xml
+                    │       step1.xml
+                    │       step2.xml
+                    │       step3.xml
+                    │       update.xml
+                    │
+                    └───mipmap-xxxhdpi - added
+                            land_1.png
+                            land_2.png
+                            land_3.png
+5-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───module - added
+                │               │       BaseFragment.java
+                │               │       MainFragmentActivity.java
+                │               │
+                │               └───module_fragment - added
+                │                       Profile.java
+                │
+                └───res
+                    ├───layout
+                    │       main_fragment.xml
+                    │       profiel_fragment.xml
+                    │       toolbar.xml
+                    │
+                    ├───mipmap-hdpi
+                    ├───mipmap-mdpi
+                    ├───mipmap-xhdpi
+                    ├───mipmap-xxhdpi
+                    ├───mipmap-xxxhdpi
+                    │       app_icon.png
+                    │       land_1.png
+                    │       land_2.png
+                    │       land_3.png
+                    │
+                    └───values
+                            attrs.xml
+                            colors.xml
+                            strings.xml
+                            styles.xml
+7-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               └───module - added
+                │                   │   Full_Address.java
+                │                   │   Personal_Information.java
+                │                   │   Profile.java
+                │                   │
+                │                   └───facebook - added
+                │                           Facebook_lagout.java
+                │                           MasterFacebook.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       ic_autorenew_yellow.xml
+                    │       ic_chevron_left_yellow.xml
+                    │       ic_chevron_right_black.xml
+                    │       ic_edit_yellow.xml
+                    │       layer_1.png
+                    │       layer_2.png
+                    │       layer_3.png
+                    │       rectangle_out_border_black.xml
+                    │
+                    ├───font - added
+                    │       poppins_bold.ttf
+                    │       poppins_light.ttf
+                    │       poppins_medium.ttf
+                    │       poppins_regular.ttf
+                    │       poppins_semi_bold.ttf
+                    │
+                    ├───layout - added
+                    │       full_address.xml
+                    │       personal_information.xml
+                    │       profile.xml
+                    │
+                    └───mipmap - added
+                            camera_edit.png
+                            ic_launcher.png
+                            person_action.png
+                            person_default.png
+                            wallet_yellow.png
+8-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───model - added
+                │               │   ├───forget
+                │               │   │       ForgetBean.java
+                │               │   │       Responsedata.java
+                │               │   │
+                │               │   ├───otp
+                │               │   │       OTPBean.java
+                │               │   │       Responsedata.java
+                │               │   │
+                │               │   ├───update
+                │               │   │       Responsedata.java
+                │               │   │       UpdateBean.java
+                │               │   │
+                │               │   └───user
+                │               │           Responsedata.java
+                │               │           UserBean.java
+                │               │
+                │               ├───module - updated
+                │               │       BaseActivity.java
+                │               │       Login.java
+                │               │       MobileNumber.java
+                │               │       OTP_Activity.java
+                │               │       Register.java
+                │               │       Update.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       NetworkAPI.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    └───layout - updated
+                            login.xml
+9-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───assets - added
+                │       country.json
+                │
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───model
+                │               │   ├───country - added
+                │               │   │       CountryBean.java
+                │               │   │       Responsedatum.java
+                │               │   │
+                │               │   └───update_profile - added
+                │               │           Responsedata.java
+                │               │           UpdateProfileBean.java
+                │               │
+                │               ├───module - updated
+                │               │       Full_Address.java
+                │               │       LandingActivity.java
+                │               │       Login.java
+                │               │       MobileNumber.java
+                │               │       OTP_Activity.java
+                │               │       Personal_Information.java
+                │               │       Register.java
+                │               │       Splash.java
+                │               │       Update.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       NetworkAPI.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    └───layout - updated
+                            full_address.xml
+                            personal_information.xml
+                            register.xml
+10-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───model
+                │               │   ├───city - added
+                │               │   │       CityBean.java
+                │               │   │       Responsedatum.java
+                │               │   │
+                │               │   └───state - added
+                │               │           Responsedatum.java
+                │               │           StateBean.java
+                │               │
+                │               ├───module - updated
+                │               │       Full_Address.java
+                │               │       Login.java
+                │               │       Personal_Information.java
+                │               │       Register.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       NetworkAPI.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    └───layout - updated
+                            full_address.xml
+                            personal_information.xml
+11-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───model
+                │               │   └───image_upload - added
+                │               │           ImageUploadBean.java
+                │               │           Responsedata.java
+                │               │
+                │               ├───module - updated
+                │               │       Full_Address.java
+                │               │       LandingActivity.java
+                │               │       Login.java
+                │               │       Personal_Information.java
+                │               │       Profile.java
+                │               │       Splash.java
+                │               │
+                │               └───util - added
+                │                       ScalingUtilities.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    └───layout - updated
+                            full_address.xml
+                            personal_information.xml
+                            profile.xml
+12-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                ├───module - updated
+                                │       Full_Address.java
+                                │       MobileNumber.java
+                                │       OTP_Activity.java
+                                │       Profile.java
+                                │
+                                └───util - updated
+                                        AppConstants.java
+13-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                └───module - updated
+                                        Full_Address.java
+                                        Personal_Information.java
+                                        Profile.java
+14-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───model
+                │               │   └───verify - added
+                │               │           Responsedata.java
+                │               │           VerifyBean.java
+                │               │
+                │               ├───module - updated
+                │               │       Login.java
+                │               │       OTP_Activity.java
+                │               │       Profile.java
+                │               │       Register.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       NetworkAPI.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    └───layout - updated
+                            mobile_number.xml
+                            profile.xml
+                            register.xml
+16-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                └───module - updated
+                                    │   Login.java
+                                    │
+                                    └───facebook - updated
+                                            Facebook_lagout.java
+                                            MasterFacebook.java
+17-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                ├───model
+                                │   └───telegram - added
+                                │           Chat.java
+                                │           Credentials.java
+                                │           Datum.java
+                                │           Entity.java
+                                │           From.java
+                                │           Message.java
+                                │           PassportData.java
+                                │           Result.java
+                                │           TelegramBean.java
+                                │
+                                └───module - updated
+                                        Login.java
+18-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───adapter - added
+                │               │       CreateTeamGridAdapter.java
+                │               │
+                │               ├───module - added
+                │               │       CreateTeam.java
+                │               │       Terms.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       NetworkAPI.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       circle_back_grey.xml
+                    │       gold_out_border.xml
+                    │       gold_out_border_grey.xml
+                    │       ground_back.png
+                    │       half_round_back_green.xml
+                    │       half_round_back_light_green.xml
+                    │       round_back_grey.xml
+                    │
+                    ├───layout - added
+                    │       add_balance.xml
+                    │       create_team.xml
+                    │       create_team_grid_item.xml
+                    │       my_balance.xml
+                    │       terms_condition.xml
+                    │
+                    └───values-am - added
+                            string.xml
+19-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───module - added
+                │               │       Referral.java
+                │               │
+                │               ├───module - updated
+                │               │       Referral.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       circle_back_white.xml
+                    │       referral_banner.png
+                    │       three_person.png
+                    │
+                    ├───layout - added
+                    │       my_referrals.xml
+                    │
+                    ├───layout - updated
+                    │       login.xml
+                    │       personal_information.xml
+                    │
+                    └───mipmap - added
+                            email.png
+                            facebook.png
+                            more.png
+                            whatapp.png
+20-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───adapter - added
+                │               │       Blog_Adapter.java
+                │               │       Table_Adapter.java
+                │               │
+                │               ├───helper - added
+                │               │       PLEnum.java
+                │               │       PointLeague.java
+                │               │
+                │               ├───module_fragment - added
+                │               │       BaseFragment.java
+                │               │       CreateTeam.java
+                │               │       PL.java
+                │               │       Point_League.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │                       SharedPrefUtility.java
+                │
+                └───res
+                    ├───layout - added
+                    │       blog.xml
+                    │       create_team.xml
+                    │       fixtures.xml
+                    │       league_layout.xml
+                    │       main_fragment.xml
+                    │       name_change_dialog.xml
+                    │       pl.xml
+                    │       pl_blog_item.xml
+                    │       pl_table_item.xml
+                    │       point_layout.xml
+                    │       point_league.xml
+                    │       table.xml
+                    │
+                    ├───mipmap - added
+                    │       award_off.png
+                    │       create_team_icon.png
+                    │       pl_on.png
+                    │       power.png
+                    │
+                    └───values - updated
+                            colors.xml
+                            strings.xml
+21-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───adapter - added
+                │               │       Blog_Adapter.java
+                │               │       Fixtures_Adapter.java
+                │               │       Table_Adapter.java
+                │               │       Transfer_Adapter.java
+                │               │
+                │               ├───helper - added
+                │               │       TransferEnum.java
+                │               │
+                │               ├───module_fragment - updated
+                │               │       MainFragmentActivity.java
+                │               │       PL.java
+                │               │       Transfer.java
+                │               │
+                │               └───util - updated
+                │                       AppConstants.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       ic_expand_more_black_24dp.xml
+                    │       ic_filter_tool.xml
+                    │       ic_yellow_calender.xml
+                    │       white_outline_corner_curved.xml
+                    │       yellow_outline.xml
+                    │
+                    └───layout - added
+                            fixtures.xml
+                            pl_blog_item.xml
+                            pl_fixture_item.xml
+                            pl_table_item.xml
+                            pl_transfer_item.xml
+                            table.xml
+                            transfer.xml
+                            transfer_list.xml
+                            transfer_summary.xml
+22-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                ├───java
+                │   └───com
+                │       └───fan
+                │           └───core
+                │               ├───adapter - added
+                │               │       Transfer_History_Adapter.java
+                │               │
+                │               ├───module - updated
+                │               │       Full_Address.java
+                │               │       Login.java
+                │               │       Personal_Information.java
+                │               │       Profile.java
+                │               │
+                │               └───module_fragment - updated
+                │                       Transfer.java
+                │
+                └───res
+                    ├───drawable - added
+                    │       ic_down_arrow.xml
+                    │       layer_1.png
+                    │       layer_2.png
+                    │       layer_3.png
+                    │       transparent_bottom_line.xml
+                    │       yellow_bottom_line.xml
+                    │       yellow_bottom_scroll.xml
+                    │
+                    ├───layout - updated
+                    │       full_address.xml
+                    │       landing.xml
+                    │       personal_information.xml
+                    │       step1.xml
+                    │       step2.xml
+                    │       step3.xml
+                    │       transfer_history_item.xml
+                    │       transfer_list_popup.xml
+                    │       transfer_summary.xml
+                    │
+                    └───values - updated
+                            strings.xml
+23-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                └───module - updated
+                                        BaseActivity.java
+                                        Full_Address.java
+                                        Login.java
+                                        MobileNumber.java
+                                        OTP_Activity.java
+                                        Personal_Information.java
+                                        Profile.java
+                                        Register.java
+                                        Update.java
+24-10-2019
+└───Fan11
+    └───app
+        └───src
+            └───main
+                └───java
+                    └───com
+                        └───fan
+                            └───core
+                                ├───module - updated
+                                │       Full_Address.java
+                                │       Personal_Information.java
+                                │       Profile.java
+                                │       Terms.java
+                                │
+                                └───util - updated
+                                        AppConstants.java
+25-10-2019 - 31-10-2019
+└───Diwali
