@@ -1304,9 +1304,9 @@
 23-09-2019 - 30-09-2019
   └───Managed Shop
 1-10-2019
-└───Start Fan11
+  └───Start Fan11
 2-10-2019
-└───Fan11 - Added
+  └───Fan11 - Added
     └───app
         └───src
             └───main
@@ -1375,7 +1375,7 @@
                             step3.xml
                             update.xml
 3-10-2019 - 4-09-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1416,7 +1416,7 @@
                             land_2.png
                             land_3.png
 5-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1453,7 +1453,7 @@
                             strings.xml
                             styles.xml
 7-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1500,7 +1500,7 @@
                             person_default.png
                             wallet_yellow.png
 8-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1542,7 +1542,7 @@
                     └───layout - updated
                             login.xml
 9-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1584,7 +1584,7 @@
                             personal_information.xml
                             register.xml
 10-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1617,7 +1617,7 @@
                             full_address.xml
                             personal_information.xml
 11-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1648,7 +1648,7 @@
                             personal_information.xml
                             profile.xml
 12-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1665,7 +1665,7 @@
                                 └───util - updated
                                         AppConstants.java
 13-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1678,7 +1678,7 @@
                                         Personal_Information.java
                                         Profile.java
 14-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1708,7 +1708,7 @@
                             profile.xml
                             register.xml
 16-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1723,7 +1723,7 @@
                                             Facebook_lagout.java
                                             MasterFacebook.java
 17-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1746,7 +1746,7 @@
                                 └───module - updated
                                         Login.java
 18-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1785,7 +1785,7 @@
                     └───values-am - added
                             string.xml
 19-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1822,7 +1822,7 @@
                             more.png
                             whatapp.png
 20-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1873,7 +1873,7 @@
                             colors.xml
                             strings.xml
 21-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1917,7 +1917,7 @@
                             transfer_list.xml
                             transfer_summary.xml
 22-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1961,7 +1961,7 @@
                     └───values - updated
                             strings.xml
 23-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1980,7 +1980,7 @@
                                         Register.java
                                         Update.java
 24-10-2019
-└───Fan11
+  └───Fan11
     └───app
         └───src
             └───main
@@ -1997,4 +1997,281 @@
                                 └───util - updated
                                         AppConstants.java
 25-10-2019 - 31-10-2019
-└───Diwali
+  └───Diwali
+
+01-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - added
+                |               |       AddBalance.java
+                |               |       MyBalance.java
+                |               |
+                |               +---module - updated
+                |               |       BaseActivity.java
+                |               |       Full_Address.java
+                |               |       Login.java
+                |               |       Personal_Information.java
+                |               |       Profile.java
+                |               |       Referral.java
+                |               |       Register.java
+                |               |       Splash.java
+                |               |       Terms.java
+                |               |       Update.java
+                |               |
+                |               \---module_fragment - updated
+                |                       BaseFragment.java
+                |                       CreateTeam.java
+                |                       MainFragmentActivity.java
+                |                       PL.java
+                |                       Point_League.java
+                |                       Transfer.java
+                |
+                \---res
+                    +---drawable -added
+                    |       gold_out_border_grey_small.xml
+                    |
+                    \---layout - updated
+                            add_balance.xml
+                            create_team.xml
+                            main_fragment.xml
+                            my_balance.xml
+                            my_referrals.xml
+                            profile.xml
+                            toolbar.xml
+
+02-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Transfer_Adapter.java
+                |               |
+                |               +---module - updated
+                |               |       LandingActivity.java
+                |               |
+                |               \---module_fragment - updated
+                |                       MainFragmentActivity.java
+                |                       Transfer.java
+                |                       TransferSummary.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       round_popup_yellow.xml
+                    |
+                    \---layout - updated
+                            create_team.xml
+                            pl_transfer_item.xml
+                            transfer.xml
+                            transfer_list_popup.xml
+
+04-11-2019 - 07-11-2019
+  \---System transfer
+08-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                \---module - added
+                                        GetUserData.java
+
+09-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - added
+                |               |       GameList_Adapter.java
+                |               |
+                |               +---adapter - updated
+                |               |       Transfer_Adapter.java
+                |               |
+                |               +---helper - updated
+                |               |       PLEnum.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalance.java
+                |               |       Full_Address.java
+                |               |       GetUserData.java
+                |               |       LandingActivity.java
+                |               |       Login.java
+                |               |       MyBalance.java
+                |               |       Personal_Information.java
+                |               |       Profile.java
+                |               |       Referral.java
+                |               |       Splash.java
+                |               |       Terms.java
+                |               |
+                |               +---module_fragment - added
+                |               |       GameList.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       MainFragmentActivity.java
+                |               |       PL.java
+                |               |       Transfer.java
+                |               |       TransferSummary.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |
+                \---res
+                    +---drawable - added
+                    |       layout_shaow.xml
+                    |       referral_back.png
+                    |       round_circle_button_yellow.xml
+                    |       round_switch_yellow.xml
+                    |       round_switch_yellow_off.xml
+                    |       round_switch_yellow_on.xml
+                    |
+                    +---layout - updated
+                    |       add_balance.xml
+                    |       create_team.xml
+                    |       game_list.xml
+                    |       game_list_item.xml
+                    |       my_balance.xml
+                    |       my_referrals.xml
+                    |       pl.xml
+                    |       toolbar.xml
+                    |       transfer.xml
+                    |       transfer_list_popup.xml
+                    |
+                    +---values - updated
+                    |       strings.xml
+                    |
+                    \---values-am - updated
+                            string.xml
+
+11-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |       GameList_Completed_Adapter.java
+                |               |       Transfer_Adapter.java
+                |               |
+                |               +---model - added
+                |               |   +---get_games
+                |               |   |       GetGames.java
+                |               |   |       Responsedatum.java
+                |               |   |
+                |               |   \---get_player
+                |               |           GetPlayer.java
+                |               |           Responsedatum.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalance.java
+                |               |       Full_Address.java
+                |               |       GetUserData.java
+                |               |       Personal_Information.java
+                |               |       Profile.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       BaseFragment.java
+                |               |       CreateTeam.java
+                |               |       GameList.java
+                |               |       Transfer.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |                       ScalingUtilities.java
+                |
+                \---res
+                    \---layout - updated
+                            create_team.xml
+                            game_list_item.xml
+                            point_layout.xml
+                            team_position.xml
+
+12-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                +---adapter - updated
+                                |       Transfer_Adapter.java
+                                |
+                                +---module - updated
+                                |       AddBalance.java
+                                |       Login.java
+                                |       MyBalance.java
+                                |
+                                +---module_fragment - updated
+                                |       BaseFragment.java
+                                |       CreateTeam.java
+                                |       GameList.java
+                                |       MainFragmentActivity.java
+                                |       PL.java
+                                |       Transfer.java
+                                |
+                                \---util - updated
+                                        AppConstants.java
+                                        SharedPrefUtility.java
+
+13-11-2019
+  \---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Transfer_Center_Adapter.java
+                |               |       Transfer_Defender_Adapter.java
+                |               |       Transfer_Goal_Adapter.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       CreateTeam.java
+                |               |       Point_League.java
+                |               |       Transfer.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |
+                \---res
+                    \---layout - updated
+                            add_balance.xml
+                            team_position.xml
+                            transfer.xml
+
+14-11-2019 - 19-11-2019
+  \---not much
+20-11-2019 - 30-11-2019
+  \---patri oparation
+
+01-12-2019 - 19-12-2019
+  \---patri oparation
+20-12-2019 - 28-12-2019
+  \---not much'
+28-12-2019 - 31-12-2019
+  \---trip to pushkar
