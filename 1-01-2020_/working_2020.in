@@ -1,10 +1,10 @@
 01-1-2020 - 19-1-2020
-	-Haridwar shivir
+  -Haridwar shivir
 20-01-2020
-	-Fan11
+  -Fan11
     	\---app
-        	\---src
-            	\---main
+       	  \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -40,10 +40,10 @@
                             strings.xml
 
 21-01-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -85,10 +85,10 @@
                             my_teams.xml
 
 22-01-2020
-	-Fan11
-    	\---app
-        	\---src
-            \---main
+  -Fan11
+    \---app
+       \---src
+           \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -115,10 +115,10 @@
                             team_position.xml
 
 23-01-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+    \---app
+      \---src
+       	\---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -380,10 +380,10 @@
                             network_security_config.xml
 
 24-01-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+    \---app
+      \---src
+        \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -437,16 +437,16 @@
                             styles.xml
 
 25-01-2020 - 28-01-2020
-	-Siya treatement
+  -Siya treatement
 29-01-2020
-	-Fan11
-    	\---app
-        	\---src
-        	    \---main
-            	    \---java
-                	    \---com
-                    	    \---fan
-                        	    \---core
+  -Fan11
+      \---app
+         \---src
+            \---main
+              \---java
+                  \---com
+                      \---fan
+                          \---core
                                 +---adapter - updated
                                 |       MyTeam_Adapter.java
                                 |
@@ -468,10 +468,10 @@
                                         NetworkAPI.java
 
 30-01-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+           \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -485,10 +485,10 @@
                             team_position.xml
 
 31-01-2020
-	-Shantikunj - added
-    	\---app
-        	\---src
-            	\---main
+-Shantikunj - added
+    \---app
+       \---src
+         \---main
                 |   AndroidManifest.xml
                 |   ic_launcher-web.png
                 |
@@ -565,10 +565,10 @@
                             strings.xml
                             styles.xml
 01-02-2020
-	-Shantikunj
-    	\---app
-        	\---src
-            	\---main
+  -Shantikunj
+      \---app
+         \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---core
@@ -593,13 +593,13 @@
                             splash.xml
 
 03-02-2020 - 06-02-2020
-	-not much (relation break down) 
+  -not much (relation break down) 
 
 07-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+           \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -616,12 +616,12 @@
                             point_layout.xml
 
 08-02-2020 - 11-02-2020
-	-not much (relation break down) 
+  -not much (relation break down) 
 12-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+           \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -647,10 +647,10 @@
                             male_icon.png
 
 13-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+       \---src
+         \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -676,14 +676,14 @@
                             male_icon.png
 
 14-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
+  -Fan11
+    \---app
+        \---src
+           \---main
+              \---java
+                 \---com
+                    \---fan
+                        \---core
                                 +---adapter - updated
                                 |       League_User_Adapter.java
                                 |
@@ -704,10 +704,10 @@
                                         NetworkAPI.java
 
 17-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -742,14 +742,14 @@
                             transfer.xml
 
 18-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
+  -Fan11
+     \---app
+         \---src
+             \---main
+                \---java
+                     \---com
+                         \---fan
+                             \---core
                                 +---adapter - updated
                                 |       GameList_Adapter.java
                                 |       Transfer_DEF_Adapter.java
@@ -764,14 +764,14 @@
                                         Transfer.java
 
 20-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
+  -Fan11
+     \---app
+         \---src
+            \---main
+               \---java
+                  \---com
+                     \---fan
+                         \---core
                                 +---adapter - updated
                                 |       GameList_Adapter.java
                                 |       Transfer_DEF_Adapter.java
@@ -785,10 +785,10 @@
                                         Transfer.java
 
 22-02-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+     \---app
+        \---src
+           \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -805,17 +805,17 @@
                             withdraw_balance.xml
 
 23-02-2020
-	-Pawan Merraige
+  -Pawan Merraige
 
 02-03-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                	    \---com
-                    	    \---fan
-                        	    \---core
+ -Fan11
+     \---app
+         \---src
+             \---main
+                 \---java
+                     \---com
+                        \---fan
+                            \---core
                                 +---adapter - updated
                                 |       Transfer_DEF_Adapter.java
                                 |       Transfer_FWD_Adapter.java
@@ -829,14 +829,14 @@
                                         Transfer.java
 
 03-03-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
+  -Fan11
+      \---app
+         \---src
+             \---main
+                \---java
+                    \---com
+                       \---fan
+                          \---core
                                 +---adapter - updated
                                 |       GameList_Adapter.java
                                 |
@@ -844,18 +844,18 @@
                                         My_Team.java
 
 04-03-2020
-	-Fixture data fixed
+  -Fixture data fixed
 05-03-2020 - 06-03-2020
-	-bug fixed
+  -Bug fixed
 07-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---core
-                            	\---waiterbee
+  -WaiterBee
+     \---app
+        \---src
+            \---main
+               \---java
+                  \---com
+                     \---core
+                         \---waiterbee
                                 +---adapter
                                 |       BrowsePagerAdapter.java
                                 |       CategoryAdapter.java
@@ -927,10 +927,10 @@
                                         SharedPrefUtility.java
 
 09-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
+  -WaiterBee
+      \---app
+         \---src
+             \---main
                 +---java
                 |   \---com
                 |       \---core
@@ -963,14 +963,14 @@
                             dimens.xml
 
 10-03-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
+  -Fan11
+    \---app
+        \---src
+           \---main
+              \---java
+                  \---com
+                     \---fan
+                         \---core
                                 +---adapter - updated
                                 |       Ranking_Adapter.java
                                 |       Transfer_GKP_Adapter.java
@@ -980,16 +980,16 @@
                                         Transfer.java
 
 11-03-2020
-	-Bug Fixes Fan 11
+  -Bug Fixes Fan 11
 12-03-2020 - 13-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---core
-                            	\---waiterbee
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---waiterbee
                                 +---adapter - updated
                                 |       BrowsePagerAdapter.java
                                 |       CategoryAdapter.java
@@ -1009,23 +1009,23 @@
                                         LandingActivity.java
 
 16-03-2020 - 17-03-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---fan
-                            	\---core
-                                	\---module - updated
-                                        AddBalanceActivity.java
-                                        WithDrawBalanceActivity.java
+  -Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                \---module - updated
+                                    AddBalanceActivity.java
+                                    WithDrawBalanceActivity.java
 
 18-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
+  -WaiterBee
+    \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---core
@@ -1045,10 +1045,10 @@
                             register.xml
 
 19-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
+  -WaiterBee
+    \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---core
@@ -1073,14 +1073,14 @@
                             sub_category_list_item.xml
 
 20-03-2020
-	-WaiterBee
-    	\---app
-        	\---src
-            	\---main
-                	\---java
-                    	\---com
-                        	\---core
-                            	\---waiterbee
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---waiterbee
                                 +---helper - added
                                 |       UpdateBitmap.java
                                 |
@@ -1089,19 +1089,19 @@
                                         Registration.java
 
 21-03-2020 - 31-03-2020
-	-Corona Virus Off
+  -Corona Virus Off
 
 1-04-2020 - 31-04-2020
-	-Corona Virus Off
-	-Vishnu Puran
+  -Corona Virus Off
+  -Vishnu Puran
 
 01-05-2020 - 17-04-2020
-	-Self build
+  -Self build
 18-05-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+    \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---fan
@@ -1127,10 +1127,10 @@
                             update.xml
 
 19-05-2020
-	-Fan11
-    	\---app
-        	\---src
-            	\---main
+  -Fan11
+    \---app
+        \---src
+            \---main
                 +---java
                 |   \---com
                 |       \---fan
