@@ -1,2 +1,1181 @@
-1-01-2020 - 19-01-2020
-  - Haridwar shivir
+01-1-2020 - 19-1-2020
+	-Haridwar shivir
+20-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - added
+                |               |       MyTeam_Adapter.java
+                |               |
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |
+                |               +---module_fragment - added
+                |               |       My_Team.java
+                |               |
+                |               \---module_fragment - updated
+                |                       BaseFragment.java
+                |                       GameList.java
+                |                       MainFragmentActivity.java
+                |                       PL.java
+                |                       Point_League.java
+                |                       Transfer.java
+                |
+                \---res
+                    +---layout - updated
+                    |       game_list_item.xml
+                    |       main_fragment.xml
+                    |       my_teams.xml
+                    |       my_team_list_item.xml
+                    |       pl.xml
+                    |       pl_fixtures.xml
+                    |       transfer_summary.xml
+                    |
+                    \---values - updated
+                            strings.xml
+
+21-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - added
+                |               |       League_User_Adapter.java
+                |               |       MyTeam_Adapter.java
+                |               |
+                |               +---model - added
+                |               |   +---laugue_user
+                |               |   |       League.java
+                |               |   |       Responsedatum.java
+                |               |   |
+                |               |   \---my_team
+                |               |           GetPlayer.java
+                |               |           JoinGame.java
+                |               |           League.java
+                |               |           Responsedata.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       GameList.java
+                |               |       League_Detail.java
+                |               |       MainFragmentActivity.java
+                |               |       My_Team.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       semi_round_back_grey.xml
+                    |
+                    \---layout - updated
+                            elv_my_team_list_child.xml
+                            elv_my_team_list_group.xml
+                            league_list_item.xml
+                            league_user.xml
+                            my_teams.xml
+
+22-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       League_User_Adapter.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       League_Detail.java
+                |               |       Point_Ranking.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       player_detail_back.png
+                    |       shirt.png
+                    |
+                    \---layout - updated
+                            point_layout.xml
+                            point_league.xml
+                            team_position.xml
+
+23-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - added
+                |               |       MyTeam_Adapter.java
+                |               |       Ranking_Adapter.java
+                |               |
+                |               +---helper - updated
+                |               |       PointLeague.java
+                |               |
+                |               +---module_fragment - added
+                |               |       League_Detail_Child.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       Point_Ranking.java
+                |               |       Transfer.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable
+                    |       circle_back_grey.xml
+                    |       circle_back_white.xml
+                    |       dark_back.png
+                    |       gold_out_border.xml
+                    |       gold_out_border_grey.xml
+                    |       gold_out_border_grey_small.xml
+                    |       ground_back.png
+                    |       half_round_back_green.xml
+                    |       half_round_back_light_green.xml
+                    |       icon_512.png
+                    |       ic_android_black_24dp.xml
+                    |       ic_autorenew_yellow.xml
+                    |       ic_calender.xml
+                    |       ic_chevron_left_yellow.xml
+                    |       ic_chevron_right_black.xml
+                    |       ic_down_yellow_24dp.xml
+                    |       ic_edit_yellow.xml
+                    |       ic_filter_tool.xml
+                    |       ic_lock.xml
+                    |       ic_mobile.xml
+                    |       ic_person.xml
+                    |       ic_right_arrow.xml
+                    |       ic_yellow_calender.xml
+                    |       landing_indicator_off.xml
+                    |       landing_indicator_on.xml
+                    |       layer_1.png
+                    |       layer_2.png
+                    |       layer_3.png
+                    |       layout_shaow.xml
+                    |       light_back.png
+                    |       player_detail_back.png
+                    |       rectangle_out_border_black.xml
+                    |       rectangle_transparent.xml
+                    |       referral_back.png
+                    |       referral_banner.png
+                    |       round_back_grey.xml
+                    |       round_button_yellow.xml
+                    |       round_circle_button_yellow.xml
+                    |       round_popup_yellow.xml
+                    |       round_switch_yellow.xml
+                    |       round_switch_yellow_off.xml
+                    |       round_switch_yellow_on.xml
+                    |       semi_round_back_grey.xml
+                    |       shirt.png
+                    |       splash.png
+                    |       transparent_bottom_line.xml
+                    |       white_outline_corner_curved.xml
+                    |       yellow_bottom_line.xml
+                    |       yellow_bottom_scroll.xml
+                    |       yellow_outline.xml
+                    |
+                    +---drawable-hdpi
+                    +---drawable-mdpi
+                    +---drawable-xhdpi
+                    +---drawable-xxhdpi
+                    +---drawable-xxxhdpi
+                    +---font
+                    |       poppins_bold.ttf
+                    |       poppins_light.ttf
+                    |       poppins_medium.ttf
+                    |       poppins_regular.ttf
+                    |       poppins_semi_bold.ttf
+                    |
+                    +---layout
+                    |       add_balance.xml
+                    |       blog.xml
+                    |       create_team.xml
+                    |       create_team_grid_item.xml
+                    |       dummy.xml
+                    |       elv_my_team_list_child.xml
+                    |       elv_my_team_list_group.xml
+                    |       full_address.xml
+                    |       game_list.xml
+                    |       game_list_item.xml
+                    |       landing.xml
+                    |       league_layout.xml
+                    |       league_list_item.xml
+                    |       league_user.xml
+                    |       login.xml
+                    |       main_fragment.xml
+                    |       mobile_number.xml
+                    |       my_balance.xml
+                    |       my_referrals.xml
+                    |       my_teams.xml
+                    |       my_team_list_item.xml
+                    |       name_change_dialog.xml
+                    |       otp.xml
+                    |       personal_information.xml
+                    |       pl.xml
+                    |       pl_blog_item.xml
+                    |       pl_fixtures.xml
+                    |       pl_fixture_item.xml
+                    |       pl_table_item.xml
+                    |       pl_transfer_item.xml
+                    |       point_layout.xml
+                    |       point_league.xml
+                    |       profile.xml
+                    |       ranking_list_item.xml
+                    |       register.xml
+                    |       splash.xml
+                    |       step1.xml
+                    |       step2.xml
+                    |       step3.xml
+                    |       table.xml
+                    |       team_position.xml
+                    |       terms_condition.xml
+                    |       toolbar.xml
+                    |       transfer.xml
+                    |       transfer_history_item.xml
+                    |       transfer_list_popup.xml
+                    |       transfer_summary.xml
+                    |       update.xml
+                    |       web_home.xml
+                    |
+                    +---mipmap-hdpi
+                    |       award_off.png
+                    |       award_on.png
+                    |       camera_edit.png
+                    |       email.png
+                    |       facebook.png
+                    |       ic_launcher.png
+                    |       more.png
+                    |       person_action.png
+                    |       person_default.png
+                    |       pl_off.png
+                    |       pl_on.png
+                    |       power.png
+                    |       shirt.png
+                    |       transfer_off.png
+                    |       transfer_on.png
+                    |       t_shirt_off.png
+                    |       t_shirt_on.png
+                    |       wallet_yellow.png
+                    |       whatapp.png
+                    |
+                    +---mipmap-ldpi
+                    |       ic_launcher.png
+                    |
+                    +---mipmap-mdpi
+                    |       award_off.png
+                    |       award_on.png
+                    |       camera_edit.png
+                    |       email.png
+                    |       facebook.png
+                    |       ic_launcher.png
+                    |       more.png
+                    |       person_action.png
+                    |       person_default.png
+                    |       pl_off.png
+                    |       pl_on.png
+                    |       power.png
+                    |       shirt.png
+                    |       transfer_off.png
+                    |       transfer_on.png
+                    |       t_shirt_off.png
+                    |       t_shirt_on.png
+                    |       wallet_yellow.png
+                    |       whatapp.png
+                    |
+                    +---mipmap-xhdpi
+                    |       award_off.png
+                    |       award_on.png
+                    |       camera_edit.png
+                    |       email.png
+                    |       facebook.png
+                    |       ic_launcher.png
+                    |       more.png
+                    |       person_action.png
+                    |       person_default.png
+                    |       pl_off.png
+                    |       pl_on.png
+                    |       power.png
+                    |       shirt.png
+                    |       transfer_off.png
+                    |       transfer_on.png
+                    |       t_shirt_off.png
+                    |       t_shirt_on.png
+                    |       wallet_yellow.png
+                    |       whatapp.png
+                    |
+                    +---mipmap-xxhdpi
+                    |       award_off.png
+                    |       award_on.png
+                    |       camera_edit.png
+                    |       email.png
+                    |       facebook.png
+                    |       ic_launcher.png
+                    |       more.png
+                    |       person_action.png
+                    |       person_default.png
+                    |       pl_off.png
+                    |       pl_on.png
+                    |       power.png
+                    |       shirt.png
+                    |       transfer_off.png
+                    |       transfer_on.png
+                    |       t_shirt_off.png
+                    |       t_shirt_on.png
+                    |       wallet_yellow.png
+                    |       whatapp.png
+                    |
+                    +---mipmap-xxxhdpi
+                    |       app_icon.png
+                    |       award_off.png
+                    |       award_on.png
+                    |       camera_edit.png
+                    |       email.png
+                    |       facebook.png
+                    |       ic_launcher.png
+                    |       more.png
+                    |       person_action.png
+                    |       person_default.png
+                    |       pl_off.png
+                    |       pl_on.png
+                    |       power.png
+                    |       shirt.png
+                    |       transfer_off.png
+                    |       transfer_on.png
+                    |       t_shirt_off.png
+                    |       t_shirt_on.png
+                    |       wallet_yellow.png
+                    |       whatapp.png
+                    |
+                    +---values
+                    |       attrs.xml
+                    |       colors.xml
+                    |       refs.xml
+                    |       strings.xml
+                    |       styles.xml
+                    |
+                    +---values-am
+                    |       string.xml
+                    |
+                    \---xml
+                            network_security_config.xml
+
+24-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - added
+                |               |       RecentTransaction_Adapter.java
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_GKP_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |       GameList_Completed_Adapter.java
+                |               |
+                |               +---module - added
+                |               |       RecentTransactionActivity.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalanceActivity.java
+                |               |       BaseActivity.java
+                |               |       Full_Address.java
+                |               |       GetUserData.java
+                |               |       Login.java
+                |               |       MobileNumber.java
+                |               |       MyBalanceActivity.java
+                |               |       OTP_Activity.java
+                |               |       Personal_Information.java
+                |               |       Register.java
+                |               |       Update.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       Point_Ranking.java
+                |               |       Transfer.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |                       SharedPrefUtility.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_search_black_24dp.xml
+                    |       reactangle_back_grey_search.xml
+                    |
+                    \---values - updated
+                            attrs.xml
+                            colors.xml
+                            refs.xml
+                            strings.xml
+                            styles.xml
+
+25-01-2020 - 28-01-2020
+	-Siya treatement
+29-01-2020
+	-Fan11
+    	\---app
+        	\---src
+        	    \---main
+            	    \---java
+                	    \---com
+                    	    \---fan
+                        	    \---core
+                                +---adapter - updated
+                                |       MyTeam_Adapter.java
+                                |
+                                +---module - added
+                                |       PrivacyPolicyActivity.java
+                                |
+                                +---module - updated
+                                |       AddBalanceActivity.java
+                                |       Profile.java
+                                |       ReferralActivity.java
+                                |       Register.java
+                                |       Terms.java
+                                |
+                                +---module_fragment - updated
+                                |       My_Team.java
+                                |
+                                \---util - updated
+                                        AppConstants.java
+                                        NetworkAPI.java
+
+30-01-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               \---module_fragment - updated
+                |                       Point_Ranking.java
+                |
+                \---res
+                    \---layout - updated
+                            point_layout.xml
+                            team_position.xml
+
+31-01-2020
+	-Shantikunj - added
+    	\---app
+        	\---src
+            	\---main
+                |   AndroidManifest.xml
+                |   ic_launcher-web.png
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---shantikunj
+                |               |   BaseActivity.java
+                |               |   BaseApplication.java
+                |               |
+                |               +---helper
+                |               |       SelectDialog.java
+                |               |       SelectInterface.java
+                |               |
+                |               +---module
+                |               |   |   HomeActivity.java
+                |               |   |   Splash.java
+                |               |   |
+                |               |   \---adapter
+                |               |           DrawerAdapter.java
+                |               |
+                |               \---util
+                |                       Global.java
+                |                       NetworkAPI.java
+                |                       SharedPrefUtility.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_drawaer_white_24dp.xml
+                    |       motion_1.gif
+                    |
+                    +---layout
+                    |       app_toolbar.xml
+                    |       drawer_item.xml
+                    |       home_activity.xml
+                    |       list_dialog.xml
+                    |       nv_slider.xml
+                    |       splash.xml
+                    |
+                    +---mipmap-anydpi-v26
+                    |       ic_launcher.xml
+                    |       ic_launcher_round.xml
+                    |
+                    +---mipmap-hdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_foreground.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-mdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_foreground.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_foreground.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_foreground.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xxxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_foreground.png
+                    |       ic_launcher_round.png
+                    |
+                    +---raw
+                    |       vid_1.mp4
+                    |
+                    \---values
+                            colors.xml
+                            strings.xml
+                            styles.xml
+01-02-2020
+	-Shantikunj
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---shantikunj
+                |               \---module - updated
+                |                   |   HomeActivity.java
+                |                   |   Splash.java
+                |                   |
+                |                   \---adapter
+                |                           DrawerAdapter.java
+                |
+                \---res
+                    +---anim - added
+                    |       fade.xml
+                    |
+                    \---layout - updated
+                            app_toolbar.xml
+                            drawer_item.xml
+                            home_activity.xml
+                            home_list_item.xml
+                            nv_slider.xml
+                            splash.xml
+
+03-02-2020 - 06-02-2020
+	-not much (relation break down) 
+
+07-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               \---module_fragment - updated
+                |                       Point_Ranking.java
+                |
+                \---res
+                    +---drawable - added
+                    |       vc_select.xml
+                    |
+                    \---layout - updated
+                            create_team.xml
+                            point_layout.xml
+
+08-02-2020 - 11-02-2020
+	-not much (relation break down) 
+12-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Fixtures_Adapter.java
+                |               |
+                |               +---model - added
+                |               |   \---fixtures
+                |               |           Api.java
+                |               |           Fixture.java
+                |               |           FixturesData.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       PL.java
+                |               |
+                |               \---util - updated
+                |                       NetworkAPI.java
+                |
+                \---res
+                    \---mipmap-added
+                            female_icon.png
+                            male_icon.png
+
+13-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Fixtures_Adapter.java
+                |               |
+                |               +---model - added
+                |               |   \---fixtures
+                |               |           Api.java
+                |               |           Fixture.java
+                |               |           FixturesData.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       PL.java
+                |               |
+                |               \---util - updated
+                |                       NetworkAPI.java
+                |
+                \---res
+                    \---mipmap-added
+                            female_icon.png
+                            male_icon.png
+
+14-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                +---adapter - updated
+                                |       League_User_Adapter.java
+                                |
+                                +---module - updated
+                                |       RecentTransactionActivity.java
+                                |
+                                +---module_fragment - updated
+                                |       GameList.java
+                                |       League_Detail.java
+                                |       League_Detail_Child.java
+                                |       PL.java
+                                |       Point_Ranking.java
+                                |       Transfer.java
+                                |       TransferSummary.java
+                                |
+                                \---util - updated
+                                        AppConstants.java
+                                        NetworkAPI.java
+
+17-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_GKP_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       CreateTeam.java
+                |               |       JoinGame.java
+                |               |       MainFragmentActivity.java
+                |               |       Point_Ranking.java
+                |               |       Transfer.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable - added
+                    |       round_back_grey.xml
+                    |       vc_deselect.xml
+                    |
+                    \---layout - updated
+                            join_game.xml
+                            main_fragment.xml
+                            toolbar.xml
+                            transfer.xml
+
+18-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                +---adapter - updated
+                                |       GameList_Adapter.java
+                                |       Transfer_DEF_Adapter.java
+                                |       Transfer_FWD_Adapter.java
+                                |       Transfer_GKP_Adapter.java
+                                |       Transfer_MID_Adapter.java
+                                |
+                                \---module_fragment - updated
+                                        GameList.java
+                                        JoinGame.java
+                                        MainFragmentActivity.java
+                                        Transfer.java
+
+20-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                +---adapter - updated
+                                |       GameList_Adapter.java
+                                |       Transfer_DEF_Adapter.java
+                                |       Transfer_FWD_Adapter.java
+                                |       Transfer_GKP_Adapter.java
+                                |       Transfer_MID_Adapter.java
+                                |
+                                \---module_fragment - updated
+                                        GameList.java
+                                        JoinGame.java
+                                        Transfer.java
+
+22-02-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - added
+                |               |       WithDrawBalanceActivity.java
+                |               |
+                |               \---module - updated
+                |                       AddBalanceActivity.java
+                |                       MyBalanceActivity.java
+                |
+                \---res
+                    \---layout - added
+                            withdraw_balance.xml
+
+23-02-2020
+	-Pawan Merraige
+
+02-03-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                	    \---com
+                    	    \---fan
+                        	    \---core
+                                +---adapter - updated
+                                |       Transfer_DEF_Adapter.java
+                                |       Transfer_FWD_Adapter.java
+                                |       Transfer_GKP_Adapter.java
+                                |       Transfer_MID_Adapter.java
+                                |
+                                \---module_fragment - updated
+                                        GameList.java
+                                        My_Team.java
+                                        PL.java
+                                        Transfer.java
+
+03-03-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                +---adapter - updated
+                                |       GameList_Adapter.java
+                                |
+                                \---module_fragment - updated
+                                        My_Team.java
+
+04-03-2020
+	-Fixture data fixed
+05-03-2020 - 06-03-2020
+	-bug fixed
+07-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---core
+                            	\---waiterbee
+                                +---adapter
+                                |       BrowsePagerAdapter.java
+                                |       CategoryAdapter.java
+                                |       HomePagerAdapter.java
+                                |       SubCategoryAdapter.java
+                                |
+                                +---custom_view
+                                |       CustomViewPager.java
+                                |
+                                +---helper
+                                |       HomePagerEnum.java
+                                |       LandingPagerEnum.java
+                                |       MainPagerEnum.java
+                                |       SelectDialog.java
+                                |
+                                +---interfaces
+                                |       BarcodeValue.java
+                                |       SelectInterface.java
+                                |       UpdateMainHash.java
+                                |
+                                +---model
+                                |   |   Category.java
+                                |   |   Meal.java
+                                |   |   RootBean.java
+                                |   |   Subcategory.java
+                                |   |
+                                |   \---user
+                                |           Bean.java
+                                |           LoginData.java
+                                |           UserData.java
+                                |
+                                +---module
+                                |   |   BaseActivity.java
+                                |   |   BaseApplication.java
+                                |   |   Browse.java
+                                |   |   Home.java
+                                |   |   LandingActivity.java
+                                |   |   Login.java
+                                |   |   ScanMaster.java
+                                |   |   WebHome.java
+                                |   |
+                                |   +---google
+                                |   |       GoogleLogout.java
+                                |   |       MasterGooglePlus.java
+                                |   |
+                                |   \---google_ml_barcode
+                                |       |   BarCodeActivity.java
+                                |       |   BarcodeGraphic.java
+                                |       |   BarcodeScanningProcessor.java
+                                |       |   VisionProcessorBase.java
+                                |       |
+                                |       \---utility
+                                |               BitmapUtils.java
+                                |               CameraImageGraphic.java
+                                |               CameraSource.java
+                                |               CameraSourcePreview.java
+                                |               FrameMetadata.java
+                                |               GraphicOverlay.java
+                                |               VisionImageProcessor.java
+                                |
+                                +---passphrase
+                                |       Decrypt.java
+                                |
+                                \---util
+                                        AppConstants.java
+                                        CircleImage.java
+                                        CircleImageView.java
+                                        NetworkAPI.java
+                                        SharedPrefUtility.java
+
+09-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter -updated
+                |               |       BrowsePagerAdapter.java
+                |               |
+                |               +---module - updated
+                |               |       Browse.java
+                |               |       LandingActivity.java
+                |               |
+                |               \---passphrase - updated
+                |                       Decrypt.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_qr_codes.xml
+                    |
+                    +---layout - updated
+                    |       barcode_activity.xml
+                    |       custom_view.xml
+                    |       item.xml
+                    |       landing.xml
+                    |       step1.xml
+                    |       step2.xml
+                    |       step3.xml
+                    |
+                    \---values - added
+                            attrs.xml
+                            dimens.xml
+
+10-03-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                +---adapter - updated
+                                |       Ranking_Adapter.java
+                                |       Transfer_GKP_Adapter.java
+                                |
+                                \---module_fragment - updated
+                                        Point_Ranking.java
+                                        Transfer.java
+
+11-03-2020
+	-Bug Fixes Fan 11
+12-03-2020 - 13-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---core
+                            	\---waiterbee
+                                +---adapter - updated
+                                |       BrowsePagerAdapter.java
+                                |       CategoryAdapter.java
+                                |       HomePagerAdapter.java
+                                |       SubCategoryAdapter.java
+                                |
+                                +---modue_fragment - updated
+                                |       BaseFragment.java
+                                |       Catagory.java
+                                |       CheckOut.java
+                                |       MasterFragment.java
+                                |       SubCatagory.java
+                                |
+                                \---module - updated
+                                        Browse.java
+                                        Home.java
+                                        LandingActivity.java
+
+16-03-2020 - 17-03-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---fan
+                            	\---core
+                                	\---module - updated
+                                        AddBalanceActivity.java
+                                        WithDrawBalanceActivity.java
+
+18-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               \---module - added
+                |                       BaseActivity.java
+                |                       Browse.java
+                |                       Login.java
+                |                       OTPVerfication.java
+                |                       Registration.java
+                |
+                \---res
+                    \---layout - added
+                            check_out_detail.xml
+                            login.xml
+                            opt.xml
+                            register.xml
+
+19-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - updated
+                |               |       CategoryAdapter.java
+                |               |
+                |               +---modue_fragment - updated
+                |               |       SubCatagory.java
+                |               |
+                |               \---module - updated
+                |                       Profile.java
+                |                       Registration.java
+                |
+                \---res
+                    \---layout - updated
+                            login.xml
+                            opt.xml
+                            profile.xml
+                            register.xml
+                            sub_category.xml
+                            sub_category_list_item.xml
+
+20-03-2020
+	-WaiterBee
+    	\---app
+        	\---src
+            	\---main
+                	\---java
+                    	\---com
+                        	\---core
+                            	\---waiterbee
+                                +---helper - added
+                                |       UpdateBitmap.java
+                                |
+                                \---module - updated
+                                        Profile.java
+                                        Registration.java
+
+21-03-2020 - 31-03-2020
+	-Corona Virus Off
+
+1-04-2020 - 31-04-2020
+	-Corona Virus Off
+	-Vishnu Puran
+
+01-05-2020 - 17-04-2020
+	-Self build
+18-05-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               \---module - updated
+                |                       Register.java
+                |
+                \---res
+                    +---drawable - added
+                    |       green_blur_back.png
+                    |       round_button_dark_blue.xml
+                    |       round_rectangle_transparent_grey_alpha.xml
+                    |
+                    +---drawable - updated
+                    |       ic_person.xml
+                    |       rectangle_transparent_grey_alpha.xml
+                    |       round_rectangle_transparent_grey_alpha.xml
+                    |
+                    \---layout - updated
+                            login.xml
+                            mobile_number.xml
+                            register.xml
+                            update.xml
+
+19-05-2020
+	-Fan11
+    	\---app
+        	\---src
+            	\---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - updated
+                |               |       Full_Address.java
+                |               |       GetUserData.java
+                |               |       MyBalanceActivity.java
+                |               |       Personal_Information.java
+                |               |       PrivacyPolicyActivity.java
+                |               |       Profile.java
+                |               |       ReferralActivity.java
+                |               |       Terms.java
+                |               |
+                |               \---module_fragment - updated
+                |                       MainFragmentActivity.java
+                |
+                \---res
+                    +---drawable - added
+                    |       green_blur_back.png
+                    |       half_round_button_yellow.xml
+                    |       register_logo.png
+                    |
+                    +---layout - updated
+                    |       create_team_grid_item.xml
+                    |       login.xml
+                    |       main_fragment.xml
+                    |       mobile_number.xml
+                    |       profile.xml
+                    |       register.xml
+                    |       toolbar.xml
+                    |
+                    +---mipmap - added
+                    |       cake.png
+                    |       default_person_yellow.png
+                    |       discount_yellow.png
+                    |       game_power_yellow.png
+                    |       info_yellow.png
+                    |       key_yellow.png
+                    |       loading_football_yellow.png
+                    |       person_yellow.png
+                    |       profile_edit_yellow.png
+                    |       search_yellow.png
+                    |       tutor_yellow.png
+                    |
+                    \---values - updated
+                            strings.xml
+
