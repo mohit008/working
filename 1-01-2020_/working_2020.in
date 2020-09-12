@@ -2262,4 +2262,737 @@
                     \---values - updated
                             colors.xml
 
+01-07-2020 - 04-07-2020
+\---PersonalMsg
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---personal
+                                \---msg
+                                    +---module - updated
+                                    |       ChatActivity.java
+                                    |
+                                    +---service - updated
+                                    |       FriendChatService.java
+                                    |
+                                    \---util - updated
+                                            AppConstant.java
 
+05-07-2020
+\---PersonalMsg
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---personal
+                                \---msg
+                                    +---broadcast - added
+                                    |       GetDataStatus.java
+                                    |
+                                    +---module - updated
+                                    |       BaseActivity.java
+                                    |       ChatActivity.java
+                                    |       Lock.java
+                                    |
+                                    \---service - updated
+                                            FriendChatService.java
+
+06-07-2020
+\---PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---module - updated
+                |                   |       ChatActivity.java
+                |                   |
+                |                   \---service - updated
+                |                           FriendChatService.java
+                |
+                \---res
+                    +---drawable - added
+                    |       landing_indicator_off.xml
+                    |       landing_indicator_on.xml
+                    |
+                    \---layout - updated
+                            activity_chat.xml
+
+07-07-2020 - 08-07-2020
+\---PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---adapter
+                |                   |   \---chatList - updated
+                |                   |           ItemMessageFriendHolder.java
+                |                   |           ItemMessageUserHolder.java
+                |                   |           ListMessageAdapter.java
+                |                   |
+                |                   \---module - updated
+                |                           ChatActivity.java
+                |
+                \---res
+                    \---layout - updated
+                            dialog_list_item.xml
+                            rc_item_message_friend.xml
+                            rc_item_message_user.xml
+
+09-07-2020 - 13-07-2020
+\---not much
+14-07-2020
+\---TestApplication
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---testapplication
+                                |   MainActivity.java
+                                |   PreviewClassEdit.java
+                                |
+                                \---open
+                                        GallerySample.java
+                                        OpenGallery.java
+                                        OpenVideo.java
+                                        VideoCapture.java
+
+15-07-2020 - 20-07-2020
+\---not much
+21-07-2020 - 22-07-2020
+\---Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                +---module - updated
+                                |       GetUserData.java
+                                |       LandingActivity.java
+                                |
+                                +---module_fragment - updated
+                                |       Point_Ranking.java
+                                |
+                                \---service - updated
+                                        FirebaseMessagingService.java
+
+23-07-2020 - 24-07-2020
+\---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       MyTeam_Adapter.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       BaseFragment.java
+                |               |
+                |               \---util - updated
+                |                       NetworkAPI.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       rectangle_base_back_blue.xml
+                    |       rectangle_base_front_left_blue.xml
+                    |       rectangle_base_front_right_blue.xml
+                    |
+                    \---layout - updated
+                            elv_my_team_list_child.xml
+
+25-07-2020 - 26-07-2020
+\---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               \---module - updated
+                |                       LandingActivity.java
+                |                       TutorialPage.java
+                |
+                \---res
+                    \---layout - updated
+                            list_left_popup.xml
+                            tutorial_page.xml
+
+27-07-2020 - 29-07-2020
+\---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               \---module - updated
+                |                       MobileNumber.java
+                |                       OTP_Activity.java
+                |                       Register.java
+                |
+                \---res
+                    \---layout - updated
+                            otp.xml
+                            update.xml
+
+30-07-2020
+\---WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---module - added
+                |               |       DashBoard.java
+                |               |
+                |               \---module - updated
+                |                       Home.java
+                |                       Splash.java
+                |
+                \---res
+                    +---drawable - added
+                    |       round_corner_border_button.xml
+                    |       round_corner_border_button_grey.xml
+                    |       round_corner_button.xml
+                    |
+                    +---font - added
+                    |       gilroy_black.otf
+                    |       gilroy_black_italic.otf
+                    |       gilroy_bold.otf
+                    |       gilroy_bold_italic.otf
+                    |       gilroy_extra_bold.otf
+                    |       gilroy_extra_bold_italic.otf
+                    |       gilroy_heavy.otf
+                    |       gilroy_heavy_italic.otf
+                    |       gilroy_light.otf
+                    |       gilroy_light_italic.otf
+                    |       gilroy_medium.otf
+                    |       gilroy_medium_italic.otf
+                    |       gilroy_regular.otf
+                    |       gilroy_regular_italic.otf
+                    |       gilroy_semi_bold.otf
+                    |       gilroy_semi_bold_italic.otf
+                    |       gilroy_thin.otf
+                    |       gilroy_thin_italic.otf
+                    |       gilroy_ultra_light.otf
+                    |       gilroy_ultra_light_italic.otf
+                    |
+                    +---layout - added
+                    |       home.xml
+                    |
+                    \---mipmap-hdpi - added
+                            facebook.png
+
+31-07-2020
++---Fan 11 completion
+\---WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               \---module - updated
+                |                       Home.java
+                |                       Login.java
+                |                       Registration.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       ic_back.xml
+                    |       ic_left_black_24dp.xml
+                    |       ic_visibility_app_color_24dp.xml
+                    |       ic_visibility_off_app_color_24dp.xml
+                    |       rectangle_transparent.xml
+                    |
+                    \---layout - updated
+                            home.xml
+                            login.xml
+                            register.xml
+
+01-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---modue_fragment - added
+                |               |       DashBoardCatagory.java
+                |               |
+                |               \---module - updated
+                |                       BarCodeActivity.java
+                |                       DashBoard.java
+                |                       Login.java
+                |                       OTPVerfication.java
+                |                       Registration.java
+                |
+                \---res
+                    +---drawable - added
+                    |       layout_shadow.xml
+                    |       shadow_.9.png
+                    |
+                    \---layout - updated
+                            check_out_detail.xml
+                            dashboard_catagory.xml
+                            dash_board.xml
+                            login.xml
+                            opt.xml
+
+02-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - updated
+                |               |       BrowsePagerAdapter.java
+                |               |       CategoryAdapter.java
+                |               |       MoreAdapter.java
+                |               |       MyOrderPastAdapter.java
+                |               |       MyOrderTodayAdapter.java
+                |               |       MyOrderUpcomingAdapter.java
+                |               |       QRCodeAdapter.java
+                |               |
+                |               +---helper - updated
+                |               |       MainPagerEnum.java
+                |               |       MyOrderPagerEnum.java
+                |               |
+                |               +---modue_fragment - updated
+                |               |       CafeDetail.java
+                |               |       CheckOut.java
+                |               |       DashBoardCatagory.java
+                |               |       MasterFragment.java
+                |               |       More.java
+                |               |       MyOrders.java
+                |               |       QRCode.java
+                |               |       SubCatagory.java
+                |               |
+                |               +---module - updated
+                |               |       BaseActivity.java
+                |               |       CafeDetailFragment.java
+                |               |       DashBoard.java
+                |               |
+                |               \---util - added
+                |                       RoundedImageView.java
+                |
+                \---res
+                    +---anim - added
+                    |       slide_in_left.xml
+                    |       slide_out_right.xml
+                    |
+                    +---drawable - added
+                    |       black.png
+                    |       curved_linear.xml
+                    |       list_layout_shadow.xml
+                    |       list_text_round_corner.xml
+                    |
+                    \---layout - added
+                            cafe_detail_fragment.xml
+                            cafe_detail_main.xml
+                            dashboard_catagory.xml
+                            dash_board.xml
+                            more.xml
+                            more_item.xml
+                            my_order.xml
+                            my_order_past_item.xml
+                            my_order_today_item.xml
+                            my_order_upcoming_item.xml
+                            past.xml
+                            qr_code.xml
+                            qr_code_item.xml
+                            today.xml
+                            upcoming.xml
+
+03-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - pdated
+                |               |       CategoryAdapter.java
+                |               |
+                |               \---modue_fragment - updated
+                |                       CafeDetail.java
+                |                       CafeDetailFragment.java
+                |                       CafeItemDetail.java
+                |                       DashBoardCatagory.java
+                |
+                \---res
+                    +---drawable - added
+                    |       app_color_outline_rect.xml
+                    |       grey_color_outline_rect.xml
+                    |       img_lights.jpg
+                    |       rating_round_corner.xml
+                    |
+                    \---layout - added
+                            cafe_detail_fragment.xml
+                            cafe_detail_main.xml
+                            cafe_item_detail.xml
+                            category_list_item.xml
+                            elv_list_child.xml
+                            elv_list_group.xml
+                            qr_code.xml
+
+04-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - updated
+                |               |       CategoryAdapter.java
+                |               |
+                |               +---modue_fragment - updated
+                |               |       DashBoardCatagory.java
+                |               |       MasterFragment.java
+                |               |       SubCatagory.java
+                |               |
+                |               \---module
+                |                   \---cafe - added
+                |                           CafeItemDetail.java
+                |                           CheckOut.java
+                |                           NearBy.java
+                |                           NearByAdapter.java
+                |
+                \---res
+                    +---drawable - added
+                    |       filter_outline_rect.xml
+                    |       light_layout_shadow.xml
+                    |       light_orange_outline_rect.xml
+                    |       promo_code_outline_rect.xml
+                    |       tip_deselect_outline_rect.xml
+                    |       tip_select_outline_rect.xml
+                    |
+                    \---layout - updated
+                            cafe_item_detail.xml
+                            check_out_detail.xml
+                            check_out_list_item.xml
+                            elv_list_child.xml
+                            elv_list_group.xml
+                            near_by.xml
+                            near_by_item.xml
+
+05-08-2020 - 06-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - updated
+                |               |       QRCodeAdapter.java
+                |               |
+                |               \---module - updated
+                |                       BarCodeActivity.java
+                |                       DashBoard.java
+                |                       Login.java
+                |
+                \---res
+                    +---drawable - added
+                    |       add_quantity.xml
+                    |       app_color_outline_rect.xml
+                    |       circle_red.xml
+                    |       curved_linear.xml
+                    |       grey_color_outline_rect.xml
+                    |       ic_add_circle_outline_24dp.xml
+                    |       ic_back.xml
+                    |       ic_back_detail.xml
+                    |       ic_call_active.xml
+                    |       ic_check_in.xml
+                    |       ic_delivery.xml
+                    |       ic_drawer.xml
+                    |       ic_dropdown.xml
+                    |       ic_edit_active.xml
+                    |       ic_edit_app_color_24dp.xml
+                    |       ic_email_24dp.xml
+                    |       ic_explore.xml
+                    |       ic_explore_active.xml
+                    |       ic_eye_hide.xml
+                    |       ic_eye_show.xml
+                    |       ic_facebook.xml
+                    |       ic_filter_active.xml
+                    |       ic_gmail.xml
+                    |       ic_happy_hours.xml
+                    |       ic_heart_detail.xml
+                    |       ic_heart_white.xml
+                    |       ic_left_black_24dp.xml
+                    |       ic_location_active.xml
+                    |       ic_logo_home.xml
+                    |       ic_logo_splash.xml
+                    |       ic_minus.xml
+                    |       ic_more.xml
+                    |       ic_more_active.xml
+                    |       ic_notifications.xml
+                    |       ic_notification_detail.xml
+                    |       ic_orders.xml
+                    |       ic_orders_active.xml
+                    |       ic_others.xml
+                    |       ic_pencil_app_color.xml
+                    |       ic_plus.xml
+                    |       ic_pre_order.xml
+                    |       ic_qr.xml
+                    |       ic_qr_active.xml
+                    |       ic_qr_codes_color.xml
+                    |       ic_remove_circle_outline_24dp.xml
+                    |       ic_search.xml
+                    |       ic_star_white_24dp.xml
+                    |       ic_table_book.xml
+                    |       ic_text_logo.xml
+                    |       ic_toggle.xml
+                    |       ic_toggle_active.xml
+                    |       ic_user.xml
+                    |       list_layout_shadow.xml
+                    |       list_text_round_corner.xml
+                    |       non_vegetarian_mark.xml
+                    |       rating_round_corner.xml
+                    |       rectangle_transparent.xml
+                    |       remove_quantity.xml
+                    |       right_24dp.xml
+                    |       round_corner_border_button.xml
+                    |       round_corner_border_button_grey.xml
+                    |       round_corner_button.xml
+                    |       search_bar_shadow.xml
+                    |       shopping_cart_24dp.xml
+                    |       spinner_back.xml
+                    |       toggle_back.xml
+                    |       vegetarian_mark.xml
+                    |
+                    \---layout - updated
+                            barcode_activity.xml
+                            cafe_detail_fragment.xml
+                            cafe_detail_main.xml
+                            cafe_item_detail.xml
+                            check_out_list_item.xml
+                            dashboard_catagory.xml
+                            dash_board.xml
+                            home.xml
+                            login.xml
+                            more.xml
+                            my_order_today_item.xml
+                            near_by.xml
+                            near_by_item.xml
+                            qr_code.xml
+                            qr_code_item.xml
+                            splash.xml
+
+07-08-2020
+  -WaiterBee
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---adapter - updated
+                |               |       QRCodeAdapter.java
+                |               |
+                |               \---module - updated
+                |                       DashBoard.java
+                |                       Home.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_apply_promo.xml
+                    |       ic_check_in.xml
+                    |       ic_heart_selected.xml
+                    |       ic_minus_circle.xml
+                    |       ic_percent.xml
+                    |       ic_plus_circle.xml
+                    |       ic_reorder.xml
+                    |       img_lights_2.jpg
+                    |       side_nav_bar.xml
+                    |
+                    \---layout - added
+                            cafe_detail_fragment.xml
+                            cafe_detail_main.xml
+                            cafe_item_detail.xml
+                            check_out_detail.xml
+                            check_out_list_item.xml
+                            dash_board.xml
+                            main_fragment.xml
+                            my_order_past_item.xml
+                            navigation_layout.xml
+                            qr_code.xml
+                            qr_code_item.xml
+                            sub_category_list_item.xml
+
+08-08-2020 - 09-08-2020
+  -nothing much
+10-08-2020 - 12-08-2020
+  -worked on call record
+13-08-2020 - 17-08-2020
+  -Call - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |   phone_launcher-web.png
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---call
+                |                   FileHelper.java
+                |                   MainActivity.java
+                |                   MainActivity2.java
+                |                   PhoneStateReceiver.java
+                |                   RecorderService.java
+                |
+                \---res
+                    +---drawable
+                    |       ic_launcher_background.xml
+                    |
+                    +---layout
+                    |       activity_main.xml
+                    |
+                    +---values
+                    |       colors.xml
+                    |       strings.xml
+                    |       styles.xml
+                    |
+                    \---xml
+                            provider_paths.xml
+
+18-08-2020 - 23-08-2020
+\---no thing much
+24-08-2020 - 26-08-2020
+\---DriveUpload
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---x
+                |               \---driveupload
+                |                   |   RealPathFromURI.java
+                |                   |
+                |                   +---android
+                |                   |   \---api
+                |                   |           AndroidDriveAPI.java
+                |                   |
+                |                   +---core
+                |                   |       CoreDriveAPI.java
+                |                   |       CoreDriveServiceHelper.java
+                |                   |
+                |                   \---java
+                |                       \---api
+                |                               DriveServiceHelper.java
+                |                               JavaDriveAPI.java
+                |
+                \---res
+                    \---layout
+                            activity_main.xml
+                            activity_main2.xml
+                            core.xml
+                            home.xml
+
+27-08-2020
++---DriveUpload
+|   \---app
+|       \---src
+|           \---main
+|               \---java
+|                   \---com
+|                       \---core
+|                           \---x
+|                               \---driveupload
+|                                   \---core - updated
+|                                           CoreDriveAPI.java
+|                                           CoreDriveServiceHelper.java
+|
+\---SystemXRec
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---x
+                                \---rec
+                                    |   MainActivity.java
+                                    |
+                                    +---drive - added
+                                    |       DriveServiceHelper.java
+                                    |
+                                    \---service - updated
+                                            SystemRecUpdate.java
+
+28-08-2020
+\---SystemXRec
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---x
+                                \---rec
+                                    +---drive - updated
+                                    |       DriveServiceHelper.java
+                                    |
+                                    \---service - updated
+                                            SystemRecUpdate.java
+
+29-08-2020 - 30-08-3030
+\---SystemXRec
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---x
+                                \---rec
+                                    +---broad - updated
+                                    |       PhoneStateReceiver.java
+                                    |
+                                    +---drive - added
+                                    |       DriveServiceAndroidHelper.java
+                                    |       DriveServiceJavaHelper.java
+                                    |
+                                    \---service - added
+                                            SystemRecUpdateAndroid.java
+                                            SystemRecUpdateJava.java
