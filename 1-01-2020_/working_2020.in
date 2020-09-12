@@ -1095,7 +1095,7 @@
   -Corona Virus Off
   -Vishnu Puran
 
-01-05-2020 - 17-04-2020
+1-05-2020 - 17-04-2020
   -Self build
 18-05-2020
   -Fan11
@@ -1178,4 +1178,1088 @@
                     |
                     \---values - updated
                             strings.xml
+
+20-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - updated
+                |               |       BaseActivity.java
+                |               |       GetUserData.java
+                |               |       Login.java
+                |               |
+                |               \---module_fragment - updated
+                |                       BaseFragment.java
+                |                       GameList.java
+                |
+                \---res
+                    \---layout - updated
+                            football_progress.xml
+                            game_list_item.xml
+                            login.xml
+                            main_fragment.xml
+                            mobile_number.xml
+                            profile.xml
+                            toolbar.xml
+
+21-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - updated
+                |               |       AddBalanceActivity.java
+                |               |       Full_Address.java
+                |               |       MyBalanceActivity.java
+                |               |       Personal_Information.java
+                |               |       PrivacyPolicyActivity.java
+                |               |       Profile.java
+                |               |       RecentTransactionActivity.java
+                |               |       ReferralActivity.java
+                |               |       Terms.java
+                |               |       WithDrawBalanceActivity.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       MainFragmentActivity.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |
+                \---res
+                    +---drawable - added
+                    |       round_button_semi_black.xml
+                    |       round_button_toolbar_language_amheric.xml
+                    |       round_button_toolbar_language_english.xml
+                    |
+                    \---layout - updated
+                            blog.xml
+                            main_fragment.xml
+                            my_balance.xml
+                            sample.xml
+                            toolbar.xml
+
+22-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - added
+                |               |       LanguagePage.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalanceActivity.java
+                |               |       Full_Address.java
+                |               |       LandingActivity.java
+                |               |       LanguagePage.java
+                |               |       MyBalanceActivity.java
+                |               |       Personal_Information.java
+                |               |       PrivacyPolicyActivity.java
+                |               |       Profile.java
+                |               |       RecentTransactionActivity.java
+                |               |       ReferralActivity.java
+                |               |       Terms.java
+                |               |       WithDrawBalanceActivity.java
+                |               |
+                |               \---module_fragment - updated
+                |                       MainFragmentActivity.java
+                |
+                \---res
+                    +---drawable - added
+                    |       round_button_toolbar_language_amheric_large.xml
+                    |       round_button_toolbar_language_english_large.xml
+                    |
+                    \---layout - added
+                            language_selection.xml
+
+23-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                \---res
+                    +---drawable - added
+                    |       circle_button_green.xml
+                    |       circle_button_light_green_big.xml
+                    |       round_rectangle_base_back_blue.xml
+                    |       round_rectangle_base_front_left_blue.xml
+                    |       round_rectangle_base_front_right_blue.xml
+                    |       round_rectangle_head_yellow.xml
+                    |
+                    \---layout - updated
+                            elv_my_team_list_child.xml
+                            elv_my_team_list_group.xml
+                            main_fragment.xml
+                            my_teams.xml
+                            pl_fixture_item.xml
+
+24-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---module - updated
+                |               |       LandingActivity.java
+                |               |
+                |               \---module_fragment - updated
+                |                       JoinGame.java
+                |                       Point_Ranking.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_left_arrow.xml
+                    |       ic_right_arrow.xml
+                    |       round_popup_yellow.xml
+                    |
+                    \---layout - added
+                            list_left_popup.xml
+                            list_right_popup.xml
+                            popup_list_item.xml
+
+25-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_GKP_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalanceActivity.java
+                |               |       BaseActivity.java
+                |               |       Full_Address.java
+                |               |       MyBalanceActivity.java
+                |               |       Personal_Information.java
+                |               |       Profile.java
+                |               |       RecentTransactionActivity.java
+                |               |       ReferralActivity.java
+                |               |       Terms.java
+                |               |       TutorialPage.java
+                |               |       WithDrawBalanceActivity.java
+                |               |
+                |               \---module_fragment - updated
+                |                       MainFragmentActivity.java
+                |                       Point_Ranking.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       ground_back.jpg
+                    |
+                    \---layout - updated
+                            list_left_popup.xml
+                            splash.xml
+                            tutorial_page.xml
+
+26-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |
+                |               \---module - updated
+                |                       PrivacyPolicyActivity.java
+                |                       ReferralActivity.java
+                |                       Terms.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_content_copy_blue_24dp.xml
+                    |       ic_left_arrow_yellow.xml
+                    |       round_popup_yellow.xml
+                    |
+                    \---layout - updated
+                            game_list_item.xml
+                            game_list_i_popup.xml
+                            list_left_popup.xml
+                            list_right_popup.xml
+                            main_fragment.xml
+                            my_referrals.xml
+                            privacy_policy.xml
+                            terms_condition.xml
+                            toolbar.xml
+                            transfer_list_popup.xml
+
+28-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_GKP_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---custom_view - added
+                |               |       StepProgressBar.java
+                |               |
+                |               +---helper - updated
+                |               |       TransferPageEnum.java
+                |               |
+                |               \---module_fragment - updated
+                |                       Transfer2.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_launcher_background.xml
+                    |       ic_search_yellow.xml
+                    |       reactangle_back_grey_search.xml
+                    |
+                    \---layout - added
+                            transfer.xml
+                            transfer2.xml
+                            transfer_pager_def.xml
+                            transfer_pager_fwd.xml
+                            transfer_pager_gpk.xml
+                            transfer_pager_mid.xml
+
+29-05-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_GKP_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---custom_view - added
+                |               |       StepProgressBar.java
+                |               |
+                |               +---helper - added
+                |               |       UpdateProgress.java
+                |               |
+                |               \---module_fragment - updated
+                |                       JoinGame.java
+                |                       Transfer.java
+                |                       Transfer2.java
+                |
+                \---res
+                    \---layout - updated
+                            join_game.xml
+                            pl_transfer_item.xml
+                            transfer2.xml
+
+30-05-2020 - 31-05-2020
+  -Fan11 feedback
+
+08-06-2020
+\---Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter -updated
+                |               |       GameList_Adapter.java
+                |               |
+                |               +---model
+                |               |   \---points - added
+                |               |           CenterDatum.java
+                |               |           DefenderDatum.java
+                |               |           ForwardDatum.java
+                |               |           GoalkeeperDatum.java
+                |               |           Points.java
+                |               |           Ranking.java
+                |               |           Responsedata.java
+                |               |           Score.java
+                |               |
+                |               \---module_fragment - updated
+                |                       Point_Ranking.java
+                |
+                \---res
+                    \---layout - updated
+                            game_list_i_popup.xml
+                            list_left_popup.xml
+                            popup_list_item.xml
+
+1-06-2020 - 07-06-2020
+  -Fan11 feedback
+11-06-2020
+  -MsgApp
+|   \---app
+|       \---src
+|           \---main
+|               |   AndroidManifest.xml
+|               |
+|               +---java
+|               |   \---com
+|               |       \---core
+|               |           \---msgapp
+|               |                   MainActivity.java
+|               |                   MainApp.java
+|               |
+|               \---res
+|                   +---drawable
+|                   |       ic_launcher_background.xml
+|                   |
+|                   +---layout
+|                   |       activity_main.xml
+|                   |
+|                   \---values
+|                           colors.xml
+|                           strings.xml
+|                           styles.xml
+|
+  -RivChat
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---android
+                |           \---rivchat
+                |               |   MainActivity.java
+                |               |
+                |               +---data
+                |               |       FriendDB.java
+                |               |       GroupDB.java
+                |               |       SharedPreferenceHelper.java
+                |               |       StaticConfig.java
+                |               |
+                |               +---model
+                |               |       Configuration.java
+                |               |       Consersation.java
+                |               |       Friend.java
+                |               |       Group.java
+                |               |       ListFriend.java
+                |               |       Message.java
+                |               |       Room.java
+                |               |       Status.java
+                |               |       User.java
+                |               |
+                |               +---service
+                |               |       FriendChatService.java
+                |               |       ServiceUtils.java
+                |               |
+                |               +---ui
+                |               |       AddGroupActivity.java
+                |               |       ChatActivity.java
+                |               |       FriendsFragment.java
+                |               |       GroupFragment.java
+                |               |       LoginActivity.java
+                |               |       RegisterActivity.java
+                |               |       UserProfileFragment.java
+                |               |
+                |               \---util
+                |                       ImageUtils.java
+                |
+                \---res
+                    +---drawable
+                    |       bg.png
+                    |       bg_input_cursor.xml
+                    |       bg_input_cursor_2.xml
+                    |       bt_shape.xml
+                    |       bt_shape_2.xml
+                    |       circle_background.xml
+                    |       default_avata.png
+                    |       edittext_boder.xml
+                    |       hieuapp.jpg
+                    |       ic_accept_cr_group.png
+                    |       ic_add_friend.png
+                    |       ic_add_group_dialog.png
+                    |       ic_btn_more.png
+                    |       ic_dialog_delete_group.png
+                    |       ic_float_add_group.png
+                    |       ic_float_button.png
+                    |       ic_notify_group.png
+                    |       ic_pass_reset.png
+                    |       ic_person_low.png
+                    |       ic_search.png
+                    |       ic_send.png
+                    |       ic_signup.png
+                    |       ic_tab_group.png
+                    |       ic_tab_infor.png
+                    |       ic_tab_person.png
+                    |       rounded_corner1.xml
+                    |       rounded_corner2.xml
+                    |       rounded_textview.xml
+                    |       selector_bg_edit.xml
+                    |       selector_bg_edit_2.xml
+                    |       state_list_animator_z.xml
+                    |
+                    +---layout
+                    |       activity_add_group.xml
+                    |       activity_chat.xml
+                    |       activity_login.xml
+                    |       activity_main.xml
+                    |       activity_register.xml
+                    |       content_main.xml
+                    |       dialog_edit_username.xml
+                    |       fragment_group.xml
+                    |       fragment_info.xml
+                    |       fragment_people.xml
+                    |       list_info_item_layout.xml
+                    |       rc_item_add_friend.xml
+                    |       rc_item_friend.xml
+                    |       rc_item_group.xml
+                    |       rc_item_message_friend.xml
+                    |       rc_item_message_user.xml
+                    |
+                    +---menu
+                    |       menu_main.xml
+                    |
+                    \---values
+                            colors.xml
+                            dimens.xml
+                            strings.xml
+                            styles.xml
+
+12-06-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                \---adapter -updated
+                                        GameList_Adapter.java
+
+13-06-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       GameList_Adapter.java
+                |               |
+                |               \---module_fragment -updated
+                |                       JoinGame.java
+                |                       Point_Ranking.java
+                |                       Transfer2.java
+                |
+                \---res
+                    +---drawable - added
+                    |       type_tag_end_select.png
+                    |       type_tag_mid_select.png
+                    |       type_tag_start_select.png
+                    |
+                    \---layout - updated
+                            game_list_item.xml
+                            league_user.xml
+                            login.xml
+                            register.xml
+
+15-06-2020
+  -Fan11
+|   \---app
+|       \---src
+|           \---main
+|               +---java
+|               |   \---com
+|               |       \---fan
+|               |           \---core
+|               |               +---adapter - updated
+|               |               |       GameList_Adapter.java
+|               |               |
+|               |               +---module - updated
+|               |               |       Login.java
+|               |               |       Splash.java
+|               |               |
+|               |               +---module_fragment - updated
+|               |               |       MainFragmentActivity.java
+|               |               |
+|               |               \---service - added
+|               |                       FirebaseMessagingService.java
+|               |                       NotificationServ.java
+|               |
+|               \---res
+|                   +---anim
+|                   |       rotate.xml
+|                   |
+|                   +---font
+|                   |       poppins_bold.ttf
+|                   |       poppins_light.ttf
+|                   |       poppins_medium.ttf
+|                   |       poppins_regular.ttf
+|                   |       poppins_semi_bold.ttf
+|                   |
+|                   +---values
+|                   |       attrs.xml
+|                   |       colors.xml
+|                   |       refs.xml
+|                   |       strings.xml
+|                   |       styles.xml
+|                   |
+|                   +---values-am
+|                   |       strings.xml
+|                   |
+|                   \---xml
+|                           network_security_config.xml
+|
+  -MassagingCloud - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---massagingcloud
+                |                   MainActivity.java
+                |                   MyFirebaseMessagingService.java
+                |
+                \---res
+                    \---layout
+                            activity_main.xml
+
+17-06-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---custom_view - updated
+                |               |       StepProgressBar.java
+                |               |
+                |               +---module - updated
+                |               |       AddBalanceActivity.java
+                |               |       BaseActivity.java
+                |               |       Full_Address.java
+                |               |       Login.java
+                |               |       MobileNumber.java
+                |               |       MyBalanceActivity.java
+                |               |       OTP_Activity.java
+                |               |       Personal_Information.java
+                |               |       PrivacyPolicyActivity.java
+                |               |       Profile.java
+                |               |       RecentTransactionActivity.java
+                |               |       ReferralActivity.java
+                |               |       Register.java
+                |               |       Terms.java
+                |               |       Update.java
+                |               |       WithDrawBalanceActivity.java
+                |               |
+                |               \---module_fragment - updated
+                |                       BaseFragment.java
+                |                       CreateTeam.java
+                |                       GameList.java
+                |                       JoinGame.java
+                |                       League_Detail.java
+                |                       League_Detail_Child.java
+                |                       My_Team.java
+                |                       PL.java
+                |                       Point_Ranking.java
+                |                       Transfer.java
+                |                       Transfer2.java
+                |
+                \---res
+                    +---drawable - added
+                    |       view_team_disable.png
+                    |
+                    \---layout - updated
+                            football_progress.xml
+                            point_layout.xml
+                            point_league.xml
+
+18-06-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---fan
+                |           \---core
+                |               +---adapter - updated
+                |               |       Fixtures_Adapter.java
+                |               |       GameList_Adapter.java
+                |               |       GameList_Completed_Adapter.java
+                |               |       Table_Adapter.java
+                |               |       Transfer_DEF_Adapter.java
+                |               |       Transfer_FWD_Adapter.java
+                |               |       Transfer_MID_Adapter.java
+                |               |
+                |               +---module - updated
+                |               |       JoinGame.java
+                |               |       MyBalanceActivity.java
+                |               |       OTP_Activity.java
+                |               |       Personal_Information.java
+                |               |       PrivacyPolicyActivity.java
+                |               |       Register.java
+                |               |       Splash.java
+                |               |       WebHome.java
+                |               |
+                |               +---module_fragment - updated
+                |               |       GameList.java
+                |               |       JoinGame.java
+                |               |       MainFragmentActivity.java
+                |               |       PL.java
+                |               |       Point_Ranking.java
+                |               |       Transfer2.java
+                |               |
+                |               \---util - updated
+                |                       AppConstants.java
+                |
+                \---res
+                    \---layout - updated
+                            join_game.xml
+                            pl_fixture_item.xml
+                            point_layout.xml
+                            ranking_list_item.xml
+
+19-06-2020
+  -PersonalMsg - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   |   Main.java
+                |                   |   MainA.java
+                |                   |   MainActivity.java
+                |                   |
+                |                   +---data
+                |                   |       FriendDB.java
+                |                   |       GroupDB.java
+                |                   |       SharedPreferenceHelper.java
+                |                   |       StaticConfig.java
+                |                   |
+                |                   +---model
+                |                   |       Configuration.java
+                |                   |       Consersation.java
+                |                   |       Friend.java
+                |                   |       Group.java
+                |                   |       ListFriend.java
+                |                   |       Message.java
+                |                   |       Room.java
+                |                   |       Status.java
+                |                   |       User.java
+                |                   |
+                |                   +---service
+                |                   |       FriendChatService.java
+                |                   |       ServiceUtils.java
+                |                   |
+                |                   +---ui
+                |                   |       AddGroupActivity.java
+                |                   |       ChatActivity.java
+                |                   |       FriendsFragment.java
+                |                   |       GroupFragment.java
+                |                   |       LoginActivity.java
+                |                   |       RegisterActivity.java
+                |                   |       UserProfileFragment.java
+                |                   |
+                |                   \---util
+                |                           ImageUtils.java
+                |
+                \---res
+                    \---layout
+                            activity_add_group.xml
+                            activity_chat.xml
+                            activity_login.xml
+                            activity_main.xml
+                            activity_register.xml
+                            content_main.xml
+                            dialog_edit_username.xml
+                            fragment_group.xml
+                            fragment_info.xml
+                            fragment_people.xml
+                            list_info_item_layout.xml
+                            rc_item_add_friend.xml
+                            rc_item_friend.xml
+                            rc_item_group.xml
+                            rc_item_message_friend.xml
+                            rc_item_message_user.xml
+
+20-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---model - updated
+                |                   |       Status.java
+                |                   |
+                |                   +---service - updated
+                |                   |       ServiceUtils.java
+                |                   |
+                |                   \---ui - updated
+                |                           ChatActivity.java
+                |                           LoginActivity.java
+                |
+                \---res
+                    \---layout
+                            activity_add_group.xml
+                            activity_chat.xml
+                            activity_login.xml
+                            activity_main.xml
+                            activity_register.xml
+                            content_main.xml
+                            dialog_edit_username.xml
+                            fragment_group.xml
+                            fragment_info.xml
+                            fragment_people.xml
+                            list_info_item_layout.xml
+                            rc_item_add_friend.xml
+                            rc_item_friend.xml
+                            rc_item_group.xml
+                            rc_item_message_friend.xml
+                            rc_item_message_user.xml
+
+21-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   \---module - updated
+                |                           ChatActivity.java
+                |                           LoginActivity.java
+                |                           Splash.java
+                |
+                \---res
+                    +---anim - added
+                    |       blink.xml
+                    |       bounce.xml
+                    |       fade.xml
+                    |       move_left.xml
+                    |       move_right.xml
+                    |       rotate.xml
+                    |       sequential.xml
+                    |       slidedown.xml
+                    |       slideup.xml
+                    |       together.xml
+                    |       zoom.xml
+                    |
+                    \---layout - updated
+                            activity_main.xml
+                            msg_dialog.xml
+                            rc_item_friend.xml
+                            splash.xml
+
+22-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---module - updated
+                |                   |       AddGroupActivity.java
+                |                   |       BaseActivity.java
+                |                   |       ChatActivity.java
+                |                   |       FriendsFragment.java
+                |                   |       GroupFragment.java
+                |                   |       LoginActivity.java
+                |                   |
+                |                   +---service - updated
+                |                   |       ServiceUtils.java
+                |                   |
+                |                   \---util - added
+                |                           AppConstant.java
+                |                           GetDialogListOut.java
+                |                           ScalingUtilities.java
+                |                           SharedPreferenceHelper.java
+                |
+                \---res
+                    +---drawable - added
+                    |       chat_msg_boder.xml
+                    |       chat_reply_msg_boder.xml
+                    |       ic_delete_white_24dp.xml
+                    |       ic_reply_white_24dp.xml
+                    |       ic_send_24dp.xml
+                    |       rounded_corner1.xml
+                    |       rounded_corner2.xml
+                    |
+                    \---layout - updated
+                            activity_chat.xml
+                            dialog_list_item.xml
+                            msg_dialog_list.xml
+                            rc_item_friend.xml
+                            rc_item_message_friend.xml
+                            rc_item_message_user.xml
+
+23-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---model -updated
+                |                   |       Consersation.java
+                |                   |       Message.java
+                |                   |
+                |                   \---module - updated
+                |                           BaseActivity.java
+                |                           ChatActivity.java
+                |
+                \---res
+                    \---drawable - updated
+                            rounded_corner1.xml
+                            rounded_corner2.xml
+
+24-04-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---personal
+                                \---msg
+                                    \---module - updated
+                                            ChatActivity.java
+
+25-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---personal
+                                \---msg
+                                    +---adapter - added
+                                    |   \---userProfile
+                                    |           UserInfoAdapter.java
+                                    |           UserViewHolder.java
+                                    |
+                                    +---fragment - added
+                                    |       BaseFragment.java
+                                    |
+                                    +---module - updated
+                                    |       ChatActivity.java
+                                    |       FriendsFragment.java
+                                    |       LoginActivity.java
+                                    |       Splash.java
+                                    |       UserProfileFragment.java
+                                    |
+                                    \---util - updated
+                                            AppConstant.java
+                                            SharedPrefUtility.java
+
+26-06-2020 - 27-06-2020
+  -Fan11
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---fan
+                            \---core
+                                +---adapter - updated
+                                |       GameList_Adapter.java
+                                |
+                                \---module - updated
+                                        Splash.java
+
+28-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   |   Lock.java
+                |                   |   MainActivity.java
+                |                   |
+                |                   +---module - updated
+                |                   |       AddGroupActivity.java
+                |                   |       ChatActivity.java
+                |                   |       FriendsFragment.java
+                |                   |       LoginActivity.java
+                |                   |       Splash.java
+                |                   |       UserProfileFragment.java
+                |                   |
+                |                   +---service - updated
+                |                   |       FriendChatService.java
+                |                   |
+                |                   \---util - updated
+                |                           AppConstant.java
+                |                           CircleImageView.java
+                |                           SharedPrefUtility.java
+                |
+                \---res
+                    +---drawable - added
+                    |       button_toggle_selector.xml
+                    |       default_avator.xml
+                    |       ic_account_box_24dp.xml
+                    |       ic_email_24dp.xml
+                    |       ic_group_notify_24dp.xml
+                    |       ic_info_24dp.xml
+                    |       ic_logout__24dp.xml
+                    |       ic_more_vert_24dp.xml
+                    |       ic_notifications_off_24dp.xml
+                    |       ic_notifications_on_24dp.xml
+                    |       ic_restore__24dp.xml
+                    |       ic_tab_group_24dp.xml
+                    |       ic_tab_person_24dp.xml
+                    |
+                    +---layout - updated
+                    |       activity_add_group.xml
+                    |       fragment_info.xml
+                    |       list_info_item_layout.xml
+                    |       lock.xml
+                    |       rc_item_add_friend.xml
+                    |       rc_item_friend.xml
+                    |       rc_item_group.xml
+                    |
+                    \---values - updated
+                            strings.xml
+                            styles.xml
+
+29-06-2020
+  -Fan11
+|   \---app
+|       \---src
+|           \---main
+|               \---java
+|                   \---com
+|                       \---fan
+|                           \---core
+|                               \---module - updated
+|                                       Register.java
+|
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   |   Lock.java
+                |                   |   MainActivity.java
+                |                   |
+                |                   +---module - updated
+                |                   |       ChatActivity.java
+                |                   |       FriendsFragment.java
+                |                   |       UserProfileFragment.java
+                |                   |
+                |                   +---service - updated
+                |                   |       FriendChatService.java
+                |                   |
+                |                   \---util - updated
+                |                           SharedPrefUtility.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       ic_info_24dp.xml
+                    |       ic_tab_person_24dp.xml
+                    |
+                    \---layout - updated
+                            rc_item_friend.xml
+                            rc_item_message_friend.xml
+                            rc_item_message_user.xml
+
+30-06-2020
+  -PersonalMsg
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---personal
+                |               \---msg
+                |                   +---broadcast - added
+                |                   |       RestartChatService.java
+                |                   |
+                |                   +---module - updated
+                |                   |       ChatActivity.java
+                |                   |
+                |                   \---service - updated
+                |                           FriendChatService.java
+                |                           ServiceUtils.java
+                |
+                \---res
+                    +---drawable - updated
+                    |       chat_msg_boder.xml
+                    |       ic_send_24dp.xml
+                    |       rounded_corner1.xml
+                    |       rounded_corner2.xml
+                    |       send_button_boder.xml
+                    |
+                    +---layout - updated
+                    |       activity_chat.xml
+                    |       rc_item_friend.xml
+                    |       rc_item_message_friend.xml
+                    |       rc_item_message_user.xml
+                    |
+                    \---values - updated
+                            colors.xml
+
 
