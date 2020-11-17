@@ -2996,3 +2996,63 @@
                                     \---service - added
                                             SystemRecUpdateAndroid.java
                                             SystemRecUpdateJava.java
+01-09-2020 - 30-09-2020
+ -- Worked on shop
+
+01-10-2020 - 31-10-2020
+ -- Worked on shop
+
+01-11-2020 - 10-11-3030
+ -- Worked on shop
+
+11-11-2020
+ -- Joined LMS
+12-11-2020 - 13-11-2020
+  ---flutter_app - added
+    +---assets
+    |   \---images
+    |           arrows_back_white.png
+    |           arrows_left.png
+    |           bell_ring.png
+    |           call.png
+    |           group_city.png
+    |           notification_white.png
+    |           person_default.png
+    |           qr_code.png
+    |           right_tick_green.png
+    |           video_icon.png
+    |
+    \---lib
+            key_send.dart
+            lock_open.dart
+            main.dart
+
+16-11-2020 - 17-11-2020
+  ---flutter_app - added
+    +---assets
+    |   \---images
+    |           arrows_back_white.png
+    |           arrows_left.png
+    |           bell_ring.png
+    |           call.png
+    |           group_city.png
+    |           notification_white.png
+    |           person_default.png
+    |           qr_code.png
+    |           right_tick_green.png
+    |           video_icon.png
+    |
+    +---fonts
+    |       Manrope-Bold.ttf
+    |       Manrope-ExtraBold.ttf
+    |       Manrope-ExtraLight.ttf
+    |       Manrope-Light.ttf
+    |       Manrope-Medium.ttf
+    |       Manrope-Regular.ttf
+    |       Manrope-SemiBold.ttf
+    |
+    \---lib
+            profile_option_admin.dart
+            profile_option_manager.dart
+            profile_option_security.dart
+            profile_option_user.dart
