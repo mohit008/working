@@ -3056,3 +3056,625 @@
             profile_option_manager.dart
             profile_option_security.dart
             profile_option_user.dart
+            18-11-2020 - 23-11-2020
+\---my_flutter
+    \---my_flutter
+        \---lib- updated
+                main.dart
+                profile_option_admin.dart
+                profile_option_manager.dart
+                profile_option_security.dart
+                profile_option_user.dart
+                sample.dart
+
+24-11-2020
+\---im-android-streamingapp - added
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---app
+                |           \---inlive
+                |               +---activity
+                |               |       EditProfileActivity.java
+                |               |       LoginActivity.java
+                |               |       PassCodeActivity.java
+                |               |       ProfileActivity.java
+                |               |
+                |               +---constants
+                |               |       Constants.java
+                |               |
+                |               +---manager
+                |               |       PreferenceManager.java
+                |               |
+                |               \---models
+                |                       UserBean.java
+                |
+                \---res
+                    \---layout
+                            activity_pass_code.xml
+
+25-11-2020
+\---im-android-streamingapp
+    \---worked on frame debuging
+26-11-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---app
+                |           \---inlive
+                |               +---constants - updated
+                |               |       Constants.java
+                |               |
+                |               \---event
+                |                   \---activity - updated
+                |                           CreateStreamActivity.java
+                |                           VerifyStreamInfoActivity.java
+                |
+                \---res
+                    \---layout - updated
+                            activity_create_stream.xml
+
+27-11-2020
+\---AvetiSmartClassApp - added
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---aveti
+                |           \---shikhya
+                |               \---Video
+                |                   |   AVideoActivity.java
+                |                   |   CipherCommon.java
+                |                   |   ExoVideoActivity.java
+                |                   |   MainActivity.java
+                |                   |   VideoActivity.java
+                |                   |
+                |                   \---database
+                |                           DBHelper.java
+                |
+                \---res
+                    \---layout
+                            activity_exo_play.xml
+                            activity_play.xml
+
+30-11-2020
+\---AvetiSmartClassApp-master
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---aveti
+                            \---shikhya
+                                \---Video - updated
+                                        ExoVideoActivity.java
+
+01-12-2020 - 03-12-2020
+\---R&D work in inlive app
+04-12-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---assets - updated
+                |       audio.svg
+                |       vc.js
+                |       viewcontroller.html
+                |
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - upadated
+                                    MainActivityBase.java
+
+05-12-2020
+\---ParentProtect
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---jstyle
+                |           \---test1963
+                |               +---adapter - added
+                |               |       DashBoardAdapter.java
+                |               |       MainAdapter.java
+                |               |       StepReportAdapter.java
+                |               |       TemperatureAdapter.java
+                |               |
+                |               \---funtion_activity - added
+                |                       BloodOxygenActivity.java
+                |                       BodyTemperatureActivity.java
+                |                       HeartRateActivity.java
+                |                       StepsActivity.java
+                |
+                \---res
+                    +---drawable - added
+                    |       bule_progress.xml
+                    |       green_progress.xml
+                    |       heart_report_person.png
+                    |       ic_arrow_left_24.xml
+                    |       ic_arrow_right_24.xml
+                    |       ic_back_24.xml
+                    |       ic_blue_24.xml
+                    |       ic_downward_24.xml
+                    |       ic_green_24.xml
+                    |       ic_heart.xml
+                    |       ic_orange_24.xml
+                    |       ic_question_mark_on_a_circular_black_background.xml
+                    |       ic_red_24.xml
+                    |       ic_share_24.xml
+                    |       ic_yellow_24.xml
+                    |       orange_progress.xml
+                    |       red_progress.xml
+                    |       select_text.xml
+                    |       textview_back_center_1.xml
+                    |       textview_back_center_2.xml
+                    |       textview_back_left.xml
+                    |       textview_back_right.xml
+                    |       unselect_text.xml
+                    |       white_progress.xml
+                    |       yellow_progress.xml
+                    |
+                    \---layout - added
+                            activity_blood_oxygen.xml
+                            activity_heart_rate.xml
+                            activity_step.xml
+                            activity_temperature.xml
+                            chart_ui.xml
+                            step_report_item.xml
+                            temperature_item.xml
+
+07-12-2020
+\---In live - Exqualizar issue
+08-12-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---assets - updated
+                |       audio.js
+                |       vc.js
+                |       viewcontroller.html
+                |
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                    MainActivityBase.java
+
+09-12-2020
+\---WaiterBee
+    \---app
+        \---src
+            \---main
+                +---assets - added
+                |       country_data.json
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---waiterbee
+                |               +---country_data - added
+                |               |       AFN.java
+                |               |       AOA.java
+                |               |       AWG.java
+                |               |       Ces.java
+                |               |       Country.java
+                |               |       Country_.java
+                |               |       Currencies.java
+                |               |       Cym.java
+                |               |       Demonyms.java
+                |               |       Deu.java
+                |               |       Eng.java
+                |               |       Eng_.java
+                |               |       Est.java
+                |               |       EUR.java
+                |               |       Fin.java
+                |               |       Fra.java
+                |               |       Fra_.java
+                |               |       Hrv.java
+                |               |       Hun.java
+                |               |       Idd.java
+                |               |       Ita.java
+                |               |       Jpn.java
+                |               |       Kor.java
+                |               |       Languages.java
+                |               |       Name.java
+                |               |       Native.java
+                |               |       Nld.java
+                |               |       Nld_.java
+                |               |       Pap.java
+                |               |       Per.java
+                |               |       Pol.java
+                |               |       Por.java
+                |               |       Por_.java
+                |               |       Prs.java
+                |               |       Pus.java
+                |               |       Rus.java
+                |               |       Slk.java
+                |               |       Spa.java
+                |               |       Swe.java
+                |               |       Swe_.java
+                |               |       Translations.java
+                |               |       Tuk.java
+                |               |       Urd.java
+                |               |       XCD.java
+                |               |       Zho.java
+                |               |
+                |               +---model - added
+                |               |   \---login - added
+                |               |           Customer.java
+                |               |           LoginData.java
+                |               |           User.java
+                |               |
+                |               \---module - updated
+                |                       BaseActivity.java
+                |                       LandingActivity.java
+                |                       LoginEmail.java
+                |                       LoginMobile.java
+                |                       Splash.java
+                |                       WebHome.java
+                |
+                \---res
+                    \---layout - added
+                            country_code.xml
+                            country_code_dialog.xml
+                            login_email.xml
+                            login_mobile.xml
+
+10-12-2020
++---im-android-streamingapp
+|   \---app
+|       \---src
+|           \---main
+|               +---assets - updated
+|               |       audio.js
+|               |
+|               \---java
+|                   \---com
+|                       \---app
+|                           \---inlive - updated
+|                                   MainActivityBase.java
+|
+\---WaiterBee
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---core
+                            \---waiterbee
+                                +---model - added
+                                |       CountryBean.java
+                                |       CountryList.java
+                                |
+                                +---module - added
+                                |       LoginMobile.java
+                                |       OTPVerification.java
+                                |       Registration.java
+                                |       Splash.java
+                                |
+                                \---util - updated
+                                        AppConstants.java
+                                        NetworkAPI.java
+
+11-12-2020
++---GraphQLExample - added
+|   \---app
+|       \---src
+|           \---main
+|               |   AndroidManifest.xml
+|               |
+|               +---graphql
+|               |   \---com.example.graph_test
+|               |           schema.json
+|               |
+|               +---java
+|               |   \---com
+|               |       \---example
+|               |           \---graph_test
+|               |                   MainActivity.java
+|               |
+|               \---res
+|                   +---layout
+|                   |       activity_main.xml
+|                   |
+|                   \---values
+|                           colors.xml
+|                           strings.xml
+|                           styles.xml
+|
+\---Merged audio effect code
+14-12-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---assets - updated
+                |       viewcontroller.html
+                |
+                \---java - updated
+                    \---com
+                        \---app
+                            \---inlive
+                                    MainActivityBase.java
+
+15-12-2020
+\---Discuss about order zilla
+16-12-2020
+\---OrderZilla - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---java
+                |   \---com
+                |       \---core
+                |           \---order
+                |               \---zilla
+                |                   |   Home.java
+                |                   |
+                |                   +---adapter
+                |                   |       HomeCategoryAdapter.java
+                |                   |       HomeRecentAdapter.java
+                |                   |
+                |                   +---helper
+                |                   +---module_fragment
+                |                   |       BaseFragment.java
+                |                   |       MasterFragment.java
+                |                   |
+                |                   \---util
+                |                           CircleImageView.java
+                |                           RoundedImageView.java
+                |
+                \---res
+                    +---drawable
+                    |       burger.png
+                    |       ic_bottom_bar.xml
+                    |       ic_bottom_bar_select.xml
+                    |       ic_heart_unselect.xml
+                    |       ic_home.xml
+                    |       ic_launcher_background.xml
+                    |       ic_line_base.xml
+                    |       ic_location.xml
+                    |       ic_pager_item.xml
+                    |       ic_rate.xml
+                    |       ic_search.xml
+                    |       ic_search_back.xml
+                    |       ic_shopping_cart.xml
+                    |       ic_sort.xml
+                    |       ic_sort_setting.xml
+                    |       ic_time.xml
+                    |       ic_unlike.xml
+                    |       ic_user.xml
+                    |
+                    +---drawable-v24
+                    |       ic_launcher_foreground.xml
+                    |
+                    +---layout
+                    |       activity_home.xml
+                    |       home_category_item.xml
+                    |       home_recent_item.xml
+                    |       home_view_pager_item.xml
+                    |       main_fragment.xml
+                    |
+                    +---mipmap-anydpi-v26
+                    |       ic_launcher.xml
+                    |       ic_launcher_round.xml
+                    |
+                    +---mipmap-hdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-mdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |
+                    +---mipmap-xxxhdpi
+                    |       ic_launcher.png
+                    |       ic_launcher_round.png
+                    |
+                    \---values
+                            attrs.xml
+                            colors.xml
+                            strings.xml
+                            styles.xml
+
+17-12-2020
+\---OrderZilla
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---core
+                |           \---order
+                |               \---zilla
+                |                   +---adapter - added
+                |                   |       HomeNearAdapter.java
+                |                   |       RestaurantOverviewMenuAdapter.java
+                |                   |
+                |                   +---helper - added
+                |                   |       RestaurantOverviewPagerEnum.java
+                |                   |
+                |                   \---module_fragment - updated
+                |                           Home.java
+                |                           MasterFragment.java
+                |                           RestaurantOverview.java
+                |
+                \---res
+                    +---drawable - added
+                    |       ic_arrow_left.xml
+                    |       ic_shopping_cart_white.xml
+                    |       pizza_back.png
+                    |
+                    +---layout - updated
+                    |       activity_home.xml
+                    |       home_near_item.xml
+                    |       main_fragment.xml
+                    |       menu.xml
+                    |       overview.xml
+                    |       restaurant_overview_view_pager_item.xml
+                    |       restaurent_overview.xml
+                    |
+                    \---values - updated
+                            colors.xml
+                            styles.xml
+
+18-12-2020 - 22-12-2020
+\---marriage issue
+23-12-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                \---event
+                                    \---activity - updated
+                                            MyStreamsActivity.java
+
+24-12-2020
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                \---event
+                                    +---activity - updated
+                                    |       CreateStreamActivity.java
+                                    |       MyStreamsActivity.java
+                                    |       VerifyStreamInfoActivity.java
+                                    |
+                                    \---fragment - updated
+                                            TodayEventFragment.java
+                                            UpcomingEventFragment.java
+
+28-12-2020
+\---im-android-streamingapp_27-12-2020_YC
+    \---im-android-streamingapp
+        \---app
+            \---src
+                \---main
+                    \---java
+                        \---com
+                            \---app
+                                \---inlive
+                                    +---event
+                                    |   \---activity - updated
+                                    |           VerifyStreamInfoActivity.java
+                                    |
+                                    \---retrofit - updated
+                                            ApiClient.java
+
+29-12-2020
+\---im-android-streamingapp_27-12-2020_YC
+    \---im-android-streamingapp
+        \---app
+            \---src
+                \---main
+                    +---java
+                    |   \---com
+                    |       \---app
+                    |           \---inlive
+                    |               +---activity - updated
+                    |               |       ArtistSignUpActivity.java
+                    |               |       LoginActivity.java
+                    |               |       PassCodeActivity.java
+                    |               |
+                    |               +---common_utils - updated
+                    |               |       CommonMethods.java
+                    |               |
+                    |               +---constants - updated
+                    |               |       Constants.java
+                    |               |
+                    |               \---event
+                    |                   \---activity - updated
+                    |                           CreateStreamActivity.java
+                    |                           MyStreamsActivity.java
+                    |                           VerifyStreamInfoActivity.java
+                    |
+                    \---res
+                        \---layout - updated
+                                activity_create_stream.xml
+                                dialog_success.xml
+
+30-12-2020
+\---im-android-streamingapp_27-12-2020_YC
+    \---im-android-streamingapp
+        \---app
+            \---src
+                \---main
+                    +---java
+                    |   \---com
+                    |       \---app
+                    |           \---inlive
+                    |               +---constants - updated
+                    |               |       Constants.java
+                    |               |
+                    |               \---event
+                    |                   +---activity - updated
+                    |                   |       CreateStreamActivity.java
+                    |                   |       MyStreamsActivity.java
+                    |                   |       VerifyStreamInfoActivity.java
+                    |                   |
+                    |                   \---adapter - updated
+                    |                           StreamAdapter.java
+                    |
+                    \---res
+                        \---layout - updated
+                                activity_create_stream.xml
+
+31-12-2020
+\---im-android-streamingapp_27-12-2020_YC
+    \---im-android-streamingapp
+        \---app
+            \---src
+                \---main
+                    +---java
+                    |   \---com
+                    |       \---app
+                    |           \---inlive
+                    |               +---common_utils - updated
+                    |               |       CommonMethods.java
+                    |               |
+                    |               +---constants - updated
+                    |               |       Constants.java
+                    |               |
+                    |               \---event
+                    |                   +---activity - updated
+                    |                   |       CreateStreamActivity.java
+                    |                   |       MyStreamsActivity.java
+                    |                   |       VerifyStreamInfoActivity.java
+                    |                   |
+                    |                   +---fragment - updated
+                    |                   |       TodayEventFragment.java
+                    |                   |
+                    |                   \---models - updated
+                    |                           AllStreamData.java
+                    |                           StreamData.java
+                    |
+                    \---res
+                        \---layout - updated
+                                activity_create_stream.xml
