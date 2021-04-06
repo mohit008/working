@@ -1119,3 +1119,562 @@ init
 
 29-01-2021
 \---im-android-streamingapp - worked on streaming issue
+01-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---app
+                |           \---inlive
+                |               |   MainActivityBase.java
+                |               |
+                |               \---activity - updated
+                |                       LoginActivity.java
+                |
+                \---res
+                    \---layout - updated
+                            activity_create_stream.xml
+                            activity_edit_profile.xml
+                            activity_login.xml
+
+02-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                    MainActivityBase.java
+
+03-02-2021 - 05-02-2021
+\---streaming and pause timer issue
+08-02-2021 - 10-02-2021
++---build release and larix sdk integration
+\---streaming and pause timer issue
+11-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---app
+                |           \---inlive
+                |               +---activity - updated
+                |               |       EditProfileActivity.java
+                |               |       LoginActivity.java
+                |               |
+                |               \---event
+                |                   +---activity - updated
+                |                   |       MyStreamsActivity.java
+                |                   |
+                |                   +---adapter - updated
+                |                   |       StreamAdapter.java
+                |                   |
+                |                   \---fragment - updated
+                |                           PreviousEventFragment.java
+                |                           TodayEventFragment.java
+                |                           UpcomingEventFragment.java
+                |
+                \---res
+                    \---layout - updated
+                            activity_login.xml
+
+12-02-2021
+\---im-android-streamingapp - worked on jira ui issue
+13-02-2021 - 19-02-2021
+\---Streaming, pause and larix sdk work in in live
+22-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updates
+                                    Connection.java
+                                    MainActivityBase.java
+                                    MainActivityGLES.java
+                                    SettingsUtils.java
+
+23-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                +---java
+                |   \---com
+                |       \---app
+                |           \---inlive - update
+                |                   LarixApplication.java
+                |                   MainActivityBase.java
+                |                   MainActivityGLES.java
+                |                   StreamerServiceActivity.java
+                |
+                \---res
+                    \---layout - update
+                            afl_surface.xml
+
+24-02-2021 - 25-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                |   MainActivityBase.java
+                                |   StreamerServiceActivity.java
+                                |
+                                \---activity
+                                        EditProfileActivity.java
+                                        LoginActivity.java
+                                        PassCodeActivity.java
+                                        ProfileActivity.java
+                                        SplashActivity.java
+
+26-02-2021
+\---backup
+    \---im-android-streamingapp
+        +---app
+        |   \---src
+        |       \---main
+        |           \---java
+        |               \---com
+        |                   \---app
+        |                       \---inlive - update
+        |                           |   LaunchActivity.java
+        |                           |   MainActivityBase.java
+        |                           |
+        |                           +---activity
+        |                           |       EditProfileActivity.java
+        |                           |
+        |                           +---constants
+        |                           |       Constants.java
+        |                           |
+        |                           \---event
+        |                               +---activity
+        |                               |       CreateStreamActivity.java
+        |                               |       MyStreamsActivity.java
+        |                               |
+        |                               \---adapter
+        |                                       StreamAdapter.java
+        |
+        +---build
+        |   \---intermediates
+        |       \---lint-cache
+        |           +---maven.google
+        |           |   |   master-index.xml
+        |           |   |
+        |           |   +---androidx
+        |           |   |   +---annotation
+        |           |   |   |       group-index.xml
+        |           |   |   |
+        |           |   |   +---appcompat
+        |           |   |   |       group-index.xml
+        |           |   |   |
+        |           |   |   +---constraintlayout
+        |           |   |   |       group-index.xml
+        |           |   |   |
+        |           |   |   +---legacy
+        |           |   |   |       group-index.xml
+        |           |   |   |
+        |           |   |   \---preference
+        |           |   |           group-index.xml
+        |           |   |
+        |           |   \---com
+        |           |       +---android
+        |           |       |   \---support
+        |           |       |           group-index.xml
+        |           |       |
+        |           |       \---google
+        |           |           \---android
+        |           |               +---gms
+        |           |               |       group-index.xml
+        |           |               |
+        |           |               \---material
+        |           |                       group-index.xml
+        |           |
+        |           \---sdk-registry.xml
+        |                   sdk-registry.xml
+        |
+        \---gradle
+            \---wrapper
+                    gradle-wrapper.jar
+                    gradle-wrapper.properties
+01-03-2021 - 02-03-2021
+\---not much
+03-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                    ActivityCommons.java
+                                    DeepLink.java
+                                    MainActivity.java
+                                    MainActivityBase.java
+                                    MainActivityGLES.java
+                                    SettingsUtils.java
+
+04-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                    MainActivityBase.java
+
+05-03-2021
+\---im-android-streamingapp - bug fix
+08-03-2021
+\---im-android-streamingapp - bug fix
+09-03-2021
+\---im-android-streamingapp - bug fix
+15-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                |   MainActivityBase.java
+                                |   StreamerServiceActivity.java
+                                |
+                                +---activity - updated
+                                |       EditProfileActivity.java
+                                |       LoginActivity.java
+                                |       PassCodeActivity.java
+                                |       ProfileActivity.java
+                                |
+                                +---manager - updated
+                                |       PreferenceManager.java
+                                |
+                                +---models - added
+                                |   |   Charity.java
+                                |   |   CharityBean.java
+                                |   |   CountryBean.java
+                                |   |   TotalTicket.java
+                                |   |
+                                |   \---user
+                                |           Artist.java
+                                |           Event.java
+                                |           OrderItem.java
+                                |           Ticket.java
+                                |           User.java
+                                |
+                                \---retrofit - updated
+                                        ApiClient.java
+                                        ApiConstants.java
+                                        ApiInterface.java
+
+16-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity - updated
+                                |       PassCodeActivity.java
+                                |       SplashActivity.java
+                                |
+                                +---event
+                                |   \---activity - updated
+                                |           MyStreamsActivity.java
+                                |           VerifyStreamInfoActivity.java
+                                |
+                                +---models
+                                |   +---event_list - added
+                                |   |       Artist.java
+                                |   |       Charity.java
+                                |   |       EventList.java
+                                |   |       OrderItem.java
+                                |   |       Stream.java
+                                |   |       TicketType.java
+                                |   |       User.java
+                                |   |
+                                |   \---user - added
+                                |           Artist.java
+                                |           Event.java
+                                |           OrderItem.java
+                                |           Ticket.java
+                                |           User.java
+                                |
+                                \---retrofit - updated
+                                        ApiConstants.java
+                                        ApiInterface.java
+
+17-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity - updated
+                                |       EditProfileActivity.java
+                                |       LoginActivity.java
+                                |       PassCodeActivity.java
+                                |       SplashActivity.java
+                                |
+                                +---event
+                                |   \---activity - updated
+                                |           CreateStreamActivity.java
+                                |           MyStreamsActivity.java
+                                |           VerifyStreamInfoActivity.java
+                                |
+                                \---retrofit - updated
+                                        ApiConstants.java
+                                        ApiInterface.java
+
+18-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity - updated
+                                |       EditProfileActivity.java
+                                |       LoginActivity.java
+                                |       PassCodeActivity.java
+                                |       SplashActivity.java
+                                |
+                                +---constants - updated
+                                |       Constants.java
+                                |
+                                +---event
+                                |   \---activity - updated
+                                |           CreateStreamActivity.java
+                                |           MyStreamsActivity.java
+                                |           VerifyStreamInfoActivity.java
+                                |
+                                \---retrofit - updated
+                                        ApiClient.java
+                                        ApiConstants.java
+                                        ApiInterface.java
+
+19-02-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity
+                                |       EditProfileActivity - updated.java
+                                |
+                                +---constants - updated
+                                |       Constants.java
+                                |
+                                +---event
+                                |   +---activity - updated
+                                |   |       CreateStreamActivity.java
+                                |   |       MyStreamsActivity.java
+                                |   |       VerifyStreamInfoActivity.java
+                                |   |
+                                |   \---adapter - updated
+                                |           StreamAdapter.java
+                                |
+                                \---retrofit - updated
+                                        ApiClient.java
+
+22-03-2021
+\---im-android-streamingapp
+    +---app
+    |   \---src
+    |       \---main
+    |           \---java
+    |               \---com
+    |                   \---app
+    |                       \---inlive
+    |                           |   MainActivityBase.java
+    |                           |   StreamerServiceActivity.java
+    |                           |
+    |                           +---event
+    |                           |   \---activity - updated
+    |                           |           CreateStreamActivity.java
+    |                           |           MyStreamsActivity.java
+    |                           |           VerifyStreamInfoActivity.java
+    |                           |
+    |                           \---retrofit - updated
+    |                                   ApiClient.java
+    |
+    +---build
+    |   \---intermediates
+    |       \---lint-cache
+    |           +---maven.google
+    |           |   |   master-index.xml
+    |           |   |
+    |           |   +---androidx
+    |           |   |   +---annotation
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---appcompat
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---constraintlayout
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---legacy
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   \---preference
+    |           |   |           group-index.xml
+    |           |   |
+    |           |   \---com
+    |           |       +---android
+    |           |       |   \---support
+    |           |       |           group-index.xml
+    |           |       |
+    |           |       \---google
+    |           |           \---android
+    |           |               +---gms
+    |           |               |       group-index.xml
+    |           |               |
+    |           |               \---material
+    |           |                       group-index.xml
+    |           |
+    |           \---sdk-registry.xml
+    |                   sdk-registry.xml
+    |
+    \---gradle
+        \---wrapper
+                gradle-wrapper.jar
+                gradle-wrapper.properties
+
+23-03-2021
+\---im-android-streamingapp
+    +---app
+    |   \---src
+    |       \---main
+    |           \---java
+    |               \---com
+    |                   \---app
+    |                       \---inlive
+    |                           \---activity - updated
+    |                                   EditProfileActivity.java
+    |                                   LoginActivity.java
+    |
+    +---build
+    |   \---intermediates
+    |       \---lint-cache
+    |           +---maven.google
+    |           |   |   master-index.xml
+    |           |   |
+    |           |   +---androidx
+    |           |   |   +---annotation
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---appcompat
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---constraintlayout
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   +---legacy
+    |           |   |   |       group-index.xml
+    |           |   |   |
+    |           |   |   \---preference
+    |           |   |           group-index.xml
+    |           |   |
+    |           |   \---com
+    |           |       +---android
+    |           |       |   \---support
+    |           |       |           group-index.xml
+    |           |       |
+    |           |       \---google
+    |           |           \---android
+    |           |               +---gms
+    |           |               |       group-index.xml
+    |           |               |
+    |           |               \---material
+    |           |                       group-index.xml
+    |           |
+    |           \---sdk-registry.xml
+    |                   sdk-registry.xml
+    |
+    \---gradle
+        \---wrapper
+                gradle-wrapper.jar
+                gradle-wrapper.properties
+
+24-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity - updated
+                                |       LoginActivity.java
+                                |       SplashActivity.java
+                                |
+                                \---event
+                                    \---activity - updated
+                                            VerifyStreamInfoActivity.java
+
+25-03-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive
+                                +---activity - updated
+                                |       LoginActivity.java
+                                |
+                                +---constants - updated
+                                |       Constants.java
+                                |
+                                \---event
+                                    \---activity - updated
+                                            CreateStreamActivity.java
+                                            MyStreamsActivity.java
+                                            VerifyStreamInfoActivity.java
+
+26-03-2021 - 31-03-2021
+\---trip to agra
+
+05-04-2021 - 06-04-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                |   MainActivityBase.java
+                                |   StreamerServiceActivity.java
+                                |
+                                \---retrofitv - updated
+                                        ApiClient.java
+
