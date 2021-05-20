@@ -1677,4 +1677,315 @@ init
                                 |
                                 \---retrofitv - updated
                                         ApiClient.java
+07-04-2021 - 15-04-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                |   MainActivityBase.java
+                                |   StreamerServiceActivity.java
+                                |
+                                \---retrofitv - updated
+                                        ApiClient.java
+
+16-04-2021
+\---In live issue and flutter app development
+20-04-2021
+\---Resource clean up build
+21-04-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                    MainActivityGLES.java
+
+22-04-2021 - 23-04-2021
+\---Worked on lint generate
+26-04-2021 - 31-04-2021
+\---im-android-streamingapp
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---app
+                            \---inlive - updated
+                                    MainActivityGLES.java
+03-05-2021 - 06-05-2021
+\---Worked on pause frame issue
+07-05-2021
+\---flutter_app_2 - added
+    \---lib
+            bottom_nav.dart
+            key_send.dart
+            lock_open.dart
+            login.dart
+            main.dart
+            profile_option_admin.dart
+            profile_option_manager.dart
+            profile_option_security.dart
+            profile_option_user.dart
+            sample.dart
+
+08-05-2021 - 14-05-2021
+\---Flutter R&D
+17-05-2021 - 19-05-2021
+\---SuperManager - added
+    \---app
+        \---src
+            \---main
+                |   AndroidManifest.xml
+                |
+                +---assets
+                |   |   countrycode.json
+                |   |
+                |   \---fonts
+                |           MyriadPro-It_0.otf
+                |           MyriadPro-Light.otf
+                |           MyriadPro-Regular_0.otf
+                |
+                +---java
+                |   \---com
+                |       \---supermanager
+                |           |   AppointmentListActivity.java
+                |           |   BillActivity.java
+                |           |   BlockTimeActivity.java
+                |           |   CartActivity.java
+                |           |   CustomCalenderActivity.java
+                |           |   CustomScrollViewListener.java
+                |           |   GcmBroadcastReceiver.java
+                |           |   GcmIntentService.java
+                |           |   LoginActivity.java
+                |           |   ManagerCalenderActivity.java
+                |           |   MyBroadcastReceiver.java
+                |           |   MyBroadcastReceiverForAppointmnet.java
+                |           |   MyDatabaseHandler.java
+                |           |   MyInfoActivity.java
+                |           |   RescheduleAndCancelActivity.java
+                |           |   ScrollViewListener.java
+                |           |   SearchUserActivity.java
+                |           |   ServicesActivity.java
+                |           |   SplashActivity.java
+                |           |
+                |           +---Adapter
+                |           |       CitiesAdapter.java
+                |           |       CountryCodeBeanAdapter.java
+                |           |       LocationBeanAdapter.java
+                |           |       ServiceSearchAdapter.java
+                |           |       ShearGeniusAdapter.java
+                |           |       sliderAdapter.java
+                |           |
+                |           +---Bean
+                |           |       Bean.java
+                |           |       BlockTimeBean.java
+                |           |       Cittiesname.java
+                |           |       CountryCodeBean.java
+                |           |       Location.java
+                |           |       MultipleService.java
+                |           |       MyAppointmentService.java
+                |           |       PermissionBean.java
+                |           |       Product.java
+                |           |       SearchFavBean.java
+                |           |       SearviceBean.java
+                |           |       ServiceSelectionBean.java
+                |           |       StaffAppoitmentBean.java
+                |           |       StaffBean.java
+                |           |       UpcomingAppBean.java
+                |           |       UserBean.java
+                |           |
+                |           +---Constant
+                |           |       Constant.java
+                |           |
+                |           +---session
+                |           |       UserPreference_Local.java
+                |           |
+                |           \---Util
+                |                   ApplicationWebUpdate.java
+                |                   CalenderCalculation.java
+                |                   ConnectionDetector.java
+                |                   EmailUtil.java
+                |                   LogOutManager.java
+                |                   MyDatabaseHandler.java
+                |                   ServerConnection.java
+                |                   Square.java
+                |                   UserPreference.java
+                |                   Utility.java
+                |                   Validate.java
+                |
+                \---res
+                    +---anim
+                    |       move.xml
+                    |       move_left.xml
+                    |       move_right.xml
+                    |       slide_down.xml
+                    |       slide_up.xml
+                    |
+                    +---drawable
+                    |       action_bar_drawable.xml
+                    |       appointment_completed_selector.xml
+                    |       appointment_noshow_selector.xml
+                    |       appointment_upcoming_selector.xml
+                    |       blankbackground.xml
+                    |       custom_actionbar_bg.xml
+                    |       custom_add_service_checkin_frame.xml
+                    |       custom_add_service_close_frame.xml
+                    |       custom_add_service_due_frame.xml
+                    |       custom_add_service_frame.xml
+                    |       custom_add_service_noshow_frame.xml
+                    |       custom_add_service_partial_frame.xml
+                    |       custom_appointment_frame.xml
+                    |       custom_blue_frame.xml
+                    |       custom_button.xml
+                    |       custom_checkin_frame.xml
+                    |       custom_close_frame.xml
+                    |       custom_dailog_frame.xml
+                    |       custom_date_selector.xml
+                    |       custom_date_unselector.xml
+                    |       custom_dialog_header.xml
+                    |       custom_due_frame.xml
+                    |       custom_listview_frame.xml
+                    |       custom_login_button.xml
+                    |       custom_marker_frame.xml
+                    |       custom_miles_background.xml
+                    |       custom_noshow_frame.xml
+                    |       custom_partial_frame.xml
+                    |       custom_purple_frame.xml
+                    |       custom_table_row.xml
+                    |       custom_time_frame.xml
+                    |       custom_yellow_frame.xml
+                    |       end_date_frame.xml
+                    |       list_item_bg_normal.xml
+                    |       list_item_bg_pressed.xml
+                    |       list_selector.xml
+                    |       multiple_fiveth_frame.xml
+                    |       multiple_fivth_addedframe.xml
+                    |       multiple_forth_addedframe.xml
+                    |       multiple_forth_frame.xml
+                    |       multiple_secound_addedframe.xml
+                    |       multiple_secound_frame.xml
+                    |       multiple_third_addedframe.xml
+                    |       multiple_third_frame.xml
+                    |       round_bg.xml
+                    |       selector_checkbox.xml
+                    |       selector_checkin_tab.xml
+                    |       selector_confirm_button.xml
+                    |       selector_date.xml
+                    |       selector_radiobutton.xml
+                    |       selector_radiobutton_managercalender.xml
+                    |       selector_rating_chechbox.xml
+                    +---drawable-xhdpi
+                    |       appointment_bg.png
+                    |       buttoncall.png
+                    |       cancel.png
+                    |       checkin.png
+                    |       checkin_bg.png
+                    |       close_bg.png
+                    |       due_bg.png
+                    |       noshow.png
+                    |       notificationbg.png
+                    |       partial_bg.png
+                    |       payment_bg.png
+                    |       reschdeule.png
+                    |       uncheked.png
+                    |
+                    +---drawable-xxhdpi
+                    |       feedback.png
+                    |
+                    +---layout
+                    |       activity_appointment_list.xml
+                    |       activity_bill.xml
+                    |       activity_block_time2.xml
+                    |       activity_cart.xml
+                    |       activity_change_password.xml
+                    |       activity_custom_calender.xml
+                    |       activity_login.xml
+                    |       activity_manager_calender.xml
+                    |       activity_my_info.xml
+                    |       activity_reschedule.xml
+                    |       activity_reschedule_and_cancel.xml
+                    |       activity_search_user.xml
+                    |       activity_service.xml
+                    |       activity_splash.xml
+                    |       custom_calender_column.xml
+                    |       custom_calender_table_column.xml
+                    |       custom_lay_allmyappointment.xml
+                    |       custom_lay_cart.xml
+                    |       custom_lay_countrycode.xml
+                    |       custom_lay_myappointment.xml
+                    |       custom_lay_reschedule.xml
+                    |       custom_lay_staff_lists.xml
+                    |       custom_lay_stylist_name.xml
+                    |       custom_row_first.xml
+                    |       custom_row_second.xml
+                    |       custom_row_three.xml
+                    |       custom_user_row.xml
+                    |       dailog_block_time.xml
+                    |       dailog_call.xml
+                    |       dailog_conditions.xml
+                    |       dailog_favorites.xml
+                    |       dailog_staff_appoitment.xml
+                    |       dashboard_footer.xml
+                    |       dialog_yes_no.xml
+                    |       drawer_right_list_item.xml
+                    |       fragment.xml
+                    |       header_lay_bestperson.xml
+                    |       header_lay_calndercsreen.xml
+                    |       header_lay_service.xml
+                    |       nav_layout_calender.xml
+                    |       nav_stylist_header.xml
+                    |       slide_nav_map.xml
+                    |       stylist_column.xml
+                    |       table_column.xml
+                    |
+                    +---menu
+                    |       menu_appointment_list.xml
+                    |       menu_block_time.xml
+                    |       menu_calender.xml
+                    |       menu_change_password.xml
+                    |       menu_login.xml
+                    |       menu_my_info.xml
+                    |       menu_reschedule_and_cancel.xml
+                    |       menu_search_user.xml
+                    |       menu_splash.xml
+                    |
+                    +---mipmap-hdpi
+                    |       ic_launcher.png
+                    |
+                    +---mipmap-mdpi
+                    |       ic_launcher.png
+                    |
+                    +---mipmap-xhdpi
+                    +---mipmap-xxhdpi
+                    +---values
+                    |       colors.xml
+                    |       dimens.xml
+                    |       strings.xml
+                    |       styles.xml
+                    |       vpi__attrs.xml
+                    |       vpi__colors.xml
+                    |       vpi__defaults.xml
+                    |
+                    +---values-v21
+                    |       styles.xml
+                    |
+                    \---values-w820dp
+                            dimens.xml
+20-05-2021
+\---SuperManager
+    \---app
+        \---src
+            \---main
+                \---java
+                    \---com
+                        \---supermanager - updated
+                                CustomCalenderActivity.java
+                                ManagerCalenderActivity.java
 
