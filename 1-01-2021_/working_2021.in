@@ -2627,11 +2627,857 @@ init
 └── worked on flutter enhance me project
 23-06-2021 - 30-06-2021
 └── System configuration
-
 01-06-2021 - 02-07-2021
 └── System configuration
 05-06-2021 - 07-07-2021
 └── Worked on help in Recity project
+12-07-2021 - 16-07-2021
+└── Worked on MyRx issues
+16-07-2021 - 26-07-2021
+└── Leh Trip
+26-07-2021 - 29-07-2021
+└── AvetiSmartClassApp - added
+    └── app
+        └── src
+            └── main
+                └── java
+                    └── com
+                        └── aveti
+                            └── shikhya
+                                └── Export
+                                    └── DataExportFragment.java
+30-07-2021
+└── Study flutter
+02-08-2021
+└── bookveda - added
+    ├── assets
+    │   └── images
+    │       ├── logo.png
+    │       ├── person.png
+    │       ├── splash.png
+    │       └── welcome.png
+    ├── lib
+    │   └── main.dart
+    └── pubspec.yaml
+03-08-2021 - 05-08-2021
+└── Worked on book veda ui
+06-08-2021
+└── Worked on book veda database
+09-08-2021
+└── bookveda
+    ├── assets
+    │   ├── fonts- added
+    │   │   ├── DMSans-BoldItalic.ttf
+    │   │   ├── DMSans-Bold.ttf
+    │   │   ├── DMSans-Italic.ttf
+    │   │   ├── DMSans-MediumItalic.ttf
+    │   │   ├── DMSans-Medium.ttf
+    │   │   └── DMSans-Regular.ttf
+    │   └── images- added
+    │       ├── icon_image_1.png
+    │       ├── icon_splash.png
+    │       └── splash_image_1.png
+    └── lib - updated
+        ├── login.dart
+        ├── main.dart
+        ├── registrations.dart
+        ├── sample.dart
+        ├── simple_autocomplete_formfield.dart
+        ├── splashscreen.dart
+        └── user.dart
+11-08-2021
+└── bookveda
+    ├── .dart_tool
+    │   ├── flutter_build
+    │   │   └── fd4eb72141b09e822f30c8ae065a9b01
+    │   │       ├── app.dill
+    │   │       ├── debug_android_application.stamp
+    │   │       ├── .filecache
+    │   │       ├── flutter_assets.d
+    │   │       ├── gen_localizations.stamp
+    │   │       ├── kernel_snapshot.d
+    │   │       ├── kernel_snapshot.stamp
+    │   │       └── outputs.json
+    │   ├── package_config.json
+    │   ├── package_config_subset
+    │   └── version
+    ├── .flutter-plugins
+    ├── .flutter-plugins-dependencies
+    ├── .gitignore
+    ├── .idea
+    │   ├── bookveda.iml
+    │   ├── libraries
+    │   │   ├── Dart_Packages.xml
+    │   │   ├── Dart_SDK.xml
+    │   │   └── Flutter_Plugins.xml
+    │   ├── misc.xml
+    │   ├── modules.xml
+    │   ├── runConfigurations.xml
+    │   └── workspace.xml
+    ├── lib - added
+    │   ├── booksplashscreen.dart
+    │   ├── forget_password.dart
+    │   ├── login.dart
+    │   ├── main.dart
+    │   ├── otp.dart
+    │   ├── registrations.dart
+    │   └── user.dart
+    ├── .metadata
+    └── .packages
+12-08-2021
+└── bookveda
+    ├── assets
+    │   └── images - added
+    │       ├── arrow.png
+    │       ├── help.png
+    │       ├── home.png
+    │       ├── key.png
+    │       ├── navigation_offer.png
+    │       ├── notification.png
+    │       ├── person.png
+    │       └── setting.png
+    └── lib - added
+        ├── drawer
+        │   ├── drawerbehavior.dart
+        │   ├── drawer_scaffold.dart
+        │   ├── menu_screen.dart
+        │   └── utils.dart
+        ├── home.dart
+        └── menus
+            └── main.dart
+16-07-2021
+└── Not much
+17-08-2021
+└── bookveda
+    ├── assets
+    │   └── images - added
+    │       └── cheveron-left.png
+    └── lib - added
+        └── reset_password.dart
+18-08-2021 - 20-08-2021
+└── Worked on book veda ui
+23-08-2021
+└── bookveda-mobile
+    └── lib - added
+        ├── api
+        │   └── msl_api.dart
+        ├── apiclient
+        │   ├── forget_api_client.dart
+        │   ├── login_api_client.dart
+        │   ├── otp_api_client.dart
+        │   ├── otp_resent_api_client.dart
+        │   ├── reset_api_client.dart
+        │   └── signup_api_client.dart
+        ├── component
+        │   └── style.dart
+        ├── constants
+        │   ├── api_constant.dart
+        │   ├── api_header.dart
+        │   └── app_keys.dart
+        ├── generated_plugin_registrant.dart
+        ├── main.dart
+        ├── mapper
+        │   ├── forget_response_mapper.dart
+        │   ├── otp_resent_response_mapper.dart
+        │   ├── otp_response_mapper.dart
+        │   ├── reset_response_mapper.dart
+        │   └── signup_response_mapper.dart
+        ├── model
+        │   └── api_response.dart
+        ├── preferences
+        │   └── user_preference.dart
+        ├── resources
+        │   └── imageResources.dart
+        ├── screen
+        │   ├── intro
+        │   │   ├── changePassword.dart
+        │   │   ├── forget_password.dart
+        │   │   ├── introduction_page.dart
+        │   │   ├── login.dart
+        │   │   ├── login_response_mapper.dart
+        │   │   ├── reset_password.dart
+        │   │   ├── signup.dart
+        │   │   └── terms_conditions.dart
+        │   ├── otp
+        │   │   └── otp_widget.dart
+        │   └── widgets
+        │       ├── button_stateless.dart
+        │       └── textfiled_stateless.dart
+        └── utils
+            ├── base64Encoder.dart
+            ├── custom_progress_dialog.dart
+            ├── network_image_with_header.dart
+            └── parallax_image.dart
+24-08-2021
+└── bookveda-mobile
+    └── lib
+        ├── apiclient - updated
+        │   ├── forget_api_client.dart
+        │   ├── login_api_client.dart
+        │   ├── otp_api_client.dart
+        │   ├── otp_resent_api_client.dart
+        │   ├── reset_api_client.dart
+        │   └── signup_api_client.dart
+        ├── api - updated
+        │   └── msl_api.dart
+        ├── constants - updated
+        │   ├── api_constant.dart
+        │   └── app_keys.dart
+        ├── mapper - updated
+        │   ├── login_response_mapper.dart
+        │   └── reset_response_mapper.dart
+        ├── model - updated
+        │   └── api_response.dart
+        ├── preferences - updated
+        │   └── user_preference.dart
+        └── screen - updated
+            ├── intro
+            │   ├── changePassword.dart
+            │   ├── forget_password.dart
+            │   ├── home.dart
+            │   ├── introduction_page.dart
+            │   ├── login.dart
+            │   ├── reset_password.dart
+            │   ├── signup.dart
+            │   └── terms_conditions.dart
+            └── otp
+                └── otp_widget.dart
+25-08-2021
+└── bookveda-mobile
+    └── lib
+        ├── component - updated
+        │   └── style.dart
+        ├── drawer  - updated
+        │   ├── drawerbehavior.dart
+        │   ├── drawer_scaffold.dart
+        │   ├── menu_screen.dart
+        │   └── utils.dart
+        ├── mapper - updated
+        │   └── signup_response_mapper.dart
+        ├── menus  - updated
+        │   └── main.dart
+        └── screen  - updated
+            ├── intro
+            │   ├── changePassword.dart
+            │   ├── forget_password.dart
+            │   ├── home.dart
+            │   ├── introduction_page.dart
+            │   ├── login.dart
+            │   ├── reset_password.dart
+            │   ├── signup.dart
+            │   ├── subscription.dart
+            │   └── terms_conditions.dart
+            ├── otp
+            │   └── otp_widget.dart
+            └── widgets
+                ├── button_stateless.dart
+                └── textfiled_stateless.dart
+27-08-2021
+└── bookveda-mobile
+    └── lib
+        ├── constants - updated
+        │   └── app_keys.dart
+        ├── resources - updated
+        │   └── image_resources.dart
+        └── screen
+            ├── download - added
+            │   └── download.dart
+            ├── history  - added
+            │   └── history.dart
+            ├── intro - added
+            │   ├── reset_password.dart
+            │   ├── subscription.dart
+            │   └── terms_conditions.dart
+            ├── payment - added
+            │   └── payment.dart
+            └── profile - added
+                └── edit_profile.dart
+30-08-2021
+└── bookveda-mobile
+    └── lib
+        ├── menus - updated
+        │   └── main.dart
+        ├── music - added
+        │   └── continue_listening.dart
+        ├── resources - updated
+        │   └── image_resources.dart
+        └── screen
+            ├── download - updated
+            │   └── download.dart
+            ├── drawer  - updated
+            │   ├── menu_screen.dart
+            │   └── utils.dart
+            ├── home  - updated
+            │   ├── drawer_home_bottom.dart
+            │   ├── home.dart
+            │   └── navigation_home.dart
+            ├── intro  - updated
+            │   ├── change_password.dart
+            │   ├── login.dart
+            │   ├── reset_password.dart
+            │   ├── signup.dart
+            │   └── subscription.dart
+            └── profile  - updated
+                └── profile.dart
+31-08-2021
+└── bookveda-mobile
+    └── lib
+        └── subscription - added
+            ├── buy_now.dart
+            └── subscription.dart
+01-09-2021
+└── bookveda-mobile
+    └── lib
+        └── screen
+            └── home - updated
+                └── home.dart
+02-09-2021
+└── bookveda-mobile
+    └── lib
+        ├── resources  - updated
+        │   └── image_resources.dart
+        └── screen
+            ├── download  - updated
+            │   └── download.dart
+            ├── drawer  - updated
+            │   ├── drawerbehavior.dart
+            │   ├── drawer_scaffold.dart
+            │   ├── menu_screen.dart
+            │   └── utils.dart
+            ├── history  - updated
+            │   └── history.dart
+            ├── home  - updated
+            │   ├── change_password_widget.dart
+            │   ├── drawer_home_bottom.dart
+            │   ├── home.dart
+            │   └── navigation_home.dart
+            ├── intro  - updated
+            │   ├── change_password.dart
+            │   ├── forget_password.dart
+            │   ├── introduction_page.dart
+            │   ├── login.dart
+            │   ├── reset_password.dart
+            │   ├── signup.dart
+            │   └── terms_conditions.dart
+            ├── otp  - updated
+            │   └── otp_widget.dart
+            └── widgets - updated
+                ├── button_stateless.dart
+                ├── no_content.dart
+                └── textfiled_stateless.dart
+03-09-2021
+└── bookveda-mobile
+    └── lib
+        ├── apiclient  - updated
+        │   ├── home_api_client.dart
+        │   ├── login_api_client.dart
+        │   └── otp_api_client.dart
+        ├── api - updated
+        │   └── msl_api.dart
+        ├── constants  - updated
+        │   ├── api_constant.dart
+        │   └── app_keys.dart
+        ├── mapper  - updated
+        │   ├── home_response_mapper.dart
+        │   ├── otp_resent_response_mapper.dart
+        │   └── otp_response_mapper.dart
+        └── resources  - updated
+            └── image_resources.dart
+06-09-2021
+├── bookveda-mobile
+│   └── lib
+│       └── lib
+│           └── screen
+│               └── home - updated
+│                   └── home.dart
+└── Worked on dabase and api connectivity
+07-09-2021
+└── Worked on home screen api and ui
+08-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── apiclient  - updated
+│       │   ├── forget_api_client.dart
+│       │   ├── home_api_client.dart
+│       │   ├── otp_resent_api_client.dart
+│       │   ├── reset_api_client.dart
+│       │   └── signup_api_client.dart
+│       ├── api - updated
+│       │   └── msl_api.dart
+│       ├── constants  - updated
+│       │   └── api_constant.dart
+│       ├── database  - updated
+│       │   ├── db_provider.dart
+│       │   └── table_names.dart
+│       ├── mapper  - updated
+│       │   ├── home_response_mapper.dart
+│       │   ├── reset_response_mapper.dart
+│       │   └── signup_response_mapper.dart
+│       ├── model  - updated
+│       │   └── api_response.dart
+│       ├── preferences  - updated
+│       │   └── user_preference.dart
+│       ├── resources  - updated
+│       │   └── image_resources.dart
+│       └── screen  - updated
+│           ├── category
+│           │   └── category_detail.dart
+│           ├── home
+│           │   ├── change_password_widget.dart
+│           │   ├── drawer_home_bottom.dart
+│           │   ├── home.dart
+│           │   └── navigation_home.dart
+│           └── music
+│               └── continue_listening.dart
+└── Worked on home screen api, category page ui and api
+09-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── apiclient - updated
+│       │   └── book_api_client.dart
+│       ├── constants - updated
+│       │   ├── api_constant.dart
+│       │   └── app_keys.dart
+│       ├── mapper - updated
+│       │   ├── book_response_mapper.dart
+│       │   └── home_response_mapper.dart
+│       ├── resources - updated
+│       │   └── image_resources.dart
+│       └── screen - updated
+│           ├── category
+│           │   └── category_detail.dart
+│           ├── subscription
+│           │   ├── buy_now.dart
+│           │   ├── my_subscription_plan.dart
+│           │   └── subscription.dart
+│           └── widgets
+│               ├── button_stateless.dart
+│               ├── no_content.dart
+│               └── textfiled_stateless.dart
+└── Worked on categories page api and ui
+10-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── menus - updated
+│       │   └── main.dart
+│       ├── resources  - updated
+│       │   └── image_resources.dart
+│       └── screen  - updated
+│           ├── category
+│           │   ├── book_detail.dart
+│           │   └── category_detail.dart
+│           ├── download
+│           │   └── download.dart
+│           ├── drawer
+│           │   ├── drawerbehavior.dart
+│           │   ├── drawer_scaffold.dart
+│           │   ├── menu_screen.dart
+│           │   └── utils.dart
+│           ├── home
+│           │   ├── change_password_widget.dart
+│           │   ├── drawer_home_bottom.dart
+│           │   ├── home.dart
+│           │   └── navigation_home.dart
+│           ├── intro
+│           │   ├── change_password.dart
+│           │   ├── forget_password.dart
+│           │   ├── introduction_page.dart
+│           │   ├── login.dart
+│           │   ├── reset_password.dart
+│           │   ├── signup.dart
+│           │   └── terms_conditions.dart
+│           └── profile
+│               ├── edit_profile.dart
+│               └── profile.dart
+└── Worked on category ui, book detail ui
+11-09-2021
+└── BarCode - added
+    └── app
+        └── src
+            └── main
+                ├── AndroidManifest.xml
+                ├── java
+                │   └── com
+                │       └── barcode
+                │           ├── adapter
+                │           │   ├── DetailEntry_Adapter.java
+                │           │   └── DrawerAdapter.java
+                │           ├── BaseActivity.java
+                │           ├── DetailPage.java
+                │           ├── helper
+                │           │   └── SelectInterface.java
+                │           ├── Home.java
+                │           ├── Login.java
+                │           └── util
+                │               ├── Global.java
+                │               ├── NetworkAPI.java
+                │               └── SharedPrefUtility.java
+                └── res
+                    ├── drawable
+                    │   ├── ic_launcher_background.xml
+                    │   └── textview_back.xml
+                    ├── layout
+                    │   ├── app_toolbar.xml
+                    │   ├── detail.xml
+                    │   ├── drawer_item.xml
+                    │   ├── login.xml
+                    │   ├── main_home.xml
+                    │   ├── nv_slider.xml
+                    │   └── recent_transaction_item.xml
+                    └── values
+                        ├── colors.xml
+                        ├── strings.xml
+                        └── themes.xml
+13-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── database - updated
+│       │   └── db_provider.dart
+│       └── mapper - updated
+│           └── home_response_mapper.dart
+└── Worked on bug, offline data handle
+14-09-2021
+└── Working in ui issue, home offline image loading
+15-09-2021
+├── BarCode
+│   └── app
+│       └── src
+│           └── main
+│               ├── java
+│               │   └── com
+│               │       └── barcode
+│               │           └── bluetooth
+│               │               ├── adapter  - updated
+│               │               │   ├── BrandAdapter.java
+│               │               │   ├── DetailEntryAdapter.java
+│               │               │   ├── DrawerAdapter.java
+│               │               │   ├── ScanDetail_Adapter.java
+│               │               │   ├── SettingAdapter.java
+│               │               │   └── SizeAdapter.java
+│               │               ├── communication  - updated
+│               │               │   ├── BluetoothChatService.java
+│               │               │   ├── Home_Fragment_Adapter.java
+│               │               │   ├── HomeFragment.java
+│               │               │   ├── Home_List_Adapter.java
+│               │               │   ├── Images.java
+│               │               │   └── MainActivity.java
+│               │               ├── configuration  - updated
+│               │               │   ├── Device_Config.java
+│               │               │   ├── PairedListActivity.java
+│               │               │   ├── PairListBean.java
+│               │               │   └── UnPairedListActivity.java
+│               │               ├── controls  - updated
+│               │               │   └── ControlScreen.java
+│               │               ├── database  - updated
+│               │               │   ├── DataBaseConstant.java
+│               │               │   └── DBManager.java
+│               │               ├── model  - updated
+│               │               │   ├── Datum.java
+│               │               │   └── User.java
+│               │               └── util  - updated
+│               │                   └── Global.java
+│               └── res
+│                   ├── drawable - added
+│                   │   ├── ic_arrow_right.png
+│                   │   ├── ic_back.png
+│                   │   ├── ic_detail.png
+│                   │   ├── ic_setting.png
+│                   │   ├── ic_start.png
+│                   │   └── ic_user_setting.png
+│                   └── layout  - updated
+│                       ├── app_toolbar.xml
+│                       ├── control_screen.xml
+│                       ├── detail_item.xml
+│                       ├── detail_setting.xml
+│                       ├── detail.xml
+│                       ├── device_setting.xml
+│                       ├── devices_list.xml
+│                       ├── drawer_item.xml
+│                       ├── home_screen.xml
+│                       ├── login.xml
+│                       ├── main_home.xml
+│                       ├── nv_slider.xml
+│                       ├── scan_detail_item.xml
+│                       ├── scan_detail.xml
+│                       ├── setting_brand_item.xml
+│                       ├── setting_item.xml
+│                       ├── setting_size_item.xml
+│                       ├── setting.xml
+│                       └── user_setting.xml
+├── bookveda-mobile
+│   └── lib
+│       ├── component - updated
+│       │   └── style.dart
+│       ├── resources
+│       │   └── image_resources.dart
+│       └── screen
+│           ├── category  - updated
+│           │   ├── book_detail.dart
+│           │   └── category_detail.dart
+│           ├── download  - updated
+│           │   └── download.dart
+│           ├── drawer  - updated
+│           │   └── menu_screen.dart
+│           ├── history  - updated
+│           │   └── history.dart
+│           ├── home  - updated
+│           │   ├── drawer_home_bottom.dart
+│           │   ├── help.dart
+│           │   ├── home.dart
+│           │   └── navigation_home.dart
+│           ├── intro  - updated
+│           │   ├── change_password.dart
+│           │   ├── forget_password.dart
+│           │   ├── introduction_page.dart
+│           │   ├── login.dart
+│           │   ├── reset_password.dart
+│           │   ├── signup.dart
+│           │   └── terms_conditions.dart
+│           ├── music  - updated
+│           │   ├── continue_listening.dart
+│           │   └── player_page.dart
+│           ├── otp  - updated
+│           │   └── otp_widget.dart
+│           ├── payment  - updated
+│           │   └── payment.dart
+│           ├── profile  - updated
+│           │   ├── edit_profile.dart
+│           │   └── profile.dart
+│           └── subscription  - updated
+│               ├── buy_now.dart
+│               ├── my_subscription_plan.dart
+│               └── subscription.dart
+├── Worked barcode ui , database
+└── Worked book veda ui
+16-09-2021
+└── Worked on audio player and ui in book veda
+17-09-2021
+├── BarCode
+│   └── app
+│       └── src
+│           └── main
+│               └── java
+│                   └── com
+│                       └── barcode
+│                           └── bluetooth
+│                               ├── adapter - added
+│                               │   ├── BrandAdapter.java
+│                               │   ├── DeviceAdapter.java
+│                               │   └── SizeAdapter.java
+│                               └── configuration - updated
+│                                   ├── Device_Config.java
+│                                   └── PairedListActivity.java
+├── example
+│   └── lib - updated
+│       ├── main.dart
+│       └── player_widget.dart
+└── Worked on barcodde : database ui, book veda : exoplayer
+20-09-2021
+├── bookveda-mobile
+│   └── lib
+│       └── mapper - updated
+│           ├── book_detail_response_mapper.dart
+│           ├── book_response_mapper.dart
+│           ├── forget_response_mapper.dart
+│           ├── home_response_mapper.dart
+│           ├── login_response_mapper.dart
+│           ├── otp_resent_response_mapper.dart
+│           ├── otp_response_mapper.dart
+│           ├── reset_response_mapper.dart
+│           └── signup_response_mapper.dart
+└── Working on player and continue play api and back end
+21-09-2021
+└── Worked on continue play offline, online
+22-09-2021
+└── Worked on continue play offline, online
+23-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── apiclient - updated
+│       │   └── search_api_client.dart
+│       ├── constants  - updated
+│       │   └── api_constant.dart
+│       ├── database  - updated
+│       │   └── queries.dart
+│       ├── InAppPurchase  - updated
+│       │   ├── consumable_store.dart
+│       │   └── in_app_main.dart
+│       ├── screen  - updated
+│       │   ├── category
+│       │   │   ├── book_detail_page.dart
+│       │   │   └── category_detail_page.dart
+│       │   ├── download
+│       │   │   └── download.dart
+│       │   ├── home
+│       │   │   ├── change_password_widget.dart
+│       │   │   ├── drawer_home_bottom.dart
+│       │   │   ├── help.dart
+│       │   │   ├── home.dart
+│       │   │   └── navigation_home.dart
+│       │   ├── music
+│       │   │   ├── continue_listening.dart
+│       │   │   └── player_page.dart
+│       │   ├── search
+│       │   │   └── search_page.dart
+│       │   ├── subscription
+│       │   │   ├── buy_now.dart
+│       │   │   ├── my_subscription_plan.dart
+│       │   │   └── subscription.dart
+│       │   └── widgets
+│       │       ├── button_stateless.dart
+│       │       ├── no_content.dart
+│       │       └── textfiled_stateless.dart
+│       └── utils  - updated
+│           └── common_method.dart
+└── Worked on continue play offline, online
+24-09-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── apiclient - updated
+│       │   └── search_api_client.dart
+│       ├── constants  - updated
+│       │   └── api_constant.dart
+│       ├── database  - updated
+│       │   └── queries.dart
+│       ├── InAppPurchase  - updated
+│       │   ├── consumable_store.dart
+│       │   └── in_app_main.dart
+│       ├── screen  - updated
+│       │   ├── category
+│       │   │   ├── book_detail_page.dart
+│       │   │   └── category_detail_page.dart
+│       │   ├── download
+│       │   │   └── download.dart
+│       │   ├── home
+│       │   │   ├── change_password_widget.dart
+│       │   │   ├── drawer_home_bottom.dart
+│       │   │   ├── help.dart
+│       │   │   ├── home.dart
+│       │   │   └── navigation_home.dart
+│       │   ├── music
+│       │   │   ├── continue_listening.dart
+│       │   │   └── player_page.dart
+│       │   ├── search
+│       │   │   └── search_page.dart
+│       │   ├── subscription
+│       │   │   ├── buy_now.dart
+│       │   │   ├── my_subscription_plan.dart
+│       │   │   └── subscription.dart
+│       │   └── widgets
+│       │       ├── button_stateless.dart
+│       │       ├── no_content.dart
+│       │       └── textfiled_stateless.dart
+│       └── utils  - updated
+│           └── common_method.dart
+└── Worked on plyer,continue play, download, offline, online
+27-09-2021
+└── bookveda-mobile
+    └── lib
+        ├── main.dart
+        └── utils - updated
+            └── common_method.dart
+28-09-2021
+└── bookveda-mobile
+    └── lib
+        ├── apiclient  - updated
+        │   ├── book_detail_api_client.dart
+        │   ├── login_api_client.dart
+        │   └── user_api_client.dart
+        ├── api  - updated
+        │   └── msl_api.dart
+        ├── constants  - updated
+        │   └── api_constant.dart
+        ├── database  - updated
+        │   ├── db_provider.dart
+        │   └── queries.dart
+        ├── mapper  - updated
+        │   ├── book_response_mapper.dart
+        │   └── login_response_mapper.dart
+        ├── model  - updated
+        │   ├── category_books.dart
+        │   └── user.dart
+        ├── preferences - updated
+        │   └── user_preference.dart
+        └── resources - updated
+            └── image_resources.dart
+29-09-2021
+├── added location code, fixes ui
+└── bookveda-mobile
+    └── lib
+        ├── apiclient - updated
+        │   ├── book_api_client.dart
+        │   ├── book_detail_api_client.dart
+        │   ├── forget_api_client.dart
+        │   ├── home_api_client.dart
+        │   ├── location - added
+        │   │   └── location_api_client.dart
+        │   ├── login_api_client.dart
+        │   ├── otp_api_client.dart
+        │   ├── otp_resent_api_client.dart
+        │   ├── reset_api_client.dart
+        │   ├── search_api_client.dart
+        │   ├── signup_api_client.dart
+        │   └── user_api_client.dart
+        ├── constants - updated
+        │   ├── api_header.dart
+        │   └── app_keys.dart
+        ├── database - updated
+        │   ├── db_provider.dart
+        │   ├── queries.dart
+        │   └── table_names.dart
+        ├── main.dart
+        ├── mapper - updated
+        │   ├── book_detail_response_mapper.dart
+        │   ├── forget_response_mapper.dart
+        │   ├── home_response_mapper.dart
+        │   └── location_mapper - added
+        │       └── location_response_mapper.dart
+        ├── menus - updated
+        │   └── main.dart
+        ├── model  - updated
+        │   ├── api_response.dart
+        │   └── book_details.dart
+        └── resources - updated
+            └── image_resources.dart
+30-01-2021
+├── bookveda-mobile
+│   └── lib
+│       ├── database - upadted
+│       │   ├── db_provider.dart
+│       │   └── queries.dart
+│       ├── mapper - updated
+│       │   └── book_detail_response_mapper.dart
+│       └── model -updated
+│           ├── book_details.dart
+│           └── chapter_detail.dart
+└── Worked on ui fixes
+01-10-2021
+├── bookveda-mobile
+│   └── lib - updated
+│       ├── api
+│       │   └── msl_api.dart
+│       ├── apiclient
+│       │   ├── book_detail_api_client.dart
+│       │   ├── forget_api_client.dart
+│       │   ├── login_api_client.dart
+│       │   ├── otp_api_client.dart
+│       │   └── signup_api_client.dart
+│       ├── constants
+│       │   └── api_constant.dart
+│       ├── mapper
+│       │   ├── book_detail_response_mapper.dart
+│       │   ├── otp_resent_response_mapper.dart
+│       │   └── otp_response_mapper.dart
+│       └── resources
+│           └── image_resources.dart
+└── worked on ui issue and sign up api fix
+04-10-2021
+└── Worked on ui anf api fix
+05-10-2021
+└── Worked on ui anf api fix
+
+
+
            
 
 
