@@ -4796,6 +4796,332 @@ init
                     `-- add
                         |-- coach_add_player_screen.dart
                         `-- coach_add_player_view_model.dart
+20-12-2021
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        `-- ui
+            `-- coach
+                |-- coach_experience_tile.dart
+                |-- coach_profile_screen.dart
+                |-- coach_profile_view_model.dart
+                |-- game_result
+                |   |-- coach_game_result_all_screen.dart
+                |   |-- coach_game_result_all_view_model.dart
+                |   `-- resport
+                |       |-- coach_game_report_screen.dart
+                |       `-- coach_game_report_view_model.dart
+                |-- home
+                |   |-- coach_home_screen.dart
+                |   `-- coach_home_view_model.dart
+                |-- invite
+                |   |-- coach_invite_screen.dart
+                |   `-- coach_invite_view_model.dart
+                |-- league
+                |   |-- coach_league_screen.dart
+                |   `-- coach_league_view_model.dart
+                |-- league_request
+                |   |-- coach_league_request_all_screen.dart
+                |   `-- coach_league_request_model.dart
+                |-- team
+                |   |-- coach_team_all_screen.dart
+                |   |-- coach_team_all_view_model.dart
+                |   |-- coach_team_profile_screen.dart
+                |   `-- coach_team_profile_view_model.dart
+                `-- upcoming
+                    |-- coach_upcoming_all_screen.dart
+                    `-- coach_upcoming_view_model.dart
+21-12-2021
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        |-- component
+        |   `-- global_search_tile.dart
+        |-- constent
+        |   `-- constants.dart
+        |-- routes
+        |   |-- app_routes.dart
+        |   `-- app_routes.gr.dart
+        `-- ui
+            `-- global
+                |-- global_search_screen.dart
+                `-- global_search_view_model.dart
+22-12-2021
+`-- BookVedaApp
+    `-- lib\ -\ updated
+        `-- screen
+            |-- category
+            |   `-- category_detail_page.dart
+            |-- home
+            |   |-- home.dart
+            |   `-- navigation_home.dart
+            |-- intro
+            |   |-- forget_password.dart
+            |   |-- introduction_page.dart
+            |   |-- login.dart
+            |   `-- signup.dart
+            `-- otp
+                `-- otp_widget.dart
+23-12-2021\ -\ 25-12-201
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        |-- component
+        |   |-- coach_add_player_tile.dart
+        |   |-- coach_home_league_request_tile.dart
+        |   |-- coach_home_team_tile.dart
+        |   |-- coach_home_upcoming_match_all_tile.dart
+        |   |-- coach_home_upcoming_match_tile.dart
+        |   |-- coach_notification_tile.dart
+        |   |-- coach_player_all_tile.dart
+        |   |-- game_report_tile.dart
+        |   |-- game_result_all_tile.dart
+        |   |-- game_result_profile_tile.dart
+        |   |-- game_result_tile.dart
+        |   |-- global_search_tile.dart
+        |   |-- invite_player_tile.dart
+        |   |-- match_player_tile.dart
+        |   |-- no_data.dart
+        |   |-- player_name_tile.dart
+        |   |-- request_tile.dart
+        |   |-- standing_sub_tile.dart
+        |   |-- standing_tile.dart
+        |   |-- team_game_result_tile.dart
+        |   |-- upcoming_match_tile.dart
+        |   `-- user_info_tile.dart
+        |-- constent
+        |   `-- apis.dart
+        |-- model
+        |   `-- sub_model
+        |       |-- away_team.dart
+        |       |-- clu_team.dart
+        |       |-- club.dart
+        |       |-- coach_experience.dart
+        |       |-- designation.dart
+        |       |-- experience_list.dart
+        |       |-- game_results.dart
+        |       |-- home_team.dart
+        |       |-- match_results.dart
+        |       |-- players.dart
+        |       |-- staff.dart
+        |       |-- standing_response.dart
+        |       |-- standings.dart
+        |       |-- statList.dart
+        |       |-- stat_response.dart
+        |       |-- statistics.dart
+        |       |-- statistics_responses.dart
+        |       |-- team_league_list.dart
+        |       |-- team_list.dart
+        |       `-- upcoming_games.dart
+        |-- routes
+        |   `-- app_routes.gr.dart
+        `-- ui
+            |-- change_password
+            |   |-- change_password.dart
+            |   `-- change_password_view_model.dart
+            |-- club_search
+            |   |-- club_Search_bottom_sheet.dart
+            |   `-- club_search_view_model.dart
+            |-- coach
+            |   |-- add_experience
+            |   |   |-- coach_add_expirence_screen.dart
+            |   |   `-- coach_add_expirence_view_model.dart
+            |   |-- coach_experience_tile.dart
+            |   |-- coach_other
+            |   |   `-- profile
+            |   |       `-- coach_profile_other_screen.dart
+            |   |-- coach_profile_screen.dart
+            |   |-- coach_profile_view_model.dart
+            |   |-- edit_experience
+            |   |   |-- coach_edit_expirence_screen.dart
+            |   |   `-- coach_edit_expirence_view_model.dart
+            |   |-- experience
+            |   |   |-- coach_experience_all_screen.dart
+            |   |   `-- coach_experience_all_view_model.dart
+            |   |-- game_result
+            |   |   |-- coach_game_result_all_screen.dart
+            |   |   |-- coach_game_result_all_view_model.dart
+            |   |   `-- resport
+            |   |       |-- coach_game_report_screen.dart
+            |   |       `-- coach_game_report_view_model.dart
+            |   |-- home
+            |   |   |-- coach_home_screen.dart
+            |   |   `-- coach_home_view_model.dart
+            |   |-- invite
+            |   |   |-- coach_invite_screen.dart
+            |   |   `-- coach_invite_view_model.dart
+            |   |-- league
+            |   |   |-- coach_league_screen.dart
+            |   |   `-- coach_league_view_model.dart
+            |   |-- league_request
+            |   |   |-- coach_league_request_all_screen.dart
+            |   |   `-- coach_league_request_model.dart
+            |   |-- notification
+            |   |   |-- coach_notification_screen.dart
+            |   |   `-- coach_notification_view_model.dart
+            |   |-- player
+            |   |   |-- add
+            |   |   |   |-- coach_add_player_screen.dart
+            |   |   |   `-- coach_add_player_view_model.dart
+            |   |   `-- all
+            |   |       |-- coach_player_all_screen.dart
+            |   |       `-- coach_player_all_view_model.dart
+            |   |-- profile_setup
+            |   |   |-- coach_profile_setup.dart
+            |   |   `-- coach_profile_setup_view_model.dart
+            |   |-- team
+            |   |   |-- coach_team_all_screen.dart
+            |   |   |-- coach_team_all_view_model.dart
+            |   |   |-- coach_team_profile_screen.dart
+            |   |   `-- coach_team_profile_view_model.dart
+            |   `-- upcoming
+            |       |-- coach_upcoming_all_screen.dart
+            |       `-- coach_upcoming_view_model.dart
+            |-- contact_us
+            |   |-- contact_us_view.dart
+            |   `-- contact_us_view_model.dart
+            |-- dashboard
+            |   |-- dashboard_screen.dart
+            |   `-- dashboard_view_model.dart
+            |-- global
+            |   |-- global_search_screen.dart
+            |   `-- global_search_view_model.dart
+            |-- home
+            |   |-- home_screen.dart
+            |   `-- home_view_model.dart
+            |-- login
+            |   |-- login_screen.dart
+            |   `-- login_view_model.dart
+            |-- match_details
+            |   `-- match_details.dart
+            |-- match_report
+            |   |-- match_report_screen.dart
+            |   `-- match_report_view_model.dart
+            |-- match_result
+            |   |-- match_result_screen.dart
+            |   `-- match_result_view_model.dart
+            |-- reset
+            |   |-- reset_password.dart
+            |   `-- reset_password_view_model.dart
+            |-- settings
+            |   |-- invite
+            |   |   |-- invite_model.dart
+            |   |   `-- invite_screen.dart
+            |   |-- notification_routes.dart
+            |   |-- notification_setting
+            |   |   |-- notification_screen.dart
+            |   |   `-- notification_view_model.dart
+            |   |-- setting_screen.dart
+            |   `-- setting_view_model.dart
+            |-- splash
+            |   |-- animated_splash
+            |   |   |-- animation_splash_screen.dart
+            |   |   |-- earth_animation.dart
+            |   |   `-- football_animation.dart
+            |   |-- splash_screen.dart
+            |   `-- splash_view_model.dart
+            |-- statistic
+            |   |-- statistic_screen.dart
+            |   `-- statistic_view_model.dart
+            `-- upcomming_match
+                |-- upcoming_match_screen.dart
+                `-- upcoming_match_view_model.dart
+27-12-2021
+|-- BookVedaApp
+|   `-- lib\ -\ added
+|       `-- secure
+|           `-- aws_s3.dart
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        |-- component
+        |   |-- game_report_tile.dart
+        |   `-- game_result_tile.dart
+        |-- constent
+        |   |-- apis.dart
+        |   `-- image_resources.dart
+        `-- model
+            |-- claim_game_state_data_model.dart
+            |-- notification_data_model.dart
+            |-- sub_model
+            |   |-- away_team.dart
+            |   |-- clu_team.dart
+            |   |-- club.dart
+            |   |-- coach_experience.dart
+            |   |-- designation.dart
+            |   |-- experience_list.dart
+            |   |-- game_results.dart
+            |   |-- home_team.dart
+            |   |-- match_results.dart
+            |   |-- players.dart
+            |   |-- staff.dart
+            |   |-- standing_response.dart
+            |   |-- standings.dart
+            |   |-- statList.dart
+            |   |-- stat_response.dart
+            |   |-- statistics.dart
+            |   |-- statistics_responses.dart
+            |   |-- team_league_list.dart
+            |   |-- team_list.dart
+            |   `-- upcoming_games.dart
+            `-- track_stat_data_model.dart
+28-12-2021\ -\ 29-12-2021
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        |-- component
+        |   |-- bottom_sheet.dart
+        |   |-- coach_team_profile_player_tile.dart
+        |   |-- game_result_all_tile.dart
+        |   |-- request_tile.dart
+        |   |-- statistics_tile.dart
+        |   |-- teams_tile.dart
+        |   `-- user_info_tile.dart
+        |-- constent
+        |   |-- apis.dart
+        |   `-- image_resources.dart
+        |-- model
+        |   |-- player_profile_data_model.dart
+        |   `-- sub_model
+        |       |-- notification_count_data_model.dart
+        |       |-- statistics.dart
+        |       `-- team_list.dart
+        `-- utils
+            `-- functions.dart
+30-12-2021
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        |-- component
+        |   |-- coach_home_team_tile.dart
+        |   |-- coach_home_upcoming_match_all_tile.dart
+        |   |-- coach_profile_team_tile.dart
+        |   |-- coach_team_all_tile.dart
+        |   |-- experience_tile.dart
+        |   |-- game_report_tile.dart
+        |   |-- parent_expanded_report_overview_tile.dart
+        |   `-- statistics_tile.dart
+        |-- constent
+        |   `-- image_resources.dart
+        |-- model
+        |   |-- coach_profile_data_model.dart
+        |   |-- player_profile_data_model.dart
+        |   `-- sub_model
+        |       `-- statistics_responses.dart
+        `-- utils
+            `-- date_formate.dart
+31-12-2021
+`-- soccergeeks-mobileApp
+    `-- lib
+        |-- model
+        |   `-- player_view_all_data.dart
+        `-- ui
+            |-- coach
+            |   |-- coach_profile_screen.dart
+            |   |-- home
+            |   |   `-- coach_home_screen.dart
+            |   `-- team
+            |       `-- coach_team_profile_screen.dart
+            `-- settings
+                `-- invite
+                    `-- invite_screen.dart
+
+--------------x------------------End Of 2021------------------x----------------
+
 
 
 
