@@ -1008,5 +1008,333 @@ init
 `-- Abitzu\ apk
 29-03-2022\ -\ 31-03-2022
 `-- Bug\ fixes
+ 
+01-04-2022\ -\ 05-02-2022
+ `-- Not\ much
+ 06-04-2022
+ `-- hansal
+     `-- hanshal-trading-mobile
+         `-- lib\ -\ updated
+             |-- mycart_screens
+             |   |-- my_cart_screen.dart
+             |   `-- my_cart_view_model.dart
+             `-- product_details_screens
+                 |-- product_detail_screen.dart
+                 `-- product_details_view_model.dart
+ 07-04-2022
+ `-- hansal
+     `-- hanshal-trading-mobile
+         `-- lib\ -\ updated
+             |-- bottom_nav_screens
+             |   `-- home_view_model.dart
+             |-- marketer_role
+             |   |-- bottom_nav_screens
+             |   |   `-- home_marketer_view_model.dart
+             |   |-- cart
+             |   |   |-- marketer_cart_screen.dart
+             |   |   `-- marketer_cart_view_model.dart
+             |   |-- dashboard_marketer_screen.dart
+             |   |-- order_list
+             |   |   `-- customer_order_details_screen.dart
+             |   |-- product_detail_marketer_screens
+             |   |   |-- Product_buy_tile_marketer.dart
+             |   |   |-- product_detail_marketer_screen.dart
+             |   |   `-- product_detail_marketer_view_model.dart
+             |   `-- search
+             |       |-- marketer_search_screen.dart
+             |       `-- marketer_search_view_model.dart
+             |-- model
+             |   |-- cart_details_screen.dart
+             |   `-- search_list_data.dart
+             |-- mycart_screens
+             |   |-- my_cart_screen.dart
+             |   `-- my_cart_view_model.dart
+             |-- order
+             |   |-- my_order
+             |   |   `-- my_order_screen.dart
+             |   `-- order_detail
+             |       `-- order_detail_screen.dart
+             |-- product_details_screens
+             |   |-- product_detail_screen.dart
+             |   `-- product_details_view_model.dart
+             `-- search
+                 `-- search_screen.dart
+ 08-04-2022\ -\ 09-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib\ -\ updated
+         |-- component
+         |   |-- club_staff_tile.dart
+         |   |-- coach_home_team_tile.dart
+         |   |-- coach_profile_team_tile.dart
+         |   `-- game_result_tile.dart
+         |-- constent
+         |   `-- apis.dart
+         |-- model
+         |   `-- sub_model
+         |       `-- staff.dart
+         `-- ui
+             |-- coach
+             |   |-- add_experience
+             |   |   `-- coach_add_expirence_screen.dart
+             |   |-- coach_experience_tile.dart
+             |   |-- coach_other
+             |   |   `-- profile
+             |   |       `-- coach_profile_other_screen.dart
+             |   |-- coach_profile_screen.dart
+             |   |-- home
+             |   |   `-- coach_home_screen.dart
+             |   |-- league
+             |   |   |-- coach_league_screen.dart
+             |   |   `-- coach_league_view_model.dart
+             |   |-- team
+             |   |   `-- coach_team_profile_screen.dart
+             |   `-- upcoming
+             |       `-- coach_upcoming_all_screen.dart
+             `-- player
+                 `-- club_profile
+                     `-- club_profile_view.dart
+ 11-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib
+         `-- ui\ -\ updated
+             |-- coach
+             |   `-- player
+             |       `-- all
+             |           `-- coach_player_all_screen.dart
+             `-- settings
+                 `-- invite
+                     `-- invite_screen.dart
+ 12-04-2022\ -\ 14-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib\ -\ updated
+         `-- ui
+             |-- coach
+             |   |-- coach_other
+             |   |   `-- profile
+             |   |       `-- coach_profile_other_screen.dart
+             |   |-- game_result
+             |   |   `-- coach_game_result_all_screen.dart
+             |   |-- league
+             |   |   |-- coach_league_screen.dart
+             |   |   `-- coach_league_view_model.dart
+             |   |-- team
+             |   |   `-- coach_team_profile_screen.dart
+             |   `-- upcoming
+             |       |-- coach_upcoming_all_screen.dart
+             |       `-- coach_upcoming_view_model.dart
+             `-- player
+                 |-- club_profile
+                 |   |-- club_profile_view.dart
+                 |   `-- club_profile_view_model.dart
+                 |-- home_team_view_all
+                 |   |-- home_team_viewAll_view.dart
+                 |   `-- home_team_viewAll_viewmodel.dart
+                 `-- team_view_all
+                     |-- team_view_all_view.dart
+                     `-- team_view_all_view_model.dart
+ 15-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib
+         `-- ui
+             `-- coach
+                 |-- add_experience
+                 |   |-- coach_add_expirence_screen.dart
+                 |   `-- coach_add_expirence_view_model.dart
+                 |-- coach_experience_tile.dart
+                 |-- coach_other
+                 |   `-- profile
+                 |       `-- coach_profile_other_screen.dart
+                 |-- coach_profile_screen.dart
+                 |-- coach_profile_view_model.dart
+                 |-- edit_experience
+                 |   |-- coach_edit_expirence_screen.dart
+                 |   `-- coach_edit_expirence_view_model.dart
+                 |-- experience
+                 |   |-- coach_experience_all_screen.dart
+                 |   `-- coach_experience_all_view_model.dart
+                 |-- game_result
+                 |   |-- coach_game_result_all_screen.dart
+                 |   |-- coach_game_result_all_view_model.dart
+                 |   `-- resport
+                 |       |-- coach_game_report_screen.dart
+                 |       `-- coach_game_report_view_model.dart
+                 |-- home
+                 |   |-- coach_home_screen.dart
+                 |   `-- coach_home_view_model.dart
+                 |-- invite
+                 |   |-- coach_invite_screen.dart
+                 |   `-- coach_invite_view_model.dart
+                 |-- league
+                 |   |-- coach_league_screen.dart
+                 |   |-- coach_league_view_model.dart
+                 |   `-- league_team
+                 |       |-- coach_league_team_all_screen.dart
+                 |       `-- coach_league_team_all_view_model.dart
+                 |-- league_request
+                 |   |-- coach_league_request_all_screen.dart
+                 |   `-- coach_league_request_model.dart
+                 |-- notification
+                 |   |-- coach_notification_screen.dart
+                 |   `-- coach_notification_view_model.dart
+                 |-- player
+                 |   |-- add
+                 |   |   |-- coach_add_player_screen.dart
+                 |   |   `-- coach_add_player_view_model.dart
+                 |   `-- all
+                 |       |-- coach_player_all_screen.dart
+                 |       `-- coach_player_all_view_model.dart
+                 |-- profile_setup
+                 |   |-- coach_profile_setup.dart
+                 |   `-- coach_profile_setup_view_model.dart
+                 |-- team
+                 |   |-- coach_team_all_screen.dart
+                 |   |-- coach_team_all_view_model.dart
+                 |   |-- coach_team_profile_screen.dart
+                 |   `-- coach_team_profile_view_model.dart
+                 `-- upcoming
+                     |-- coach_upcoming_all_screen.dart
+                     `-- coach_upcoming_view_model.dart
+ 18-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib\ -\ updated
+         `-- ui
+             `-- coach
+                 |-- coach_other
+                 |   `-- profile
+                 |       `-- coach_profile_other_screen.dart
+                 |-- game_result
+                 |   `-- coach_game_result_all_screen.dart
+                 `-- upcoming
+                     `-- coach_upcoming_all_screen.dart
+ 19-04-2022\ -\ 21-04-2022
+ `-- soccergeeks-mobileApp
+     `-- lib
+         `-- ui
+             |-- bracket_view
+             |   |-- bracketview_view.dart
+             |   `-- bracketview_viewmodel.dart
+             |-- coach
+             |   |-- edit_experience
+             |   |   `-- coach_edit_expirence_view_model.dart
+             |   |-- game_result
+             |   |   |-- coach_game_result_all_screen.dart
+             |   |   `-- coach_game_result_all_view_model.dart
+             |   |-- home
+             |   |   |-- coach_home_screen.dart
+             |   |   `-- coach_home_view_model.dart
+             |   |-- league
+             |   |   |-- coach_league_screen.dart
+             |   |   `-- coach_league_view_model.dart
+             |   |-- notification
+             |   |   |-- coach_notification_screen.dart
+             |   |   `-- coach_notification_view_model.dart
+             |   `-- team
+             |       `-- coach_team_profile_screen.dart
+             |-- dashboard
+             |   |-- dashboard_screen.dart
+             |   `-- dashboard_view_model.dart
+             |-- home
+             |   |-- home_screen.dart
+             |   `-- home_view_model.dart
+             |-- login
+             |   |-- login_screen.dart
+             |   `-- login_view_model.dart
+             |-- profile
+             |   |-- addclub
+             |   |   `-- addclub_screen.dart
+             |   |-- bottom_sheet.dart
+             |   |-- edit_profile
+             |   |   |-- edit_profile_screen.dart
+             |   |   `-- edit_profile_view_model.dart
+             |   |-- expiremence
+             |   |   |-- add_expirence_view_model.dart
+             |   |   |-- expirence_screen.dart
+             |   |   `-- view_all_experience
+             |   |       |-- view_all_experience_screen.dart
+             |   |       `-- view_all_experience_view_model.dart
+             |   |-- filter_dialog.dart
+             |   |-- profile_screen.dart
+             |   `-- profile_view_model.dart
+             |-- registration
+             |   |-- registration_screen.dart
+             |   `-- registration_view_model.dart
+             |-- settings
+             |   |-- default_role_screen.dart
+             |   |-- default_role_view_model.dart
+             |   |-- invite
+             |   |   |-- invite_model.dart
+             |   |   `-- invite_screen.dart
+             |   |-- language
+             |   |   |-- language_labels.dart
+             |   |   |-- language_screen.dart
+             |   |   `-- language_view_model.dart
+             |   |-- notification_routes.dart
+             |   |-- notification_setting
+             |   |   |-- notification_screen.dart
+             |   |   `-- notification_view_model.dart
+             |   |-- setting_screen.dart
+             |   `-- setting_view_model.dart
+             `-- splash
+                 |-- animated_splash
+                 |   |-- animation_splash_screen.dart
+                 |   |-- earth_animation.dart
+                 |   `-- football_animation.dart
+                 |-- splash_screen.dart
+                 `-- splash_view_model.dart
+01-05-2022
+`-- soccergeeks-mobileApp
+    `-- lib\ -\ updated
+        `-- ui
+            |-- coach
+            |   |-- experience
+            |   |-- home
+            |   |-- league
+            |   |-- team
+            |   `-- upcoming
+            |-- home
+            `-- player
+                |-- club_profile
+                |-- player_profile_for_others
+                |-- team_profile
+                |-- tournament
+                |   |-- competition_viewall
+                |   `-- groups
+                `-- upcoming_match
+02-05-2022\ -\ 03-05-2022
+`-- hansal
+    `-- hanshal-trading-mobile
+        `-- lib\ -\ updated
+            |-- bottom_nav_screens
+            |   `-- model
+            |-- marketer_role
+            |   `-- cart
+            |-- model
+            |-- order
+            |   `-- order_detail
+            `-- warehouse_manager_flow
+                `-- w_order_detail
+04-05-2022
+`-- hansal
+    `-- hanshal-trading-mobile
+        `-- lib\ -\ updated
+            |-- bottom_nav_screens
+            |-- component
+            |-- marketer_role
+            |   |-- cart
+            |   |-- order_list
+            |   `-- product_detail_marketer_screens
+            |-- mycart_screens
+            |-- notification
+            |-- order
+            |   `-- order_detail
+            `-- warehouse_manager_flow
+                |-- delivery_warehouse
+                |-- w_order_detail
+                `-- w_orders
+05-05-2022\ -\ 12-05-2022
+`-- not\ much
+
+
+
                
 
