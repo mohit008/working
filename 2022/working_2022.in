@@ -1342,6 +1342,91 @@ init
 
 20-06-2022 - 24-06-2022
 `-- Worked on hansel phase 2
+
+24-06-2022
+└── ./24-06-2022/hanshal-trading-mobile
+    └── ./24-06-2022/hanshal-trading-mobile/lib
+        ├── ./24-06-2022/hanshal-trading-mobile/lib/login - updated
+        │   ├── ./24-06-2022/hanshal-trading-mobile/lib/login - updated/login_screen.dart
+        │   └── ./24-06-2022/hanshal-trading-mobile/lib/login - updated/login_view_model.dart
+        ├── ./24-06-2022/hanshal-trading-mobile/lib/mycart_screens - updated
+        │   └── ./24-06-2022/hanshal-trading-mobile/lib/mycart_screens - updated/edit_address.dart
+        ├── ./24-06-2022/hanshal-trading-mobile/lib/setting - added
+        │   ├── ./24-06-2022/hanshal-trading-mobile/lib/setting - added/notification_route_data.dart
+        │   └── ./24-06-2022/hanshal-trading-mobile/lib/setting - added/notification_routes.dart
+        └── ./24-06-2022/hanshal-trading-mobile/lib/splash - updated
+            ├── ./24-06-2022/hanshal-trading-mobile/lib/splash - updated/splash_model.dart
+            └── ./24-06-2022/hanshal-trading-mobile/lib/splash - updated/splash_screen.dart
+27-06-2022
+└── ./27-06-2022/hanshal-trading-mobile
+    └── ./27-06-2022/hanshal-trading-mobile/lib
+        ├── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated
+        │   ├── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/home_screen.dart
+        │   ├── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/home_view_model.dart
+        │   ├── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/model
+        │   │   └── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/model/child_category_data.dart
+        │   ├── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/profile_screen.dart
+        │   └── ./27-06-2022/hanshal-trading-mobile/lib/bottom_nav_screens - updated/profile_view_model.dart
+        ├── ./27-06-2022/hanshal-trading-mobile/lib/constant - updated
+        │   └── ./27-06-2022/hanshal-trading-mobile/lib/constant - updated/customer_detail.dart
+        ├── ./27-06-2022/hanshal-trading-mobile/lib/marketer_role - added
+        │   └── ./27-06-2022/hanshal-trading-mobile/lib/marketer_role - added/choose_product
+        │       ├── ./27-06-2022/hanshal-trading-mobile/lib/marketer_role - added/choose_product/choose_product_marketer_screen.dart
+        │       └── ./27-06-2022/hanshal-trading-mobile/lib/marketer_role - added/choose_product/choose_product_marketer_view_model.dart
+        └── ./27-06-2022/hanshal-trading-mobile/lib/routes - updated
+            ├── ./27-06-2022/hanshal-trading-mobile/lib/routes - updated/app_routes.dart
+            └── ./27-06-2022/hanshal-trading-mobile/lib/routes - updated/app_routes.gr.dart
+28-06-2022
+└── ./28-06-2022/hanshal-trading-mobile
+    └── ./28-06-2022/hanshal-trading-mobile/lib
+        └── ./28-06-2022/hanshal-trading-mobile/lib/utils - added
+            └── ./28-06-2022/hanshal-trading-mobile/lib/utils - added/order_status_widget.dart
+29-06-2022
+└── ./29-06-2022/hanshal-trading-mobile
+    └── ./29-06-2022/hanshal-trading-mobile/lib - updated
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/component
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/component/home_list_tile.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/constant
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/constant/constants.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/customer
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/customer/bottom_nav_screens
+        │       └── ./29-06-2022/hanshal-trading-mobile/lib - updated/customer/bottom_nav_screens/home_screen.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/hanshal_trading.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role
+        │   ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/choose_product
+        │   │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/choose_product/choose_product_marketer_screen.dart
+        │   ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/dashboard_marketer_screen.dart
+        │   ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/model
+        │   │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/model/order_details_data.dart
+        │   ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/order_list
+        │   │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/order_list/customer_order_details_screen.dart
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/product_detail_marketer_screens
+        │       └── ./29-06-2022/hanshal-trading-mobile/lib - updated/marketer_role/product_detail_marketer_screens/product_detail_marketer/screen.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/model
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/model/sub_model
+        │       └── ./29-06-2022/hanshal-trading-mobile/lib - updated/model/sub_model/listing.dart
+        ├── ./29-06-2022/hanshal-trading-mobile/lib - updated/setting
+        │   └── ./29-06-2022/hanshal-trading-mobile/lib - updated/setting/notification_routes.dart
+        └── ./29-06-2022/hanshal-trading-mobile/lib - updated/utils
+            └── ./29-06-2022/hanshal-trading-mobile/lib - updated/utils/order_status_widget.dart
+30-06-2022
+└── ./30-06-2022/hanshal-trading-mobile
+    └── ./30-06-2022/hanshal-trading-mobile/lib - updated
+        ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/api
+        │   └── ./30-06-2022/hanshal-trading-mobile/lib - updated/api/apis.dart
+        ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/component
+        │   ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/component/home_list_tile.dart
+        │   └── ./30-06-2022/hanshal-trading-mobile/lib - updated/component/quantity_tile.dart
+        ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/constant
+        │   ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/constant/constants.dart
+        │   └── ./30-06-2022/hanshal-trading-mobile/lib - updated/constant/customer_detail.dart
+        ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/model
+        │   ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/model/cart_details_screen.dart
+        │   └── ./30-06-2022/hanshal-trading-mobile/lib - updated/model/ship_address.dart
+        └── ./30-06-2022/hanshal-trading-mobile/lib - updated/routes
+            ├── ./30-06-2022/hanshal-trading-mobile/lib - updated/routes/app_routes.dart
+            └── ./30-06-2022/hanshal-trading-mobile/lib - updated/routes/app_routes.gr.dart
+
  
 
 
