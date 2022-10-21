@@ -2323,6 +2323,135 @@ init
 ./marketer_role/order_detail/marketer_order_details_screen.dart
 
 
+2022-09-15
+./src/main/res/xml/backup_rules.xml
+./src/main/res/xml/data_extraction_rules.xml
+./src/main/res/drawable-v24/ic_launcher_foreground.xml
+./src/main/res/values/themes.xml
+./src/main/res/values/strings.xml
+./src/main/res/values/colors.xml
+./src/main/res/mipmap-hdpi/ic_launcher.webp
+./src/main/res/mipmap-hdpi/ic_launcher_round.webp
+./src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+./src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+./src/main/res/mipmap-xxhdpi/ic_launcher.webp
+./src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+./src/main/res/drawable/ic_launcher_background.xml
+./src/main/res/mipmap-xhdpi/ic_launcher.webp
+./src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+./src/main/res/values-night/themes.xml
+./src/main/res/mipmap-mdpi/ic_launcher.webp
+./src/main/res/mipmap-mdpi/ic_launcher_round.webp
+./src/main/res/layout/activity_main.xml
+./src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+./src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+./src/main/java/com/m/location/LocationAct.java
+./src/main/java/com/m/location/LocationStatus.java
+./src/main/java/com/m/location/MyNavigationService.java
+./src/main/AndroidManifest.xml
+
+2022-09-16
+./java/com/m/location/BroadServ.java
+./java/com/m/location/LocationStatus.java
+./java/com/m/location/MainLocationAct.java
+./java/com/m/location/MyNavigationService.java
+./AndroidManifest.xml
+
+
+2022-09-19
+./customer/stock/screen/customer_stock_enquiry_detail.dart
+./delivery_boy/delivery_order/delivery_order_screen.dart
+./utils/common_methods.dart
+./marketer_role/order/marketer_order_view_model.dart
+./marketer_role/order/marketer_order_list.dart
+
+2022-09-20
+./customer/search/search_view_model.dart
+./customer/search/search_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_dispatch_screen.dart
+./warehouse_manager_flow/delivery_warehouse/detail/delivery_detail_screen.dart
+./constant/constants.dart
+./marketer_role/order/marketer_order_view_model.dart
+./marketer_role/search/marketer_search_screen.dart
+./marketer_role/search/marketer_search_view_model.dart
+
+2022-09-21
+./warehouse_manager_flow/order_detail/w_order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_dispatch_screen.dart
+./warehouse_manager_flow/delivery_warehouse/detail/delivery_detail_screen.dart
+./constant/constants.dart
+
+2022-09-22
+./warehouse_manager_flow/order_detail/w_order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_dispatch_screen.dart
+./warehouse_manager_flow/delivery_warehouse/detail/delivery_detail_screen.dart
+./constant/constants.dart
+
+2022-09-23 - 2022-09-29
+-not  much
+
+2022-09-30
+./warehouse_manager_flow/order_detail/w_order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_dispatch_screen.dart
+./warehouse_manager_flow/delivery_warehouse/order_list/delivery_warehouse_order_list_data.dart
+./warehouse_manager_flow/delivery_warehouse/order_list/delivery_warehouse_screen.dart
+./api/apis.dart
+./component/delivery_warehouse_data_tile.dart
+./utils/date_time.dart
+./marketer_role/stock/model/marketer_stock_list_view_model.dart
+./android/app/build.gradle
+
+2022-10-03 - 2022-10-10
+ - hansel build release.
+ 
+2022-10-11
+./customer/carts/model/customer_cart_stock_view_model.dart
+./customer/carts/model/my_cart_view_model.dart
+./customer/carts/screen/customer_cart_dashboard.dart
+./customer/carts/screen/my_cart.dart
+./customer/carts/screen/customer_cart_stock.dart
+./customer/product_details_screens/product_detail_screen.dart
+./customer/product_details_screens/product_details_view_model.dart
+./api/apis.dart
+./component/delivery_warehouse_data_tile.dart
+./marketer_role/product_detail_marketer_screens/product_detail_marketer_view_model.dart
+./marketer_role/product_detail_marketer_screens/product_detail_marketer_screen.dart
+./marketer_role/cart/model/marketer_cart_stock_view_model.dart
+./marketer_role/cart/model/marketer_cart_view_model.dart
+./marketer_role/cart/screen/marketer_cart_screen.dart
+./marketer_role/cart/screen/marketer_cart_stock.dart
+
+2022-10-12 - 2022-10-14
+./customer/carts/screen/my_cart.dart
+./customer/carts/screen/customer_cart_stock.dart
+./customer/product_details_screens/product_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_view_model.dart
+./marketer_role/product_detail_marketer_screens/product_detail_marketer_screen.dart
+./marketer_role/cart/screen/marketer_cart_screen.dart
+./marketer_role/cart/screen/marketer_cart_stock.dart
+
+
+2022-10-17
+./customer/order/order_detail/order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_screen.dart
+./warehouse_manager_flow/order_detail/w_order_detail_dispatch_screen.dart
+./warehouse_manager_flow/delivery_warehouse/detail/delivery_detail_screen.dart
+./model/sub_model/product.dart
+./api/apis.dart
+./component/quantity_tile.dart
+./marketer_role/order_detail/marketer_order_details_screen.dart
+
+2022-10-18
+./screen/payment/payment_screen.dart
+./resource/image_resources.dart
+
+
+2022-10-21 - 2022-10-26
+- Diwali
+
+
+
 
 
 
